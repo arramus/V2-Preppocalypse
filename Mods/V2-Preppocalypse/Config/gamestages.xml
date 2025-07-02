@@ -1,0 +1,342 @@
+<Preppocalypse>
+
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@num">7777</set> <!-- Jackpot -->
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@maxAlive">256</set> <!-- Default as high GS and bringing more for lower GS party potential -->
+
+	<!-- V2 Values increase default by about +20 per wave for zombies and +2 for animals with additional custom groups for Preppo Mixed and Flyers -->
+	
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']"/>
+	
+	<append xpath="/gamestages">	
+		<!-- *** WANDERING_HORDE -->
+	<spawner name="WanderingHorde"> <!-- Name is used in code -->
+		<!-- These will wrap around at 50. -->
+		<!-- Will probably have to undo that later. Rev 19924 /19944 -->
+		<gamestage stage="01">
+			<spawn group="wanderingHordeStageGS1"	num="25" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="02">
+			<spawn group="wanderingHordeStageGS2"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="03">
+			<spawn group="FwanderingHordeStageGS1"	num="24" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="04">
+			<spawn group="FwanderingHordeStageGS1"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="05">
+			<spawn group="FwanderingHordeStageGS1"	num="24" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="06">
+			<spawn group="FwanderingHordeStageGS2"	num="27" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="07">
+			<spawn group="FwanderingHordeStageGS4"	num="28" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="08">
+			<spawn group="wanderingHordeStageGS8"	num="25" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="09">
+			<spawn group="wanderingHordeStageGS8"	num="26" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="10">
+			<spawn group="PrepperFlyerEntitiesGroupGS01"	num="6" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="11">
+			<spawn group="wanderingHordeStageGS14"	num="26" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="12">
+			<spawn group="PrepperMixedEntitiesGroupGS01"	num="10" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="13">
+			<spawn group="FwanderingHordeStageGS7"	num="27" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="14">
+			<spawn group="FwanderingHordeStageGS10"	num="26" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="15">
+			<spawn group="ZombieBikerBarGroup"		num="28" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="16">
+			<spawn group="FwanderingHordeStageGS13"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="17">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="10" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="18">
+			<spawn group="wanderingHordeStageGS22"	num="27" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="19">
+			<spawn group="wanderingHordeStageGS27"	num="28" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="20">
+			<spawn group="ZombieDogGroup"			num="8" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="21">
+			<spawn group="FwanderingHordeStageGS16"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="22">
+			<spawn group="FwanderingHordeStageGS19"	num="28" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="23">
+			<spawn group="WolfPack"	num="6" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="24">
+			<spawn group="ZombieGhostTownGroup"		num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="25">
+			<spawn group="wanderingHordeStageGS31"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="26">
+			<spawn group="wanderingHordeStageGS36"	num="27" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="27">
+			<spawn group="PrepperFlyerEntitiesGroupGS01"				num="6" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="28">
+			<spawn group="wanderingHordeStageGS41"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="29">
+			<spawn group="PrepperMixedEntitiesGroupGS01"	num="16" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="30">
+			<spawn group="FwanderingHordeStageGS31"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="31">
+			<spawn group="FwanderingHordeStageGS35"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="32">
+			<spawn group="wanderingHordeStageGS46"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="33">
+			<spawn group="wanderingHordeStageGS52"	num="26" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="34">
+			<spawn group="ZombieDogGroup"			num="9" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="35">
+			<spawn group="wanderingHordeStageGS58"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="36">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="16" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="37">
+			<spawn group="FwanderingHordeStageGS40"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="38">
+			<spawn group="ZombieAnimalsGroup"		num="7" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="39">
+			<spawn group="FwanderingHordeStageGS44"	num="25" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="40">
+			<spawn group="FwanderingHordeStageGS49"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="41">
+			<spawn group="WolfPack"					num="7" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="42">
+			<spawn group="wanderingHordeStageGS70"	num="31" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="43">
+			<spawn group="wanderingHordeStageGS76"	num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="44">
+			<spawn group="ZombieSoldierGroup"		num="29" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="45">
+			<spawn group="wanderingHordeStageGS82"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="46">
+			<spawn group="FwanderingHordeStageGS54"	num="31" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="47">
+			<spawn group="PrepperFlyerEntitiesGroupGS100"				num="8" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="48">
+			<spawn group="FwanderingHordeStageGS59"	num="30" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="49">
+			<spawn group="PrepperMixedEntitiesGroupGS50"	num="18" maxAlive="30" duration="9"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieBearsGroup"			num="4" maxAlive="30" duration="9"/>
+		</gamestage>
+	</spawner>
+	
+	</append>
+
+	<append xpath="/gamestages">
+	
+	<!-- Prepper Mixed Entities -->
+	<group name="Prepper_Mixed_Entities" spawner="PrepperMixedEntities"/>	
+	<!-- Prepper Flyer Entities -->
+	<group name="Prepper_Flyer_Entities" spawner="PrepperFlyerEntities"/>
+	<!-- Prepper Mixed Soldier Entities -->
+	<group name="Prepper_Mixed_Soldier_Entities" spawner="PrepperMixedSoldierEntities"/>
+	<!-- Prepper Mixed Animal Entities -->
+	<group name="Prepper_Mixed_Animal_Entities" spawner="PrepperMixedAnimalEntities"/>
+	<!-- Prepper Communications Tower Utility Worker -->
+	<group name="Prepper_Comm_Tower_Entities" spawner="PrepperCommTowerEntities"/>
+	<!-- Prepper Mixed Dire Wolf Entities -->
+	<group name="Prepper_Mixed_Dire_Wolf_Entities" spawner="PrepperMixedDireWolfEntities"/>
+	<!-- *** ZOMBIE_SPECIAL_INFECTED_HORDE -->	
+	<group name="2GroupMiniSpecialInfected" spawner="ZombieMiniSpecialInfectedHorde"/>
+	
+	<!-- Prepper Mixed Entities for GS -->
+	<spawner name="PrepperMixedEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Flyer Entities for GS -->
+	<spawner name="PrepperFlyerEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperFlyerEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperFlyerEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperFlyerEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperFlyerEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperFlyerEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperFlyerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Soldier Entities for GS -->
+	<spawner name="PrepperMixedSoldierEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Animal Entities for GS -->
+	<spawner name="PrepperMixedAnimalEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedAnimalEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Communications Tower Utility Workers for GS -->
+	<spawner name="PrepperCommTowerEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperCommTowerEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperCommTowerEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperCommTowerEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperCommTowerEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperCommTowerEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperCommTowerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Dire Wolf Entities -->
+	<spawner name="PrepperMixedDireWolfEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedDireWolfEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- *** ZOMBIE_SPECIAL_INFECTED_HORDE -->
+	<spawner name="ZombieMiniSpecialInfectedHorde">
+		<gamestage stage="1">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="ZombieMiniSpecialInfectedGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>
+	</spawner>
+	
+	</append>
+
+</Preppocalypse>
