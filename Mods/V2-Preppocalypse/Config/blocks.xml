@@ -3,7 +3,7 @@
 	<conditional>
 		<if cond="mod_loaded('0-SCore_sphereii')">
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='ReadFromContainers']/@value">true</set>
-	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='Distance']/@value">15</set>
+	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='Distance']/@value">20</set>
 	
     <append xpath="/blocks">	
 	<!-- *** PLAYER_LOCKED_WRITABLE_IRON_DROP_BOX_CRATE_0-SCORE -->
@@ -11,7 +11,7 @@
 			<property name="CustomIcon" value="cntIronWritableCrate"/>
             <property name="Class" value="DropBoxContainer, SCore"/>
             <property name="CustomIconTint" value="008000"/>
-            <property name="TintColor" value="008000"/>
+            <!--property name="TintColor" value="008000"/-->
 			<property name="CreativeMode" value="Player"/>
 			<property name="Class" value="CompositeTileEntity"/>
 			<property class="CompositeFeatures">
