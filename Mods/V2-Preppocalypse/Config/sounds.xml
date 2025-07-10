@@ -178,7 +178,7 @@
 	
 	<!-- BIG NIGHT BURNT SIREN -->
 	
-		<SoundDataNode name="zombieBurntSirenIdle"> <AudioSource name="@:Sounds/Prefabs/AudioSource_VO_Announce.prefab"/>
+		<SoundDataNode name="zombieBigNightBurntSirenIdle"> <AudioSource name="@:Sounds/Prefabs/AudioSource_VO_Announce.prefab"/>
 				<AudioClip ClipName="@:Sounds/VO/Trader/Bob/trader_bob_announce_closed_01.wav"/>
 				<AudioClip ClipName="@:Sounds/Twitch/twitch_record_scratch.wav"/>
 				<AudioClip ClipName="@:Sounds/VO/Trader/Bob/trader_bob_announce_closing_02.wav"/>
@@ -236,7 +236,7 @@
 		</SoundDataNode>
 			
 		
-		<SoundDataNode name="zombieBurntSirenSpawn"> <AudioSource name="@:Sounds/Prefabs/AudioSource_VO_Announce.prefab"/>
+		<SoundDataNode name="zombieBigNightBurntSirenSpawn"> <AudioSource name="@:Sounds/Prefabs/AudioSource_VO_Announce.prefab"/>
 				<AudioClip ClipName="@:Sounds/Twitch/twitch_record_scratch.wav"/>
 			<LowestPitch name="0"/>
 			<HighestPitch name="0"/>
@@ -246,7 +246,7 @@
 			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/>
 		</SoundDataNode>			
 		
-		<SoundDataNode name="zombieBurntSirenStrong"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Notifications.prefab"/>
+		<SoundDataNode name="zombieBigNightBurntSirenStrong"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Notifications.prefab"/>
 			<AudioClip ClipName="@:Sounds/Electricity/Turret/turret_overheat_lp.wav" Loop="true"/>
 			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/>
 		</SoundDataNode>
