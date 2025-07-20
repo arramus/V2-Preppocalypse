@@ -166,7 +166,21 @@
 		<passive_effect name="RunSpeed" operation="perc_add" value=".1"/>
 		<display_value name="dRunSpeed" value=".1"/>
 		</effect_group>
-	</item_modifier>	
+	</item_modifier>
+	
+<!-- Storm Breaker Mod -->
+	
+  <item_modifier name="modArmorStormBreaker" installable_tags="armor" modifier_tags="stormresistance" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="TraderStageTemplate" value="modsTier0"/>
+		<property name="EconomicValue" value="50"/>		
+		<property name="CustomIcon" value="modArmorStormBreaker"/>
+		<property name="Group" value="Clothing,Armor,Mods,Tool/Weapon Mods"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
+		</effect_group>
+	</item_modifier>
 
 <!-- Bow Grip Entity Damage Mod -->
 
@@ -175,7 +189,7 @@
 		<property name="CustomIcon" value="modGunBowArrowGrip"/>
 		<property name="UnlockedBy" value="modGunBowArrowGripSchematic"/>
 		<property name="TraderStageTemplate" value="modsTier2"/>
-		<!--Do +15% damage to evil / undead-->
+		<!--Do +10% damage to evil / undead-->
 		<effect_group tiered="false">
 			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
 			<passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>

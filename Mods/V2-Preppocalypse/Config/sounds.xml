@@ -2,6 +2,8 @@
 
 	<!-- Thank you Ragsy for sharing -->
 	<set xpath="/Sounds/SoundDataNode[@name='vehicle_turbo']/AudioClip/@ClipName">@:Sounds/Misc/silencefiller.wav</set>
+	<!-- Storm Warning Sound -->
+	<set xpath="/Sounds/SoundDataNode[@name='ui_weather_alert']/AudioClip/@ClipName">#@modfolder:Resources/PreppoSound.unity3d?OogahHorn02</set>
 
 	<append xpath="/Sounds">
 	

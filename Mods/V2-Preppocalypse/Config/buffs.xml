@@ -15,7 +15,7 @@
 	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffYuccaCactusAloeJuiceCoolerDuration" operation="set" value="0"/>
 	</append>
 	
-	<!-- Yucca Cactus Aloe Juice Cooler - Hyperthermal Resistance Buff -->
+	<!-- Yucca Cactus Aloe Juice Storm Breaker -->
 	
 	<append xpath="/buffs">
 	<buff name="buffYuccaCactusAloeJuiceCooler" name_key="drinkYuccaCactusAloeJuiceCooler" description_key="drinkYuccaCactusAloeJuiceCoolerDesc" icon="ui_game_symbol_beer">
@@ -34,7 +34,7 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffYuccaCactusAloeJuiceCoolerDuration" operation="set" value="0"/>
 		</effect_group>
 		<effect_group>
-			<passive_effect name="HyperthermalResist" operation="base_add" value="30"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
 		</effect_group>
 	</buff>
 	</append>
