@@ -33,8 +33,26 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffYuccaCactusAloeJuiceCoolerDisplay" operation="set" value="0"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffYuccaCactusAloeJuiceCoolerDuration" operation="set" value="0"/>
 		</effect_group>
+		
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
+		</effect_group>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
+		</effect_group>
+	</buff>
+	</append>
+	
+	<append xpath="/buffs">
+	<buff name="buffStormBreaker" hidden="true" name_key="drinkStormBreaker" description_key="drinkStormBreakerDesc" icon="ui_game_symbol_beer">
+		<stack_type value="replace"/><duration value="0"/>		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
+		</effect_group>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
 		</effect_group>
 	</buff>
 	</append>

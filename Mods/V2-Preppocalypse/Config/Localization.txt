@@ -248,7 +248,7 @@ modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,Speedy Lau
 modArmorRunningShoesHPDesc,item_modifiers,mod,,,"Wearing this mod in your armor footwear increases running speed by 10%.",,"Wenn du diesen Mod in deinen Rüstungsschuhen trägst erhöht die Laufgeschwindigkeit um 10%.",,,,,,,,,,,
 modArmorRunningShoesHPSchematic,item_modifiers,Mod,,,Speedy Running Shoes Mod Schematic,,Bauplan – Speedy Laufschuhe Mod,,,,,,,,,,,
 modArmorStormBreaker,item_modifiers,mod,,,Storm Breaker Mod,,Sturmbrecher-Mod,,,,,,,,,,,
-modArmorStormBreakerDesc,item_modifiers,mod,,,"Add the Storm Breaker Mod to a mod slot in your armor as a storm begins to trigger. Remove and readd as needed.\n\nProvides storm protection.\nDoes not provide biome damage protection.",,"Füge den Sturmbrecher-Mod einem Mod-Slot in deiner Rüstung hinzu, sobald ein Sturm aufzieht. Entferne ihn und füge ihn bei Bedarf erneut hinzu.\n\nBietet Sturmschutz.\nBietet keinen Schutz vor Biomschäden.",,,,,,,,,,,
+modArmorStormBreakerDesc,item_modifiers,mod,,,"Add the Storm Breaker Mod to a mod slot in your armor.\n\nProvides storm protection.\nDoes not provide biome damage protection.",,"Füge den Storm Breaker Mod einem Mod-Slot in deiner Rüstung hinzu.\n\nBietet Sturmschutz.\nBietet keinen Schutz vor Biomschäden.",,,,,,,,,,,
 modGunBowArrowGrip,item_modifiers,mod,,,Bow Grip Mod,,Bogengriff Mod,,,,,,,,,,,
 modGunBowArrowGripDesc,item_modifiers,mod,,,"Attaching this mod to a bow gives it greater force. Increases zombie damage by 10%.",,"Wenn du diesen Mod an einen Bogen anbringst, erhält er mehr Kraft. Erhöht den Zombie-Schaden um 10%.",,,,,,,,,,,
 modGunBowArrowGripSchematic,item_modifiers,Mod,,,Bow Grip Mod Schematic,,Bauplan – Bogengriff Mod,,,,,,,,,,,
