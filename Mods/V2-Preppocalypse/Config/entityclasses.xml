@@ -1569,7 +1569,7 @@
 	
 <entity_class name="animalZombieBunnyPREPPER" extends="animalTemplateHostile"> <!-- Lion/Dire Wolf/Rabbit/Spider Base - Roar! -->
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -1645,7 +1645,7 @@
 
 <entity_class name="animalZombieBunnyBomberPREPPER" extends="animalTemplateHostile"> <!-- Lion/Dire Wolf/Rabbit/Spider Base - Roar! -->
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,rabbit,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -1733,7 +1733,7 @@
 
 <entity_class name="animalZombieSnakePREPPER" extends="animalTemplateHostile">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,animal,hostile,zombie,snake,perkAT01,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,hostile,zombie,snake,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
 	<!--property name="EntityType" value="Animal"/-->
@@ -1812,7 +1812,7 @@
 
 		<entity_class name="animalZombieChickenPREPPER" extends="animalTemplateHostile">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,hostile,zombie,chicken,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,hostile,zombie,chicken,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
@@ -1886,7 +1886,7 @@
 <!-- Gory Grace -->
 		
 <entity_class name="animalBossZombieGracePREPPER" extends="animalBoar">
-	<property name="Tags" value="entity,animal,hostile,zombie,boar,perkAT03,boss"/>
+	<property name="Tags" value="entity,animal,hostile,zombie,boar,perkAT02,perkAT03,perkAT04,perkAT05,boss"/>
 	<property name="IsEnemyEntity" value="true"/>
 	<property name="Mass" value="1200"/>
 	<property name="Prefab" value="@:Entities/Animals/Grace/animalBossGracePrefab.prefab"/>
@@ -1918,12 +1918,15 @@
 	<!-- Gameplay  -->
 	<property name="PainResistPerHit" value=".9"/>
 	<property name="MoveSpeed" value=".25"/>
-	<property name="MoveSpeedAggro" value=".85, .95"/>
+	<property name="MoveSpeedAggro" value=".9, .95"/>
 	<property name="MoveSpeedPanic" value="1.1"/>
 
 	<property name="HandItem" value="meleeHandBossGrace"/>
 
 	<property name="ExperienceGain" value="2200"/><!-- XP strong -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value="1"/> <!-- Grace -->
+	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="100"/> <!-- animalBoar -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="70"/>
@@ -1949,7 +1952,7 @@
 
 <entity_class name="animalPaindeerPREPPER" extends="animalTemplateHostile">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,animal,hostile,zombie,deer,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,hostile,zombie,deer,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_deer"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_deer"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -2370,7 +2373,7 @@
 <entity_class name="animalDireFireWolf" extends="animalWolf">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="EntityFlags" value="animal,zombie"/>
-	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="PhysicsBody" value="AWolf"/>
 	<property name="Mass" value="220"/>
 	<property name="Prefab" value="@:Entities/Animals/DireWolf/animalDireWolfPrefab.prefab"/>
@@ -2441,7 +2444,7 @@
 <entity_class name="animalMiniDireWolf" extends="animalWolf">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="EntityFlags" value="animal,zombie"/>
-	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="PhysicsBody" value="AWolf"/>
 	<property name="Mass" value="130"/>
 	<property name="Prefab" value="@:Entities/Animals/DireWolf/animalDireWolfPrefab.prefab"/>
@@ -2506,7 +2509,7 @@
 <entity_class name="animalGiantDireFireWolf" extends="animalWolf">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="EntityFlags" value="animal,zombie"/>
-	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03"/>
+	<property name="Tags" value="entity,animal,zombie,hostile,wolf,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="PhysicsBody" value="AWolf"/>
 	<property name="Mass" value="330"/>
 	<property name="Prefab" value="@:Entities/Animals/DireWolf/animalDireWolfPrefab.prefab"/>
@@ -2576,7 +2579,7 @@
 		<!-- *** MINI_MOUNTAIN_LION -->
 <entity_class name="animalMiniMountainLion" extends="animalWolf">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,animal,hostile,mountainlion,perkAT03"/>
+	<property name="Tags" value="entity,animal,hostile,mountainlion,perkAT03,perkAT04,perkAT05"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
 	<property name="PhysicsBody" value="MountainLion"/>
