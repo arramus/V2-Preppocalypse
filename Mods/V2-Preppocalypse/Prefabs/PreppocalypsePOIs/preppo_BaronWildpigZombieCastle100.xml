@@ -25,7 +25,7 @@
   <property name="SleeperVolumeSize" value="3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#10, 3, 11#35, 3, 29#12, 3, 18#21, 3, 19#22, 7, 19#23, 3, 21#5, 4, 2#23, 3, 19#5, 3, 3#23, 5, 18#1, 2, 3#2, 4, 2#25, 7, 23#5, 18, 4#5, 18, 4#5, 14, 5#5, 14, 5#5, 17, 5#5, 13, 6#24, 5, 6#11, 3, 3#1, 2, 49#9, 13, 13#11, 3, 33#9, 28, 9" />
   <property name="SleeperVolumeStart" value="56, 2, 47#56, 2, 54#50, 2, 47#50, 2, 54#44, 2, 47#44, 2, 54#34, 2, 47#32, 8, 36#32, 8, 65#45, 8, 65#45, 11, 66#46, 23, 66#53, 29, 66#46, 29, 68#53, 40, 66#46, 38, 69#52, 41, 66#51, 29, 66#43, 48, 63#41, 8, 32#53, 8, 32#65, 8, 31#29, 8, 31#62, 11, 55#65, 11, 49#32, 17, 36#29, 29, 84#31, 15, 36#61, 14, 36#28, 20, 56#69, 5, 12" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,Prepper_Mixed_Soldier_Entities,5,7,Prepper_Mixed_Soldier_Entities,12,15,Prepper_Mixed_Entities,7,9,Prepper_Mixed_Entities,9,12,Prepper_Mixed_Soldier_Entities,11,14,Prepper_Mixed_Soldier_Entities,15,20,zombieDemolition,1,1,Prepper_Mixed_Soldier_Entities,9,10,zombieDemolition,1,1,Prepper_Mixed_Soldier_Entities,10,12,zombieScreamerFeral,1,1,zombieScreamerFeral,1,1,Prepper_Flyer_Entities,12,14,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,4,5,zombieScreamerRadiated,1,1,Prepper_Flyer_Entities,3,4,Prepper_Flyer_Entities,4,5,Prepper_Flyer_Entities,6,7,Prepper_Comm_Tower_Entities,5,6" />
+  <property name="SleeperVolumeGroup" value="GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,GroupPrison,1,2,Prepper_Mixed_Soldier_Entities,5,7,Prepper_Mixed_Soldier_Entities,12,15,Prepper_Mixed_Entities,7,9,Prepper_Mixed_Entities,9,12,Prepper_Mixed_Soldier_Entities,11,14,Prepper_Mixed_Soldier_Entities,15,20,zombieDemolition,1,1,Prepper_Mixed_Soldier_Entities,9,10,zombieDemolition,1,1,Prepper_Mixed_Soldier_Entities,10,12,zombieScreamerFeral,1,1,zombieScreamerFeral,1,1,Prepper_Flyer_Entities,12,14,GroupMiniSpecialInfected,3,4,GroupMiniSpecialInfected,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,3,4,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Soldier_Entities,4,5,zombieScreamerRadiated,1,2,Prepper_Flyer_Entities,5,6,Prepper_Flyer_Entities,5,6,Prepper_Flyer_Entities,9,10,Prepper_Comm_Tower_Entities,6,7" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="3,3,3,3,3,3,3,0,0,0,0,0,2,2,2,0,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0" />
@@ -127,15 +127,16 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="5452366" />
-    <property name="TotalTriangles" value="2517006" />
+    <property name="LightsVolume" value="39177.73" />
+    <property name="TotalVertices" value="5729921" />
+    <property name="TotalTriangles" value="2594438" />
     <property class="BlockEntities">
-      <property name="Vertices" value="4263657" />
-      <property name="Triangles" value="1761033" />
+      <property name="Vertices" value="4538301" />
+      <property name="Triangles" value="1837369" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="1026127" />
-      <property name="Triangles" value="640319" />
+      <property name="Vertices" value="1029038" />
+      <property name="Triangles" value="641415" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="124288" />
