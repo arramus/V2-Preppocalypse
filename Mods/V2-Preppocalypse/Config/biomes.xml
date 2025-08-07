@@ -1,4 +1,9 @@
 <Preppocalypse>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum/@name">desert</set> <!-- Default is wasteland -->
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/CloudThickness[@range='10,70']">70,90</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog[@range='0,5']">2,4</set>
+
 	<!-- *** Pine Forest: Sub Biome: Clustered Flowers and Boulders -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@noise='.0095, 0, .21']/decorations">
 			<decoration type="prefab" name="deco_forestsmallcamp_01"  onslopes="false" prob=".0008" rotatemax="3"/>

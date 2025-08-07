@@ -329,8 +329,10 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add" >
 		zombieLumberjackFeral, .35
 		zombieLumberjackRadiated, .2
+		animalPaindeerPREPPER, .175
 		zombieSteelAxeLumberjackPREPPER, .15
-		animalPaindeerPREPPER, .125
+		zombieSteelAxeLumberjackChargedPREPPER, .075
+		zombieSteelAxeLumberjackInfernalPREPPER, .075
 		animalZombieBunnyPREPPER, .05
 		animalZombieSnakePREPPER, .05
 		animalZombieChickenPREPPER, .05
@@ -366,8 +368,10 @@
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP_NIGHT -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="add" >
 		zombieLumberjackRadiated, .2
+		animalPaindeerPREPPER, .175
 		zombieSteelAxeLumberjackPREPPER, .15
-		animalPaindeerPREPPER, .125
+		zombieSteelAxeLumberjackChargedPREPPER, .075
+		zombieSteelAxeLumberjackInfernalPREPPER, .075
 		animalZombieBunnyPREPPER, .05
 		animalZombieSnakePREPPER, .05
 		animalZombieChickenPREPPER, .05
@@ -422,8 +426,12 @@
 		zombieBatonHazmatRadiatedPREPPER, .75
 		zombieSteelAxeLumberjackPREPPER, .75
 		zombieSteelAxeLumberjackRadiatedPREPPER, .75
+		zombieSteelAxeLumberjackChargedPREPPER, .75
+		zombieSteelAxeLumberjackInfernalPREPPER, .75
 		zombieMachetePartyGirlPREPPER, .75
 		zombieMachetePartyGirlRadiatedPREPPER, .75
+		zombieMachetePartyGirlChargedPREPPER, .75
+		zombieMachetePartyGirlInfernalPREPPER, .75
 		zombiePistolBusinessManPREPPER, .75
 		zombiePistolBusinessManRadiatedPREPPER, .75
 		zombieNailgunUtilityWorkerPREPPER, .75
@@ -496,8 +504,12 @@
 		zombieBatonHazmatRadiatedPREPPER, 1.25
 		zombieSteelAxeLumberjackPREPPER, 1.25
 		zombieSteelAxeLumberjackRadiatedPREPPER, 1.25
+		zombieSteelAxeLumberjackChargedPREPPER, 1.25
+		zombieSteelAxeLumberjackInfernalPREPPER, 1.25
 		zombieMachetePartyGirlPREPPER, 1.25
 		zombieMachetePartyGirlRadiatedPREPPER, 1.25
+		zombieMachetePartyGirlChargedPREPPER, 1.25
+		zombieMachetePartyGirlInfernalPREPPER, 1.25
 		zombiePistolBusinessManPREPPER, 1.25
 		zombiePistolBusinessManRadiatedPREPPER, 1.25
 		zombieNailgunUtilityWorkerPREPPER, 1.25
@@ -551,8 +563,12 @@
 		zombieBatonHazmatRadiatedPREPPER, .04
 		zombieSteelAxeLumberjackPREPPER, .04
 		zombieSteelAxeLumberjackRadiatedPREPPER, .04
+		zombieSteelAxeLumberjackChargedPREPPER, .04
+		zombieSteelAxeLumberjackInfernalPREPPER, .04
 		zombieMachetePartyGirlPREPPER, .04
 		zombieMachetePartyGirlRadiatedPREPPER, .04
+		zombieMachetePartyGirlChargedPREPPER, .04
+		zombieMachetePartyGirlInfernalPREPPER, .04
 		zombiePistolBusinessManPREPPER, .04
 		zombiePistolBusinessManRadiatedPREPPER, .04
 		zombieNailgunUtilityWorkerPREPPER, .04
@@ -615,41 +631,115 @@
 		animalZombieBunnyPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .5
+		zombieTARifleSoldierPREPPER, .5
 		zombieBatonHazmatPREPPER
 		zombieSteelAxeLumberjackPREPPER
 		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .5
+		zombieNailgunUtilityWorkerPREPPER, .5
+		zombieSwissVetterliWightPREPPER, .5
 		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .5
+		zombiePumpShotgunBikerPREPPER, .5
 		zombieBatonFatCopPREPPER
 		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
+		zombieMagnumJanitorBubPREPPER, .5
+		zombieAutoShotgunDarlenePREPPER, .5
+		zombieM60DemolitionPREPPER, .5
+		animalZombieLargePlasmaVulturePREPPER, .5		
+		zombieSpiderFeralBomberPREPPER, .5
+		zombieSpiderFeralGliderPREPPER, .5
+		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
+		zombieWightRadiationShowerPREPPER, .25
+		zombieBogeymanPREPPER, .25
+		zombieCrispyPREPPER, .25
+		zombieScorcherRadiatedPREPPER, .25
+		zombieSMGArleneRadiatedPREPPER, .25
+		zombieTARifleSoldierRadiatedPREPPER, .25
+		zombieBatonHazmatRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackChargedPREPPER, .25
+		zombieSteelAxeLumberjackInfernalPREPPER, .25
+		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombieMachetePartyGirlChargedPREPPER, .25
+		zombieMachetePartyGirlInfernalPREPPER, .25		
+		zombiePistolBusinessManRadiatedPREPPER, .25
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
+		zombieSwissVetterliWightRadiatedPREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .25
+		zombieDesertVultureTomClarkRadiatedPREPPER, .25
+		zombiePumpShotgunBikerRadiatedPREPPER, .25
+		zombieBatonFatCopRadiatedPREPPER, .25
+		zombieSteelClubFemaleFatRadiatedPREPPER, .25
+		zombieBoltNurseRadiatedPREPPER, .25
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
+		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
+		zombieAutoShotgunDarleneRadiatedPREPPER, .25
+		zombieToolsUtilityWorkerRadiatedPREPPER, .25
+		zombieRocketRadiatedPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS50">
 		animalZombieBunnyPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
-		zombieSMGArlenePREPPER, .25
-		zombieTARifleSoldierPREPPER, .25
+		zombieSMGArlenePREPPER, .5
+		zombieTARifleSoldierPREPPER, .5
 		zombieBatonHazmatPREPPER
 		zombieSteelAxeLumberjackPREPPER
 		zombieMachetePartyGirlPREPPER
-		zombiePistolBusinessManPREPPER, .25
-		zombieNailgunUtilityWorkerPREPPER, .25
-		zombieSwissVetterliWightPREPPER, .25
+		zombiePistolBusinessManPREPPER, .5
+		zombieNailgunUtilityWorkerPREPPER, .5
+		zombieSwissVetterliWightPREPPER, .5
 		zombieChainsawMoePREPPER
-		zombieDesertVultureTomClarkPREPPER, .25
-		zombiePumpShotgunBikerPREPPER, .25
+		zombieDesertVultureTomClarkPREPPER, .5
+		zombiePumpShotgunBikerPREPPER, .5
 		zombieBatonFatCopPREPPER
 		zombieSteelClubFemaleFatPREPPER
-		zombieBoltNursePREPPER, .25
+		zombieBoltNursePREPPER, .5
 		zombieSteelSledgehammerFatHawaiianPREPPER
 		zombieSteelPanMarlenePREPPER
-		zombieMagnumJanitorBubPREPPER, .25
-		zombieAutoShotgunDarlenePREPPER, .25
-		zombieM60DemolitionPREPPER, .25
-		animalZombieLargePlasmaVulturePREPPER, .25
-		zombieSpiderFeralBomberPREPPER, .25
-		zombieSpiderFeralGliderPREPPER, .25
+		zombieMagnumJanitorBubPREPPER, .5
+		zombieAutoShotgunDarlenePREPPER, .5
+		zombieM60DemolitionPREPPER, .5
+		animalZombieLargePlasmaVulturePREPPER, .5		
+		zombieSpiderFeralBomberPREPPER, .5
+		zombieSpiderFeralGliderPREPPER, .5
+		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
+		zombieWightRadiationShowerPREPPER, .25
+		zombieBogeymanPREPPER, .25
+		zombieCrispyPREPPER, .25
+		zombieScorcherRadiatedPREPPER, .25
+		zombieSMGArleneRadiatedPREPPER, .25
+		zombieTARifleSoldierRadiatedPREPPER, .25
+		zombieBatonHazmatRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackChargedPREPPER, .25
+		zombieSteelAxeLumberjackInfernalPREPPER, .25
+		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombieMachetePartyGirlChargedPREPPER, .25
+		zombieMachetePartyGirlInfernalPREPPER, .25		
+		zombiePistolBusinessManRadiatedPREPPER, .25
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
+		zombieSwissVetterliWightRadiatedPREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .25
+		zombieDesertVultureTomClarkRadiatedPREPPER, .25
+		zombiePumpShotgunBikerRadiatedPREPPER, .25
+		zombieBatonFatCopRadiatedPREPPER, .25
+		zombieSteelClubFemaleFatRadiatedPREPPER, .25
+		zombieBoltNurseRadiatedPREPPER, .25
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
+		zombieSteelPanMarleneRadiatedPREPPER, .25
+		zombieMagnumJanitorBubRadiatedPREPPER, .25
+		zombieAutoShotgunDarleneRadiatedPREPPER, .25
+		zombieToolsUtilityWorkerRadiatedPREPPER, .25
+		zombieRocketRadiatedPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS100">
 		animalZombieBunnyPREPPER
@@ -687,7 +777,11 @@
 		zombieTARifleSoldierRadiatedPREPPER, .25
 		zombieBatonHazmatRadiatedPREPPER, .25
 		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackChargedPREPPER, .25
+		zombieSteelAxeLumberjackInfernalPREPPER, .25
 		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombieMachetePartyGirlChargedPREPPER, .25
+		zombieMachetePartyGirlInfernalPREPPER, .25		
 		zombiePistolBusinessManRadiatedPREPPER, .25
 		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
 		zombieSwissVetterliWightRadiatedPREPPER, .25
@@ -740,7 +834,11 @@
 		zombieTARifleSoldierRadiatedPREPPER, .25
 		zombieBatonHazmatRadiatedPREPPER, .25
 		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackChargedPREPPER, .25
+		zombieSteelAxeLumberjackInfernalPREPPER, .25
 		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombieMachetePartyGirlChargedPREPPER, .25
+		zombieMachetePartyGirlInfernalPREPPER, .25
 		zombiePistolBusinessManRadiatedPREPPER, .25
 		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
 		zombieSwissVetterliWightRadiatedPREPPER, .25
@@ -793,7 +891,11 @@
 		zombieTARifleSoldierRadiatedPREPPER, .5
 		zombieBatonHazmatRadiatedPREPPER, .5
 		zombieSteelAxeLumberjackRadiatedPREPPER, .5
+		zombieSteelAxeLumberjackChargedPREPPER, .5
+		zombieSteelAxeLumberjackInfernalPREPPER, .5
 		zombieMachetePartyGirlRadiatedPREPPER, .5
+		zombieMachetePartyGirlChargedPREPPER, .5
+		zombieMachetePartyGirlInfernalPREPPER, .5
 		zombiePistolBusinessManRadiatedPREPPER, .5
 		zombieNailgunUtilityWorkerRadiatedPREPPER, .5
 		zombieSwissVetterliWightRadiatedPREPPER, .5
@@ -846,7 +948,11 @@
 		zombieTARifleSoldierRadiatedPREPPER, .75
 		zombieBatonHazmatRadiatedPREPPER, .75
 		zombieSteelAxeLumberjackRadiatedPREPPER, .75
+		zombieSteelAxeLumberjackChargedPREPPER, .75
+		zombieSteelAxeLumberjackInfernalPREPPER, .75
 		zombieMachetePartyGirlRadiatedPREPPER, .75
+		zombieMachetePartyGirlChargedPREPPER, .75
+		zombieMachetePartyGirlInfernalPREPPER, .75
 		zombiePistolBusinessManRadiatedPREPPER, .75
 		zombieNailgunUtilityWorkerRadiatedPREPPER, .75
 		zombieSwissVetterliWightRadiatedPREPPER, .75
@@ -1067,50 +1173,50 @@
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS01">
 		zombieUtilityWorker
-		zombieUtilityWorkerFeral, .1
-		zombieUtilityWorkerRadiated, .05		
-		zombieNailgunUtilityWorkerPREPPER, .05
-		zombieToolsUtilityWorkerPREPPER, .05
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS50">
-		zombieUtilityWorker, .85
-		zombieUtilityWorkerFeral, .25
-		zombieUtilityWorkerRadiated, .1		
-		zombieNailgunUtilityWorkerPREPPER, .1
-		zombieToolsUtilityWorkerPREPPER, .1
+		zombieUtilityWorker
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS100">
-		zombieUtilityWorker, .75
-		zombieUtilityWorkerFeral, .35
-		zombieUtilityWorkerRadiated, .2		
-		zombieNailgunUtilityWorkerPREPPER, .2
-		zombieToolsUtilityWorkerPREPPER, .2
+		zombieUtilityWorker
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS200">
-		zombieUtilityWorker, .5
-		zombieUtilityWorkerFeral, .5
-		zombieUtilityWorkerRadiated, .5		
-		zombieNailgunUtilityWorkerPREPPER, .5
-		zombieToolsUtilityWorkerPREPPER, .5
+		zombieUtilityWorker
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS400">
 		zombieUtilityWorker
-		zombieUtilityWorkerFeral, .65
-		zombieUtilityWorkerRadiated, .65		
-		zombieNailgunUtilityWorkerPREPPER, .65
-		zombieToolsUtilityWorkerPREPPER, .65	
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<entitygroup name="PrepperCommTowerEntitiesGroupGS800">
 		zombieUtilityWorker
-		zombieUtilityWorkerFeral, .5
-		zombieUtilityWorkerRadiated, .75	
-		zombieNailgunUtilityWorkerPREPPER, .75
-		zombieToolsUtilityWorkerPREPPER, .75
+		zombieUtilityWorkerFeral
+		zombieUtilityWorkerRadiated		
+		zombieNailgunUtilityWorkerPREPPER
+		zombieToolsUtilityWorkerPREPPER, 1.25
 	</entitygroup>
 	
 	<!-- Prepper Mixed Dire Wolf Entities -->
@@ -1456,74 +1562,116 @@
 		zombieBatonHazmatPREPPER, .9
 	</csv> <!-- GS 281 -->
 
-<!-- Steel Axe Lumberjack PREPPER -->
+<!-- Steel Axe Lumberjack PREPPER with CHARGED and INFERNAL -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'zombieLumberjackGroupGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
 		zombieSteelAxeLumberjackPREPPER, .25
+		zombieSteelAxeLumberjackRadiatedPREPPER, .05
+		zombieSteelAxeLumberjackChargedPREPPER, .05
+		zombieSteelAxeLumberjackInfernalPREPPER, .05
 	</csv> <!-- GS 100 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
 		zombieSteelAxeLumberjackPREPPER, .9
+		zombieSteelAxeLumberjackRadiatedPREPPER, .2
+		zombieSteelAxeLumberjackChargedPREPPER, .2
+		zombieSteelAxeLumberjackInfernalPREPPER, .2
 	</csv> <!-- GS 181 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
 		zombieSteelAxeLumberjackPREPPER, .9
+		zombieSteelAxeLumberjackRadiatedPREPPER, .2
+		zombieSteelAxeLumberjackChargedPREPPER, .2
+		zombieSteelAxeLumberjackInfernalPREPPER, .2
 	</csv> <!-- GS 112 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
 		zombieSteelAxeLumberjackPREPPER, .9
+		zombieSteelAxeLumberjackRadiatedPREPPER, .2
+		zombieSteelAxeLumberjackChargedPREPPER, .2
+		zombieSteelAxeLumberjackInfernalPREPPER, .2
 	</csv> <!-- GS 171 -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieLumberjackRadiated')]/text()" delim="\n" op="add">
 		zombieSteelAxeLumberjackPREPPER, .9
+		zombieSteelAxeLumberjackRadiatedPREPPER, .2
+		zombieSteelAxeLumberjackChargedPREPPER, .2
+		zombieSteelAxeLumberjackInfernalPREPPER, .2
 	</csv> <!-- GS 207 -->
 	
-<!-- Machete Party Girl PREPPER -->
+<!-- Machete Party Girl PREPPER with CHARGED and INFERNAL -->
 
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieBikerBarGroup']/text()" delim="\n" op="add" >
 		zombiePartyGirlFeral, .3
 		zombiePartyGirlRadiated, .2
 		zombieMachetePartyGirlPREPPER, .2
+		zombieMachetePartyGirlRadiatedPREPPER, .05
+		zombieMachetePartyGirlChargedPREPPER, .05
+		zombieMachetePartyGirlInfernalPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieBikerBarGroupGS') and contains (text(), 'zombieMoeRadiated') and not ( contains(text(), 'zombieMoeRadiated, 0'))]/text()" delim="\n" op="add">
 		zombiePartyGirlRadiated, .25
 		zombieMachetePartyGirlPREPPER, .25
+		zombieMachetePartyGirlRadiatedPREPPER, .05
+		zombieMachetePartyGirlChargedPREPPER, .05
+		zombieMachetePartyGirlInfernalPREPPER, .05
 	</csv> <!-- Radiated Moe Party Girl is limited -->
 
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieNightClubGroupGS200']/text()" delim="\n" op="add" >
 		zombiePartyGirlRadiated, .2
 		zombieMachetePartyGirlPREPPER, .2
+		zombieMachetePartyGirlRadiatedPREPPER, .05
+		zombieMachetePartyGirlChargedPREPPER, .05
+		zombieMachetePartyGirlInfernalPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieNightClubGroupGS400']/text()" delim="\n" op="add" >
 		zombiePartyGirlRadiated, .3
 		zombieMachetePartyGirlPREPPER, .3
+		zombieMachetePartyGirlRadiatedPREPPER, .075
+		zombieMachetePartyGirlChargedPREPPER, .075
+		zombieMachetePartyGirlInfernalPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieNightClubGroupGS800']/text()" delim="\n" op="add" >
 		zombiePartyGirlRadiated, .4
 		zombieMachetePartyGirlPREPPER, .4
+		zombieMachetePartyGirlRadiatedPREPPER, .1
+		zombieMachetePartyGirlChargedPREPPER, .1
+		zombieMachetePartyGirlInfernalPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombiePartyGirlFeral')]/text()" delim="\n" op="add">
 		zombiePartyGirlRadiated, .9
 		zombieMachetePartyGirlPREPPER, .9
+		zombieMachetePartyGirlRadiatedPREPPER, .2
+		zombieMachetePartyGirlChargedPREPPER, .2
+		zombieMachetePartyGirlInfernalPREPPER, .2
 	</csv> <!-- GS 110 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombiePartyGirlFeral')]/text()" delim="\n" op="add">
 		zombiePartyGirlRadiated, .9
 		zombieMachetePartyGirlPREPPER, .9
+		zombieMachetePartyGirlRadiatedPREPPER, .2
+		zombieMachetePartyGirlChargedPREPPER, .2
+		zombieMachetePartyGirlInfernalPREPPER, .2
 	</csv> <!-- GS 51 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieSoldierRadiated')]/text()" delim="\n" op="add">
 		zombiePartyGirlRadiated, .9
 		zombieMachetePartyGirlPREPPER, .9
+		zombieMachetePartyGirlRadiatedPREPPER, .2
+		zombieMachetePartyGirlChargedPREPPER, .2
+		zombieMachetePartyGirlInfernalPREPPER, .2
 	</csv> <!-- GS 63 for Solider for balance -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombiePartyGirlFeral')]/text()" delim="\n" op="add">
 		zombiePartyGirlRadiated, .9
 		zombieMachetePartyGirlPREPPER, .9
+		zombieMachetePartyGirlRadiatedPREPPER, .2
+		zombieMachetePartyGirlChargedPREPPER, .2
+		zombieMachetePartyGirlInfernalPREPPER, .2
 	</csv> <!-- GS 96 -->
 	
 <!-- Pistol Businessman PREPPER -->
@@ -1982,6 +2130,10 @@
 		animalZombieBunnyBomberPREPPER, .5
 		zombieBigNightJetRocketPREPPER, .25
 		zombieBigNightJetRocketRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackChargedPREPPER, .25
+		zombieSteelAxeLumberjackInfernalPREPPER, .25
+		zombieMachetePartyGirlChargedPREPPER, .25
+		zombieMachetePartyGirlInfernalPREPPER, .25
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->
