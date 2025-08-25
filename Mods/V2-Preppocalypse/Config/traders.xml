@@ -42,6 +42,11 @@
 		<item name="foodNavezganeHDR"/>
 	</append>
 	
+		<!-- *** CANDY -->	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodCandy']">
+		<item name="drugDarkstardragon"/>		
+	</append>
+	
 		<!-- *** T1_MELEE_MODS -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeMods']">
 		<item name="modMeleeSpartanSledgeStamina"/>

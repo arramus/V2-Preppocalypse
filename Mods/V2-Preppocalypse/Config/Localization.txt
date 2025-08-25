@@ -357,6 +357,8 @@ drinkJarBoneBroth,items,Food,,,Bone Broth,,Knochenbrühe,,,,,,,,,,,
 drinkJarBoneBrothDesc,items,Food,,,"Bone Broth can be drunk alone, or used in recipes.",,"Knochenbrühe kann allein getrunken oder in Rezepten verwendet werden.",,,,,,,,,,,
 drinkCanPreppoSoda,items,Food,,,Preppo Soda,,Preppo Soda,,,,,,,,,,,
 drinkCanPreppoSodaDesc,items,Food,,,"Preppo Soda is what you get when you combine Mega Crush with Red Tea, and add a little sparkle.",,"Preppo Soda erhalten Sie, wenn Sie Mega Crush mit rotem Tee kombinieren und etwas Spritzer hinzufügen.",,,,,,,,,,,
+drugDarkstardragon,items,Medical,,,Darkstar Dragon Candy,,Darkstar Drachenbonbons,,,,,,,,,,,
+drugDarkstardragonDesc,items,Medical,,,"Increase loot quality and run speed for a short period of time with Darkstar Dragon Candy.",,"Erhöhen Sie die Beutequalität und Laufgeschwindigkeit für kurze Zeit mit Darkstar Dragon Candy.",,,,,,,,,,,
 
 CaughtChick,items,Item,,,Caught Chick,,Gefangenes Küken,,,,,,,,,,,
 CaughtChickDesc,items,Item,,,"Use 2 Caught Chicks, with right mouse click, on an Empty Chicken Coop to populate and activate the next stage.",,"Benutze 2 gefangene Küken mit der rechten Maustaste auf einem leeren Hühnerstall, um ihn zu bevölkern und die nächste Stufe zu aktivieren.",,,,,,,,,,,

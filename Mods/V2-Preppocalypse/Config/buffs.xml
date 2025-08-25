@@ -14,6 +14,9 @@
 	<append xpath="/buffs/buff[@name='god']/effect_group">	
 	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffYuccaCactusAloeJuiceCoolerDuration" operation="set" value="0"/>
 	</append>
+	<append xpath="/buffs/buff[@name='god']/effect_group">	
+	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugDarkstardragonDuration" operation="set" value="0"/>
+	</append>
 	
 	<!-- Yucca Cactus Aloe Juice Storm Breaker -->
 	
@@ -53,6 +56,37 @@
 		
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurnt_Storm,buffDesert_Storm,buffSnow_Storm,buffWasteland_Storm"/>
+		</effect_group>
+	</buff>
+	</append>
+	
+	<!-- *** buffDrugDarkstardragon -->
+	<!-- TRIGGERED_BY: Items = drugDarkstardragon -->
+	<!-- Increase loot quality and run speed for a short period of time with Darkstar Dragon Candy. -->
+	<append xpath="/buffs">
+	<buff name="buffDrugDarkstardragon" name_key="drugDarkstardragon" description_key="drugDarkstardragonDesc" icon="ui_game_symbol_candy_eye_candy">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<display_value value=".buffDrugDarkstardragonDisplay"/>
+		<display_value_format value="time"/>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDrugDarkstardragonDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDrugDarkstardragonDisplay" operation="set" value="@$buffDrugDarkstardragonDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDrugDarkstardragonDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDrugDarkstardragon">
+				<requirement name="CVarCompare" cvar="$buffDrugDarkstardragonDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar=".buffDrugDarkstardragonDisplay,$buffDrugDarkstardragonDuration"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="LootStage" operation="base_add" value="10"/>
+			<passive_effect name="LootStage" operation="perc_add" value=".2"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".25"/>
 		</effect_group>
 	</buff>
 	</append>

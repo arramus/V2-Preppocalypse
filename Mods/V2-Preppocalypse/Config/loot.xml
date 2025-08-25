@@ -2,6 +2,9 @@
 
 	<!-- Vanilla Loot Additions -->
 	
+	<!-- Allow QLTemplateT1 to arrive a little earlier for loot weapons and tools -->
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate[@level='41,52']/@level">32,52</set>
+	
     <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
 	

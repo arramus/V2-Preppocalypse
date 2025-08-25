@@ -1,7 +1,7 @@
 <configs>
 
 	<!-- *** ZOMBIES_SCOUT_SCREAMER -->
-	<set xpath="/spawning/entityspawner[@name='Scouts']/day/property[@name='TotalPerWave']/@value">1</set>
+	<set xpath="/spawning/entityspawner[@name='Scouts2']/day/property[@name='TotalPerWave']/@value">1</set>
 	<set xpath="/spawning/entityspawner[@name='ScoutsFeral']/day/property[@name='TotalPerWave']/@value">1</set>
 	<set xpath="/spawning/entityspawner[@name='ScoutsRadiated']/day/property[@name='TotalPerWave']/@value">1</set>
 	

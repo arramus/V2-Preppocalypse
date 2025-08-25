@@ -3154,6 +3154,27 @@
 	</effect_group>
 </item>
 
+<item name="drugDarkstardragon">
+	<property name="Extends" value="drugAtomJunkies"/>
+	<property name="DisplayType" value="drugDarkstardragon"/>
+	<property name="SoundPickup" value="drug_eyecandy_grab"/>
+	<property name="SoundPlace" value="drug_eyecandy_place"/>
+	<effect_group tiered="false" name="Candy Tier 1">
+		<display_value name="dLootStageFlat" value="10"/> <!-- 5 -->
+		<display_value name="dLootStagePerc" value=".2"/> <!-- .1 -->
+		<display_value name="dRunSpeed" value=".25"/>
+
+		<display_value name="dDuration" value="180"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugDarkstardragonDuration" operation="add" value="183"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugDarkstardragonDuration" operation="set" value="543">
+			<requirement name="CVarCompare" cvar="$buffDrugDarkstardragonDuration" operation="GT" value="543"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugDarkstardragon"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
 <!-- CUSTOM MODS -->
 
 <!-- High Performance Running Shoes Mod Schematic -->		

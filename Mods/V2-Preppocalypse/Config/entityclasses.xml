@@ -1755,15 +1755,15 @@
 
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityNPC,15"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,0,EntityNPC,15"/>
 	<property name="AITask-4" value="ApproachSpot"/>
 	<property name="AITask-5" value="Look"/>
 	<property name="AITask-6" value="Wander"/>
 	<property name="AITask-7" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityBandit,EntityPlayer"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,15,EntityNPC,0,0"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,15,EntityBandit,0,0,EntityNPC,0,0"/>
 	<property name="AITarget-5" value=""/>
 
 	<property name="WalkType" value="7"/>
@@ -1842,7 +1842,7 @@
 			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=3;duration=5"/>	
 			<property name="AITask-3" value="Leap"/>
 			<property name="AITask-4" value="Territorial"/>
-			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityNPC,0"/>
+			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,0,EntityNPC,0"/>
 			<property name="AITask-6" value="ApproachSpot"/>
 			<property name="AITask-7" value="Look"/>
 			<property name="AITask-8" value="Wander"/>
@@ -1850,7 +1850,7 @@
 			<property name="AITask-9" value=""/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
-			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,24,12,EntityNPC,0,0"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,24,12,EntityBandit,0,0,EntityNPC,0,0"/>
 			<property name="AITarget-4" value=""/>
 	
 			<property name="CanClimbVertical" value="true"/>
@@ -1904,7 +1904,7 @@
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="DestroyArea"/>
 	<property name="AITask-3" value="Territorial"/>
-	<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,30,EntityNPC,30"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,30,EntityBandit,0,EntityNPC,30"/>
 	<property name="AITask-5" value="ApproachSpot"/>
 	<property name="AITask-6" value="Look"/>
 	<property name="AITask-7" value="Wander"/>
@@ -1912,7 +1912,7 @@
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityBandit,0,0,EntityNPC,0,0"/>
 	<property name="AITarget-5" value=""/>
 
 	<!-- Gameplay  -->
@@ -1973,14 +1973,14 @@
 	<property name="AITask-2" value="DestroyArea"/>
 	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="ApproachDistraction"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,0,EntityNPC,0"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,0,EntityBandit,0,EntityNPC,0"/>
 	<property name="AITask-6" value="ApproachSpot"/>
 	<property name="AITask-7" value="Look"/>
 	<property name="AITask-8" value="Wander"/>
 	<property name="AITask-9" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13,EntityNPC,14,8"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13,EntityBandit,0,0,EntityNPC,14,18"/>
 	<property name="AITarget-4" value=""/>
 
 	<!-- Gameplay -->
@@ -2084,7 +2084,7 @@
 	<property name="AITask-5" value="Look"/>
 	<property name="AITask-6" value="Wander"/>
 	<property name="AITask-7" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit,EntityNPC"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="flags=edible"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityBandit,0,-8,EntityNPC,15,10"/>
@@ -2148,15 +2148,15 @@
 	<property name="AIFeralSense" value="1.6"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityBandit,20"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityBandit,20,EntityNPC,0"/>
 	<property name="AITask-4" value="ApproachSpot"/>
 	<property name="AITask-5" value="Look"/>
 	<property name="AITask-6" value="Wander"/>
 	<property name="AITask-7" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit,EntityNPC"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="flags=edible"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityBandit,0,-8"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityBandit,0,-8,EntityNPC,15,10"/>
 	<property name="AITarget-5" value=""/>
 
 	<!-- Stealth -->
@@ -2214,15 +2214,15 @@
 	<property name="AIFeralSense" value="1.6"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
-	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityBandit,20"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityBandit,20,EntityNPC,0"/>
 	<property name="AITask-4" value="ApproachSpot"/>
 	<property name="AITask-5" value="Look"/>
 	<property name="AITask-6" value="Wander"/>
 	<property name="AITask-7" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer,EntityBandit,EntityNPC"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="flags=edible"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityBandit,0,-8"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,22,20,EntityBandit,0,-8,EntityNPC,15,10"/>
 	<property name="AITarget-5" value=""/>
 
 	<!-- Stealth -->
@@ -2395,7 +2395,7 @@
 	Wander|
 	"/>
 	<property name="AITarget" value="
-	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
 	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
@@ -2465,7 +2465,7 @@
 	Wander|
 	"/>
 	<property name="AITarget" value="
-	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
 	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
@@ -2531,7 +2531,7 @@
 	Wander|
 	"/>
 	<property name="AITarget" value="
-	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
 	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
@@ -2602,14 +2602,14 @@
 	<property name="AITask-2" value="BreakBlock"/>
 	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,30,EntityZombie,20"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,30,EntityZombie,20,EntityNPC,0"/>
 	<property name="AITask-6" value="ApproachSpot"/>
 	<property name="AITask-7" value="Look"/>
 	<property name="AITask-8" value="Wander"/>
 	<property name="AITask-9" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-5"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-5,EntityNPC,0,0"/>
 	<property name="AITarget-4" value=""/>
 
 	<!-- Gameplay  -->
@@ -2646,13 +2646,13 @@
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="HandItem" value="meleeHandzombieSpiderFeralGliderPREPPER"/>
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityNPC,0"/>
+			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityBandit,200,EntityNPC,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Wander"/>
 			<property name="AITask-6" value=""/>
-			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200"/>
+			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200,EntityBandit,200,200,EntityNPC,200,200"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="DismemberMultiplierHead" value=".2"/>
 			<property name="DismemberMultiplierArms" value=".2"/>
@@ -2702,13 +2702,13 @@
 			<property name="MoveSpeedAggro" value="2, 2"/>
 			<property name="MaxTurnSpeed" value="150"/>
 			<property name="HandItem" value="meleeHandzombieSpiderFeralBomberPREPPER"/>
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityNPC,0"/>
+			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityBandit,200,EntityNPC,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Wander"/>
 			<property name="AITask-6" value=""/>
-			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200"/>
+			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200,EntityBandit,200,200,EntityNPC,200,200"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="DismemberMultiplierHead" value=".2"/>
 			<property name="DismemberMultiplierArms" value=".2"/>
@@ -2759,7 +2759,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -2824,7 +2824,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -2858,7 +2858,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -2902,7 +2902,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -2945,7 +2945,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3133,7 +3133,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3181,7 +3181,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3293,7 +3293,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3340,7 +3340,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3387,7 +3387,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3431,7 +3431,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3477,7 +3477,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3521,7 +3521,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3564,7 +3564,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3607,7 +3607,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3718,7 +3718,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3762,7 +3762,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3807,7 +3807,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=2|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -3851,7 +3851,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=2|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4032,7 +4032,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=2|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4076,7 +4076,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=2|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4250,7 +4250,7 @@
 		BreakBlock|
 		ApproachDistraction|
 		RangedAttackTarget itemType=1;cooldown=6;duration=5|
-		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 		ApproachSpot|
 		Look|
 		Wander|
@@ -4294,7 +4294,7 @@
 		BreakBlock|
 		ApproachDistraction|
 		RangedAttackTarget itemType=1;cooldown=4;duration=5|
-		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 		ApproachSpot|
 		Look|
 		Wander|
@@ -4340,7 +4340,7 @@
 		BreakBlock|
 		ApproachDistraction|
 		RangedAttackTarget itemType=1;cooldown=6;duration=5|
-		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 		ApproachSpot|
 		Look|
 		Wander|
@@ -4384,7 +4384,7 @@
 		BreakBlock|
 		ApproachDistraction|
 		RangedAttackTarget itemType=1;cooldown=4;duration=5|
-		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+		ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 		ApproachSpot|
 		Look|
 		Wander|
@@ -4590,7 +4590,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4651,7 +4651,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4712,7 +4712,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4772,7 +4772,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -4920,7 +4920,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5012,7 +5012,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5196,7 +5196,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5247,7 +5247,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5397,7 +5397,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5447,7 +5447,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=6;duration=5|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5486,7 +5486,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=4|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5537,7 +5537,7 @@
 	BreakBlock|
 	ApproachDistraction|
 	RangedAttackTarget itemType=1;cooldown=4;duration=6|
-	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityNPC,0|
 	ApproachSpot|
 	Look|
 	Wander|
@@ -5587,13 +5587,13 @@
 
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityNPC,0"/>
+			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityBandit,200,EntityNPC,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Wander"/>
 			<property name="AITask-6" value=""/>
-			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200"/>
+			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200,EntityBandit,200,200,EntityNPC,200,200"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 
@@ -5650,13 +5650,13 @@
 
 			<property name="RightHandJointName" value="LeftShoulder"/>
 			
-			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityNPC,0"/>
+			<property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityPlayer,200,EntityBandit,200,EntityNPC,200"/>
 			<property name="AITask-2" value="BreakBlock"/>
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Wander"/>
 			<property name="AITask-6" value=""/>
-			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200"/>
+			<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,200,200,EntityBandit,200,200,EntityNPC,200,200"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
 			<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 
