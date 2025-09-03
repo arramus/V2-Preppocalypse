@@ -3,6 +3,10 @@
     <!-- Make Encumberence Debuff percentage lower to accomodate more locked inventory slots - KhaineGB -->
 	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@cvar='$encumbranceEffect'][@value='0.026']/@value">0.013</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity'][@operation='base_set']/@operation">base_add</set>
+	
+    <!-- Change icons for Sprained Leg and Arm to look like sprains and not breaks -->
+	<set xpath="/buffs/buff[@name='buffLegSprained']/@icon">ui_game_symbol_sprained_ankle</set>
+	<set xpath="/buffs/buff[@name='buffArmSprained']/@icon">ui_game_symbol_sprained_wrist</set>
 
 	<!-- Make Red Tea and Mineral Water give better hunger and thirst benefits -->
 	<set xpath="/buffs/buff[@name='buffRedTea']/effect_group/triggered_effect[@cvar='$buffRedTeaEffectDisplay'][@value='-15']/@value">-20</set> <!-- and items dEfficientDigestion hookup -->
