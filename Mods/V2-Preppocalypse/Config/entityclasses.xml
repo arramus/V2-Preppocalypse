@@ -11,11 +11,6 @@
 	<!-- Simple Preppo Supply Crate -->
 	<set xpath="/entity_classes/entity_class[@name='sc_General']/property[@name='Mesh']/@value">#@modfolder:Resources/prepposupplycrate.unity3d?SupplyCrateEntityPrefab</set>
 
-	<!-- Zombie Loot Bag Time Stay Extensions -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Default is 1200 secs (20 mins) and good for 60 min cycle at (15 min BM) but not 90 (22 min 30 sec BM) -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Provides a 3 min 20 sec buffer for 120 min cycle -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">2000</set>
-
 	<!-- Gyrocopter Tags -->
 	<append xpath="/entity_classes/entity_class[@name='vehicleGyrocopter']/property[@name='Tags']/@value">,vehiclepreppergyro</append><!-- Adding the buff deco tag -->
 
