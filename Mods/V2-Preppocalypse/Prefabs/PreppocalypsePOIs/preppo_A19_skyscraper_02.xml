@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="YOffset" value="-6" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="downtown" />
+  <property name="AllowedTownships" value="city,town" />
+  <property name="TraderArea" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="SleeperVolumeSize" value="17, 8, 25#29, 8, 41#41, 8, 41#41, 8, 41#30, 8, 10#41, 4, 41#9, 8, 10#32, 8, 15#32, 8, 17#32, 8, 14#15, 8, 15#9, 8, 30#25, 6, 12#12, 6, 12#20, 6, 25#23, 5, 26#12, 8, 41#28, 4, 15#5, 4, 15#13, 4, 26#5, 4, 25#13, 4, 14#20, 4, 22" />
+  <property name="SleeperVolumeStart" value="31, 6, 18#21, 15, 16#9, 23, 16#9, 31, 16#20, 39, 16#9, 47, 16#41, 31, 36#9, 31, 42#9, 39, 26#9, 39, 43#9, 23, 42#41, 23, 27#23, 8, 43#11, 8, 43#11, 8, 18#25, 51, 29#9, 15, 16#15, 1, 40#10, 1, 40#30, 1, 0#43, 1, 18#30, 1, 26#10, 1, 18" />
+  <property name="SleeperVolumeGroup" value="Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Soldier_Entities,9,10,Prepper_Mixed_Soldier_Entities,15,18,Prepper_Mixed_Entities,15,18,Prepper_Mixed_Soldier_Entities,8,9,Prepper_Mixed_Entities,9,10,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Entities,8,9,Prepper_Mixed_Entities,9,10,Prepper_Mixed_Soldier_Entities,13,15,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Soldier_Entities,7,8,GroupNightClub,5,6,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,5,6,Prepper_Flyer_Entities,4,5,Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Entities,7,8,Prepper_Mixed_Animal_Entities,2,3,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,4,5,Prepper_Mixed_Entities,3,4,Prepper_Mixed_Soldier_Entities,9,10" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,True,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="EditorGroups" value="downtown" />
+  <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="QuestTags" value="clear, fetch, infested" />
+  <property name="Tags" value="commercial, downtown, inter02downtowntile" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="DifficultyTier" value="5" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="SleeperVolumeGroupId" value="1,2,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2,0,0,0,0,0,0" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # " />
+  <property name="PrefabSize" value="60, 71, 60" />
+  <property class="Stats">
+    <property name="LightsVolume" value="25091.1" />
+    <property name="TotalVertices" value="2384594" />
+    <property name="TotalTriangles" value="938588" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1925027" />
+      <property name="Triangles" value="658657" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="420033" />
+      <property name="Triangles" value="242183" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="24304" />
+      <property name="Triangles" value="12144" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="15230" />
+      <property name="Triangles" value="25604" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="quest_feather">
+      <property name="0" value="44, 48, 51" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="47, 32, 22" />
+      <property name="1" value="46, 24, 28" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="47, 32, 38" />
+      <property name="1" value="47, 40, 38" />
+      <property name="2" value="47, 32, 41" />
+      <property name="3" value="47, 40, 41" />
+      <property name="4" value="47, 32, 44" />
+      <property name="5" value="47, 40, 44" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="46, 17, 33" />
+      <property name="1" value="46, 40, 37" />
+      <property name="2" value="47, 35, 39" />
+      <property name="3" value="47, 3, 40" />
+      <property name="4" value="47, 35, 42" />
+      <property name="5" value="47, 24, 43" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="46, 31, 33" />
+    </property>
+    <property class="challenge_gore">
+      <property name="0" value="46, 13, 53" />
+    </property>
+    <property class="challenge_leather">
+      <property name="0" value="46, 16, 18" />
+      <property name="1" value="47, 16, 18" />
+      <property name="2" value="47, 16, 19" />
+      <property name="3" value="47, 16, 20" />
+      <property name="4" value="47, 16, 21" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="49, 6, 17" />
+      <property name="1" value="49, 6, 18" />
+      <property name="2" value="46, 35, 19" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="46, 24, 39" />
+    </property>
+    <property class="challenge_pallet">
+      <property name="0" value="47, 43, 32" />
+    </property>
+    <property class="challenge_steel">
+      <property name="0" value="34, 32, 20" />
+    </property>
+    <property class="challenge_elec_parts">
+      <property name="0" value="14, 48, 52" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="53, 6, 24" />
+    </property>
+    <property class="QuestRestorePower">
+      <property name="0" value="45, 48, 53" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="46, 6, 11" />
+    </property>
+  </property>
+</prefab>
