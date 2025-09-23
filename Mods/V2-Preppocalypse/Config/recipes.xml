@@ -127,7 +127,7 @@
 	</recipe>
 	
 	<recipe name="woodenBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="woodLogPillar100" count="10"/>
+		<ingredient name="woodLogPillar100" count="4"/>
 	</recipe>
 	
 	<recipe name="rugBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
@@ -156,6 +156,14 @@
 		<ingredient name="resourceMetalPipe" count="5"/>
 		<ingredient name="resourceSpring" count="5"/>
 		<ingredient name="resourceScrapIron" count="200"/>
+	</recipe>
+	
+	<recipe name="plantHangingIvy01" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+	</recipe>
+	
+	<recipe name="plantHangingIvy02" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceYuccaFibers" count="10"/>
 	</recipe>
 	
 	<recipe name="resourceCementMixerConcreteBundle" count="1" craft_time="1760" craft_area="cementMixer" tags="cementMixerCrafting">
