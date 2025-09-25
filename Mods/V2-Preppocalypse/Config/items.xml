@@ -343,7 +343,7 @@
 	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfPerception,canHaveCosmetic,perkElectrocutioner,stunBaton,spearSkill"/><!-- ,thrownWeapon -->
 
 	<effect_group name="apply damage buff, meleeWpnSpearT3SteelSpear">
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
 			<requirement name="CompareItemMetaFloat" operation="GTE" value="4" key="charge"/></triggered_effect>
 			<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
 			
@@ -450,10 +450,10 @@
 		</triggered_effect>
 
 		<!-- add electric effect to baton -->
-		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
 			<requirement name="CompareItemMetaFloat" operation="Equals" value="4" key="charge"/></triggered_effect>
 			<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
-		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0.5,0" localRot="0,0,0">
 			<requirement name="CompareItemMetaFloat" operation="Equals" value="4" key="charge"/></triggered_effect>
 			<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
 		
