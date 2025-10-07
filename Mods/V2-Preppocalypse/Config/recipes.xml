@@ -1238,7 +1238,7 @@
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceMetalPipe" count="1"/>
-	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceCoal" count="20"/>
 </recipe>
 
 <!-- Vehicles -->
