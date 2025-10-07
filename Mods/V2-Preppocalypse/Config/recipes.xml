@@ -1220,6 +1220,27 @@
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
+<!-- Dew Collector Tools and Resources -->
+
+<recipe name="toolDewGatherer" count="1" tags="learnable,workbenchCrafting,packMuleCrafting">
+	<ingredient name="resourceSnowBall" count="10"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+
+<recipe name="toolDewTarp" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceCloth" count="30"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+</recipe>
+
+<recipe name="toolDewFilter" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceSilverNugget" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
 <!-- Vehicles -->
 
 <recipe name="vehiclePreppocalypticCarAccessories" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">

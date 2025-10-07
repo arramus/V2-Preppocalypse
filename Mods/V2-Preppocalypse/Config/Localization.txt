@@ -469,6 +469,8 @@ cntFishTrapWaterCollector,blocks,block,,,Fish Trap Water Collector,,Fischfalle-W
 cntFishTrapWaterCollectorDesc,blocks,Block,,,"Collects Fish Trap Water at an accelerated rate to fill your Fish Trap farm pool.\n\nRepair with Scrap Polymers.",,"Sammelt Fischfallenwasser mit beschleunigter Geschwindigkeit, um den Pool Ihrer Fischfalle-Farm zu füllen.\n\nMit Polymerschrott reparieren.",,,,,,,,,,,
 resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Dew Collector or Fish Trap Water Collector.",,"Eine Komponente, die bei der Herstellung eines Tausammlers oder eines Fischfallen-Wassersammlers verwendet wird.",,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,Wassersammler,,,,,,,,,,,
+workstationsT1-3,progression,Attribute,,,Tier 3: Gatherer,,Stufe 3: Sammler,,,,,,,,,,,
+workstationsT2-5,progression,Attribute,,,Tier 5: Tarp,,Stufe 5: Plane,,,,,,,,,,,
 
 screamQueenPrepperstandIV,blocks,Block,,,Prepper Screamer I.V. Stand,,Prepper Screamer Infusionsständer,,,,,,,,,,,
 screamQueenPrepperstandIVDesc,blocks,Block,,,"This Prepper Screamer I.V. Stand is placed on a surface and hit to attract Screamers and their Minions. The more you place and hit, the more frequently they appear. Use in moderation.",,"Dieser Prepper Screamer I.V.-Ständer wird auf eine Oberfläche gestellt und darauf geschlagen, um Screamer und ihre Minions anzulocken. Je mehr Sie platzieren und darauf schlagen, desto häufiger erscheinen sie. Verwenden Sie ihn maßvoll.",,,,,,,,,,,
@@ -556,7 +558,8 @@ TarTrapDesc,blocks,Block,,,"This Tar Trap can be placed on a surface. It will sl
 
 ammopress,blocks,Workstation,,,Prepper Ammo Press,,Prepper Munitionspresse,,,,,,,,,,,
 ammopressDesc,blocks,Block,,,"The Prepper Ammo Press allows players to craft ammunition in a compact standalone device. Bulk ammo crafts in half the time of the Workbench.",,"Mit der Prepper Munitionspresse können Spieler Munition in einem kompakten, eigenständigen Gerät herstellen. Massenmunition wird in der Hälfte der Zeit hergestellt, die man an der Werkbank benötigt.",,,,,,,,,,,
-workstationsT3-2AP,progression,Attribute,,,Tier 2: Prepper Ammo Press,,Stufe 2: Prepper Munitionspresse,,,,,,,,,,,
+workstationsT3-2WF,progression,Attribute,,,Tier 2: Water Filter,,Stufe 2: Wasserfilter,,,,,,,,,,,
+workstationsT3-3AP,progression,Attribute,,,Tier 3: Prepper Ammo Press,,Stufe 3: Prepper Munitionspresse,,,,,,,,,,,
 lblCategoryAmmoPress,UI,Tooltip,,,Ammo,,Munition,Munición,Munitions,Munizioni,弾薬,탄약,Amunicja,Munição,Боеприпасы,Mühimmat,弹药
 lblCategoryAmmoPressRegularAmmo,UI,Tooltip,,,Regular Ammo,,,,,,,,,,,,,
 lblCategoryAmmoPressHPAmmo,UI,Tooltip,,,HP Ammo,,,,,,,,,,,,,

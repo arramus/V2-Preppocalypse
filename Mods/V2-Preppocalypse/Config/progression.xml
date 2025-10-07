@@ -1,7 +1,7 @@
 <configs>
 
 	<!-- *** THE_FIREMAN'S_ALMANAC_VOLUME_07_EQUIPMENT -->
-	<set xpath="/progression/perks/book[@name='perkFiremansAlmanacEquipment']/effect_group/passive_effect[@name='VehicleSelfDamage']/@value">-.8</set> <!-- Default is -.25 -->
+	<set xpath="/progression/perks/book[@name='perkFiremansAlmanacEquipment']/effect_group/passive_effect[@name='VehicleSelfDamage']/@value">-.65</set> <!-- Default is -.25 -->
 	<!-- *** ART_OF_MINING_VOLUME_05_BUNDLES -->
 	<append xpath="/progression/perks/book[@name='perkArtOfMiningPallets']/effect_group/passive_effect/@tags">,resourceClayLumpBundle</append>
 	<!-- Change Pack Mule Perk to unlock all slots -->
@@ -123,18 +123,52 @@
 		</perk>
 	</insertAfter>
 	
-	<!-- Prepper Ammo Press, Screamer I.V. Stand and Rock Drill -->
+	<!-- Dew Collector Gatherer midTier0 -->
 	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@icon">,ammopress</append>	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@name_key">,workstationsT3-2AP</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@unlock_level">,40</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@icon">,toolDewGatherer</append>	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@name_key">,workstationsT1-3</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@unlock_level">,8</append>
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]">
+			<unlock_entry item="toolDewGatherer" unlock_tier="3"/>
+	</append>	
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="toolDewGatherer"/>
+		</effect_group>
+	</append>
+	
+	<!-- Dew Collector Tarp midTier1 -->
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@icon">,toolDewTarp</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@name_key">,workstationsT2-5</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@unlock_level">,28</append>
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]">
+			<unlock_entry item="toolDewTarp" unlock_tier="5"/>
+	</append>	
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="28,100" value="1" tags="toolDewTarp"/>
+		</effect_group>
+	</append>
+	
+	<!-- Water Filter midTier2, Prepper Ammo Press, Screamer I.V. Stand and Rock Drill -->
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@icon">,toolDewFilter,ammopress</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@name_key">,workstationsT3-2WF,workstationsT3-3AP</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@unlock_level">,35,40</append>
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]">
-			<unlock_entry item="ammopress" unlock_tier="2" />
+			<unlock_entry item="toolDewFilter" unlock_tier="2" />
+			<unlock_entry item="ammopress" unlock_tier="3" />
 	</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
 		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="toolDewFilter"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="ammopress"/>
 		</effect_group>
 	</append>
