@@ -120,9 +120,11 @@
 				<grid depth="10" name="inventory" rows="1" cols="10" pos="0,0" cell_width="75" cell_height="75" repeat_content="true">
 					<item_stack name="0"/>
 				</grid>
+				<button depth="3" name="btnClearInventory1" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="800, -32" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
 				<grid depth="10" name="inventory2" rows="1" cols="10" pos="0,100" cell_width="75" cell_height="75" repeat_content="true" visible="{secondrow}">
 					<item_stack name="0"/>
 				</grid>
+				<button depth="3" name="btnClearInventory2" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="800, 50" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{# creativewindowopen and secondrow}" />
 			</rect>
 		
 				<grid name="AmuNum" depth="16" pos="47,10" rows="1" cols="10" cell_width="75" cell_height="70" repeat_content="false">

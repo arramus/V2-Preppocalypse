@@ -67,11 +67,15 @@
 	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='tiles']/@value">8, 9</set> <!-- 5, 6 -->
 	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='tiles']/@value">10, 11</set> <!-- 7, 8 -->
 
-	<!-- Town expansion to Pine Forest to reduce repetition -->	
-	<append xpath="/rwgmixer/township[@name='town']/property[@name='biomes']/@value">,forest</append>
-	<!-- City expansion to Pine Forest and Burnt Forest to reduce repetition -->	
-	<append xpath="/rwgmixer/township[@name='city']/property[@name='biomes']/@value">,forest,burntforest</append>
-	<!-- Big City expansion to Desert and Snow to reduce repetition -->		
+	<!-- Country town expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='countrytown']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- Town expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='town']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- City expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='city']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- Wasteland City expansion to Desert and Snow -->
+	<append xpath="/rwgmixer/township[@name='wasteland_city']/property[@name='biomes']/@value">,desert,snow</append>
+	<!-- Big City expansion to Desert and Snow -->
 	<append xpath="/rwgmixer/township[@name='citybig']/property[@name='biomes']/@value">,desert,snow</append>
 
 	<append xpath="/rwgmixer">
