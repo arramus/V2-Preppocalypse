@@ -1937,7 +1937,7 @@
 
 	<effect_group name="Base Effects">
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalBossZombieGracePREPPERDeco"/>
-		<passive_effect name="HealthMax" operation="base_set" value="3300"/>
+		<passive_effect name="HealthMax" operation="base_set" value="3500"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".5"/> <!-- Feral damage -->
 	</effect_group>
 
@@ -2562,7 +2562,7 @@
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="5000"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="65"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalDireFireWolfDeco"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="7"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
@@ -2633,7 +2633,7 @@
 		<!-- Spider Glider Fire Starter -->
 
 		<entity_class name="zombieSpiderFeralGliderPREPPER" extends="zombieSpiderFeral"> <!-- + 10% hits and gains -->
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="Mesh" value="@:Entities/Zombies/Spider/ZSpiderFeral.prefab"/>
 			<property name="Mass" value="50"/>
@@ -2689,7 +2689,7 @@
 		<!-- Spider Drone Pipe Bomber -->
 		
 		<entity_class name="zombieSpiderFeralBomberPREPPER" extends="zombieSpiderFeral">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="Mesh" value="@:Entities/Zombies/Spider/ZSpiderFeral.prefab"/>
 			<property name="Mass" value="50"/>
@@ -2745,7 +2745,7 @@
 		<!-- M60 Demolition -->
 		
 <entity_class name="zombieM60DemolitionPREPPER" extends="zombieDemolition"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,boss"/>
+	<property name="Tags" value="entity,zombie,walker,boss,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
@@ -2809,7 +2809,7 @@
 		<!-- SMG Arlene -->
 
 <entity_class name="zombieSMGArlenePREPPER" extends="zombieArleneRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Arlene/ZArleneFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Arlene/Materials/HD_Arlene2.mat,@:Entities/Zombies/Arlene/Materials/HD_Arlene3.mat"/>
 	<property name="MatColor" value=""/>
@@ -2843,7 +2843,7 @@
 </entity_class>
 
 <entity_class name="zombieSMGArleneRadiatedPREPPER" extends="zombieArleneRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Arlene/ZArleneRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Arlene/Materials/HD_Arlene_Radiated2.mat,@:Entities/Zombies/Arlene/Materials/HD_Arlene_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -2887,7 +2887,7 @@
 		<!-- Tactical Assault Rifle Soldier -->
 
 <entity_class name="zombieTARifleSoldierPREPPER" extends="zombieSoldierRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Soldier/ZSoldierFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -2930,7 +2930,7 @@
 </entity_class>
 
 <entity_class name="zombieTARifleSoldierRadiatedPREPPER" extends="zombieSoldierRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Soldier/ZSoldierRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -2975,7 +2975,7 @@
 		<!-- Hazmat Stun Baton -->
 
 <entity_class name="zombieBatonHazmatPREPPER" extends="zombieMaleHazmatRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Hazmat/ZHazmatFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Hazmat/Materials/HD_HazmatZ2.mat,@:Entities/Zombies/Hazmat/Materials/HD_HazmatZ3.mat"/>
 	<property name="MatColor" value=""/>
@@ -3013,7 +3013,7 @@
 </entity_class>
 
 <entity_class name="zombieBatonHazmatRadiatedPREPPER" extends="zombieMaleHazmatRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Hazmat/ZHazmatRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Hazmat/Materials/HD_Hazmat_Radiated2.mat,@:Entities/Zombies/Hazmat/Materials/HD_Hazmat_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -3053,7 +3053,7 @@
 		<!-- Axe Lumberjack -->
 
 <entity_class name="zombieSteelAxeLumberjackPREPPER" extends="zombieLumberjackRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Lumberjack/ZLumberjackFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3084,7 +3084,7 @@
 </entity_class>
 
 <entity_class name="zombieSteelAxeLumberjackRadiatedPREPPER" extends="zombieLumberjackRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Lumberjack/ZLumberjackRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3164,7 +3164,7 @@
 
 <!-- INFERNAL -->
 <entity_class name="zombieSteelAxeLumberjackInfernalPREPPER" extends="zombieLumberjackRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,infernal"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,infernal,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Lumberjack/ZLumberjackRadiated.prefab"/>
 	<property name="MatColor" value="infernal"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3213,7 +3213,7 @@
 		<!-- Machete Party Girl -->
 		
 <entity_class name="zombieMachetePartyGirlPREPPER" extends="zombiePartyGirlRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/CocktailWaitress/ZCocktailWaitressFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/CocktailWaitress/Materials/HD_CocktailWaitress2.mat,@:Entities/Zombies/CocktailWaitress/Materials/HD_CocktailWaitress3.mat"/>
 	<property name="MatColor" value=""/>
@@ -3243,7 +3243,7 @@
 </entity_class>
 
 <entity_class name="zombieMachetePartyGirlRadiatedPREPPER" extends="zombiePartyGirlRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/CocktailWaitress/ZCocktailWaitressRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/CocktailWaitress/Materials/HD_Cocktail_Waitress_Radiated2.mat,@:Entities/Zombies/CocktailWaitress/Materials/HD_Cocktail_Waitress_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -3322,7 +3322,7 @@
 
 <!-- INFERNAL -->
 <entity_class name="zombieMachetePartyGirlInfernalPREPPER" extends="zombiePartyGirlRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,infernal"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,infernal,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/CocktailWaitress/ZCocktailWaitressRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/CocktailWaitress/Materials/HD_Cocktail_Waitress_Radiated2.mat,@:Entities/Zombies/CocktailWaitress/Materials/HD_Cocktail_Waitress_Radiated3.mat"/>
 	<property name="MatColor" value="infernal"/>
@@ -3371,7 +3371,7 @@
 
 <entity_class name="zombiePistolBusinessManPREPPER" extends="zombieBusinessManRadiated"> <!-- + 10% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Suit/ZSuitFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Suit/Materials/HD_SuitZ2.mat,@:Entities/Zombies/Suit/Materials/HD_SuitZ3.mat"/>
@@ -3415,7 +3415,7 @@
 
 <entity_class name="zombiePistolBusinessManRadiatedPREPPER" extends="zombieBusinessManRadiated"> <!-- + 25% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Suit/ZSuitRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Suit/Materials/HD_SuitZ_Radiated2.mat,@:Entities/Zombies/Suit/Materials/HD_SuitZ_Radiated3.mat"/>
@@ -3461,7 +3461,7 @@
 
 <entity_class name="zombieNailgunUtilityWorkerPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 10% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Worker/ZWorkerFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Worker/Materials/HD_Worker2.mat,@:Entities/Zombies/Worker/Materials/HD_Worker3.mat"/>
@@ -3505,7 +3505,7 @@
 
 <entity_class name="zombieNailgunUtilityWorkerRadiatedPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 25% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Worker/ZWorkerRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Worker/Materials/HD_WorkerZ_Radiated2.mat,@:Entities/Zombies/Worker/Materials/HD_WorkerZ_Radiated3.mat"/>
@@ -3550,7 +3550,7 @@
 		<!-- Sniper Wight replaced Boe -->
 
 <entity_class name="zombieSwissVetterliWightPREPPER" extends="zombieWightRadiated"> <!-- + 10% hits and gains of Radiated Boe as Wight is a beast, and 10% smaller -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Wight/ZWightFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
@@ -3593,7 +3593,7 @@
 </entity_class>
 
 <entity_class name="zombieSwissVetterliWightRadiatedPREPPER" extends="zombieWightRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Wight/ZWightRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
@@ -3638,7 +3638,7 @@
 		<!-- Chainsaw Moe -->
 
 <entity_class name="zombieChainsawMoePREPPER" extends="zombieMoeRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Moe/ZMoeFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Moe/Materials/HD_Moe2.mat,@:Entities/Zombies/Moe/Materials/HD_Moe3.mat"/>
 	<property name="MatColor" value=""/>
@@ -3669,7 +3669,7 @@
 </entity_class>
 
 <entity_class name="zombieChainsawMoeRadiatedPREPPER" extends="zombieMoeRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Moe/ZMoeRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated2.mat,@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -3703,7 +3703,7 @@
 		<!-- Desert Vulture Tom Clark -->
 
 <entity_class name="zombieDesertVultureTomClarkPREPPER" extends="zombieTomClarkRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/TomClark/ZTomClarkFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/TomClark/Materials/HD_TomClark2.mat,@:Entities/Zombies/TomClark/Materials/HD_TomClark3.mat"/>
 	<property name="MatColor" value=""/>
@@ -3746,7 +3746,7 @@
 </entity_class>
 
 <entity_class name="zombieDesertVultureTomClarkRadiatedPREPPER" extends="zombieTomClarkRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/TomClark/ZTomClarkRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/TomClark/Materials/HD_TomClark_Radiated2.mat,@:Entities/Zombies/TomClark/Materials/HD_TomClark_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -3792,7 +3792,7 @@
 		<!-- Pump Shotgun Biker -->
 
 <entity_class name="zombiePumpShotgunBikerPREPPER" extends="zombieBikerRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Biker/ZBikerFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3836,7 +3836,7 @@
 </entity_class>
 
 <entity_class name="zombiePumpShotgunBikerRadiatedPREPPER" extends="zombieBikerRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Biker/ZBikerRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3882,7 +3882,7 @@
 		<!-- Baton Fat Cop -->
 
 <entity_class name="zombieBatonFatCopPREPPER" extends="zombieFatCopRadiated"> <!-- + 10% hits and gains / melee remains exactly the same due to explosion/block damage -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Cop/ZCopFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3917,7 +3917,7 @@
 </entity_class>
 
 <entity_class name="zombieBatonFatCopRadiatedPREPPER" extends="zombieFatCopRadiated"> <!-- + 25% hits and gains / melee remains exactly the same due to explosion/block damage -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Cop/ZCopRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -3954,7 +3954,7 @@
 		<!-- Steel Club Momma -->
 		
 <entity_class name="zombieSteelClubFemaleFatPREPPER" extends="zombieFemaleFatRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/BigMama/ZBigMamaFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/BigMama/Materials/HD_BigMomma2.mat,@:Entities/Zombies/BigMama/Materials/HD_BigMomma3.mat"/>
 	<property name="MatColor" value=""/>
@@ -3984,7 +3984,7 @@
 </entity_class>
 
 <entity_class name="zombieSteelClubFemaleFatRadiatedPREPPER" extends="zombieFemaleFatRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/BigMama/ZBigMamaRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/BigMama/Materials/HD_BigMomma_Radiated2.mat,@:Entities/Zombies/BigMama/Materials/HD_BigMomma_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -4017,7 +4017,7 @@
 		<!-- Bolt Nurse -->
 		
 <entity_class name="zombieBoltNursePREPPER" extends="zombieNurseRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Nurse/ZNurseFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Nurse/Materials/HD_NurseZ2.mat,@:Entities/Zombies/Nurse/Materials/HD_NurseZ3.mat"/>
 	<property name="MatColor" value=""/>
@@ -4061,7 +4061,7 @@
 </entity_class>
 
 <entity_class name="zombieBoltNurseRadiatedPREPPER" extends="zombieNurseRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Nurse/ZNurseRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Nurse/Materials/HD_NurseZ_Radiated2.mat,@:Entities/Zombies/Nurse/Materials/HD_NurseZ_Radiated3.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -4107,7 +4107,7 @@
 		<!-- Steel Sledgehammer Fat Hawaiian -->
 
   <entity_class name="zombieSteelSledgehammerFatHawaiianPREPPER" extends="zombieFatHawaiianRadiated"> <!-- + 10% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Hawaiian/ZHawaiianFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Hawaiian/Materials/HD_Hawaiian_Zombie2.mat,@:Entities/Zombies/Hawaiian/Materials/HD_Hawaiian_Zombie4.mat"/>
 	<property name="MatColor" value=""/>
@@ -4137,7 +4137,7 @@
   </entity_class>
   
   <entity_class name="zombieSteelSledgehammerFatHawaiianRadiatedPREPPER" extends="zombieFatHawaiianRadiated"> <!-- + 25% hits and gains -->
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Hawaiian/ZHawaiianRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Hawaiian/Materials/HD_Hawaiian_Zombie_Radiated2.mat,@:Entities/Zombies/Hawaiian/Materials/HD_Hawaiian_Zombie_Radiated4.mat"/>
 	<property name="MatColor" value="radiated"/>
@@ -4170,7 +4170,7 @@
   
 	<entity_class name="zombieSteelPanMarlenePREPPER" extends="zombieMarleneRadiated"> <!-- + 10% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Marlene/ZMarleneFeral.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Marlene/Materials/HD_Marlene2.mat,@:Entities/Zombies/Marlene/Materials/HD_Marlene3.mat"/>
 		<property name="MatColor" value=""/>
@@ -4201,7 +4201,7 @@
 	
 	<entity_class name="zombieSteelPanMarleneRadiatedPREPPER" extends="zombieMarleneRadiated"> <!-- + 25% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Marlene/ZMarleneRadiated.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Marlene/Materials/HD_Marlene_Radiated2.mat,@:Entities/Zombies/Marlene/Materials/HD_Marlene_Radiated3.mat"/>
 		<property name="MatColor" value="radiated"/>
@@ -4235,7 +4235,7 @@
 	
 	<entity_class name="zombieMagnumJanitorBubPREPPER" extends="zombieJanitorRadiated"> <!-- + 10% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Mechanic/ZMechanicFeral.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Mechanic/Materials/HD_MechanicZ2.mat"/>
 		<property name="MatColor" value=""/>
@@ -4279,7 +4279,7 @@
 	
 	<entity_class name="zombieMagnumJanitorBubRadiatedPREPPER" extends="zombieJanitorRadiated"> <!-- + 25% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Mechanic/ZMechanicRadiated.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Mechanic/Materials/HD_Mechanic_Radiated2.mat"/>
 		<property name="MatColor" value="radiated"/>
@@ -4325,7 +4325,7 @@
 		
 	<entity_class name="zombieAutoShotgunDarlenePREPPER" extends="zombieDarleneRadiated"> <!-- + 10% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Darlene/ZDarleneFeral.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Darlene/Materials/HD_Darlene2.mat,@:Entities/Zombies/Darlene/Materials/HD_Darlene3.mat"/>
 		<property name="MatColor" value=""/>
@@ -4369,7 +4369,7 @@
 	
 	<entity_class name="zombieAutoShotgunDarleneRadiatedPREPPER" extends="zombieDarleneRadiated"> <!-- + 25% hits and gains -->
 		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+		<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 		<property name="Mesh" value="@:Entities/Zombies/Darlene/ZDarleneRadiated.prefab"/>
 		<property name="AltMats" value="@:Entities/Zombies/Darlene/Materials/HD_Darlene_Radiated2.mat,@:Entities/Zombies/Darlene/Materials/HD_Darlene_Radiated3.mat"/>
 		<property name="MatColor" value="radiated"/>
@@ -4414,8 +4414,8 @@
 		<!-- Radiated Feral Wight --> <!-- + 10% hits and gains -->
   
 		<entity_class name="zombieWightRadiationShowerPREPPER" extends="zombieWightRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Wight/ZWightRadiated.prefab"/>
 			<property name="MatColor" value="radiated"/>
 
@@ -4463,7 +4463,7 @@
 		<!-- Mutated Bogeyman --> <!-- + 10% hits and gains -->
 
 		<entity_class name="zombieBogeymanPREPPER" extends="zombieMutatedRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Mutated/ZMutatedRadiated.prefab"/>
 			<property name="MatColor" value="radiated"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -4501,7 +4501,7 @@
 		<!-- Crispy --> <!-- + 10% hits and gains -->
 
 		<entity_class name="zombieCrispyPREPPER" extends="zombieBurntRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Burnt/ZBurntRadiated.prefab"/>
 			<property name="MatColor" value="radiated"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -4537,7 +4537,7 @@
 		<!-- Crispy --> <!-- + 10% hits and gains -->
 
 		<entity_class name="zombieMiniCrispyPREPPER" extends="zombieBurntRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Burnt/ZBurntRadiated.prefab"/>
 			<property name="MatColor" value="radiated"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -4574,7 +4574,7 @@
 
 		<entity_class name="zombieRocketPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER"/>
+			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4635,7 +4635,7 @@
 		
 		<entity_class name="zombieRocketRadiatedPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="350"/>
@@ -4696,7 +4696,7 @@
 		
 		<entity_class name="zombieScorcherPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER"/>
+			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4756,7 +4756,7 @@
 		
 		<entity_class name="zombieScorcherRadiatedPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER"/>
+			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
@@ -4905,7 +4905,7 @@
 		<!-- *** MINI TACTICAL ASSAULT RIFLE SOLDIER -->
 <entity_class name="zombieMiniTARifleSoldierPREPPER" extends="zombieSoldierRadiated">
 	<property name="SizeScale" value="0.8"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Soldier/ZSoldierFeral.prefab"/>
 	<property name="MatColor" value=""/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -4998,7 +4998,7 @@
 		<!-- *** MINI TACTICAL ASSAULT RIFLE RADIATED SOLDIER -->
 <entity_class name="zombieMiniTARifleSoldierRadiatedPREPPER" extends="zombieSoldierRadiated">
 	<property name="SizeScale" value="0.8"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Soldier/ZSoldierRadiated.prefab"/>
 	<property name="MatColor" value="radiated"/>
 	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
@@ -5047,7 +5047,7 @@
 <entity_class name="zombieBigNightBikerRadiated" extends="zombieBikerFeral">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Biker/ZBikerRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -5085,7 +5085,7 @@
 <entity_class name="zombieBigNightJetBikerRadiated" extends="zombieBikerFeral">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="Mesh" value="@:Entities/Zombies/Biker/ZBikerRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
@@ -5134,7 +5134,7 @@
 <entity_class name="zombieBigNightWightRadiated" extends="zombieWightRadiated"> <!-- Using Feral to accentuate light -->
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.3"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Wight/ZWightRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
 
@@ -5169,7 +5169,7 @@
 <entity_class name="zombieSmallNightScreamerRadiated" extends="zombieScreamerRadiated">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="0.8"/>
-	<property name="Tags" value="entity,zombie,spider,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,spider,feral,radiated,charged"/>
 	<property name="Prefab" value="ZLong"/>
 	<property name="Mesh" value="@:Entities/Zombies/Screamer/ZScreamerRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
@@ -5220,7 +5220,7 @@
 <entity_class name="zombieBigNightScreamerRadiated" extends="zombieScreamerRadiated">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.4"/>
-	<property name="Tags" value="entity,zombie,spider,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,spider,feral,radiated,charged"/>
 	<property name="Prefab" value="ZLong"/>
 	<property name="Mesh" value="@:Entities/Zombies/Screamer/ZScreamerRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
@@ -5271,7 +5271,7 @@
 <entity_class name="zombieBigNightFatCopRadiated" extends="zombieFatCopRadiated">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.4"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Cop/ZCopRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -5310,7 +5310,7 @@
 		<!-- *** ZOMBIE_BIG_BURNT_SIREN-->
 <entity_class name="zombieBigNightBurntSiren" extends="zombieTemplateShort">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Tags" value="entity,zombie,walker,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Burnt/ZBurntRadiated.prefab"/>
 	<property name="MatColor" value="nightlight"/>
 	<property name="WalkType" value="7"/>
@@ -5371,7 +5371,7 @@
 <entity_class name="zombieBigNightSteveCrawlerRadiated" extends="zombieSteveCrawlerFeral">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.55"/>
-	<property name="Tags" value="entity,zombie,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Crawler/ZCrawlerFeral.prefab"/>
 	<property name="Mass" value="180"/>
 	<property name="WalkType" value="22"/>
@@ -5421,7 +5421,7 @@
 <entity_class name="zombieBigNightSteveCrawlerPlasmaRadiated" extends="zombieSteveCrawlerFeral">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.55"/>
-	<property name="Tags" value="entity,zombie,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Crawler/ZCrawlerFeral.prefab"/>
 	<property name="Mass" value="180"/>
 	<property name="WalkType" value="22"/>
@@ -5470,7 +5470,7 @@
 		<!-- *** ZOMBIE_BIG_NIGHT_CLAW_HAMMER_SKATEBOARDER_RADIATED -->
 <entity_class name="zombieBigNightSkateboarderClawHammerRadiated" extends="zombieSkateboarderRadiated">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Thug/ZThugRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Thug/Materials/HD_Thug_Radiated2.mat,@:Entities/Zombies/Thug/Materials/HD_Thug_Radiated3.mat"/>
 	<property name="MatColor" value="nightlight"/>
@@ -5521,7 +5521,7 @@
 		<!-- *** ZOMBIE_BIG_NIGHT_SKATEBOARDER_UNDERTAKER_RADIATED -->
 <entity_class name="zombieBigNightSkateboarderUndertakerRadiated" extends="zombieSkateboarderRadiated">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<property name="Mesh" value="@:Entities/Zombies/Thug/ZThugRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Thug/Materials/HD_Thug_Radiated2.mat,@:Entities/Zombies/Thug/Materials/HD_Thug_Radiated3.mat"/>
 	<property name="MatColor" value="nightlight"/>
@@ -5572,7 +5572,7 @@
 		<!-- *** ZOMBIE_BIG_NIGHT_ROCKET_PREPPER -->
 		<entity_class name="zombieBigNightJetRocketPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="MoveSpeed" value="1.25"/>
@@ -5635,7 +5635,7 @@
 		
 		<entity_class name="zombieBigNightJetRocketRadiatedPREPPER" extends="zombieDemolition">
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
 			<property name="Class" value="EntityVulture"/>
 			<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 			<property name="MoveSpeed" value="1.25"/>
@@ -5701,7 +5701,7 @@
 <entity_class name="zombieToolsUtilityWorkerPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 10% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
 	<property name="SizeScale" value="1.1"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Worker/ZWorkerFeral.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Worker/Materials/HD_Worker2.mat,@:Entities/Zombies/Worker/Materials/HD_Worker3.mat"/>
@@ -5734,7 +5734,7 @@
 <entity_class name="zombieToolsUtilityWorkerRadiatedPREPPER" extends="zombieUtilityWorkerRadiated"> <!-- + 25% hits and gains -->
 	<property name="HideInSpawnMenu" value="false"/>
 	<property name="SizeScale" value="1.1"/>
-	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
 	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
 	<property name="Mesh" value="@:Entities/Zombies/Worker/ZWorkerRadiated.prefab"/>
 	<property name="AltMats" value="@:Entities/Zombies/Worker/Materials/HD_WorkerZ_Radiated2.mat,@:Entities/Zombies/Worker/Materials/HD_WorkerZ_Radiated3.mat"/>
