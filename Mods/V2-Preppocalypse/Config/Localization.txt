@@ -483,6 +483,7 @@ RockDrillFull,blocks,Block,,,Prepper Rock Drill (Collection Stage),,Prepper Rock
 DrillGasCan,items,Item,,,Prepper Drill Gas Can,,Prepper Drill Gas Kann,,,,,,,,,,,
 DrillGasCanDesc,items,Item,,,"The Prepper Drill Gas Can allows players to power the Prepper Rock Drill for one complete drill cycle.",,"Mit dem Prepper Drill Gas Kann können die Spieler den Prepper Rock Drill für einen kompletten Bohrzyklus betreiben.",,,,,,,,,,,
 workstationsT4-3RD,progression,Attribute,,,Tier 4: Prepper Rock Drill,,Stufe 4: Prepper Rock Drill,,,,,,,,,,,
+ammoGasCanDesc,items,Item,,,"A can of gas. Can be used to fuel powered tools and vehicles.\nCrafted in lots of 2 on the Chemistry Station or 1 on the Campfire.",,"Ein Benzinkanister. Kann zum Betreiben von Werkzeugen und Fahrzeugen verwendet werden.\nHergestellt werden kann sie in Zweiergruppen an der Chemiestation oder einzeln am Lagerfeuer.",,,,,,,,,,,
 
 glassClearBulletproofBlockVariantHelper,blocks,block,,,Clear Bulletproof Glass Block,,Klarer kugelsicherer Glasblock,,,,,,,,,,,
 glassClearBulletproofCTRPlate,blocks,block,,,Clear Bulletproof Glass Plate Centered,,Klare kugelsichere Glasplatte zentriert,,,,,,,,,,,

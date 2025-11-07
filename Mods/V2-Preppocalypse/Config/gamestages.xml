@@ -3,7 +3,7 @@
 	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@num">7777</set> <!-- Jackpot -->
 	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@maxAlive">256</set> <!-- Default as high GS and bringing more for lower GS party potential -->
 
-	<!-- V2 Values increase default by about +25 per wave for zombies and +3 for animals with additional custom groups for Preppo Mixed and Flyers -->
+	<!-- V2 Values increase default by about +30 per wave for zombies and +4 for animals with additional custom groups for Preppo Mixed and Flyers -->
 	
 	<remove xpath="/gamestages/spawner[@name='WanderingHorde']"/>
 	
@@ -13,154 +13,154 @@
 		<!-- These will wrap around at 50. -->
 		<!-- Will probably have to undo that later. Rev 19924 /19944 -->
 		<gamestage stage="01">
-			<spawn group="wanderingHordeStageGS1"	num="30" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS1"	num="35" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="02">
-			<spawn group="wanderingHordeStageGS2"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS2"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="03">
-			<spawn group="FwanderingHordeStageGS1"	num="29" maxAlive="30" duration="9"/>
-		</gamestage>
-		<gamestage stage="04">
 			<spawn group="FwanderingHordeStageGS1"	num="34" maxAlive="30" duration="9"/>
 		</gamestage>
+		<gamestage stage="04">
+			<spawn group="FwanderingHordeStageGS1"	num="39" maxAlive="30" duration="9"/>
+		</gamestage>
 		<gamestage stage="05">
-			<spawn group="FwanderingHordeStageGS1"	num="29" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS1"	num="34" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="06">
-			<spawn group="FwanderingHordeStageGS2"	num="32" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS2"	num="37" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="07">
-			<spawn group="FwanderingHordeStageGS4"	num="33" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS4"	num="38" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="08">
-			<spawn group="wanderingHordeStageGS8"	num="30" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS8"	num="35" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="09">
-			<spawn group="wanderingHordeStageGS8"	num="31" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS8"	num="36" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="10">
-			<spawn group="PrepperFlyerEntitiesGroupGS01"	num="7" maxAlive="30" duration="9"/>
+			<spawn group="PrepperFlyerEntitiesGroupGS01"	num="8" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="11">
-			<spawn group="wanderingHordeStageGS14"	num="31" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS14"	num="36" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="12">
-			<spawn group="PrepperMixedEntitiesGroupGS01"	num="11" maxAlive="30" duration="9"/>
+			<spawn group="PrepperMixedEntitiesGroupGS01"	num="12" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="13">
-			<spawn group="FwanderingHordeStageGS7"	num="32" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS7"	num="37" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="14">
-			<spawn group="FwanderingHordeStageGS10"	num="31" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS10"	num="36" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="15">
-			<spawn group="ZombieBikerBarGroup"		num="33" maxAlive="30" duration="9"/>
+			<spawn group="ZombieBikerBarGroup"	num="38" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="16">
-			<spawn group="FwanderingHordeStageGS13"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS13"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="17">
-			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="11" maxAlive="30" duration="9"/>
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="12" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="18">
-			<spawn group="wanderingHordeStageGS22"	num="32" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS22"	num="37" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="19">
-			<spawn group="wanderingHordeStageGS27"	num="33" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS27"	num="38" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="20">
-			<spawn group="ZombieDogGroup"			num="9" maxAlive="30" duration="9"/>
+			<spawn group="ZombieDogGroup"	num="10" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="21">
-			<spawn group="FwanderingHordeStageGS16"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS16"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="22">
-			<spawn group="FwanderingHordeStageGS19"	num="33" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS19"	num="38" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="23">
-			<spawn group="WolfPack"	num="7" maxAlive="30" duration="9"/>
+			<spawn group="WolfPack"	num="8" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="24">
-			<spawn group="ZombieGhostTownGroup"		num="34" maxAlive="30" duration="9"/>
+			<spawn group="ZombieGhostTownGroup"		num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="25">
-			<spawn group="wanderingHordeStageGS31"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS31"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="26">
-			<spawn group="wanderingHordeStageGS36"	num="32" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS36"	num="37" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="27">
-			<spawn group="PrepperFlyerEntitiesGroupGS01"	num="6" maxAlive="30" duration="9"/>
+			<spawn group="PrepperFlyerEntitiesGroupGS01"	num="7" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="28">
-			<spawn group="wanderingHordeStageGS41"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS41"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="29">
-			<spawn group="PrepperMixedEntitiesGroupGS01"	num="17" maxAlive="30" duration="9"/>
+			<spawn group="PrepperMixedEntitiesGroupGS01"	num="18" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="30">
-			<spawn group="FwanderingHordeStageGS31"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS31"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="31">
-			<spawn group="FwanderingHordeStageGS35"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS35"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="32">
-			<spawn group="wanderingHordeStageGS46"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS46"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="33">
-			<spawn group="wanderingHordeStageGS52"	num="31" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS52"	num="36" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="34">
-			<spawn group="ZombieDogGroup"			num="10" maxAlive="30" duration="9"/>
+			<spawn group="ZombieDogGroup"	num="11" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="35">
-			<spawn group="wanderingHordeStageGS58"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS58"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="36">
-			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="17" maxAlive="30" duration="9"/>
+			<spawn group="PrepperMixedSoldierEntitiesGroupGS01"	num="18" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="37">
-			<spawn group="FwanderingHordeStageGS40"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS40"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="38">
-			<spawn group="ZombieAnimalsGroup"		num="8" maxAlive="30" duration="9"/>
+			<spawn group="ZombieAnimalsGroup"	num="9" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="39">
-			<spawn group="FwanderingHordeStageGS44"	num="30" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS44"	num="35" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="40">
-			<spawn group="FwanderingHordeStageGS49"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS49"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="41">
-			<spawn group="WolfPack"					num="8" maxAlive="30" duration="9"/>
+			<spawn group="WolfPack"		num="9" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="42">
-			<spawn group="wanderingHordeStageGS70"	num="36" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS70"	num="41" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="43">
-			<spawn group="wanderingHordeStageGS76"	num="34" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS76"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="44">
-			<spawn group="ZombieSoldierGroup"		num="34" maxAlive="30" duration="9"/>
+			<spawn group="ZombieSoldierGroup"	num="39" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="45">
-			<spawn group="wanderingHordeStageGS82"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="wanderingHordeStageGS82"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="46">
-			<spawn group="FwanderingHordeStageGS54"	num="36" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS54"	num="41" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="47">
-			<spawn group="PrepperFlyerEntitiesGroupGS100"	num="9" maxAlive="30" duration="9"/>
+			<spawn group="PrepperFlyerEntitiesGroupGS100"	num="10" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="48">
-			<spawn group="FwanderingHordeStageGS59"	num="35" maxAlive="30" duration="9"/>
+			<spawn group="FwanderingHordeStageGS59"	num="40" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="49">
-			<spawn group="PrepperMixedEntitiesGroupGS50"	num="19" maxAlive="30" duration="9"/>
+			<spawn group="PrepperMixedEntitiesGroupGS50"	num="20" maxAlive="30" duration="9"/>
 		</gamestage>
 		<gamestage stage="50">
-			<spawn group="ZombieBearsGroup" 	num="5" maxAlive="30" duration="9"/>
+			<spawn group="ZombieBearsGroup"		num="6" maxAlive="30" duration="9"/>
 		</gamestage>
 	</spawner>
 	

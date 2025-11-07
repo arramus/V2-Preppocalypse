@@ -175,6 +175,10 @@
 	<recipe name="resourceClayLumpBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,workbenchCrafting,packMuleCrafting">
 		<ingredient name="resourceClayLump" count="6000"/>
 	</recipe>
+	
+	<recipe name="ammoGasCan" count="1" craft_time="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="resourceOilShale" count="1"/>
+	</recipe>
 
 	<!-- Prepper Screamer I.V. Stand -->
 	
