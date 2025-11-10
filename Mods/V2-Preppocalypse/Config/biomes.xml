@@ -75,7 +75,14 @@
 	</append>
 
 	<append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">
-		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.005"/>
+		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0025"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.0025"/>
+		<blockontop blockname="decoWildWestWagon" prob="0.00005" rotatemax="7"/>
+		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.005"/>
+		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggageBigRandomLootHelper" prob="0.0001" rotatemax="7"/>
+		<blockontop blockname="cntLuggagePileARandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggagePileBRandomLootHelper" prob="0.0001" rotatemax="7"/>
 		<blockontop blockname="goreBlockHumanCorpse" prob=".00005"/>
 		<blockontop blockname="goreBlockHumanCorpse1" prob=".00005"/>
 		<blockontop blockname="goreBlockHumanCorpse2" prob=".00005"/>
@@ -84,21 +91,35 @@
 		<blockontop blockname="goreHumanSkull" prob=".00005"/>
 	</append>
 	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
-		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0075"/>
-		<blockontop blockname="goreBlockHumanCorpse" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse1" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse2" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse3" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanBones" prob=".00005"/>
-		<blockontop blockname="goreHumanSkull" prob=".00005"/>
+		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.005" rotatemax="7"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.005" rotatemax="7"/>
+		<blockontop blockname="decoWildWestWagon" prob="0.00005" rotatemax="7"/>
+		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.0035"/>
+		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggageBigRandomLootHelper" prob="0.0001" rotatemax="7"/>
+		<blockontop blockname="cntLuggagePileARandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggagePileBRandomLootHelper" prob="0.0001" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse1" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse2" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse3" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanBones" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreHumanSkull" prob=".00005" rotatemax="7"/>
 	</append>
 	<append xpath="/worldgeneration/pois/poi[@name='Road Gravel']">
-		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0075"/>
-		<blockontop blockname="goreBlockHumanCorpse" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse1" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse2" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanCorpse3" prob=".00005"/>
-		<blockontop blockname="goreBlockHumanBones" prob=".00005"/>
-		<blockontop blockname="goreHumanSkull" prob=".00005"/>
+		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0075" rotatemax="7"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.0075" rotatemax="7"/>
+		<blockontop blockname="decoWildWestWagon" prob="0.0005" rotatemax="7"/>
+		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.0025"/>
+		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggageBigRandomLootHelper" prob="0.0001" rotatemax="7"/>
+		<blockontop blockname="cntLuggagePileARandomLootHelper" prob="0.0001" rotatemax="7"/>		
+		<blockontop blockname="cntLuggagePileBRandomLootHelper" prob="0.0001" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse1" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse2" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanCorpse3" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreBlockHumanBones" prob=".00005" rotatemax="7"/>
+		<blockontop blockname="goreHumanSkull" prob=".00005" rotatemax="7"/>
 	</append>	
 </Preppocalypse>
