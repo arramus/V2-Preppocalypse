@@ -405,6 +405,14 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelRadiatedPrefab.prefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBogeymanClaretPREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelGasPrefab.prefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" local_scale=".75,.75,.75" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieCrispyPREPPERDeco" hidden="true">
 			<effect_group>				
@@ -442,7 +450,7 @@
 		<buff name="zombieRocketPREPPERDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPREPPERMuzzle"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
@@ -454,7 +462,7 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Vehicles/Car/motorPrefab.prefab" local_offset="0,0.55,-0.5" local_rotation="90,0,180" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset="0.05,-0.2,-0.85" local_rotation="0,0,0" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPREPPERMuzzle"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
@@ -465,7 +473,7 @@
 		<buff name="zombieRocketRadiatedPREPPERDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPREPPERMuzzle"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
@@ -478,7 +486,7 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Vehicles/Car/motorPrefab.prefab" local_offset="0,0.55,-0.5" local_rotation="90,0,180" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" local_offset="0.05,-0.2,-0.85" local_rotation="0,0,0" parent_transform="Spine1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPREPPERMuzzle"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />

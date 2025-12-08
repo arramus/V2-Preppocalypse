@@ -1559,6 +1559,7 @@
 <append xpath="/entity_classes">
 
 	<color name="nightlight" value="1,1,1, .2"/> <!-- White -->
+	<color name="claret" value="2,0,0, .2"/> <!-- Claret -->
 
 <!-- Bloodmoon Bad Bunny -->
 	
@@ -4463,7 +4464,7 @@
 		<!-- Mutated Bogeyman --> <!-- + 10% hits and gains -->
 
 		<entity_class name="zombieBogeymanPREPPER" extends="zombieMutatedRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
+			<property name="Tags" value="entity,zombie,walker,wasteland,feral,radiated,charged"/>
 			<property name="Mesh" value="@:Entities/Zombies/Mutated/ZMutatedRadiated.prefab"/>
 			<property name="MatColor" value="radiated"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
@@ -4495,6 +4496,44 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="zombieWightRadiationShowerPREPPERAOE"/>
+			</effect_group>
+		</entity_class>
+		
+		<!-- Mutated Claret Bogeyman --> <!-- + 100% hits and gains -->
+		
+		<entity_class name="zombieBogeymanClaretPREPPER" extends="zombieMutatedRadiated">
+			<property name="Tags" value="entity,zombie,walker,wasteland,feral,radiated,charged"/>
+			<property name="Mesh" value="@:Entities/Zombies/Mutated/ZMutatedRadiated.prefab"/>
+			<property name="MatColor" value="claret"/>
+			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+			<!-- Gameplay zombieRadRadiated -->
+			<property name="HandItem" value="meleeHandZombieBogeymanClaretPREPPER"/>
+			<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+			<property name="MoveSpeedAggro" value=".8, 1.35"/>
+			<property name="ExperienceGain" value="3000"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>			
+			<property name="LootDropProb" value=".35"/>
+			<property name="SizeScale" value="1.35"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="drugNerdTats" tag="allToolsHarvest" count="1" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>			
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="3200"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBogeymanClaretPREPPERDeco"/>			
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+				<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
 		</entity_class>
 		
@@ -4701,7 +4740,7 @@
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
 
-			<property name="RightHandJointName" value="RightShoulder"/>
+			<!--property name="RightHandJointName" value="RightShoulder"/-->
 			
 	<property name="AITask" value="
 	BreakBlock|
@@ -4761,7 +4800,7 @@
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
 
-			<property name="RightHandJointName" value="RightShoulder"/>
+			<!--property name="RightHandJointName" value="RightShoulder"/-->
 			
 	<property name="AITask" value="
 	BreakBlock|
@@ -6280,6 +6319,164 @@
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<append xpath="/entity_classes/entity_class[@name='zombiePlagueSpitterRadiated']">
+	<property name="HandItem" value="meleeHandZombiePlagueSpitterRadiated"/>
+</append>
+
+		<!-- Experience and Health at half of strong parent variants -->
+		<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER-->
+<entity_class name="zombieMiniPlagueSpitter" extends="zombiePlagueSpitter">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert"/>
+	<property name="SizeScale" value="0.6"/>
+	<property name="Mass" value="80"/>
+	<property name="ExperienceGain" value="300"/><!-- 600 XP Plague Spitter -->
+
+	<property name="AITask" value="
+	BreakBlock|
+	DestroyArea|
+	Territorial|
+	ApproachDistraction|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	<property name="AITarget" value="
+	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+	BlockingTargetTask|
+	SetNearestCorpseAsTarget flags=edible|
+	SetNearestEntityAsTarget class=EntityPlayer,0,0,EntityBandit,0,-10|
+	"/>
+
+	<!-- Gameplay zombiePlagueSpitter -->
+	<property name="MoveSpeed" value="1.1"/>
+	<property name="MoveSpeedAggro" value=".6, 1.35"/> <!-- Normal -->
+	<property name="HandItem" value="meleeHandZombieShort"/>
+	<property name="SightRange" value="27"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>	
+	
+	<effect_group>
+		<passive_effect name="HealthMax" operation="base_set" value="225"/>
+	</effect_group>
+</entity_class>
+
+	<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER_FERAL-->
+<entity_class name="zombieMiniPlagueSpitterFeral" extends="zombieMiniPlagueSpitter">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/PlagueSpitter/ZPlagueSpitterFeral.prefab"/>
+	<!-- <property name="SoundSpawn" value="Ambient_Loops/a_fire_embersmoke_sm_lp"/> -->
+
+	<!-- Gameplay zombiePlagueSpitterFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- Normal Feral -->
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+	<property name="HandItem" value="meleeHandZombieShortFeral"/>
+	<property name="ExperienceGain" value="375"/><!-- 750 XP Normal Feral -->
+	<property name="LootDropProb" value=".04"/> <!-- Feral -->
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="475"/>
+	</effect_group>
+</entity_class>
+
+	<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER_RADIATED-->
+<entity_class name="zombieMiniPlagueSpitterRadiated" extends="zombieMiniPlagueSpitterFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/PlagueSpitter/ZPlagueSpitterRadiated.prefab"/>
+	<property name="MatColor" value="radiated"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombiePlagueSpitterRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="600"/><!-- 1200 XP Normal Radiated -->
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="850"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER_CHARGED -->
+<entity_class name="zombieMiniPlagueSpitterCharged" extends="zombieMiniPlagueSpitterRadiated">
+	<property name="MatColor" value="charged"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,charged"/>
+	<property name="ExperienceGain" value="700"/><!-- 1400 XP Normal Charged -->
+	<property name="HandItem" value="meleeHandZombieCharged"/>
+	<property name="MoveSpeedPattern" value="^chargedMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Charged -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="950"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER_INFERNAL -->
+<entity_class name="zombieMiniPlagueSpitterInfernal" extends="zombieMiniPlagueSpitterRadiated">
+	<property name="MatColor" value="infernal"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,infernal"/>
+	<property name="ExperienceGain" value="800"/><!-- 1600 XP Normal Infernal -->
+	<property name="HandItem" value="meleeHandZombieInfernal"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Infernal -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 	</effect_group>
 </entity_class>
 
