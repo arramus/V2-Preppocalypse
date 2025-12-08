@@ -5583,7 +5583,7 @@
 
 <item name="ammoProjectileZombieScorcherRadiatedPREPPER">
 	<!--property name="Meshfile" value="particleeffects/p_onFire"/-->
-	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Vomit/vomitRadPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Molotov/molotov_thrownPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action1">
@@ -5591,6 +5591,8 @@
 		<property name="DamageEntity" value="5"/>
 		<property name="DamageBlock" value="25"/>
 		<property name="Explosion.ParticleIndex" value="10"/>
+		<property name="Explosion.Duration" value="8"/>
+		<property name="Explosion.RadiusEntities" value="2"/> <!-- damage radius for entities -->
 		<property name="Velocity" value="18"/>
 		<property name="FlyTime" value=".2"/>
 		<property name="LifeTime" value="2"/>

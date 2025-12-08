@@ -4618,7 +4618,7 @@
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="300"/>
 
-			<property name="RightHandJointName" value="LeftShoulder"/>
+			<!--property name="RightHandJointName" value="LeftShoulder"/-->
 			
 	<property name="AITask" value="
 	BreakBlock|
@@ -4679,7 +4679,7 @@
 			<property name="Class" value="EntityZombieCop"/>
 			<property name="Mass" value="350"/>
 
-			<property name="RightHandJointName" value="LeftShoulder"/>
+			<!--property name="RightHandJointName" value="LeftShoulder"/-->
 			
 	<property name="AITask" value="
 	BreakBlock|
