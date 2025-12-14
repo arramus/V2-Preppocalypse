@@ -35,6 +35,12 @@
 	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='CanClimbLadders']/@value">true</set> <!-- Offset Ladder Horde Night and the new Dire Wolf -->	
 	<!-- Zombie Harvesting -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">150</set> <!-- Bear is 600 and reduced from 1000 -->
+
+	<!-- Giving the Radiated Plague Spitter a custom hand item -->
+	<append xpath="/entity_classes/entity_class[@name='zombiePlagueSpitterRadiated']">
+		<property name="HandItem" value="meleeHandZombiePlagueSpitterRadiated"/>
+	</append>
+
 	<!-- Harvest does not extend on entities and manually listed for default -->
 	<!-- *** ZOMBIES_SLIM -->
 	<append xpath="/entity_classes/entity_class[@name='zombieArlene']">
@@ -6321,10 +6327,6 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
 </entity_class>
-
-<append xpath="/entity_classes/entity_class[@name='zombiePlagueSpitterRadiated']">
-	<property name="HandItem" value="meleeHandZombiePlagueSpitterRadiated"/>
-</append>
 
 		<!-- Experience and Health at half of strong parent variants -->
 		<!-- *** ZOMBIE_MINI_PLAGUE_SPITTER-->
