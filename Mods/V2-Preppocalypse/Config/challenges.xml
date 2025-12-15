@@ -21,7 +21,7 @@
 	<append xpath="/challenges/challenge[@name='killDemolitions']/objective[@type='Kill']/@entity_names">,zombieCrispyPREPPER,zombieMiniCrispyPREPPER,zombieBigNightBurntSiren,zombieBurntStoneSpear,zombieM60DemolitionPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieMiniDemolition,zombieBigNightJetRocketPREPPER,zombieBigNightJetRocketRadiatedPREPPER</append>
 
 	<!-- *** BURNT_FOREST_CHALLENGES -->
-	<append xpath="/challenges/challenge[@name='burntSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieMiniBurntStoneSpear,zombieBurntFeralIronSpear,zombieMiniBurntFeralIronSpear,zombieBurntRadiatedSteelSpear,zombieMiniBurntRadiatedSteelSpear,zombieBurntToaster,zombieMiniBurntToaster</append>
+	<append xpath="/challenges/challenge[@name='burntSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBurntStoneSpear,zombieMiniBurntStoneSpear,zombieBurntFeralIronSpear,zombieMiniBurntFeralIronSpear,zombieBurntRadiatedSteelSpear,zombieMiniBurntRadiatedSteelSpear,zombieBurntToaster,zombieMiniBurntToaster</append>
 	<!-- *** DESERT_CHALLENGES -->	
 	<append xpath="/challenges/challenge[@name='desertSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieMiniPlagueSpitter,zombieMiniPlagueSpitterCharged,zombieMiniPlagueSpitterFeral,zombieMiniPlagueSpitterInfernal,zombieMiniPlagueSpitterRadiated</append>
 	<!-- *** WASTELAND_CHALLENGES -->
