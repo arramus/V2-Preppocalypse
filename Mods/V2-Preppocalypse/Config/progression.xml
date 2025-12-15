@@ -123,69 +123,35 @@
 		</perk>
 	</insertAfter>
 	
-	<!-- Dew Collector Gatherer midTier0 -->
+	<!-- Prepper Ammo Press, Screamer I.V. Stand and Rock Drill -->
 	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@icon">,toolDewGatherer</append>	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@name_key">,workstationsT1-3</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]/@unlock_level">,8</append>
-	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cntDewCollector')]">
-			<unlock_entry item="toolDewGatherer" unlock_tier="3"/>
-	</append>	
-
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
-		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="toolDewGatherer"/>
-		</effect_group>
-	</append>
-	
-	<!-- Dew Collector Tarp midTier1 -->
-	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@icon">,toolDewTarp</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@name_key">,workstationsT2-5</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]/@unlock_level">,28</append>
-	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'workbench')]">
-			<unlock_entry item="toolDewTarp" unlock_tier="5"/>
-	</append>	
-
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
-		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="28,100" value="1" tags="toolDewTarp"/>
-		</effect_group>
-	</append>
-	
-	<!-- Water Filter midTier2, Prepper Ammo Press, Screamer I.V. Stand and Rock Drill -->
-	
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@icon">,toolDewFilter,ammopress</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@name_key">,workstationsT3-2WF,workstationsT3-3AP</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@unlock_level">,35,40</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@icon">,ammopress</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@name_key">,workstationsT3-4AP</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]/@unlock_level">,36</append>
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'cementMixer')]">
-			<unlock_entry item="toolDewFilter" unlock_tier="2" />
-			<unlock_entry item="ammopress" unlock_tier="3" />
+			<unlock_entry item="ammopress" unlock_tier="4" />
 	</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="toolDewFilter"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="ammopress"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="36,100" value="1" tags="ammopress"/>
 		</effect_group>
 	</append>
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]/@icon">,standIV,rockdrill</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]/@name_key">,workstationsT4-2IV,workstationsT4-3RD</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]/@unlock_level">,55,60</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]/@name_key">,workstationsT4-5IV,workstationsT4-6RD</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]/@unlock_level">,51,52</append>
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[contains(@icon, 'chemistryStation')]">
-			<unlock_entry item="screamQueenPrepperstandIV" unlock_tier="2" />
-			<unlock_entry item="RockDrillEmpty" unlock_tier="3" />
+			<unlock_entry item="screamQueenPrepperstandIV" unlock_tier="5" />
+			<unlock_entry item="RockDrillEmpty" unlock_tier="6" />
 	</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="screamQueenPrepperstandIV"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="RockDrillEmpty"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="screamQueenPrepperstandIV"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="52,100" value="1" tags="RockDrillEmpty"/>
 		</effect_group>
 	</append>
 	
@@ -206,7 +172,7 @@
 		</display_entry>
 		<display_entry icon="foodPumpkinBread,foodPumpkinPie,foodPumpkinCheesecake,foodMeatStew,foodSteakAndPotato" name_key="foodT2-1,foodT2-2,foodT2-3,foodT2-4,foodT2-5" has_quality="false" unlock_level="11,14,18,22,26" >
 			<unlock_entry item="foodPumpkinBread,foodBlueberryPie,foodYuccaFruitPie,foodSaguaroFruitPie" unlock_tier="1" />
-			<unlock_entry item="foodPumpkinPie,foodCactusStew" unlock_tier="2" />
+			<unlock_entry item="foodPumpkinPie,drinkJarHoneyTea,foodCactusStew" unlock_tier="2" />
 			<unlock_entry item="foodPumpkinCheesecake" unlock_tier="3" />
 			<unlock_entry item="foodVegetableStew,foodMeatStew" unlock_tier="4" />
 			<unlock_entry item="foodSteakAndPotato,foodChickenStew,foodMushroomRice,foodHoneyPumpkinPie,foodBlueberryBreadPudding,foodGritsAndBits,foodCrawfishWildRice,foodGnocchiChili,foodPrepperPotPie" unlock_tier="5" />
@@ -216,12 +182,12 @@
 			<unlock_entry item="foodHoboStew,foodSuperMeatStew" unlock_tier="2" />
 			<unlock_entry item="foodFishTacos,foodCrawfishBoil" unlock_tier="3" />
 			<unlock_entry item="foodChiliDog,foodFruitPieTrio" unlock_tier="4" />
-			<unlock_entry item="foodShamChowder,foodFishPie" unlock_tier="5" />
+			<unlock_entry item="foodShamChowder,foodHoneyGlazedSham,foodFishPie" unlock_tier="5" />
 		</display_entry>
 		<display_entry icon="foodTunaFishGravyToast,foodShepardsPie,drinkJarGrandpasLearningElixir,foodSpaghetti,foodGumboStew" name_key="foodT4-1,foodT4-2,foodT4-3,foodT4-4,foodT4-5" has_quality="false" unlock_level="60,70,80,90,100" >
 			<unlock_entry item="foodTunaFishGravyToast,drinkJarGrandpasAwesomeSauce" unlock_tier="1" />
 			<unlock_entry item="foodShepardsPie,drinkJarGrandpasMoonshine" unlock_tier="2" />
-			<unlock_entry item="drinkJarGrandpasLearningElixir,foodSpicyWildRiceMeatballs" unlock_tier="3" />
+			<unlock_entry item="drinkJarGrandpasLearningElixir,foodHoneyBrisket,foodSpicyWildRiceMeatballs" unlock_tier="3" />
 			<unlock_entry item="foodSpaghetti,foodFishPieMashPeas" unlock_tier="4" />
 			<unlock_entry item="foodGumboStew,foodSuperCornSupper" unlock_tier="5" />
 		</display_entry>
@@ -234,7 +200,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodBaconAndEggs,foodBaconAndEggsAndAcornBiscuits,foodJerkyAndEggs,foodPineConeJamGriddleCakes,foodRoastChicken,foodFriedCatfish,foodCatfishNuggetsOnRice,foodSuperHoneyPopcorn,foodCactusOmelette,drinkJarCoffee"/>
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="foodPumpkinBread,foodBlueberryPie,foodYuccaFruitPie,foodSaguaroFruitPie"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="14,100" value="1" tags="foodPumpkinPie,foodCactusStew"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="14,100" value="1" tags="foodPumpkinPie,drinkJarHoneyTea,foodCactusStew"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="foodPumpkinCheesecake"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="22,100" value="1" tags="foodVegetableStew,foodMeatStew"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="foodSteakAndPotato,foodChickenStew,foodMushroomRice,foodHoneyPumpkinPie,foodBlueberryBreadPudding,foodGritsAndBits,foodCrawfishWildRice,foodGnocchiChili,foodPrepperPotPie"/>
@@ -243,11 +209,11 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="foodHoboStew,foodSuperMeatStew"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="43,100" value="1" tags="foodFishTacos,foodCrawfishBoil"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="foodChiliDog,foodFruitPieTrio"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="59,100" value="1" tags="foodShamChowder,foodFishPie"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="59,100" value="1" tags="foodShamChowder,foodHoneyGlazedSham,foodFishPie"/>
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="foodTunaFishGravyToast,drinkJarGrandpasAwesomeSauce"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="foodShepardsPie,drinkJarGrandpasMoonshine"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="drinkJarGrandpasLearningElixir,foodSpicyWildRiceMeatballs"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="drinkJarGrandpasLearningElixir,foodHoneyBrisket,foodSpicyWildRiceMeatballs"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="foodSpaghetti,foodFishPieMashPeas"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodGumboStew,foodSuperCornSupper"/>
 		</effect_group>
@@ -315,9 +281,9 @@
 	</insertAfter>
 	
 	<!-- Adding Preppocalyptic Car and Vehicle Mods to Vehicle Adventures Crafting Skill -->
-	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicleMinibikePlaceable']/unlock_entry/@item">,modVehicleFuelSaver,modVehicleOffRoadHeadlights</append>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicleMinibikePlaceable']/unlock_entry/@item">,modVehicleFuelSaver,modVehicleOffRoadHeadlights,modVehicleStorage</append>
 	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags=",modVehicleFuelSaver,modVehicleOffRoadHeadlights"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags=",modVehicleFuelSaver,modVehicleOffRoadHeadlights,modVehicleStorage"/>
 	</append>
 	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicleMotorcyclePlaceable']/unlock_entry/@item">,modVehicleExpandedSeat,modVehicleReserveFuelTank</append>
 	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">

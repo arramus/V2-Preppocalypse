@@ -33,6 +33,11 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
 	<item name="gun22HandgunT0Pistol" count="1" loot_prob_template="veryLow"/>
 	</append>
+
+	<!-- This lootgroup is somewhat irregular at present with 2.5 reshuffle and bringing in less scripted luck -->
+	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
+	<item name="toolForgeCrucible" count="1" loot_prob_template="veryLowDelayed"/>
+	</append>
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
@@ -57,22 +62,31 @@
 	<item group="group22ShortSmall" loot_prob_template="veryLow"/>
 	</append>
 	
-	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
-	<!-- T0_Vehicle_Mod_Schematics -->	
+	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them all later to remove scripted drops which are far too predictable -->	
+	<!-- T0_Vehicle_Mod_Schematics -->
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
+	<item name="modVehicleExpandedSeatSchematic"/>
+	<item name="modVehicleSuperChargerSchematic"/>
+	<item name="modVehiclePlowSchematic"/>
+	<item name="modVehicleArmorSchematic"/>
 	</append>
 	
 	<!-- T1_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics02']">
 	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleStorageSchematic"/>
 	<item name="modVehicleExpandedSeatSchematic"/>
 	<item name="modVehicleSuperChargerSchematic"/>
+	<item name="modVehiclePlowSchematic"/>
+	<item name="modVehicleArmorSchematic"/>
 	</append>
 	
 	<!-- T2_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleStorageSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	</append>

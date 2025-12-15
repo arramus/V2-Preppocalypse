@@ -1710,10 +1710,11 @@
 
 	<!-- *** FISH_TRAP_COLLECTOR -->
 <block name="cntFishTrapWaterCollector">
-	<property name="Class" value="DewCollector"/>
+	<property name="Class" value="Collector"/>
 	<!--property name="UnlockedBy" value="craftingWorkstations"/-->
-	<property name="WorkstationIcon" value="ui_game_symbol_terrWaterFishTrap"/>
+	<property name="ItemIconBackdrop" value="ui_game_symbol_terrWaterFishTrap"/>
 	<property name="CreativeMode" value="Player"/>
+	<property name="LootLabelKey" value="xuiDewCollector"/>
 	<property name="DescriptionKey" value="cntFishTrapWaterCollectorDesc"/>
 	<property name="Material" value="MFuelBarrelPolymer"/>
 	<property name="Shape" value="ModelEntity"/>
@@ -1746,8 +1747,10 @@
 	<property name="HeatMapTime" value="500"/>
 	<property name="HeatMapFrequency" value="100"/>
 	<property class="RepairItems">
-		<property name="resourceScrapPolymers" value="20"/>
+		<property name="resourceScrapPolymers" value="50"/>
 	</property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="10,15" tag="allHarvest,perkJunkMiner"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,3" tag="allHarvest,perkJunkMiner"/>
 	<drop event="Destroy" name="resourceScrapPolymers" count="10,15"/>
 	<property name="DestroyFX" value="blockdestroy_cloth,collector_destroy"/>
 	<property name="SortOrder1" value="B281"/>
@@ -1755,6 +1758,13 @@
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="Tags" value="workstationSkill,twitch_workstation"/>
 	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	<property name="SoundPickup" value="dewcollector_grab"/>
+	<property name="SoundPlace" value="dewcollector_place"/>
+	<property name="RequiredMods" value="toolDewGatherer,toolDewTarp,toolDewFilter"/>
+	<property name="RequiredModsOnly" value="true"/>
+	<property name="CollectorEmptyText" value="dewCollectorEmpty"/>
+	<property name="CollectorHasItem1Text" value="dewCollectorHasDirtyWater"/>
+	<property name="CollectorHasItem2Text" value="dewCollectorHasWater"/>
 </block>
 	
 	<!-- *** SEEDS_PRICKLY_CACTUS -->

@@ -3,6 +3,7 @@
 	<!-- Adding Vehicle Mods to Vehicle Adventures Crafting Skill -->
 	<append xpath="/item_modifiers/item_modifier[@name='modVehicleFuelSaver']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>
 	<append xpath="/item_modifiers/item_modifier[@name='modVehicleOffRoadHeadlights']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleStorage']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>
 	<append xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>
 	<append xpath="/item_modifiers/item_modifier[@name='modVehicleExpandedSeat']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>
 	<append xpath="/item_modifiers/item_modifier[@name='modVehicleReserveFuelTank']/property[@name='UnlockedBy']/@value">,craftingVehicles</append>

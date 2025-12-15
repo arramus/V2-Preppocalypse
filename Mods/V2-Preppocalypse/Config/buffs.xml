@@ -322,6 +322,13 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/PipeBaton/pipeBatonPrefab.prefab" local_offset="0.09,0.06,-0.05" local_rotation="0,-25,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
 			</effect_group>
 		</buff>
+		
+		<buff name="zombieBatonFatCopClaretPREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/PipeBaton/pipeBatonPrefab.prefab" local_offset="0.09,0.06,-0.05" local_rotation="0,-25,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
 
 		<buff name="zombieSteelClubFemaleFatPREPPERDeco" hidden="true">
 			<effect_group>				
@@ -584,6 +591,13 @@
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieScreamerClaretDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
 

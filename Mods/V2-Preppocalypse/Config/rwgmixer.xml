@@ -33,14 +33,14 @@
 	<!-- Old West Migration -->
 	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_trader']/@value">true</set>
 	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set>
-	<append xpath="/rwgmixer/township[@name='oldwest']/property[@name='biomes']/@value">,forest,burntforest,snow</append><!-- Expanding desert -->
-	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">1, 2, 3</set>
+	<append xpath="/rwgmixer/township[@name='oldwest']/property[@name='biomes']/@value">,forest,burntforest,snow,wasteland</append><!-- Expanding desert -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 5</set>
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='tiles']/@value">6, 12</set>
-	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">2, 3, 4</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">4, 5, 5</set>
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='tiles']/@value">6, 12</set>	
-	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 4</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">4, 5, 5</set>
 	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='tiles']/@value">6, 12</set>
-	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 4</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">4, 5, 5</set>
 	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>
 	<!-- Tiny 0 - 5000 RWG Fillers -->
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='forest_countrytown']/property[@name='tiles']/@value">9, 10</set> <!-- 6, 6 -->	
@@ -90,7 +90,7 @@
 	<district name="preppotown">
 		<property name="spawn_weight" value="1"/>
 		<property name="required_township" value="preppotown"/>
-		<property name="preview_color" value="0.25,0.25,0.25"/>
+		<property name="preview_color" value="0.9,0.5,0.6"/>
 	</district>
 
 	<!-- Old West Migration Custom Tiles -->
