@@ -31,6 +31,7 @@
 			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
 			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
 			<display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent"/>
+			<display_entry name="dSmellUse" title_key="statFoodSmell"/>
 		</item_display_info>
 		
 		<item_display_info display_type="foodCureInfectionAndFoodWater" display_group="groupConsumables">
@@ -39,6 +40,7 @@
 			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
 			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
 			<display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent"/>
+			<display_entry name="dSmellUse" title_key="statFoodSmell"/>
 		</item_display_info>
 		
 		<item_display_info display_type="waterBoneBroth" display_group="groupConsumables">
@@ -76,6 +78,7 @@
 			<display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent"/>
 			<display_entry name="dEfficientDigestion" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true"/>
 			<display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent"/>
+			<display_entry name="dSmellUse" title_key="statFoodSmell"/>
 		</item_display_info>
 		
 		<item_display_info display_type="drinkYuccaCactusAloeJuiceCooler" display_group="groupConsumables">
