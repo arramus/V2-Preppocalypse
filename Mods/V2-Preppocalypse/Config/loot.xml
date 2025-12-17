@@ -12,11 +12,12 @@
     <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
 	
-    <!-- Increase Vehicle Container Size +1 except 4x4 -->
-	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">9,2</set> <!-- Default is 9,1 -->
-	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">9,4</set> <!-- Default is 9,3 -->
-	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">9,5</set> <!-- Default is 9,4 -->
-	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">9,6</set> <!-- Default is 9,5 -->
+    <!-- Increase Vehicle Container Size +1 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,2</set> <!-- Default is 10,1 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,4</set> <!-- Default is 10,3 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,5</set> <!-- Default is 10,4 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,10</set> <!-- Default is 10,9 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,6</set> <!-- Default is 10,5 -->
 	
     <!-- Boost the groupQuestRewardSkillMagazinesAll01 Allowance from 3 to 5 sets of magazines with 2 of each -->
 	<set xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']/@count">5</set>
