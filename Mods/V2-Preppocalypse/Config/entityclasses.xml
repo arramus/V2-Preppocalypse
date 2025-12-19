@@ -2792,6 +2792,44 @@
 			</effect_group>
 		</entity_class>
 		
+		<entity_class name="zombieSpiderGliderClaretPREPPER" extends="zombieSpiderFeralGliderPREPPER">
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
+			<property name="Class" value="EntityVulture"/>
+			<property name="Mesh" value="@:Entities/Zombies/Spider/ZSpiderRadiated.prefab"/>
+			<property name="MatColor" value="claret"/>
+			
+			<!-- Gameplay zombieSpiderRadiated -->
+			<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	
+			<property name="Mass" value="50"/>
+			<property name="MoveSpeed" value=".95"/>
+			<property name="MoveSpeedAggro" value="2, 2"/>
+			<property name="MaxTurnSpeed" value="150"/>
+
+			<property name="ExperienceGain" value="2500"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value="0.25"/>
+			
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="thrownAmmoMolotovCocktail" tag="allToolsHarvest" count="1,2" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>		
+		
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="3000"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSpiderFeralGliderPREPPERDeco"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+		</entity_class>
+		
 		<!-- Spider Drone Pipe Bomber -->
 		
 		<entity_class name="zombieSpiderFeralBomberPREPPER" extends="zombieSpiderFeral">
@@ -2841,6 +2879,44 @@
 			
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1100"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSpiderFeralBomberPREPPERDeco"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="zombieSpiderBomberClaretPREPPER" extends="zombieSpiderFeralBomberPREPPER">
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,hostile,vulture,charged"/>
+			<property name="Class" value="EntityVulture"/>
+			<property name="Mesh" value="@:Entities/Zombies/Spider/ZSpiderRadiated.prefab"/>
+			<property name="MatColor" value="claret"/>
+			
+			<!-- Gameplay zombieSpiderRadiated -->
+			<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	
+			<property name="Mass" value="50"/>
+			<property name="MoveSpeed" value=".95"/>
+			<property name="MoveSpeedAggro" value="2, 2"/>
+			<property name="MaxTurnSpeed" value="150"/>
+
+			<property name="ExperienceGain" value="2500"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value="0.25"/>
+			
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="thrownAmmoPipeBomb" tag="allToolsHarvest" count="1,2" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="3000"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSpiderFeralBomberPREPPERDeco"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
@@ -3297,7 +3373,7 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".1"/>
 	<property name="HandItem" value="meleeHandZombieSteelAxeLumberjackInfernalPREPPER"/>
-	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>	
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
@@ -3407,6 +3483,8 @@
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
 	<property name="HandItem" value="meleeHandZombieMachetePartyGirlChargedPREPPER"/>
+	<property name="MoveSpeedPattern" value="^chargedMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Charged -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
@@ -3454,6 +3532,8 @@
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
 	<property name="HandItem" value="meleeHandZombieMachetePartyGirlInfernalPREPPER"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Infernal -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
@@ -3806,6 +3886,109 @@
 	</effect_group>
 </entity_class>
 
+<entity_class name="zombieChainsawMoeChargedPREPPER" extends="zombieMoeRadiated"> <!-- + 10% Charged hits and gains -->
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
+	<property name="Mesh" value="@:Entities/Zombies/Moe/ZMoeRadiated.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated2.mat,@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated3.mat"/>
+	<property name="MatColor" value="charged"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieMoeRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
+	
+	<property name="LootDropProb" value=".1"/> <!-- Charged -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="HandItem" value="meleeHandZombieChainsawMoePREPPER"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="ammoGasCan" tag="allToolsHarvest" count="50,100" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieChainsawMoePREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1375"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="8"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="zombieChainsawMoeInfernalPREPPER" extends="zombieMoeRadiated"> <!-- + 10% Infernal hits and gains -->
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged,infernal"/>
+	<property name="Mesh" value="@:Entities/Zombies/Moe/ZMoeRadiated.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated2.mat,@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated3.mat"/>
+	<property name="MatColor" value="infernal"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieMoeRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
+	
+	<property name="LootDropProb" value=".1"/> <!-- Infernal -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="HandItem" value="meleeHandZombieChainsawMoePREPPER"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="ammoGasCan" tag="allToolsHarvest" count="50,100" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieChainsawMoePREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1870"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="8"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="zombieChainsawMoeClaretPREPPER" extends="zombieMoeRadiated"> <!-- + 25% hits and gains -->
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,charged,infernal"/>
+	<property name="Mesh" value="@:Entities/Zombies/Moe/ZMoeRadiated.prefab"/>
+	<property name="AltMats" value="@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated2.mat,@:Entities/Zombies/Moe/Materials/HD_Moe_Radiated3.mat"/>
+	<property name="MatColor" value="claret"/>
+	<property name="SizeScale" value="1.4"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieMoeRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="3000"/><!-- XP grunt radiated -->
+	
+	<property name="LootDropProb" value=".25"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="HandItem" value="meleeHandZombieChainsawMoeClaretPREPPER"/>
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="ammoGasCan" tag="allToolsHarvest" count="50,100" prob="0.5" />
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieChainsawMoeClaretPREPPERDeco"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+		<passive_effect name="HealthMax" operation="base_set" value="3000"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="8"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
 		<!-- Desert Vulture Tom Clark -->
 
 <entity_class name="zombieDesertVultureTomClarkPREPPER" extends="zombieTomClarkRadiated"> <!-- + 10% hits and gains -->
@@ -4070,8 +4253,8 @@
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="HandItem" value="meleeHandZombieCopClaret"/>
 	<property name="ExperienceGain" value="3000"/><!-- XP strong radiated -->
-	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="LootDropProb" value=".35"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".25"/>
 	
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
@@ -4660,7 +4843,7 @@
 			<property name="MoveSpeedAggro" value=".8, 1.35"/>
 			<property name="ExperienceGain" value="3000"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>			
-			<property name="LootDropProb" value=".35"/>
+			<property name="LootDropProb" value=".25"/>
 			<property name="SizeScale" value="1.35"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -5468,8 +5651,8 @@
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 	<property name="ExperienceGain" value="3000"/><!-- XP strong radiated -->
-	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
-	<property name="LootDropProb" value=".35"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>			
+	<property name="LootDropProb" value=".25"/>
 	<property name="HandItem" value="meleeHandZombieScreamerClaret"/>
 	<property name="JumpMaxDistance" value="7, 9"/>
 	
@@ -5622,8 +5805,8 @@
 	<property name="SoundFootstepModifier" value="zombieburntfootstep"/>
 	<property name="PainResistPerHit" value="1"/>
 	<property name="ExperienceGain" value="3000"/><!-- A20 -->
-	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
-	<property name="LootDropProb" value=".35"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>			
+	<property name="LootDropProb" value=".25"/>
 	<property name="SizeScale" value="1.7"/>
 	
 	<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value="0"/><property name="DismemberMultiplierLegs" value=".0"/><!-- Radiated -->

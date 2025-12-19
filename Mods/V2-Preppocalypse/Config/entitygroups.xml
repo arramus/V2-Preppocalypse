@@ -34,10 +34,13 @@
 		zombieBogeymanPREPPER, .0175
 		zombieCrispyPREPPER, .0175
 		zombieScorcherPREPPER, .0175
-		zombieBogeymanClaretPREPPER, .015
-		zombieBatonFatCopClaretPREPPER, .015
-		zombieBurntSirenClaret, .015
-		zombieScreamerClaret, .015
+		zombieBogeymanClaretPREPPER, .0125
+		zombieBatonFatCopClaretPREPPER, .0125
+		zombieBurntSirenClaret, .0125
+		zombieScreamerClaret, .0125
+		zombieChainsawMoeClaretPREPPER, .0125
+		zombieSpiderGliderClaretPREPPER, .0125
+		zombieSpiderBomberClaretPREPPER, .0125
 		zombieRocketPREPPER, .0125
 	</csv>
 
@@ -86,10 +89,13 @@
 		zombieBogeymanPREPPER, .03
 		zombieCrispyPREPPER, .03
 		zombieScorcherPREPPER, .03
-		zombieBogeymanClaretPREPPER, .025
-		zombieBatonFatCopClaretPREPPER, .025
-		zombieBurntSirenClaret, .025
-		zombieScreamerClaret, .025
+		zombieBogeymanClaretPREPPER, .0175
+		zombieBatonFatCopClaretPREPPER, .0175
+		zombieBurntSirenClaret, .0175
+		zombieScreamerClaret, .0175
+		zombieChainsawMoeClaretPREPPER, .0175
+		zombieSpiderGliderClaretPREPPER, .0175
+		zombieSpiderBomberClaretPREPPER, .0175
 		zombieRocketPREPPER, .0175
 	</csv>
 	
@@ -126,10 +132,13 @@
 		zombieBogeymanPREPPER, .015
 		zombieCrispyPREPPER, .015
 		zombieScorcherPREPPER, .015
-		zombieBogeymanClaretPREPPER, .0125
-		zombieBatonFatCopClaretPREPPER, .0125
-		zombieBurntSirenClaret, .0125
-		zombieScreamerClaret, .0125
+		zombieBogeymanClaretPREPPER, .01
+		zombieBatonFatCopClaretPREPPER, .01
+		zombieBurntSirenClaret, .01
+		zombieScreamerClaret, .01
+		zombieChainsawMoeClaretPREPPER, .01
+		zombieSpiderGliderClaretPREPPER, .01
+		zombieSpiderBomberClaretPREPPER, .01
 		zombieRocketPREPPER, .01
 	</csv>
 
@@ -166,10 +175,13 @@
 		zombieBogeymanPREPPER, .015
 		zombieCrispyPREPPER, .015
 		zombieScorcherPREPPER, .015
-		zombieBogeymanClaretPREPPER, .0125
-		zombieBatonFatCopClaretPREPPER, .0125
-		zombieBurntSirenClaret, .0125
-		zombieScreamerClaret, .0215
+		zombieBogeymanClaretPREPPER, .01
+		zombieBatonFatCopClaretPREPPER, .01
+		zombieBurntSirenClaret, .01
+		zombieScreamerClaret, .01
+		zombieChainsawMoeClaretPREPPER, .01
+		zombieSpiderGliderClaretPREPPER, .01
+		zombieSpiderBomberClaretPREPPER, .01
 		zombieRocketPREPPER, .01
 	</csv>
 
@@ -218,10 +230,13 @@
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
 		zombieScorcherPREPPER, .025
-		zombieBogeymanClaretPREPPER, .02
-		zombieBatonFatCopClaretPREPPER, .02
-		zombieBurntSirenClaret, .02
-		zombieScreamerClaret, .02
+		zombieBogeymanClaretPREPPER, .015
+		zombieBatonFatCopClaretPREPPER, .015
+		zombieBurntSirenClaret, .015
+		zombieScreamerClaret, .015
+		zombieChainsawMoeClaretPREPPER, .015
+		zombieSpiderGliderClaretPREPPER, .015
+		zombieSpiderBomberClaretPREPPER, .015
 		zombieRocketPREPPER, .015
 	</csv>
 	
@@ -247,6 +262,9 @@
 		zombieBatonFatCopClaretPREPPER, .005
 		zombieBurntSirenClaret, .005
 		zombieScreamerClaret, .005
+		zombieChainsawMoeClaretPREPPER, .005
+		zombieSpiderGliderClaretPREPPER, .005
+		zombieSpiderBomberClaretPREPPER, .005
 		zombieWightRadiationShowerPREPPER, .0025
 		zombieBogeymanPREPPER, .0025
 		animalZombieBunnyPREPPER, .0025
@@ -300,6 +318,9 @@
 		zombieBatonFatCopClaretPREPPER, .005
 		zombieBurntSirenClaret, .005
 		zombieScreamerClaret, .005
+		zombieChainsawMoeClaretPREPPER, .005
+		zombieSpiderGliderClaretPREPPER, .005
+		zombieSpiderBomberClaretPREPPER, .005
 		zombieWightRadiationShowerPREPPER, .0025
 		zombieBogeymanPREPPER, .0025
 		animalZombieBunnyPREPPER, .0025
@@ -341,10 +362,13 @@
 		animalZombieChickenPREPPER, .0025
 		zombieSpiderFeralBomberPREPPER, .0025
 		zombieSpiderFeralGliderPREPPER, .0025
-		zombieBogeymanClaretPREPPER, .0015
-		zombieBatonFatCopClaretPREPPER, .0015
-		zombieBurntSirenClaret, .0015
-		zombieScreamerClaret, .0015
+		zombieBogeymanClaretPREPPER, .001
+		zombieBatonFatCopClaretPREPPER, .001
+		zombieBurntSirenClaret, .001
+		zombieScreamerClaret, .001
+		zombieChainsawMoeClaretPREPPER, .001
+		zombieSpiderGliderClaretPREPPER, .001
+		zombieSpiderBomberClaretPREPPER, .001
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
@@ -355,10 +379,13 @@
 		animalZombieChickenPREPPER, .085
 		zombieSpiderFeralBomberPREPPER, .03
 		zombieSpiderFeralGliderPREPPER, .03
-		zombieBogeymanClaretPREPPER, .015
-		zombieBatonFatCopClaretPREPPER, .015
-		zombieBurntSirenClaret, .015
-		zombieScreamerClaret, .015
+		zombieBogeymanClaretPREPPER, .01
+		zombieBatonFatCopClaretPREPPER, .01
+		zombieBurntSirenClaret, .01
+		zombieScreamerClaret, .01
+		zombieChainsawMoeClaretPREPPER, .01
+		zombieSpiderGliderClaretPREPPER, .01
+		zombieSpiderBomberClaretPREPPER, .01
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
@@ -398,10 +425,13 @@
 		zombieBogeymanPREPPER, .0175
 		zombieCrispyPREPPER, .0175
 		zombieScorcherPREPPER, .0175
-		zombieBogeymanClaretPREPPER, .015
-		zombieBatonFatCopClaretPREPPER, .015
-		zombieBurntSirenClaret, .015
-		zombieScreamerClaret, .015
+		zombieBogeymanClaretPREPPER, .0125
+		zombieBatonFatCopClaretPREPPER, .0125
+		zombieBurntSirenClaret, .0125
+		zombieScreamerClaret, .0125
+		zombieChainsawMoeClaretPREPPER, .0125
+		zombieSpiderGliderClaretPREPPER, .0125
+		zombieSpiderBomberClaretPREPPER, .0125
 		zombieRocketPREPPER, .0125
 	</csv>
 	
@@ -441,10 +471,13 @@
 		zombieBogeymanPREPPER, .0175
 		zombieCrispyPREPPER, .0175
 		zombieScorcherPREPPER, .0175
-		zombieBogeymanClaretPREPPER, .015
-		zombieBatonFatCopClaretPREPPER, .015
-		zombieBurntSirenClaret, .015
-		zombieScreamerClaret, .015
+		zombieBogeymanClaretPREPPER, .0125
+		zombieBatonFatCopClaretPREPPER, .0125
+		zombieBurntSirenClaret, .0125
+		zombieScreamerClaret, .0125
+		zombieChainsawMoeClaretPREPPER, .0125
+		zombieSpiderGliderClaretPREPPER, .0125
+		zombieSpiderBomberClaretPREPPER, .0125
 		zombieRocketPREPPER, .0125
 	</csv>
 
@@ -454,6 +487,9 @@
 		zombieBatonFatCopClaretPREPPER, .025
 		zombieBurntSirenClaret, .025
 		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_ALL_WASTELAND_GROUP -->
@@ -462,6 +498,9 @@
 		zombieBatonFatCopClaretPREPPER, 2.5
 		zombieBurntSirenClaret, 2.5
 		zombieScreamerClaret, 2.5
+		zombieChainsawMoeClaretPREPPER, 2.5
+		zombieSpiderGliderClaretPREPPER, 2.5
+		zombieSpiderBomberClaretPREPPER, 2.5
 		zombieScorcherRadiatedPREPPER, 1.5
 		zombieRocketRadiatedPREPPER, 1.5
 		zombieWightRadiationShowerPREPPER, 1.5
@@ -532,6 +571,9 @@
 		zombieBatonFatCopClaretPREPPER, 3.5
 		zombieBurntSirenClaret, 3.5
 		zombieScreamerClaret, 3.5
+		zombieChainsawMoeClaretPREPPER, 3.5
+		zombieSpiderGliderClaretPREPPER, 3.5
+		zombieSpiderBomberClaretPREPPER, 3.5
 		zombieScorcherRadiatedPREPPER, 2.5
 		zombieRocketRadiatedPREPPER, 2.5
 		zombieWightRadiationShowerPREPPER, 2.5
@@ -662,11 +704,14 @@
 		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
+		zombieCrispyPREPPER, .0125
 		zombieBogeymanClaretPREPPER, .0125
 		zombieBatonFatCopClaretPREPPER, .0125
 		zombieBurntSirenClaret, .0125
 		zombieScreamerClaret, .0125
-		zombieCrispyPREPPER, .0125
+		zombieChainsawMoeClaretPREPPER, .0125
+		zombieSpiderGliderClaretPREPPER, .0125
+		zombieSpiderBomberClaretPREPPER, .0125
 		zombieScorcherRadiatedPREPPER, .0125
 		zombieRocketRadiatedPREPPER, .005
 	</csv>
@@ -709,6 +754,9 @@
 		zombieBatonFatCopClaretPREPPER, .25
 		zombieBurntSirenClaret, .25
 		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
 		zombieSMGArleneRadiatedPREPPER, .25
@@ -770,6 +818,9 @@
 		zombieBatonFatCopClaretPREPPER, .25
 		zombieBurntSirenClaret, .25
 		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
 		zombieSMGArleneRadiatedPREPPER, .25
@@ -831,6 +882,9 @@
 		zombieBatonFatCopClaretPREPPER, .25
 		zombieBurntSirenClaret, .25
 		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
 		zombieSMGArleneRadiatedPREPPER, .25
@@ -892,6 +946,9 @@
 		zombieBatonFatCopClaretPREPPER, .25
 		zombieBurntSirenClaret, .25
 		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
 		zombieSMGArleneRadiatedPREPPER, .25
@@ -953,6 +1010,9 @@
 		zombieBatonFatCopClaretPREPPER, .5
 		zombieBurntSirenClaret, .5
 		zombieScreamerClaret, .5
+		zombieChainsawMoeClaretPREPPER, .5
+		zombieSpiderGliderClaretPREPPER, .5
+		zombieSpiderBomberClaretPREPPER, .5
 		zombieCrispyPREPPER, .5
 		zombieScorcherRadiatedPREPPER, .5
 		zombieSMGArleneRadiatedPREPPER, .5
@@ -1014,6 +1074,9 @@
 		zombieBatonFatCopClaretPREPPER, .75
 		zombieBurntSirenClaret, .75
 		zombieScreamerClaret, .75
+		zombieChainsawMoeClaretPREPPER, .75
+		zombieSpiderGliderClaretPREPPER, .75
+		zombieSpiderBomberClaretPREPPER, .75
 		zombieCrispyPREPPER, .75
 		zombieScorcherRadiatedPREPPER, .75
 		zombieSMGArleneRadiatedPREPPER, .75
@@ -1046,39 +1109,51 @@
 	
 	<entitygroup name="PrepperFlyerEntitiesGroupGS01">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER, .25		
+		animalZombieLargePlasmaVulturePREPPER, .25
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
 	</entitygroup>
 	<entitygroup name="PrepperFlyerEntitiesGroupGS50">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER, .25		
+		animalZombieLargePlasmaVulturePREPPER, .25
 		zombieSpiderFeralBomberPREPPER, .25
 		zombieSpiderFeralGliderPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
 	</entitygroup>
 	<entitygroup name="PrepperFlyerEntitiesGroupGS100">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER, .5		
+		animalZombieLargePlasmaVulturePREPPER, .5
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperFlyerEntitiesGroupGS200">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER, .5		
+		animalZombieLargePlasmaVulturePREPPER, .5
 		zombieSpiderFeralBomberPREPPER, .5
 		zombieSpiderFeralGliderPREPPER, .5
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperFlyerEntitiesGroupGS400">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER, .75		
+		animalZombieLargePlasmaVulturePREPPER, .75
 		zombieSpiderFeralBomberPREPPER, .75
 		zombieSpiderFeralGliderPREPPER, .75
+		zombieSpiderGliderClaretPREPPER, .375
+		zombieSpiderBomberClaretPREPPER, .375
 	</entitygroup>
 	<entitygroup name="PrepperFlyerEntitiesGroupGS800">
 		animalZombieVultureRadiated
-		animalZombieLargePlasmaVulturePREPPER		
+		animalZombieLargePlasmaVulturePREPPER	
 		zombieSpiderFeralBomberPREPPER
 		zombieSpiderFeralGliderPREPPER
+		zombieSpiderGliderClaretPREPPER, .5
+		zombieSpiderBomberClaretPREPPER, .5
 	</entitygroup>
 	
 	<!-- Prepper Mixed Soldier Entities for GS -->
@@ -1097,7 +1172,9 @@
 		zombieTARifleSoldierRadiatedPREPPER, .25
 		zombieBogeymanPREPPER, .1
 		zombieDemolition, .1
-		zombieBogeymanClaretPREPPER, .05
+		zombieSpiderFeralBomberPREPPER, .025
+		zombieSpiderFeralGliderPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS50">
@@ -1114,7 +1191,9 @@
 		zombieTARifleSoldierRadiatedPREPPER, .35
 		zombieBogeymanPREPPER, .15
 		zombieDemolition, .15
-		zombieBogeymanClaretPREPPER, .075
+		zombieSpiderFeralBomberPREPPER, .0375
+		zombieSpiderFeralGliderPREPPER, .0375
+		zombieBogeymanClaretPREPPER, .0375
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS100">
@@ -1131,7 +1210,9 @@
 		zombieTARifleSoldierRadiatedPREPPER, .5
 		zombieBogeymanPREPPER, .25
 		zombieDemolition, .25
-		zombieBogeymanClaretPREPPER, .125
+		zombieSpiderFeralBomberPREPPER, .0625
+		zombieSpiderFeralGliderPREPPER, .0625
+		zombieBogeymanClaretPREPPER, .0625
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS200">
@@ -1148,7 +1229,9 @@
 		zombieTARifleSoldierRadiatedPREPPER, .75
 		zombieBogeymanPREPPER, .35
 		zombieDemolition, .35
-		zombieBogeymanClaretPREPPER, .175
+		zombieSpiderFeralBomberPREPPER, .0875
+		zombieSpiderFeralGliderPREPPER, .0875
+		zombieBogeymanClaretPREPPER, .0875
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS400">
@@ -1165,7 +1248,9 @@
 		zombieTARifleSoldierRadiatedPREPPER
 		zombieBogeymanPREPPER, .5
 		zombieDemolition, .5
-		zombieBogeymanClaretPREPPER, .25
+		zombieSpiderFeralBomberPREPPER, .125
+		zombieSpiderFeralGliderPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS800">
@@ -1182,7 +1267,9 @@
 		zombieTARifleSoldierRadiatedPREPPER
 		zombieBogeymanPREPPER, .75
 		zombieDemolition, .75
-		zombieBogeymanClaretPREPPER, .375
+		zombieSpiderFeralBomberPREPPER, .188
+		zombieSpiderFeralGliderPREPPER, .188
+		zombieBogeymanClaretPREPPER, .188
 	</entitygroup>
 	
 	<!-- Prepper Mixed Animal Entities for GS -->
@@ -1908,26 +1995,44 @@
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieGhostTownGroupGS') and contains (text(), 'zombieMoeRadiated') and not ( contains(text(), 'zombieMoeRadiated, 0'))]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .06
+		zombieChainsawMoeChargedPREPPER, .06
+		zombieChainsawMoeInfernalPREPPER, .06
 	</csv>
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieBikerBarGroupGS') and contains (text(), 'zombieMoeRadiated') and not ( contains(text(), 'zombieMoeRadiated, 0'))]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .06
+		zombieChainsawMoeChargedPREPPER, .06
+		zombieChainsawMoeInfernalPREPPER, .06
 	</csv>
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and contains (text(), 'zombieBoeRadiated')]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .9
+		zombieChainsawMoeRadiatedPREPPER, .2
+		zombieChainsawMoeChargedPREPPER, .2
+		zombieChainsawMoeInfernalPREPPER, .2
 	</csv> <!-- GS 132 since Radiated Moe is limited -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .9
+		zombieChainsawMoeRadiatedPREPPER, .2
+		zombieChainsawMoeChargedPREPPER, .2
+		zombieChainsawMoeInfernalPREPPER, .2
 	</csv> <!-- GS 130 -->
 	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .9
+		zombieChainsawMoeRadiatedPREPPER, .2
+		zombieChainsawMoeChargedPREPPER, .2
+		zombieChainsawMoeInfernalPREPPER, .2
 	</csv> <!-- GS 171 -->
 
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
 		zombieChainsawMoePREPPER, .9
+		zombieChainsawMoeRadiatedPREPPER, .2
+		zombieChainsawMoeChargedPREPPER, .2
+		zombieChainsawMoeInfernalPREPPER, .2
 	</csv> <!-- GS 164 -->
 	
 	<!-- Desert Vulture Tom Clerk PREPPER -->
@@ -2212,10 +2317,15 @@
 		zombieSteelAxeLumberjackInfernalPREPPER, .25
 		zombieMachetePartyGirlChargedPREPPER, .25
 		zombieMachetePartyGirlInfernalPREPPER, .25
+		zombieChainsawMoeChargedPREPPER, .25
+		zombieChainsawMoeInfernalPREPPER, .25
 		zombieBogeymanClaretPREPPER, .1
 		zombieBatonFatCopClaretPREPPER, .1
 		zombieBurntSirenClaret, .1
 		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

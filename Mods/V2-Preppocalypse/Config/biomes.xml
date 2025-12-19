@@ -1,8 +1,8 @@
 <Preppocalypse>
 
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum/@name">desert</set> <!-- Default is wasteland -->
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/CloudThickness[@range='10,70']">70,90</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog[@range='0,5']">2,4</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum/@name">desert</set> <!-- Default is wasteland -->	
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/CloudThickness/@range">50,100</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog/@range">3,6</set>
 
 	<!-- *** Pine Forest: Sub Biome: Clustered Flowers and Boulders -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@noise='.0095, 0, .21']/decorations">
@@ -72,6 +72,18 @@
 			<decoration type="prefab" name="deco_preppo_snowfishing_01"  onslopes="false" prob=".0025" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".0025" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".0025" rotatemax="3"/>
+	</append>
+
+	<!-- Thickening the Wasteland tree density -->
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='treeBurntMaple03']/@prob">.005</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='treeBurntMaple04']/@prob">.0015</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='carWrecksRandomHelper']/@prob">.001</set>	
+	<!-- Wasteland: Decorations Main -->	
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
+			<decoration type="block" blockname="emberPileDeco1" onslopes="false" prob=".0005" rotatemax="7"/>
+			<decoration type="block" blockname="emberPileDeco2" onslopes="false" prob=".0005" rotatemax="7"/>			
+			<decoration type="block" blockname="emberPileDeco3" onslopes="false" prob=".0025" rotatemax="7"/>
+			<decoration type="block" blockname="emberPileDeco4" onslopes="false" prob=".0025" rotatemax="7"/>			
 	</append>
 
 	<append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">

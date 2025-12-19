@@ -304,6 +304,14 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieChainsawMoeClaretPREPPERDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Chainsaw/chainsawPrefab.prefab" local_offset="0.17,0.05,-0.1" local_rotation="0,150,270" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="chainsaw_idle" />
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieDesertVultureTomClarkPREPPERDeco" hidden="true">
 			<effect_group>				
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Desert Eagle/desertEaglePrefab.prefab" local_offset="0.17,0.03,-0.04" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
