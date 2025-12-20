@@ -8,7 +8,13 @@
 	<append xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>
 	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@tags">,perkDeadEye</append>
 	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='TargetArmor']/@tags">,perkDeadEye</append>
-	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>	
+	<append xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityPenetrationCount']/@tags">,perkDeadEye</append>
+	<!-- Additional arrow and bolt types -->
+	<append xpath="/items/item[@name='gunBowT0PrimitiveBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSteelBeeswaxAP</append>
+	<append xpath="/items/item[@name='gunBowT1WoodenBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSteelBeeswaxAP</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSteelBeeswaxAP</append>
+	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoCrossbowBoltSteelBeeswaxAP</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoCrossbowBoltSteelBeeswaxAP</append>	
 	<!-- V2 Zombie Reach Adjust KhaineGB -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
@@ -1005,6 +1011,143 @@
 		<property name="Create_item" value="ammo22ShortBulletAP"/>
 		<property name="Create_item_count" value="100"/>
 	</property>
+</item>
+
+<!-- Steel Beeswax Arrow and Bolt -->
+<item name="resourceBeeswaxBlob">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceTestosteroneExtract"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="1"/>
+	<property name="SoundPickup" value="beeswax_grab"/>
+	<property name="SoundPlace" value="beeswax_place"/>
+</item>
+		
+<item name="ammoBundleArrowSteelBeeswaxAP">
+	<property name="Extends" value="ammoBundleArrowStone"/>
+	<property name="CustomIcon" value="ammoArrowSteelBeeswaxAP"/>
+	<property name="EconomicValue" value="1140"/>
+	<property name="TraderStageTemplate" value="arrowsTier2"/><!-- ammoBundleArrowSteelAP -->
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammoArrowSteelBeeswaxAP"/>
+	</property>
+</item>
+
+<item name="ammoBundleCrossbowBoltSteelBeeswaxAP">
+	<property name="Extends" value="ammoBundleCrossbowBoltStone"/>
+	<property name="CustomIcon" value="ammoCrossbowBoltSteelBeeswaxAP"/>
+	<property name="EconomicValue" value="1140"/>
+	<property name="TraderStageTemplate" value="arrowsTier2"/><!-- ammoBundleCrossbowBoltSteelAP -->
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammoCrossbowBoltSteelBeeswaxAP"/>
+	</property>
+</item>
+		
+<item name="ammoArrowSteelBeeswaxAP">
+	<property name="Extends" value="ammoArrowIron"/>
+	<property name="DisplayType" value="ammoArrowAP"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Bows/Arrows/arrow_steelPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="EconomicValue" value="57"/>
+	<property name="TraderStageTemplate" value="arrowsTier2"/><!-- ammoArrowSteelAP -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="StickyOffset" value=".13"/>
+	<property name="SoundPickup" value="arrows_grab"/>
+	<property name="SoundPlace" value="arrows_place"/>
+	<property name="UnlockedBy" value="perkRangersAPAmmo"/> <!-- BOOK_PERK -->
+
+	<effect_group name="ammoArrowSteelBeeswaxAP" tiered="false"> <!-- ammoArrowSteelAP -->
+		<passive_effect name="EntityDamage" operation="base_set" value="53" tags="perkArchery"/> <!-- Default 42 about +25% -->
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="100" tags="barrelExplosive"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5"/> <!-- Default -.5 -->
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,cloth"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkArchery"/> <!-- Default 55 about +10% -->
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.4">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="5"/></passive_effect>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<!-- Fully drawn bow shots bypass enemy armor, dealing full damage and deal an extra 25% damage. -->
+		<triggered_effect trigger="onProjectilePreImpact" action="ModifyCVar" cvar="$perkPiercingPrecision" operation="set" value="1">
+			<requirement name="ProgressionLevel" progression_name="perkAgilityMastery" operation="Equals" value="5"/>
+			<requirement name="CatapultStrainAmount" operation="GTE" value="1"/>
+		</triggered_effect>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".25" tags="perkArchery">
+			<requirement name="CVarCompare" cvar="$perkPiercingPrecision" operation="EQ" value="1"/>
+		</passive_effect>
+
+		<passive_effect name="TargetArmor" operation="perc_add" value="-1" tags="perkArchery">
+			<requirement name="CVarCompare" cvar="$perkPiercingPrecision" operation="EQ" value="1"/>
+		</passive_effect>
+
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" cvar="$perkPiercingPrecision" operation="set" value="0"/>
+	</effect_group>
+</item>
+
+<item name="ammoCrossbowBoltSteelBeeswaxAP">
+	<property name="Extends" value="ammoCrossbowBoltIron"/>
+	<property name="DisplayType" value="ammoArrowAP"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Bows/Arrows/bolt_steelPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="UnlockedBy" value="perkRangersAPAmmo"/> <!-- BOOK_PERK -->
+	<property name="EconomicValue" value="57"/>
+	<property name="TraderStageTemplate" value="arrowsTier2"/><!-- ammoCrossbowBoltSteelAP -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".13"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value=".75"/>
+
+	<effect_group name="ammoCrossbowBoltSteelBeeswaxAP" tiered="false"> <!-- ammoCrossbowBoltSteelAP -->
+		<passive_effect name="EntityDamage" operation="base_set" value="79" tags="perkArchery"/> <!-- Default 63 about +25% -->
+		<passive_effect name="BlockDamage" operation="base_set" value="6" tags="perkArchery"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5"/>
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="BlockDamage" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="BlockDamage" operation="perc_set" value="0" tags="earth,metal,cloth"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="100" tags="barrelExplosive"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="91" tags="perkArchery"/> <!-- Default 82.5 about +10% -->
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.4">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="5"/></passive_effect>
+	</effect_group>
 </item>
 
 <!-- CUSTOM CONTENT -->

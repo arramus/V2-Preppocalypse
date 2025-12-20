@@ -6,7 +6,11 @@
 	<append xpath="/progression/perks/book[@name='perkArtOfMiningPallets']/effect_group/passive_effect/@tags">,resourceClayLumpBundle</append>
 	<!-- Change Pack Mule Perk to unlock all slots -->
 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">4,8,12,16,20</set>
-
+	<!-- *** RANGER'S_GUIDE_TO_ARCHERY_VOLUME_04_APARROWS -->
+	<append xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect/@tags">,ammoArrowSteelBeeswaxAP,ammoCrossbowBoltSteelBeeswaxAP</append>
+	<!-- *** 7/7 RANGER'S_GUIDE_TO_ARCHERY_COMPLETE -->
+	<append xpath="/progression/perks/book[@name='perkRangersComplete']/effect_group/passive_effect/@tags">,ammoBundleArrowSteelBeeswaxAP,ammoBundleCrossbowBoltSteelBeeswaxAP</append>
+	
 	<!-- Max player level -->
 	<set xpath="/progression/level/@max_level">400</set> <!-- Default max level is 300 and 400 more than covers extras -->
 	<!-- Rifle reload speed -->

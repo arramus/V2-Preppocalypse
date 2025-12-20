@@ -12,7 +12,7 @@
 	<!-- *** ZOMBIE_SLAYER_CHALLENGES -->
 	<append xpath="/challenges/challenge[@name='killVultures']/objective[@type='Kill']/@entity_names">,animalZombieLargePlasmaVulturePREPPER,animalZombieMiniVulturePrepper</append>
 	<append xpath="/challenges/challenge[@name='killLumberjack']/objective[@type='Kill']/@entity_names">,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER</append>
-	<append xpath="/challenges/challenge[@name='killSpider']/objective[@type='Kill']/@entity_names">,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieMiniSpider,zombieMiniSpiderFeral,zombieMiniSpiderRadiated</append>
+	<append xpath="/challenges/challenge[@name='killSpider']/objective[@type='Kill']/@entity_names">,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieMiniSpider,zombieMiniSpiderFeral,zombieMiniSpiderRadiated</append>
 	<append xpath="/challenges/challenge[@name='killBigMama']/objective[@type='Kill']/@entity_names">,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER</append>
 	<append xpath="/challenges/challenge[@name='killTourist']/objective[@type='Kill']/@entity_names">,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER</append>
 	<append xpath="/challenges/challenge[@name='killMutated']/objective[@type='Kill']/@entity_names">,zombieBogeymanPREPPER,zombieBogeymanClaretPREPPER,zombieMiniMutated,zombieMiniMutatedFeral,zombieMiniMutatedRadiated</append>
