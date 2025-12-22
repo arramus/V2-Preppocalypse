@@ -1524,6 +1524,8 @@
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
 		<property name="SmellUse" value="25"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -3530,6 +3532,18 @@
 			<property name="Unlocks" value="modGunMagnumMagazineExtender"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagnumMagazineExtender" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+<!-- Double Barrel Shotgun Speed Reload Mod -->		
+		<item name="modGunDoubleBarrelSpeedLoaderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunDoubleBarrelSpeedLoader"/>
+			<property name="Unlocks" value="modGunDoubleBarrelSpeedLoader"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunDoubleBarrelSpeedLoader" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>

@@ -325,6 +325,7 @@
 	<!-- *** T1_Ranged_Mods -->
 	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
 		<item name="modWeaponMaintenance"/>
+		<item name="modGunDoubleBarrelSpeedLoader"/>
 	</append>
 	
 	<!-- *** T2_Ranged_Mods -->
@@ -339,6 +340,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
 		<item name="modWeaponMaintenanceSchematic"/>
 		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
+		<item name="modGunDoubleBarrelSpeedLoaderSchematic"/>
 	</append>
 	
 	<!-- *** T2_Schematics -->

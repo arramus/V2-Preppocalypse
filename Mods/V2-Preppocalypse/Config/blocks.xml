@@ -1662,6 +1662,7 @@
 	<property name="DescriptionKey" value="ammopressDesc"/>
 	<property name="DisplayType" value="blockMulti"/>	
 	<property name="WorkstationIcon" value="ui_game_symbol_ammopress"/>
+	<property name="CraftIcon" value="ui_game_symbol_ammopress"/>
 	<property name="Stacknumber" value="1"/>
 	<!-- Visual -->	
 	<property name="Material" value="Mmetal"/>
@@ -1691,6 +1692,7 @@
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="25"/>
 		<property name="resourceMechanicalParts" value="20"/>
+		<property name="resourceWood" value="50"/>
 	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
@@ -1706,6 +1708,8 @@
 	<property name="Group" value="Building,TCScience,advBuilding"/>
 	<property name="Tags" value="workstationSkill,twitch_workstation"/>
 	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	<property name="SoundPickup" value="workbench_grab"/>
+	<property name="SoundPlace" value="workbench_place"/>
 </block>
 
 	<!-- *** FISH_TRAP_COLLECTOR -->
