@@ -6790,6 +6790,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_nailgunutilityworkersDesc"/>
 			<property name="CustomIcon" value="quest_nailgunutilityworkers"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_nailgunutilityworkers"/>
@@ -6802,6 +6804,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>		
 			<property name="DescriptionKey" value="quest_stunbatonhazmatDesc"/>
 			<property name="CustomIcon" value="quest_stunbatonhazmat"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_stunbatonhazmat"/>
@@ -6814,6 +6818,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>			
 			<property name="DescriptionKey" value="quest_smgarleneDesc"/>
 			<property name="CustomIcon" value="quest_smgarlene"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_smgarlene"/>
@@ -6826,6 +6832,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>			
 			<property name="DescriptionKey" value="quest_m60demolitionDesc"/>
 			<property name="CustomIcon" value="quest_m60demolition"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_m60demolition"/>
@@ -6838,6 +6846,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>			
 			<property name="DescriptionKey" value="quest_tariflesoldierDesc"/>
 			<property name="CustomIcon" value="quest_tariflesoldier"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_tariflesoldier"/>
@@ -6850,6 +6860,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_steelaxelumberjackDesc"/>
 			<property name="CustomIcon" value="quest_steelaxelumberjack"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_steelaxelumberjack"/>
@@ -6862,6 +6874,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_machetepartygirlDesc"/>
 			<property name="CustomIcon" value="quest_machetepartygirl"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_machetepartygirl"/>
@@ -6874,6 +6888,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_pistolbusinessmanDesc"/>
 			<property name="CustomIcon" value="quest_pistolbusinessman"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_pistolbusinessman"/>
@@ -6886,6 +6902,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_compoundspiderDesc"/>
 			<property name="CustomIcon" value="quest_compoundspider"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_compoundspider"/>
@@ -6898,6 +6916,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_swissvetterliwightDesc"/>
 			<property name="CustomIcon" value="quest_swissvetterliwight"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_swissvetterliwight"/>
@@ -6910,6 +6930,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_chainsawmoeDesc"/>
 			<property name="CustomIcon" value="quest_chainsawmoe"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_chainsawmoe"/>
@@ -6922,6 +6944,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_desertvulturetomclarkDesc"/>
 			<property name="CustomIcon" value="quest_desertvulturetomclark"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_desertvulturetomclark"/>
@@ -6934,6 +6958,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_pumpshotgunbikerDesc"/>
 			<property name="CustomIcon" value="quest_pumpshotgunbiker"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_pumpshotgunbiker"/>
@@ -6946,6 +6972,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_batonfatcopDesc"/>
 			<property name="CustomIcon" value="quest_batonfatcop"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_batonfatcop"/>
@@ -6958,6 +6986,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_steelclubfemalefatDesc"/>
 			<property name="CustomIcon" value="quest_steelclubfemalefat"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_steelclubfemalefat"/>
@@ -6970,6 +7000,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_boltnurseDesc"/>
 			<property name="CustomIcon" value="quest_boltnurse"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_boltnurse"/>
@@ -6982,6 +7014,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_steelsledgehammerfathawaiianDesc"/>
 			<property name="CustomIcon" value="quest_steelsledgehammerfathawaiian"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_steelsledgehammerfathawaiian"/>
@@ -6994,6 +7028,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_steelpanmarleneDesc"/>
 			<property name="CustomIcon" value="quest_steelpanmarlene"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_steelpanmarlene"/>
@@ -7006,6 +7042,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_magnumjanitorbubDesc"/>
 			<property name="CustomIcon" value="quest_magnumjanitorbub"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_magnumjanitorbub"/>
@@ -7018,6 +7056,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_autoshotgundarleneDesc"/>
 			<property name="CustomIcon" value="quest_autoshotgundarlene"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_autoshotgundarlene"/>
@@ -7030,6 +7070,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_preppocommtowerDesc"/>
 			<property name="CustomIcon" value="quest_preppocommtower"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_preppocommtower"/>
@@ -7042,6 +7084,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_radiatedpreppersDesc"/>
 			<property name="CustomIcon" value="decoPumpkinJackOLantern"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_radiatedpreppers"/>
@@ -7054,6 +7098,8 @@
 			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
 			<property name="DescriptionKey" value="quest_nightpreppersDesc"/>
 			<property name="CustomIcon" value="quest_nightpreppers"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="250"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_nightpreppers"/>

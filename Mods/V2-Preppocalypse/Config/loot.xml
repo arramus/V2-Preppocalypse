@@ -157,10 +157,14 @@
 		<item name="resourceScrapBrass" count="25,50"/>
 		<item name="resourceGunPowder" count="25,50"/>
 		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceLockPick" count="5,10"/>
 		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
 		<item name="thrownAmmoPipeBomb" count="2,4"/>
 		<item name="medicalFirstAidBandage" count="1,2"/>
 		<item name="foodNavezganeHDR" count="1,2"/>
+		<item name="ammoBundle44MagnumBulletSilver" count="1,2"/>
+		<item name="resourceArmorCraftingKit" count="2,4"/>
+		<item group="groupRareToolsTiered"/>
 		<item group="vehicleModSchematics" count="1"/>		
 	</lootgroup>
 	</insertBefore>

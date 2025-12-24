@@ -232,6 +232,8 @@
 				<sprite depth="8" name="border" color="0,50,0,255" type="sliced" fillcenter="false"/>
 				<filledsprite depth="8" name="background" color="0,50,0,255" width="171" fillcenter="false" type="filled" fill="1"/>
 				<filledsprite depth="3" name="background" color="0,50,0,255" width="170" fillcenter="false" type="filled" fill="1"/>
+				
+				<texture depth="9" pos="86,-23" width="177" height="52" pivot="center" texture="@modfolder:Textures/HUDleftstatsborder03.png"/>
 			</rect>
 
 			<!-- Stamina -->
@@ -248,6 +250,8 @@
 				<sprite depth="8" name="border" color="0,50,0,255" type="sliced" fillcenter="false"/>
 				<filledsprite depth="8" name="background" color="0,50,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
 				<filledsprite depth="3" name="background" color="0,50,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
+				
+				<texture depth="9" pos="86,-15" width="177" height="36" pivot="center" texture="@modfolder:Textures/HUDleftstatsborder01.png"/>
 
 				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="48,48" pos="160,-16" pivot="left"/>
 			</rect>
@@ -266,6 +270,8 @@
 				<sprite depth="8" name="border" color="0,50,0,255" type="sliced" fillcenter="false"/>
 				<filledsprite depth="8" name="background" color="0,50,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
 				<filledsprite depth="3" name="background" color="0,50,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
+				
+				<texture depth="9" pos="86,-15" width="177" height="36" pivot="center" texture="@modfolder:Textures/HUDleftstatsborder01.png"/>
 			</rect>
 
 			<!-- Food -->
@@ -282,6 +288,8 @@
 				<sprite depth="8" name="border" color="0,50,0,255" type="sliced" fillcenter="false"/>
 				<filledsprite depth="8" name="background" color="0,50,0,255" width="83" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
 				<filledsprite depth="3" name="background" color="0,50,0,255" width="84" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
+				
+				<texture depth="9" pos="86,-15" width="177" height="36" pivot="center" texture="@modfolder:Textures/HUDleftstatsborder02.png"/>
 			</rect>
 
 			<!-- Water -->
