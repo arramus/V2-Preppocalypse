@@ -253,7 +253,7 @@
 				
 				<texture depth="9" pos="86,-15" width="177" height="36" pivot="center" texture="@modfolder:Textures/HUDleftstatsborder01.png"/>
 
-				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="48,48" pos="160,-16" pivot="left"/>
+				<sprite depth="8" visible="{sprintactive}" name="sprint" atlas="{uiatlas}" sprite="server_z_always_run" size="48,48" pos="164,-16" pivot="left"/>
 			</rect>
 
 			<!-- Health -->

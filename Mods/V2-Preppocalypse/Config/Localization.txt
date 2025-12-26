@@ -673,6 +673,7 @@ zombieBigNightSteveCrawlerRadiated,entityclasses,Entity,,,Big Night Molotov Craw
 zombieBigNightSteveCrawlerPlasmaRadiated,entityclasses,Entity,,,Big Night Plasma Crawler,,,,,,,,,,,,
 zombieBigNightSkateboarderClawHammerRadiated,entityclasses,Entity,,,Big Night Claw Hammer Thug,,,,,,,,,,,,
 zombieBigNightSkateboarderUndertakerRadiated,entityclasses,Entity,,,Big Night Undertaker,,,,,,,,,,,,
+zombieSkateboarderUndertakerClaret,entityclasses,Entity,,,Claret Fire Undertaker,,,,,,,,,,,,
 zombieBigNightJetRocketPREPPER,entityclasses,Entity,,,Big Night Fragger,,,,,,,,,,,,
 zombieBigNightJetRocketRadiatedPREPPER,entityclasses,Entity,,,Big Night Boss Fragger,,,,,,,,,,,,
 zombieToolsUtilityWorkerPREPPER,entityclasses,Entity,,,Preppo Tower Utility Worker,,,,,,,,,,,,
