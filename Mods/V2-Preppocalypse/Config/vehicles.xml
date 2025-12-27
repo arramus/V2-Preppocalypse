@@ -239,6 +239,8 @@
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
+			<property name="mod" value="storage"/>
+			<property name="modT" value="M/Storage"/>
 		</property>
 
 		</set>
@@ -409,9 +411,11 @@
 			<property name="modT" value="M/Plow"/>
 			<property name="modRBT" value="Plow"/>
 		</property-->
-
+		
 		<property class="storage">
 			<property name="class" value="Storage"/>
+			<!--property name="mod" value="storage"/>
+			<property name="modT" value="M/Storage"/-->
 		</property>
 
 	</vehicle>
