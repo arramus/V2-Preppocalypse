@@ -16,7 +16,7 @@
   <property name="SleeperVolumeSize" value="6, 20, 12#6, 5, 17#19, 16, 23#7, 5, 13" />
   <property name="SleeperVolumeStart" value="42, 3, 21#17, 4, 24#23, 4, 17#10, 4, 26" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="ZomBurnt,5,8,Prepper_Mixed_Entities,4,5,ZomBurnt,25,30,Prepper_Mixed_Dire_Wolf_Entities,2,3" />
+  <property name="SleeperVolumeGroup" value="ZomBurnt,5,8,Prepper_Mixed_Entities,4,5,ZomBurnt,25,30,Prepper_Mixed_Dire_Wolf_Entities,3,4" />
   <property name="SleeperIsLootVolume" value="False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0" />
@@ -24,15 +24,16 @@
   <property name="PrefabSize" value="60, 37, 60" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="943492" />
-    <property name="TotalTriangles" value="517227" />
+    <property name="LightsVolume" value="15927.88" />
+    <property name="TotalVertices" value="1009352" />
+    <property name="TotalTriangles" value="540159" />
     <property class="BlockEntities">
-      <property name="Vertices" value="872901" />
-      <property name="Triangles" value="453630" />
+      <property name="Vertices" value="937573" />
+      <property name="Triangles" value="476560" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="17015" />
-      <property name="Triangles" value="11489" />
+      <property name="Vertices" value="18209" />
+      <property name="Triangles" value="11495" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="32000" />
@@ -51,8 +52,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="21576" />
-      <property name="Triangles" value="36108" />
+      <property name="Vertices" value="21570" />
+      <property name="Triangles" value="36104" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
