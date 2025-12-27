@@ -921,6 +921,15 @@
 			<ingredient name="resourceSpring" count="10"/>
 		</recipe>
 		
+	<!-- Double Barrel Shotgun Speed Reload Mod -->
+		
+		<recipe name="modGunDoubleBarrelSpeedLoader" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+		
 	<!-- Dye -->
 
 	<!-- Default -->
