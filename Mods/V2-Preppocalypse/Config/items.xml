@@ -14,7 +14,7 @@
 	<append xpath="/items/item[@name='gunBowT1WoodenBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSteelBeeswaxAP</append>
 	<append xpath="/items/item[@name='gunBowT3CompoundBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSteelBeeswaxAP</append>
 	<append xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoCrossbowBoltSteelBeeswaxAP</append>
-	<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoCrossbowBoltSteelBeeswaxAP</append>	
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoCrossbowBoltSteelBeeswaxAP</append>
 	<!-- V2 Zombie Reach Adjust KhaineGB -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
@@ -35,14 +35,15 @@
 	<set xpath="/items/item[@name='medicalFirstAidBandage']/effect_group/display_value[@name='foodHealthAmount']/@value">35</set> <!-- 30 Default -->
 	<set xpath="/items/item[@name='drinkJarPureMineralWater']/effect_group/display_value[@name='dEfficientDigestion']/@value">.2</set> <!-- buffRedTea from -.15 assist -->
 	<set xpath="/items/item[@name='drinkJarRedTea']/effect_group/display_value[@name='dEfficientDigestion']/@value">.2</set> <!-- buffRedTea from -.15 assist -->
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='EconomicValue']/@value">50</set> <!-- Default is 200 -->
 	<!-- Weapons and Tools -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Repair_amount']/@value">500</set><!-- 100 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-2</set><!-- 2 Hit Upgrades -->
-	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">24</set><!-- 22 Default -->
-	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">27</set><!-- 22 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
-	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">25</set><!-- 22 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group[@name='meleeToolRepairT0TazasStoneAxe']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">32</set><!-- 22 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Repair_amount']/@value">850</set><!-- 400 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group/display_value[@name='dBlockRepairAmount']/@value">850</set><!-- 400 Default -->
@@ -52,11 +53,12 @@
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/display_value[@name='dBlockRepairAmount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">25</set><!-- Mag Size -->
 	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,resourceSteelNail,resourceSteelNailFlaming,resourceSteelNailExploding</append><!-- Adding Steel Nail for the Nailgun -->	
-	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">70</set><!-- 55 Default -->
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">75</set><!-- 55 to 65 Default -->
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@operation='base_set']/@value">29.4</set><!-- 10% reduction of 32.7 Default  -->
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
-	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.16</set> <!-- .26 Default -->
-	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.11</set> <!-- .26 Default -->
-	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.1</set> <!-- .15 Default -->
+	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.05</set> <!-- .1 Default -->
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.05</set> <!-- .08 Default -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.05</set> <!-- .06 Default -->
 	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@class='Action0']/property[@name='AutoReload']/@value">true</set>
 	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoRocketFire</append><!-- Adding Fire Rockets for the Rocket Launcher -->
 	<append xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">,Chemicals</append><!-- Acid for chemistry table -->

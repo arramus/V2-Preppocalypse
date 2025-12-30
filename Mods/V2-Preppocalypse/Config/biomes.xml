@@ -39,8 +39,8 @@
 			<decoration type="prefab" name="deco_desertoasis_01" onslopes="false" prob=".0025" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02" onslopes="false" prob=".0025" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_03" onslopes="false" prob=".0025" rotatemax="3"/>
-			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".0025" rotatemax="3"/>
-			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".0025" rotatemax="3"/>
+			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".0015" rotatemax="3"/>
+			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertfill_01" onslopes="false" prob=".0025" rotatemax="3"/>			
 			<decoration type="prefab" name="deco_desertfill_02" onslopes="false" prob=".0025" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertfill_03" onslopes="false" prob=".0025" rotatemax="3"/>			
@@ -54,14 +54,14 @@
 	</append>
 	<!-- *** Desert: Sub Biome: Oil Shale -->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@noise='.04, 0, .3']/decorations">
-			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".00025" rotatemax="3"/>
-			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".00025" rotatemax="3"/>
+			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".00015" rotatemax="3"/>
+			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".00015" rotatemax="3"/>
 			<decoration type="block" blockname="treeStump" prob=".00005" rotatemax="7"/>
 	</append>	
 	<!-- Decorations Main: Desert -->	
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
-			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".0005" rotatemax="3"/>	
+			<decoration type="prefab" name="deco_preppocomm_01" onslopes="false" prob=".00025" rotatemax="3"/>
+			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".00025" rotatemax="3"/>	
 			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>		
 	</append>
 	
