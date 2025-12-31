@@ -355,30 +355,27 @@
 	
 <!-- *** BIOME_ZOMBIES_DESERT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="add" >
+		zombieMiniSpider, .05
+		zombieMiniSpiderFeral, .05
+		zombieMiniMutated, .05
+		zombieMiniBurntStoneSpear, .05
+		zombieBurntStoneSpear, .05
+		zombieMiniBurntFeralIronSpear, .05
+		zombieBurntFeralIronSpear, .05
+		zombieMiniBurntToaster, .05
+		zombieBurntToaster, .05
+		zombieMiniBurntRadiatedSteelSpear, .05
+		zombieBurntRadiatedSteelSpear, .05
+		zombieSteveCrawlerFeral, .05
+		zombieBurntRadiated, .05	
 		zombieMiniCrispyPREPPER, .05
-		zombieCrispyPREPPER, .01
-		animalZombieBunnyPREPPER, .0025
-		animalZombieSnakePREPPER, .0025
-		animalZombieChickenPREPPER, .0025
-		zombieSpiderFeralBomberPREPPER, .0025
-		zombieSpiderFeralGliderPREPPER, .0025
-		zombieBogeymanClaretPREPPER, .001
-		zombieBatonFatCopClaretPREPPER, .001
-		zombieBurntSirenClaret, .001
-		zombieScreamerClaret, .001
-		zombieChainsawMoeClaretPREPPER, .001
-		zombieSpiderGliderClaretPREPPER, .001
-		zombieSpiderBomberClaretPREPPER, .001
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
-		zombieMiniCrispyPREPPER, .1
-		zombieCrispyPREPPER, .02
-		animalZombieBunnyPREPPER, .085
-		animalZombieSnakePREPPER, .085
-		animalZombieChickenPREPPER, .085
-		zombieSpiderFeralBomberPREPPER, .03
-		zombieSpiderFeralGliderPREPPER, .03
+		zombieCrispyPREPPER, .025
+		animalZombieBunnyPREPPER, .025
+		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
+		zombieSpiderFeralBomberPREPPER, .025
+		zombieSpiderFeralGliderPREPPER, .025
+		zombieScorcherPREPPER, .025
 		zombieBogeymanClaretPREPPER, .01
 		zombieBatonFatCopClaretPREPPER, .01
 		zombieBurntSirenClaret, .01
@@ -388,12 +385,44 @@
 		zombieSpiderBomberClaretPREPPER, .01
 	</csv>
 	
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
+		zombieMiniSpider, .075
+		zombieMiniSpiderFeral, .075
+		zombieMiniMutated, .075
+		zombieMiniBurntStoneSpear, .075
+		zombieBurntStoneSpear, .075
+		zombieMiniBurntFeralIronSpear, .075
+		zombieBurntFeralIronSpear, .075
+		zombieMiniBurntToaster, .075
+		zombieBurntToaster, .075
+		zombieMiniBurntRadiatedSteelSpear, .075
+		zombieBurntRadiatedSteelSpear, .075
+		zombieSteveCrawlerFeral, .075
+		zombieBurntRadiated, .075	
+		zombieMiniCrispyPREPPER, .075
+		zombieCrispyPREPPER, .05
+		animalZombieBunnyPREPPER, .05
+		animalZombieSnakePREPPER, .05
+		animalZombieChickenPREPPER, .05
+		zombieSpiderFeralBomberPREPPER, .05
+		zombieSpiderFeralGliderPREPPER, .05
+		zombieScorcherPREPPER, .05
+		zombieBogeymanClaretPREPPER, .02
+		zombieBatonFatCopClaretPREPPER, .02
+		zombieBurntSirenClaret, .02
+		zombieScreamerClaret, .02
+		zombieChainsawMoeClaretPREPPER, .02
+		zombieSpiderGliderClaretPREPPER, .02
+		zombieSpiderBomberClaretPREPPER, .02
+	</csv>
+	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add" >
 		zombieLumberjackFeral, .35
 		zombieLumberjackRadiated, .2
 		animalPaindeerPREPPER, .175
 		zombieSteelAxeLumberjackPREPPER, .15
+		zombieSteelAxeLumberjackRadiatedPREPPER, .075
 		zombieSteelAxeLumberjackChargedPREPPER, .075
 		zombieSteelAxeLumberjackInfernalPREPPER, .075
 		animalZombieBunnyPREPPER, .05
@@ -440,6 +469,7 @@
 		zombieLumberjackRadiated, .2
 		animalPaindeerPREPPER, .175
 		zombieSteelAxeLumberjackPREPPER, .15
+		zombieSteelAxeLumberjackRadiatedPREPPER, .075
 		zombieSteelAxeLumberjackChargedPREPPER, .075
 		zombieSteelAxeLumberjackInfernalPREPPER, .075
 		animalZombieBunnyPREPPER, .05
@@ -491,6 +521,7 @@
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
 		zombieSkateboarderUndertakerClaret, .02
+		zombieBogeymanPlasmaPREPPER, .01
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_ALL_WASTELAND_GROUP -->
@@ -788,6 +819,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanPlasmaPREPPER, .1
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS50">
 		animalZombieBunnyPREPPER
@@ -853,6 +885,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanPlasmaPREPPER, .1
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS100">
 		animalZombieBunnyPREPPER
@@ -918,6 +951,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanPlasmaPREPPER, .1
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS200">
 		animalZombieBunnyPREPPER
@@ -983,6 +1017,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanPlasmaPREPPER, .1
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS400">
 		animalZombieBunnyPREPPER
@@ -1048,6 +1083,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .5
 		zombieToolsUtilityWorkerRadiatedPREPPER, .5
 		zombieRocketRadiatedPREPPER, .5
+		zombieBogeymanPlasmaPREPPER, .25
 	</entitygroup>
 	<entitygroup name="PrepperMixedEntitiesGroupGS800">
 		animalZombieBunnyPREPPER
@@ -1113,6 +1149,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .75
 		zombieToolsUtilityWorkerRadiatedPREPPER, .75
 		zombieRocketRadiatedPREPPER, .75
+		zombieBogeymanPlasmaPREPPER, .5
 	</entitygroup>
 	
 	<!-- Prepper Flyer Entities for GS -->
@@ -1185,6 +1222,9 @@
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieBogeymanClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .0125
+		zombieSpiderBomberClaretPREPPER, .0125
+		zombieBogeymanPlasmaPREPPER, .0125
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS50">
@@ -1204,6 +1244,9 @@
 		zombieSpiderFeralBomberPREPPER, .0375
 		zombieSpiderFeralGliderPREPPER, .0375
 		zombieBogeymanClaretPREPPER, .0375
+		zombieSpiderGliderClaretPREPPER, .0187
+		zombieSpiderBomberClaretPREPPER, .0187
+		zombieBogeymanPlasmaPREPPER, .0187
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS100">
@@ -1223,6 +1266,9 @@
 		zombieSpiderFeralBomberPREPPER, .0625
 		zombieSpiderFeralGliderPREPPER, .0625
 		zombieBogeymanClaretPREPPER, .0625
+		zombieSpiderGliderClaretPREPPER, .0312
+		zombieSpiderBomberClaretPREPPER, .0312
+		zombieBogeymanPlasmaPREPPER, .0312
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS200">
@@ -1242,6 +1288,9 @@
 		zombieSpiderFeralBomberPREPPER, .0875
 		zombieSpiderFeralGliderPREPPER, .0875
 		zombieBogeymanClaretPREPPER, .0875
+		zombieSpiderGliderClaretPREPPER, .0437
+		zombieSpiderBomberClaretPREPPER, .0437
+		zombieBogeymanPlasmaPREPPER, .0437
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS400">
@@ -1261,6 +1310,9 @@
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieBogeymanClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .0625
+		zombieSpiderBomberClaretPREPPER, .0625
+		zombieBogeymanPlasmaPREPPER, .0625
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedSoldierEntitiesGroupGS800">
@@ -1280,6 +1332,9 @@
 		zombieSpiderFeralBomberPREPPER, .188
 		zombieSpiderFeralGliderPREPPER, .188
 		zombieBogeymanClaretPREPPER, .188
+		zombieSpiderGliderClaretPREPPER, .094
+		zombieSpiderBomberClaretPREPPER, .094
+		zombieBogeymanPlasmaPREPPER, .094
 	</entitygroup>
 	
 	<!-- Prepper Mixed Animal Entities for GS -->
@@ -1554,41 +1609,42 @@
 	<!-- *** ENEMY_ANIMAL_FOREST -->
 	<!-- Expanding from snake -->
 	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']">
-		animalSnake, 10
-		animalWolf, 10
-		animalZombieMiniVulturePrepper, 6
-		animalZombieEagle, 3
+		animalSnake, 9
+		animalWolf, 9
+		animalZombieMiniVulturePrepper, 5
+		animalZombieEagle, 4
 		animalBearSmall, 3
-		animalBear, 2
-		animalMiniDireWolf, 2
-		animalZombieBigDogPrepper, 2
-		animalMiniMountainLion, 2
-		none, 60
+		animalBear, 3
+		animalMiniDireWolf, 3
+		animalZombieMiniDogPrepper, 3
+		animalZombieMiniDogPrepper, 3
+		animalMiniMountainLion, 3
+		none, 55
 	</set>
 	
 	<!-- *** BURNT_FOREST -->
 	<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
 	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestAny']">
-		animalSnake, 10
-		animalWolf, 10
-		animalZombieMiniVulturePrepper, 6
-		animalZombieEagle, 2
-		animalBearSmall, 2
-		animalBear, 2
-		animalMiniDireWolf, 2
-		animalZombieBigDogPrepper, 2
-		animalZombieMiniDogPrepper, 2
-		animalMiniMountainLion, 2
-		none, 60
+		animalSnake, 9
+		animalWolf, 9
+		animalZombieMiniVulturePrepper, 5
+		animalZombieEagle, 4
+		animalBearSmall, 3
+		animalBear, 3
+		animalMiniDireWolf, 3
+		animalZombieMiniDogPrepper, 3
+		animalZombieMiniDogPrepper, 3
+		animalMiniMountainLion, 3
+		none, 55
 	</set>
 
 	<!-- *** DESERT -->
 	<!-- *** ENEMY_ANIMAL_DESERT -->
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
-		animalZombieEagle, 2
-		animalMiniDireWolf, 2
-		animalZombieBigDogPrepper, 2
-		animalMountainLion, 2
+		animalZombieEagle, 3
+		animalMiniDireWolf, 3
+		animalZombieBigDogPrepper, 3
+		animalMountainLion, 3
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
@@ -1624,27 +1680,27 @@
 	<!-- *** WASTELAND -->
 	<!-- *** ENEMY_ANIMAL_WASTELAND -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		animalDireFireWolf, 8
-		animalMiniDireWolf, 8
-		animalGiantDireFireWolf, 4
+		animalDireFireWolf, 6
+		animalMiniDireWolf, 6
 		animalZombieBear, 4
-		animalZombieBunnyBomberPREPPER, .4
+		animalZombieBunnyBomberPREPPER, 4
 		animalZombieGiantDogPrepper, 4
 		animalZombieBigDogPrepper, 4
 		animalZombieMiniDogPrepper, 4
 		animalZombieEagle, 4
+		animalGiantDireFireWolf, 3
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']/text()" delim="\n" op="add" >
-		animalDireFireWolf, 8
-		animalMiniDireWolf, 8
-		animalGiantDireFireWolf, 8
-		animalZombieBunnyBomberPREPPER, .4
+		animalDireFireWolf, 6
+		animalMiniDireWolf, 6
+		animalZombieBunnyBomberPREPPER, 4
 		animalZombieGiantDogPrepper, 2
 		animalZombieBigDogPrepper, 2
 		animalZombieMiniDogPrepper, 2
 		animalZombieEagle, 2
+		animalGiantDireFireWolf, 2
 	</csv>
 	
 <!-- ***WANDERING_HORDE_AND_LEVEL_DESIGN_SLEEPER_BLOCKS -->
@@ -2329,14 +2385,6 @@
 		zombieMachetePartyGirlInfernalPREPPER, .15
 		zombieChainsawMoeChargedPREPPER, .15
 		zombieChainsawMoeInfernalPREPPER, .15
-		zombieBogeymanClaretPREPPER, .05
-		zombieBatonFatCopClaretPREPPER, .05
-		zombieBurntSirenClaret, .05
-		zombieScreamerClaret, .05
-		zombieChainsawMoeClaretPREPPER, .05
-		zombieSpiderGliderClaretPREPPER, .05
-		zombieSpiderBomberClaretPREPPER, .05
-		zombieSkateboarderUndertakerClaret, .05
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->
@@ -3089,6 +3137,15 @@
 		zombieCrispyPREPPER, .05
 		zombieScorcherRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -3105,6 +3162,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS160']/text()" delim="\n" op="add" >
@@ -3140,6 +3199,15 @@
 		zombieCrispyPREPPER, .05
 		zombieScorcherRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS167']/text()" delim="\n" op="add" >
@@ -3175,6 +3243,15 @@
 		zombieCrispyPREPPER, .05
 		zombieScorcherRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS174']/text()" delim="\n" op="add" >
@@ -3210,6 +3287,15 @@
 		zombieCrispyPREPPER, .05
 		zombieScorcherRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS181']/text()" delim="\n" op="add" >
@@ -3245,6 +3331,15 @@
 		zombieCrispyPREPPER, .05
 		zombieScorcherRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 
 <!-- First appearance of 1.0 type probability for Radiated Zombie brings in Radiated Prepper -->	
@@ -3300,6 +3395,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .025
 		zombieToolsUtilityWorkerRadiatedPREPPER, .025
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS195']/text()" delim="\n" op="add" >
@@ -3354,6 +3458,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .025
 		zombieToolsUtilityWorkerRadiatedPREPPER, .025
 		zombieRocketRadiatedPREPPER, .025
+		zombieBogeymanClaretPREPPER, .025
+		zombieBatonFatCopClaretPREPPER, .025
+		zombieBurntSirenClaret, .025
+		zombieScreamerClaret, .025
+		zombieChainsawMoeClaretPREPPER, .025
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
+		zombieSkateboarderUndertakerClaret, .025
+		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -3370,6 +3483,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .05		
 		zombieSpiderFeralBomberPREPPER, .05
 		zombieSpiderFeralGliderPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .025
+		zombieSpiderBomberClaretPREPPER, .025
 	</set>
 
 <!-- Radiated Zombie at 1.0 becomes the norm except for special type -->	
@@ -3425,6 +3540,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .05
 		zombieToolsUtilityWorkerRadiatedPREPPER, .05		
 		zombieRocketRadiatedPREPPER, .05
+		zombieBogeymanClaretPREPPER, .05
+		zombieBatonFatCopClaretPREPPER, .05
+		zombieBurntSirenClaret, .05
+		zombieScreamerClaret, .05
+		zombieChainsawMoeClaretPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
+		zombieSkateboarderUndertakerClaret, .05
+		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS217']/text()" delim="\n" op="add" >
@@ -3479,6 +3603,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .05
 		zombieToolsUtilityWorkerRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
+		zombieBogeymanClaretPREPPER, .05
+		zombieBatonFatCopClaretPREPPER, .05
+		zombieBurntSirenClaret, .05
+		zombieScreamerClaret, .05
+		zombieChainsawMoeClaretPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
+		zombieSkateboarderUndertakerClaret, .05
+		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS225']/text()" delim="\n" op="add" >
@@ -3533,6 +3666,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .05
 		zombieToolsUtilityWorkerRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
+		zombieBogeymanClaretPREPPER, .05
+		zombieBatonFatCopClaretPREPPER, .05
+		zombieBurntSirenClaret, .05
+		zombieScreamerClaret, .05
+		zombieChainsawMoeClaretPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
+		zombieSkateboarderUndertakerClaret, .05
+		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS232']/text()" delim="\n" op="add" >
@@ -3587,6 +3729,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .05
 		zombieToolsUtilityWorkerRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
+		zombieBogeymanClaretPREPPER, .05
+		zombieBatonFatCopClaretPREPPER, .05
+		zombieBurntSirenClaret, .05
+		zombieScreamerClaret, .05
+		zombieChainsawMoeClaretPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
+		zombieSkateboarderUndertakerClaret, .05
+		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS240']/text()" delim="\n" op="add" >
@@ -3641,6 +3792,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .05
 		zombieToolsUtilityWorkerRadiatedPREPPER, .05
 		zombieRocketRadiatedPREPPER, .05
+		zombieBogeymanClaretPREPPER, .05
+		zombieBatonFatCopClaretPREPPER, .05
+		zombieBurntSirenClaret, .05
+		zombieScreamerClaret, .05
+		zombieChainsawMoeClaretPREPPER, .05
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
+		zombieSkateboarderUndertakerClaret, .05
+		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -3657,6 +3817,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase for Custom Zombies based on Pre A21 values -->	
@@ -3712,6 +3874,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS263']/text()" delim="\n" op="add" >
@@ -3766,6 +3937,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS271']/text()" delim="\n" op="add" >
@@ -3820,6 +4000,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS279']/text()" delim="\n" op="add" >
@@ -3874,6 +4063,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS287']/text()" delim="\n" op="add" >
@@ -3928,6 +4126,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS295']/text()" delim="\n" op="add" >
@@ -3982,6 +4189,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .075
 		zombieToolsUtilityWorkerRadiatedPREPPER, .075
 		zombieRocketRadiatedPREPPER, .075
+		zombieBogeymanClaretPREPPER, .075
+		zombieBatonFatCopClaretPREPPER, .075
+		zombieBurntSirenClaret, .075
+		zombieScreamerClaret, .075
+		zombieChainsawMoeClaretPREPPER, .075
+		zombieSpiderGliderClaretPREPPER, .075
+		zombieSpiderBomberClaretPREPPER, .075
+		zombieSkateboarderUndertakerClaret, .075
+		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
 
 <!-- Increase for GS 300 -->	
@@ -4037,6 +4253,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS312']/text()" delim="\n" op="add" >
@@ -4091,6 +4316,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS320']/text()" delim="\n" op="add" >
@@ -4145,6 +4379,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS329']/text()" delim="\n" op="add" >
@@ -4199,6 +4442,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS337']/text()" delim="\n" op="add" >
@@ -4253,6 +4505,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS346']/text()" delim="\n" op="add" >
@@ -4307,6 +4568,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -4323,6 +4593,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS363']/text()" delim="\n" op="add" >
@@ -4377,6 +4649,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS372']/text()" delim="\n" op="add" >
@@ -4431,6 +4712,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS381']/text()" delim="\n" op="add" >
@@ -4485,6 +4775,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS389']/text()" delim="\n" op="add" >
@@ -4539,6 +4838,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS398']/text()" delim="\n" op="add" >
@@ -4593,6 +4901,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -4609,6 +4926,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS417']/text()" delim="\n" op="add" >
@@ -4663,6 +4982,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS426']/text()" delim="\n" op="add" >
@@ -4717,6 +5045,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS435']/text()" delim="\n" op="add" >
@@ -4771,6 +5108,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS444']/text()" delim="\n" op="add" >
@@ -4825,6 +5171,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS453']/text()" delim="\n" op="add" >
@@ -4879,6 +5234,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS463']/text()" delim="\n" op="add" >
@@ -4933,6 +5297,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS472']/text()" delim="\n" op="add" >
@@ -4987,6 +5360,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS482']/text()" delim="\n" op="add" >
@@ -5041,6 +5423,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .1
 		zombieToolsUtilityWorkerRadiatedPREPPER, .1
 		zombieRocketRadiatedPREPPER, .1
+		zombieBogeymanClaretPREPPER, .1
+		zombieBatonFatCopClaretPREPPER, .1
+		zombieBurntSirenClaret, .1
+		zombieScreamerClaret, .1
+		zombieChainsawMoeClaretPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .1
+		zombieSpiderBomberClaretPREPPER, .1
+		zombieSkateboarderUndertakerClaret, .1
+		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -5057,6 +5448,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase for GS 500 -->	
@@ -5112,6 +5505,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS510']/text()" delim="\n" op="add" >
@@ -5166,6 +5568,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS520']/text()" delim="\n" op="add" >
@@ -5220,6 +5631,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS530']/text()" delim="\n" op="add" >
@@ -5274,6 +5694,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS540']/text()" delim="\n" op="add" >
@@ -5328,6 +5757,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS550']/text()" delim="\n" op="add" >
@@ -5382,6 +5820,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS560']/text()" delim="\n" op="add" >
@@ -5436,6 +5883,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS570']/text()" delim="\n" op="add" >
@@ -5490,6 +5946,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS580']/text()" delim="\n" op="add" >
@@ -5544,6 +6009,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS590']/text()" delim="\n" op="add" >
@@ -5598,6 +6072,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -5614,6 +6097,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS610']/text()" delim="\n" op="add" >
@@ -5668,6 +6153,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS620']/text()" delim="\n" op="add" >
@@ -5722,6 +6216,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS631']/text()" delim="\n" op="add" >
@@ -5776,6 +6279,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS641']/text()" delim="\n" op="add" >
@@ -5830,6 +6342,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS651']/text()" delim="\n" op="add" >
@@ -5884,6 +6405,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS662']/text()" delim="\n" op="add" >
@@ -5938,6 +6468,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS672']/text()" delim="\n" op="add" >
@@ -5992,6 +6531,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS683']/text()" delim="\n" op="add" >
@@ -6046,6 +6594,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .125
 		zombieToolsUtilityWorkerRadiatedPREPPER, .125
 		zombieRocketRadiatedPREPPER, .125
+		zombieBogeymanClaretPREPPER, .125
+		zombieBatonFatCopClaretPREPPER, .125
+		zombieBurntSirenClaret, .125
+		zombieScreamerClaret, .125
+		zombieChainsawMoeClaretPREPPER, .125
+		zombieSpiderGliderClaretPREPPER, .125
+		zombieSpiderBomberClaretPREPPER, .125
+		zombieSkateboarderUndertakerClaret, .125
+		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -6062,6 +6619,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Pretty much peaked for default entities and anything goes -->	
@@ -6117,6 +6676,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS715']/text()" delim="\n" op="add" >
@@ -6171,6 +6739,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS726']/text()" delim="\n" op="add" >
@@ -6225,6 +6802,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS736']/text()" delim="\n" op="add" >
@@ -6279,6 +6865,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS747']/text()" delim="\n" op="add" >
@@ -6333,6 +6928,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS758']/text()" delim="\n" op="add" >
@@ -6387,6 +6991,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS769']/text()" delim="\n" op="add" >
@@ -6441,6 +7054,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS780']/text()" delim="\n" op="add" >
@@ -6495,6 +7117,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .15
 		zombieToolsUtilityWorkerRadiatedPREPPER, .15
 		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -6511,6 +7142,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase in probabilities for GS 800 -->	
@@ -6565,7 +7198,16 @@
 		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
-		zombieRocketRadiatedPREPPER, .175
+		zombieRocketRadiatedPREPPER, .15
+		zombieBogeymanClaretPREPPER, .15
+		zombieBatonFatCopClaretPREPPER, .15
+		zombieBurntSirenClaret, .15
+		zombieScreamerClaret, .15
+		zombieChainsawMoeClaretPREPPER, .15
+		zombieSpiderGliderClaretPREPPER, .15
+		zombieSpiderBomberClaretPREPPER, .15
+		zombieSkateboarderUndertakerClaret, .15
+		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS813']/text()" delim="\n" op="add" >
@@ -6619,6 +7261,15 @@
 		zombieMagnumJanitorBubRadiatedPREPPER, .175
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS824']/text()" delim="\n" op="add" >
@@ -6673,6 +7324,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS836']/text()" delim="\n" op="add" >
@@ -6727,6 +7387,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS847']/text()" delim="\n" op="add" >
@@ -6781,6 +7450,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS858']/text()" delim="\n" op="add" >
@@ -6835,6 +7513,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS870']/text()" delim="\n" op="add" >
@@ -6889,6 +7576,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS881']/text()" delim="\n" op="add" >
@@ -6943,6 +7639,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS893']/text()" delim="\n" op="add" >
@@ -6997,6 +7702,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -7013,6 +7727,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS916']/text()" delim="\n" op="add" >
@@ -7067,6 +7783,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS927']/text()" delim="\n" op="add" >
@@ -7121,6 +7846,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS939']/text()" delim="\n" op="add" >
@@ -7175,6 +7909,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS951']/text()" delim="\n" op="add" >
@@ -7229,6 +7972,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS962']/text()" delim="\n" op="add" >
@@ -7283,6 +8035,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS974']/text()" delim="\n" op="add" >
@@ -7337,6 +8098,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS986']/text()" delim="\n" op="add" >
@@ -7391,6 +8161,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .175
 		zombieToolsUtilityWorkerRadiatedPREPPER, .175
 		zombieRocketRadiatedPREPPER, .175
+		zombieBogeymanClaretPREPPER, .175
+		zombieBatonFatCopClaretPREPPER, .175
+		zombieBurntSirenClaret, .175
+		zombieScreamerClaret, .175
+		zombieChainsawMoeClaretPREPPER, .175
+		zombieSpiderGliderClaretPREPPER, .175
+		zombieSpiderBomberClaretPREPPER, .175
+		zombieSkateboarderUndertakerClaret, .175
+		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -7407,6 +8186,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase in probabilities for GS 1000 -->	
@@ -7462,6 +8243,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1022']/text()" delim="\n" op="add" >
@@ -7516,6 +8306,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1034']/text()" delim="\n" op="add" >
@@ -7570,6 +8369,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1046']/text()" delim="\n" op="add" >
@@ -7624,6 +8432,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1058']/text()" delim="\n" op="add" >
@@ -7678,6 +8495,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1070']/text()" delim="\n" op="add" >
@@ -7732,6 +8558,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1082']/text()" delim="\n" op="add" >
@@ -7786,6 +8621,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1094']/text()" delim="\n" op="add" >
@@ -7840,6 +8684,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1106']/text()" delim="\n" op="add" >
@@ -7894,6 +8747,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1119']/text()" delim="\n" op="add" >
@@ -7948,6 +8810,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1131']/text()" delim="\n" op="add" >
@@ -8002,6 +8873,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1143']/text()" delim="\n" op="add" >
@@ -8056,6 +8936,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1156']/text()" delim="\n" op="add" >
@@ -8110,6 +8999,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1168']/text()" delim="\n" op="add" >
@@ -8164,6 +9062,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1181']/text()" delim="\n" op="add" >
@@ -8218,6 +9125,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1193']/text()" delim="\n" op="add" >
@@ -8272,6 +9188,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -8288,6 +9213,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1218']/text()" delim="\n" op="add" >
@@ -8342,6 +9269,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1231']/text()" delim="\n" op="add" >
@@ -8396,6 +9332,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1244']/text()" delim="\n" op="add" >
@@ -8450,6 +9395,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1256']/text()" delim="\n" op="add" >
@@ -8504,6 +9458,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1269']/text()" delim="\n" op="add" >
@@ -8558,6 +9521,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1282']/text()" delim="\n" op="add" >
@@ -8612,6 +9584,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1295']/text()" delim="\n" op="add" >
@@ -8666,6 +9647,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1308']/text()" delim="\n" op="add" >
@@ -8720,6 +9710,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1321']/text()" delim="\n" op="add" >
@@ -8774,6 +9773,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1334']/text()" delim="\n" op="add" >
@@ -8828,6 +9836,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1347']/text()" delim="\n" op="add" >
@@ -8882,6 +9899,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1360']/text()" delim="\n" op="add" >
@@ -8936,6 +9962,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1373']/text()" delim="\n" op="add" >
@@ -8990,6 +10025,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1386']/text()" delim="\n" op="add" >
@@ -9044,6 +10088,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1399']/text()" delim="\n" op="add" >
@@ -9098,6 +10151,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -9114,6 +10176,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1425']/text()" delim="\n" op="add" >
@@ -9168,6 +10232,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1439']/text()" delim="\n" op="add" >
@@ -9222,6 +10295,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1452']/text()" delim="\n" op="add" >
@@ -9276,6 +10358,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1465']/text()" delim="\n" op="add" >
@@ -9330,6 +10421,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1479']/text()" delim="\n" op="add" >
@@ -9384,6 +10484,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1492']/text()" delim="\n" op="add" >
@@ -9438,6 +10547,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .2
 		zombieToolsUtilityWorkerRadiatedPREPPER, .2
 		zombieRocketRadiatedPREPPER, .2
+		zombieBogeymanClaretPREPPER, .2
+		zombieBatonFatCopClaretPREPPER, .2
+		zombieBurntSirenClaret, .2
+		zombieScreamerClaret, .2
+		zombieChainsawMoeClaretPREPPER, .2
+		zombieSpiderGliderClaretPREPPER, .2
+		zombieSpiderBomberClaretPREPPER, .2
+		zombieSkateboarderUndertakerClaret, .2
+		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
 
 <!-- Increase in probabilities for GS 1500 -->	
@@ -9493,6 +10611,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1519']/text()" delim="\n" op="add" >
@@ -9547,6 +10674,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1533']/text()" delim="\n" op="add" >
@@ -9601,6 +10737,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1546']/text()" delim="\n" op="add" >
@@ -9655,6 +10800,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1560']/text()" delim="\n" op="add" >
@@ -9709,6 +10863,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1573']/text()" delim="\n" op="add" >
@@ -9763,6 +10926,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1587']/text()" delim="\n" op="add" >
@@ -9817,6 +10989,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -9833,6 +11014,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1614']/text()" delim="\n" op="add" >
@@ -9887,6 +11070,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1628']/text()" delim="\n" op="add" >
@@ -9941,6 +11133,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1642']/text()" delim="\n" op="add" >
@@ -9995,6 +11196,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1656']/text()" delim="\n" op="add" >
@@ -10049,6 +11259,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1670']/text()" delim="\n" op="add" >
@@ -10103,6 +11322,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1684']/text()" delim="\n" op="add" >
@@ -10157,6 +11385,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1698']/text()" delim="\n" op="add" >
@@ -10211,6 +11448,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1712']/text()" delim="\n" op="add" >
@@ -10265,6 +11511,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1726']/text()" delim="\n" op="add" >
@@ -10319,6 +11574,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1740']/text()" delim="\n" op="add" >
@@ -10373,6 +11637,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1754']/text()" delim="\n" op="add" >
@@ -10427,6 +11700,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1768']/text()" delim="\n" op="add" >
@@ -10481,6 +11763,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1782']/text()" delim="\n" op="add" >
@@ -10535,6 +11826,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1796']/text()" delim="\n" op="add" >
@@ -10589,6 +11889,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -10605,6 +11914,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1825']/text()" delim="\n" op="add" >
@@ -10659,6 +11970,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1839']/text()" delim="\n" op="add" >
@@ -10713,6 +12033,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1853']/text()" delim="\n" op="add" >
@@ -10767,6 +12096,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1868']/text()" delim="\n" op="add" >
@@ -10821,6 +12159,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1882']/text()" delim="\n" op="add" >
@@ -10875,6 +12222,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1897']/text()" delim="\n" op="add" >
@@ -10929,6 +12285,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1911']/text()" delim="\n" op="add" >
@@ -10983,6 +12348,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1926']/text()" delim="\n" op="add" >
@@ -11037,6 +12411,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1940']/text()" delim="\n" op="add" >
@@ -11091,6 +12474,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1955']/text()" delim="\n" op="add" >
@@ -11145,6 +12537,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1969']/text()" delim="\n" op="add" >
@@ -11199,6 +12600,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1984']/text()" delim="\n" op="add" >
@@ -11253,6 +12663,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		zombieBogeymanClaretPREPPER, .25
+		zombieBatonFatCopClaretPREPPER, .25
+		zombieBurntSirenClaret, .25
+		zombieScreamerClaret, .25
+		zombieChainsawMoeClaretPREPPER, .25
+		zombieSpiderGliderClaretPREPPER, .25
+		zombieSpiderBomberClaretPREPPER, .25
+		zombieSkateboarderUndertakerClaret, .25
+		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -11269,6 +12688,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase in probabilities for GS 2000 -->	
@@ -11324,6 +12745,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2028']/text()" delim="\n" op="add" >
@@ -11378,6 +12808,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2043']/text()" delim="\n" op="add" >
@@ -11432,6 +12871,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2058']/text()" delim="\n" op="add" >
@@ -11486,6 +12934,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2073']/text()" delim="\n" op="add" >
@@ -11540,6 +12997,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2087']/text()" delim="\n" op="add" >
@@ -11594,6 +13060,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2102']/text()" delim="\n" op="add" >
@@ -11648,6 +13123,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2117']/text()" delim="\n" op="add" >
@@ -11702,6 +13186,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2132']/text()" delim="\n" op="add" >
@@ -11756,6 +13249,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2147']/text()" delim="\n" op="add" >
@@ -11810,6 +13312,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2162']/text()" delim="\n" op="add" >
@@ -11864,6 +13375,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2177']/text()" delim="\n" op="add" >
@@ -11918,6 +13438,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2192']/text()" delim="\n" op="add" >
@@ -11972,6 +13501,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2207']/text()" delim="\n" op="add" >
@@ -12026,6 +13564,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2223']/text()" delim="\n" op="add" >
@@ -12080,6 +13627,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2238']/text()" delim="\n" op="add" >
@@ -12134,6 +13690,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2253']/text()" delim="\n" op="add" >
@@ -12188,6 +13753,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2268']/text()" delim="\n" op="add" >
@@ -12242,6 +13816,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2284']/text()" delim="\n" op="add" >
@@ -12296,6 +13879,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2299']/text()" delim="\n" op="add" >
@@ -12350,6 +13942,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2314']/text()" delim="\n" op="add" >
@@ -12404,6 +14005,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -12420,6 +14030,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2345']/text()" delim="\n" op="add" >
@@ -12474,6 +14086,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2360']/text()" delim="\n" op="add" >
@@ -12528,6 +14149,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2376']/text()" delim="\n" op="add" >
@@ -12582,6 +14212,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2391']/text()" delim="\n" op="add" >
@@ -12636,6 +14275,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2407']/text()" delim="\n" op="add" >
@@ -12690,6 +14338,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2423']/text()" delim="\n" op="add" >
@@ -12744,6 +14401,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2438']/text()" delim="\n" op="add" >
@@ -12798,6 +14464,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2454']/text()" delim="\n" op="add" >
@@ -12852,6 +14527,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2469']/text()" delim="\n" op="add" >
@@ -12906,6 +14590,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2485']/text()" delim="\n" op="add" >
@@ -12960,6 +14653,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .275
 		zombieToolsUtilityWorkerRadiatedPREPPER, .275
 		zombieRocketRadiatedPREPPER, .275
+		zombieBogeymanClaretPREPPER, .275
+		zombieBatonFatCopClaretPREPPER, .275
+		zombieBurntSirenClaret, .275
+		zombieScreamerClaret, .275
+		zombieChainsawMoeClaretPREPPER, .275
+		zombieSpiderGliderClaretPREPPER, .275
+		zombieSpiderBomberClaretPREPPER, .275
+		zombieSkateboarderUndertakerClaret, .275
+		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
 
 <!-- Increase in probabilities for GS 2500 -->	
@@ -13015,6 +14717,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2517']/text()" delim="\n" op="add" >
@@ -13068,6 +14779,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2532']/text()" delim="\n" op="add" >
@@ -13122,6 +14842,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2548']/text()" delim="\n" op="add" >
@@ -13176,6 +14905,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2564']/text()" delim="\n" op="add" >
@@ -13230,6 +14968,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2580']/text()" delim="\n" op="add" >
@@ -13284,6 +15031,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2596']/text()" delim="\n" op="add" >
@@ -13338,6 +15094,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2612']/text()" delim="\n" op="add" >
@@ -13392,6 +15157,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2628']/text()" delim="\n" op="add" >
@@ -13446,6 +15220,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2644']/text()" delim="\n" op="add" >
@@ -13500,6 +15283,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -13516,6 +15308,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2676']/text()" delim="\n" op="add" >
@@ -13570,6 +15364,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2692']/text()" delim="\n" op="add" >
@@ -13624,6 +15427,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2708']/text()" delim="\n" op="add" >
@@ -13678,6 +15490,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2724']/text()" delim="\n" op="add" >
@@ -13732,6 +15553,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2740']/text()" delim="\n" op="add" >
@@ -13786,6 +15616,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2756']/text()" delim="\n" op="add" >
@@ -13840,6 +15679,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2772']/text()" delim="\n" op="add" >
@@ -13894,6 +15742,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2789']/text()" delim="\n" op="add" >
@@ -13948,6 +15805,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2805']/text()" delim="\n" op="add" >
@@ -14002,6 +15868,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2821']/text()" delim="\n" op="add" >
@@ -14056,6 +15931,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2838']/text()" delim="\n" op="add" >
@@ -14110,6 +15994,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2854']/text()" delim="\n" op="add" >
@@ -14164,6 +16057,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2870']/text()" delim="\n" op="add" >
@@ -14218,6 +16120,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2887']/text()" delim="\n" op="add" >
@@ -14272,6 +16183,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2903']/text()" delim="\n" op="add" >
@@ -14326,6 +16246,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2920']/text()" delim="\n" op="add" >
@@ -14380,6 +16309,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2936']/text()" delim="\n" op="add" >
@@ -14434,6 +16372,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2953']/text()" delim="\n" op="add" >
@@ -14488,6 +16435,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2969']/text()" delim="\n" op="add" >
@@ -14542,6 +16498,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .3
 		zombieToolsUtilityWorkerRadiatedPREPPER, .3
 		zombieRocketRadiatedPREPPER, .3
+		zombieBogeymanClaretPREPPER, .3
+		zombieBatonFatCopClaretPREPPER, .3
+		zombieBurntSirenClaret, .3
+		zombieScreamerClaret, .3
+		zombieChainsawMoeClaretPREPPER, .3
+		zombieSpiderGliderClaretPREPPER, .3
+		zombieSpiderBomberClaretPREPPER, .3
+		zombieSkateboarderUndertakerClaret, .3
+		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -14557,7 +16522,9 @@
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
-		zombieSpiderFeralGliderPREPPER, .1		
+		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05		
 	</set>
 
 <!-- Increase in probabilities for GS 3000 -->	
@@ -14613,6 +16580,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3019']/text()" delim="\n" op="add" >
@@ -14667,6 +16643,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3036']/text()" delim="\n" op="add" >
@@ -14721,6 +16706,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3053']/text()" delim="\n" op="add" >
@@ -14775,6 +16769,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3069']/text()" delim="\n" op="add" >
@@ -14829,6 +16832,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3086']/text()" delim="\n" op="add" >
@@ -14883,6 +16895,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3103']/text()" delim="\n" op="add" >
@@ -14937,6 +16958,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3120']/text()" delim="\n" op="add" >
@@ -14991,6 +17021,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3136']/text()" delim="\n" op="add" >
@@ -15045,6 +17084,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3153']/text()" delim="\n" op="add" >
@@ -15099,6 +17147,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3170']/text()" delim="\n" op="add" >
@@ -15153,6 +17210,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3187']/text()" delim="\n" op="add" >
@@ -15207,6 +17273,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3204']/text()" delim="\n" op="add" >
@@ -15261,6 +17336,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3221']/text()" delim="\n" op="add" >
@@ -15315,6 +17399,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3238']/text()" delim="\n" op="add" >
@@ -15369,6 +17462,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3255']/text()" delim="\n" op="add" >
@@ -15423,6 +17525,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3272']/text()" delim="\n" op="add" >
@@ -15477,6 +17588,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3289']/text()" delim="\n" op="add" >
@@ -15531,6 +17651,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3306']/text()" delim="\n" op="add" >
@@ -15585,6 +17714,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3324']/text()" delim="\n" op="add" >
@@ -15639,6 +17777,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3341']/text()" delim="\n" op="add" >
@@ -15693,6 +17840,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -15709,6 +17865,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3375']/text()" delim="\n" op="add" >
@@ -15763,6 +17921,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3392']/text()" delim="\n" op="add" >
@@ -15817,6 +17984,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3410']/text()" delim="\n" op="add" >
@@ -15871,6 +18047,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3427']/text()" delim="\n" op="add" >
@@ -15925,6 +18110,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3444']/text()" delim="\n" op="add" >
@@ -15979,6 +18173,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3462']/text()" delim="\n" op="add" >
@@ -16033,6 +18236,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3479']/text()" delim="\n" op="add" >
@@ -16087,6 +18299,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3496']/text()" delim="\n" op="add" >
@@ -16141,6 +18362,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .325
 		zombieToolsUtilityWorkerRadiatedPREPPER, .325
 		zombieRocketRadiatedPREPPER, .325
+		zombieBogeymanClaretPREPPER, .325
+		zombieBatonFatCopClaretPREPPER, .325
+		zombieBurntSirenClaret, .325
+		zombieScreamerClaret, .325
+		zombieChainsawMoeClaretPREPPER, .325
+		zombieSpiderGliderClaretPREPPER, .325
+		zombieSpiderBomberClaretPREPPER, .325
+		zombieSkateboarderUndertakerClaret, .325
+		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
 
 <!-- Increase in probabilities for GS 3500 -->	
@@ -16196,6 +18426,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3531']/text()" delim="\n" op="add" >
@@ -16250,6 +18489,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3549']/text()" delim="\n" op="add" >
@@ -16304,6 +18552,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3566']/text()" delim="\n" op="add" >
@@ -16358,6 +18615,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3584']/text()" delim="\n" op="add" >
@@ -16412,6 +18678,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3601']/text()" delim="\n" op="add" >
@@ -16466,6 +18741,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3619']/text()" delim="\n" op="add" >
@@ -16520,6 +18804,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3637']/text()" delim="\n" op="add" >
@@ -16574,6 +18867,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -16590,6 +18892,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3672']/text()" delim="\n" op="add" >
@@ -16644,6 +18948,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3690']/text()" delim="\n" op="add" >
@@ -16698,6 +19011,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3707']/text()" delim="\n" op="add" >
@@ -16752,6 +19074,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3725']/text()" delim="\n" op="add" >
@@ -16806,6 +19137,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3743']/text()" delim="\n" op="add" >
@@ -16860,6 +19200,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3761']/text()" delim="\n" op="add" >
@@ -16914,6 +19263,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3779']/text()" delim="\n" op="add" >
@@ -16968,6 +19326,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3796']/text()" delim="\n" op="add" >
@@ -17022,6 +19389,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3814']/text()" delim="\n" op="add" >
@@ -17076,6 +19452,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3832']/text()" delim="\n" op="add" >
@@ -17130,6 +19515,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3850']/text()" delim="\n" op="add" >
@@ -17184,6 +19578,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3868']/text()" delim="\n" op="add" >
@@ -17238,6 +19641,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3886']/text()" delim="\n" op="add" >
@@ -17292,6 +19704,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3904']/text()" delim="\n" op="add" >
@@ -17346,6 +19767,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3922']/text()" delim="\n" op="add" >
@@ -17400,6 +19830,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3940']/text()" delim="\n" op="add" >
@@ -17454,6 +19893,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3958']/text()" delim="\n" op="add" >
@@ -17508,6 +19956,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3976']/text()" delim="\n" op="add" >
@@ -17562,6 +20019,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .35
 		zombieToolsUtilityWorkerRadiatedPREPPER, .35
 		zombieRocketRadiatedPREPPER, .35
+		zombieBogeymanClaretPREPPER, .35
+		zombieBatonFatCopClaretPREPPER, .35
+		zombieBurntSirenClaret, .35
+		zombieScreamerClaret, .35
+		zombieChainsawMoeClaretPREPPER, .35
+		zombieSpiderGliderClaretPREPPER, .35
+		zombieSpiderBomberClaretPREPPER, .35
+		zombieSkateboarderUndertakerClaret, .35
+		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
 	
 	<!-- MINI SOLDIERS WAVE -->
@@ -17578,6 +20044,8 @@
 		animalZombieLargePlasmaVulturePREPPER, .1		
 		zombieSpiderFeralBomberPREPPER, .1
 		zombieSpiderFeralGliderPREPPER, .1
+		zombieSpiderGliderClaretPREPPER, .05
+		zombieSpiderBomberClaretPREPPER, .05
 	</set>
 
 <!-- Increase in probabilities for GS 4000 -->	
@@ -17633,6 +20101,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .4
 		zombieToolsUtilityWorkerRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
+		zombieBogeymanClaretPREPPER, .4
+		zombieBatonFatCopClaretPREPPER, .4
+		zombieBurntSirenClaret, .4
+		zombieScreamerClaret, .4
+		zombieChainsawMoeClaretPREPPER, .4
+		zombieSpiderGliderClaretPREPPER, .4
+		zombieSpiderBomberClaretPREPPER, .4
+		zombieSkateboarderUndertakerClaret, .4
+		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4031']/text()" delim="\n" op="add" >
@@ -17687,6 +20164,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .4
 		zombieToolsUtilityWorkerRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
+		zombieBogeymanClaretPREPPER, .4
+		zombieBatonFatCopClaretPREPPER, .4
+		zombieBurntSirenClaret, .4
+		zombieScreamerClaret, .4
+		zombieChainsawMoeClaretPREPPER, .4
+		zombieSpiderGliderClaretPREPPER, .4
+		zombieSpiderBomberClaretPREPPER, .4
+		zombieSkateboarderUndertakerClaret, .4
+		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4049']/text()" delim="\n" op="add" >
@@ -17741,6 +20227,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .4
 		zombieToolsUtilityWorkerRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
+		zombieBogeymanClaretPREPPER, .4
+		zombieBatonFatCopClaretPREPPER, .4
+		zombieBurntSirenClaret, .4
+		zombieScreamerClaret, .4
+		zombieChainsawMoeClaretPREPPER, .4
+		zombieSpiderGliderClaretPREPPER, .4
+		zombieSpiderBomberClaretPREPPER, .4
+		zombieSkateboarderUndertakerClaret, .4
+		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4067']/text()" delim="\n" op="add" >
@@ -17795,6 +20290,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .4
 		zombieToolsUtilityWorkerRadiatedPREPPER, .4
 		zombieRocketRadiatedPREPPER, .4
+		zombieBogeymanClaretPREPPER, .4
+		zombieBatonFatCopClaretPREPPER, .4
+		zombieBurntSirenClaret, .4
+		zombieScreamerClaret, .4
+		zombieChainsawMoeClaretPREPPER, .4
+		zombieSpiderGliderClaretPREPPER, .4
+		zombieSpiderBomberClaretPREPPER, .4
+		zombieSkateboarderUndertakerClaret, .4
+		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']/text()" delim="\n" op="add" >
@@ -17849,6 +20353,15 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .5
 		zombieToolsUtilityWorkerRadiatedPREPPER, .5
 		zombieRocketRadiatedPREPPER, .5
+		zombieBogeymanClaretPREPPER, .5
+		zombieBatonFatCopClaretPREPPER, .5
+		zombieBurntSirenClaret, .5
+		zombieScreamerClaret, .5
+		zombieChainsawMoeClaretPREPPER, .5
+		zombieSpiderGliderClaretPREPPER, .5
+		zombieSpiderBomberClaretPREPPER, .5
+		zombieSkateboarderUndertakerClaret, .5
+		zombieBogeymanPlasmaPREPPER, .5
 		zombieMiniSoldier
 		zombieMiniSoldierFeral
 		zombieMiniSoldierRadiated

@@ -649,6 +649,7 @@ zombieAutoShotgunDarleneRadiatedPREPPER,entityclasses,Entity,,,Radiated Auto Sho
 zombieWightRadiationShowerPREPPER,entityclasses,Entity,,,Radiation Shower Wight,,,,,,,,,,,,,
 zombieBogeymanPREPPER,entityclasses,Entity,,,Radiation Shower Bogeyman,,,,,,,,,,,,,
 zombieBogeymanClaretPREPPER,entityclasses,Entity,,,Claret Fire Bogeyman,,,,,,,,,,,,,
+zombieBogeymanPlasmaPREPPER,entityclasses,Entity,,,Plasma Blaster Bogeyman,,,,,,,,,,,,,
 zombieCrispyPREPPER,entityclasses,Entity,,,Wood Stove Walker,,,,,,,,,,,,,
 zombieMiniCrispyPREPPER,entityclasses,Entity,,,Mini Wood Stove Walker,,,,,,,,,,,,,
 zombieRocketPREPPER,entityclasses,Entity,,,Fragger,,,,,,,,,,,,,
@@ -726,6 +727,8 @@ loadingTipPrepperTraps,UI,Loading Screen,x,,"Preppers can place a sticky Tar Tra
 loadingTipPrepperTraps_title,UI,Loading Screen,x,,Prepper Traps,,Prepper-Fallen,,,,,,,,,,,
 loadingTipPrepperATM,UI,Loading Screen,x,,"In addition to finding Old Cash in the ATMs, there is a small chance to find a 1 Skill Point Bond, and an even smaller chance to find 2.",,"Zusätzlich zum Auffinden von altem Bargeld an den Geldautomaten besteht eine geringe Chance, eine 1-Fähigkeitspunkt-Anleihe zu finden, und eine noch geringere Chance, 2 zu finden.",,,,,,,,,,,
 loadingTipPrepperATM_title,UI,Loading Screen,x,,ATM Skill Point Bonds,,ATM-Fähigkeitspunkte-Anleihen,,,,,,,,,,,
+loadingTipPrepperGathering,UI,Loading Screen,x,,"Remove mods from weapons for them to be included in the Gather Quest.",,"Entferne Mods von Waffen, damit diese in die Sammelquest aufgenommen werden können.",,,,,,,,,,,
+loadingTipPrepperGathering_title,UI,Loading Screen,x,,Gathering Weapons for Quest,,Waffen für die Quest sammeln,,,,,,,,,,,
 
 quest_prepperstockpile01,items,Quest - Challenge,,,"Prepper Stockpile",,"Prepper-Vorrat",,,,,,,,,,,
 quest_prepperstockpile01Desc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to restock, and flourish. Follow the instructions to craft, collect, and place items in a progressive order. Earn XP and Skill Points at various stages.\n\nThis Quest can only be completed once.",,"Lesen Sie diese Questnotiz und nehmen Sie die Herausforderung an, Ihren Vorrat aufzufüllen. Befolgen Sie die Anweisungen zum Herstellen, Sammeln und Platzieren von Gegenständen in fortlaufender Reihenfolge. Verdienen Sie in verschiedenen Phasen XP und Skillpunkte.\n\nDiese Quest kann nur einmal abgeschlossen werden.",,,,,,,,,,,

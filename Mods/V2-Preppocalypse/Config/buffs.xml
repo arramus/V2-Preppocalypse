@@ -182,6 +182,23 @@
 		</buff>
 	</append>
 	
+<!-- Brainsaw -->
+		
+	<append xpath="/buffs">	
+        <buff name="BrainsawBloodSplatPreppo" hidden="true">
+            <stack_type value="replace"/>
+            <duration value="3"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfKilledOther" action="ModifyScreenEffect" intensity="2" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfKilledOther" action="ModifyScreenEffect" intensity="0.1" fade="1" effect_name="Vibrant"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Vibrant"/>
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Vibrant"/>
+            </effect_group>
+        </buff>
+	</append>
+	
 <!-- Entities -->
 
 	<append xpath="/buffs">
@@ -426,6 +443,15 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelGasPrefab.prefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" local_scale=".75,.75,.75" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_left" parent_transform="LeftHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieBogeymanPlasmaPREPPERDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftFoot"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightFoot"/>
 			</effect_group>
 		</buff>
 

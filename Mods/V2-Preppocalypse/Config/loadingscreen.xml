@@ -17,7 +17,8 @@
 		<tip key="loadingTipPrepperToolsWeapons"/>
 		<tip key="loadingTipPrepperKnowledge"/>
 		<tip key="loadingTipPrepperTraps"/>
-		<tip key="loadingTipPrepperATM"/>		
+		<tip key="loadingTipPrepperATM"/>
+		<tip key="loadingTipPrepperGathering"/>	
 	</append>
 
 </Preppocalypse>
