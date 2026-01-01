@@ -7,6 +7,19 @@
 	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:04</setattribute>	<!-- Bob -->
 	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:04</setattribute>	<!-- Hugh -->
 	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:04</setattribute>	<!-- Rekt -->
+
+	<!-- Preppo Special Items -->
+	<insertAfter xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier3']">
+		<traderstage_template name="baseTierPreppoSpecial"> <!-- Preppo Special Items -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="1" max="20" quality="2"/>
+			<entry min="15" max="30" quality="3"/>
+			<entry min="25" max="40" quality="4"/>
+			<entry min="35" max="999999" quality="5"/>
+			<entry min="45" max="999999" quality="6"/>
+		</traderstage_template>
+	</insertAfter>
 	
 	<!-- *** Ammo -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
@@ -96,6 +109,11 @@
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
 		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="4,6"/>
 		<item name="gun22HandgunT0Pistol" quality="4,6"/>		
+	</append>
+	
+	<!-- *** GENERAL_RESOURCES -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+		<item name="meleeToolRepairT0TazasStoneAxe" prob="0.6" quality="2,6"/>		
 	</append>
 	
 	<!-- *** Vehicles -->
