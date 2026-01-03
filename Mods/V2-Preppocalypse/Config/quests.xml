@@ -1064,7 +1064,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER,zombieMiniTARifleSoldierPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunMGT2TacticalAR"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1403,7 +1403,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieRadiatedZombies,zombieSMGArleneRadiatedPREPPER,zombieSkateboarderUndertakerClaret,zombieTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieMachetePartyGirlChargedPREPPER,zombieMachetePartyGirlInfernalPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieChainsawMoeChargedPREPPER,zombieChainsawMoeInfernalPREPPER,zombieChainsawMoeClaretPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBatonFatCopClaretPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieAutoShotgunDarleneRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanPlasmaPREPPER,zombieScreamerClaret,zombieBurntSirenClaret" value="100" phase="1"/>
+		<objective type="EntityKill" id="zombieRadiatedZombies,zombieSMGArleneRadiatedPREPPER,zombieSkateboarderUndertakerClaret,zombieTARifleSoldierRadiatedPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieMachetePartyGirlChargedPREPPER,zombieMachetePartyGirlInfernalPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieChainsawMoeChargedPREPPER,zombieChainsawMoeInfernalPREPPER,zombieChainsawMoeClaretPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBatonFatCopClaretPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieAutoShotgunDarleneRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanPlasmaPREPPER,zombieScreamerClaret,zombieBurntSirenClaret" value="100" phase="1"/>
 		
 		<reward type="Exp" value="50000"/>
 		<reward type="SkillPoints" value="2" chainreward="false"/>

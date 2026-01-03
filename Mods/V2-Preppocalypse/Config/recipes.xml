@@ -291,12 +291,12 @@
 		<ingredient name="foodCanPears" count="1"/> <!-- Food 10 / Health 5 / Water 5 -->	
 	</recipe>
 	
-	<recipe name="foodBlueberryBars" count="3" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
-		<ingredient name="foodCropBlueberries" count="6"/>
-		<ingredient name="resourceAnimalFat" count="3"/>
-		<ingredient name="foodPineNuts" count="3"/>
-		<ingredient name="foodCornMeal" count="6"/>		
-		<ingredient name="foodRawMeat" count="6"/>
+	<recipe name="foodBlueberryBars" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<ingredient name="foodCropBlueberries" count="3"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodPineNuts" count="1"/>
+		<ingredient name="foodCornMeal" count="1"/>		
+		<ingredient name="foodRawMeat" count="3"/>
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
 		</effect_group>

@@ -405,6 +405,9 @@
 	<!-- Magazine Reward Bundle Colour -->
 	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->
 	
+	<!-- Starter Note Icon Switch -->
+	<set xpath="/items/item[@name='noteDuke01']/property[@name='CustomIcon']/@value">noteDuke01</set><!-- challengeQuestMaster default -->
+	
 	<!-- Magnum Tag for Mod Magazine Extender -->
 	<append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Tags']/@value">,magnummagazine</append>
 	

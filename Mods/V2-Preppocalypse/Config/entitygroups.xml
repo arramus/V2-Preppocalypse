@@ -1219,6 +1219,7 @@
 		zombieTARifleSoldierRadiatedPREPPER, .25
 		zombieBogeymanPREPPER, .1
 		zombieDemolition, .1
+		animalZombieBunnyBomberPREPPER, .1
 		zombieSpiderFeralBomberPREPPER, .025
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieBogeymanClaretPREPPER, .025
@@ -1241,6 +1242,7 @@
 		zombieTARifleSoldierRadiatedPREPPER, .35
 		zombieBogeymanPREPPER, .15
 		zombieDemolition, .15
+		animalZombieBunnyBomberPREPPER, .15
 		zombieSpiderFeralBomberPREPPER, .0375
 		zombieSpiderFeralGliderPREPPER, .0375
 		zombieBogeymanClaretPREPPER, .0375
@@ -1263,6 +1265,7 @@
 		zombieTARifleSoldierRadiatedPREPPER, .5
 		zombieBogeymanPREPPER, .25
 		zombieDemolition, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieSpiderFeralBomberPREPPER, .0625
 		zombieSpiderFeralGliderPREPPER, .0625
 		zombieBogeymanClaretPREPPER, .0625
@@ -1285,6 +1288,7 @@
 		zombieTARifleSoldierRadiatedPREPPER, .75
 		zombieBogeymanPREPPER, .35
 		zombieDemolition, .35
+		animalZombieBunnyBomberPREPPER, .35
 		zombieSpiderFeralBomberPREPPER, .0875
 		zombieSpiderFeralGliderPREPPER, .0875
 		zombieBogeymanClaretPREPPER, .0875
@@ -1307,6 +1311,7 @@
 		zombieTARifleSoldierRadiatedPREPPER
 		zombieBogeymanPREPPER, .5
 		zombieDemolition, .5
+		animalZombieBunnyBomberPREPPER, .5
 		zombieSpiderFeralBomberPREPPER, .125
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieBogeymanClaretPREPPER, .125
@@ -1329,6 +1334,7 @@
 		zombieTARifleSoldierRadiatedPREPPER
 		zombieBogeymanPREPPER, .75
 		zombieDemolition, .75
+		animalZombieBunnyBomberPREPPER, .75
 		zombieSpiderFeralBomberPREPPER, .188
 		zombieSpiderFeralGliderPREPPER, .188
 		zombieBogeymanClaretPREPPER, .188
@@ -1341,6 +1347,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS01">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -1351,6 +1358,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS50">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -1361,6 +1369,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS100">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -1371,6 +1380,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS200">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -1381,6 +1391,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS400">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -1391,6 +1402,7 @@
 	
 	<entitygroup name="PrepperMixedAnimalEntitiesGroupGS800">
 		animalZombieBunnyPREPPER
+		animalZombieBunnyBomberPREPPER
 		animalZombieSnakePREPPER
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
@@ -2593,6 +2605,7 @@
 		animalZombieMiniDogPrepper, .05
 		animalZombieGiantDogPrepper, .05
 		animalZombieMiniVulturePrepper, .025
+		animalZombieBunnyBomberPREPPER, .025
 	</set>
 
 <!-- The whole family -->	
@@ -2885,6 +2898,7 @@
 		animalZombieMiniDogPrepper, .125
 		animalZombieGiantDogPrepper, .125
 		animalZombieMiniVulturePrepper, .0625
+		animalZombieBunnyBomberPREPPER, .0625
 		zombieMiniTARifleSoldierPREPPER, .05
 		zombieMiniTARifleSoldierRadiatedPREPPER, .05
 		animalZombieLargePlasmaVulturePREPPER, .025		
@@ -3157,6 +3171,7 @@
 		animalZombieMiniDogPrepper, .125
 		animalZombieGiantDogPrepper, .125
 		animalZombieMiniVulturePrepper, .0625
+		animalZombieBunnyBomberPREPPER, .0625
 		zombieMiniTARifleSoldierPREPPER, .15
 		zombieMiniTARifleSoldierRadiatedPREPPER, .1
 		animalZombieLargePlasmaVulturePREPPER, .05		
@@ -3478,6 +3493,7 @@
 		animalZombieMiniDogPrepper, .125
 		animalZombieGiantDogPrepper, .125
 		animalZombieMiniVulturePrepper, .0625
+		animalZombieBunnyBomberPREPPER, .0625
 		zombieMiniTARifleSoldierPREPPER, .15
 		zombieMiniTARifleSoldierRadiatedPREPPER, .1
 		animalZombieLargePlasmaVulturePREPPER, .05		
@@ -3812,6 +3828,7 @@
 		animalZombieMiniDogPrepper, .25
 		animalZombieGiantDogPrepper, .25
 		animalZombieMiniVulturePrepper, .125
+		animalZombieBunnyBomberPREPPER, .125
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -4588,6 +4605,7 @@
 		animalZombieMiniDogPrepper, .25
 		animalZombieGiantDogPrepper, .25
 		animalZombieMiniVulturePrepper, .125
+		animalZombieBunnyBomberPREPPER, .125
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -4921,6 +4939,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -5443,6 +5462,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -6092,6 +6112,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -6614,6 +6635,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -7137,6 +7159,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -7722,6 +7745,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -8181,6 +8205,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -9208,6 +9233,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -10171,6 +10197,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -11009,6 +11036,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -11909,6 +11937,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -12683,6 +12712,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -14025,6 +14055,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -15303,6 +15334,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -16518,6 +16550,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -17860,6 +17893,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -18887,6 +18921,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -20039,6 +20074,7 @@
 		animalZombieMiniDogPrepper, .5
 		animalZombieGiantDogPrepper, .5
 		animalZombieMiniVulturePrepper, .25
+		animalZombieBunnyBomberPREPPER, .25
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
 		animalZombieLargePlasmaVulturePREPPER, .1		
@@ -20368,6 +20404,7 @@
 		animalZombieMiniDogPrepper
 		animalZombieGiantDogPrepper
 		animalZombieMiniVulturePrepper
+		animalZombieBunnyBomberPREPPER
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .5
 		zombieMiniTARifleSoldierRadiatedPREPPER, .5
