@@ -306,4 +306,14 @@
 	<append xpath="//crafting_skill[@name='craftingSeeds']/display_entry/unlock_entry[@item='plantedCotton1']/@item">,plantedPricklyCactus1</append>
 	<append xpath="//crafting_skill[@name='craftingSeeds']/effect_group/passive_effect[@tags='plantedCotton1']/@tags">,plantedPricklyCactus1</append>
 	
+	<!-- Solar Bank hooked into Battery Bank Crafting Tier  -->
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[contains(@icon, 'batterybank')]/unlock_entry/@item">,solarbank</append>
+	<!-- Solar Cell hooked into Car Battery Crafting Tier  -->
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[contains(@icon, 'carBattery')]/unlock_entry/@item">,solarCell</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked'][contains(@tags, 'batterybank')]/@tags">,solarbank</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked'][contains(@tags, 'carBattery')]/@tags">,solarCell</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='CraftingTier'][@level='60,70,80,90,100']/@tags">,solarCell</append>
+	
 </configs>

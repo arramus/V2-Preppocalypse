@@ -262,6 +262,12 @@
 	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">250</set><!-- 50 default -->
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">25</set><!-- 5 default -->
 
+	<!-- Adding Solar Cell to Progression and Chemistry Table Group -->
+	<append xpath="/items/item[@name='solarCell']">
+	<property name="UnlockedBy" value="craftingElectrician"/>
+	</append>
+	<append xpath="/items/item[@name='solarCell']/property[@name='Group']/@value">,Chemicals</append><!-- Solar Cells for chemistry table -->
+
 	<!-- Changing base from animalInsectSwarm to a mini rancher -->
 	<set xpath="/items/item[@name='meleeHandZombieRancher']/property[@class='Action1']/property[@name='Entity']/@value">zombieMiniRancher</set>
 

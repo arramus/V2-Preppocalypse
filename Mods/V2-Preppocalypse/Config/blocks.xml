@@ -55,6 +55,10 @@
 	</conditional>
 
 	<!-- Vanilla Updates -->
+	<!-- Adding Progression to the Solar Bank for Crafting -->
+	<append xpath="/blocks/block[@name='solarbank']">
+	<property name="UnlockedBy" value="craftingElectrician"/>
+	</append>
 	<!-- Adding Cactus Paddles, and Fruit to Yucca -->
 	<append xpath="/blocks/block[@name='treeCactus01']">
 		<drop event="Harvest" name="foodCropSaguaroFruit" count="1,2" tag="wildCropsHarvest"/>
