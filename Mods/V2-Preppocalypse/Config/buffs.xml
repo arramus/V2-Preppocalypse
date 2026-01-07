@@ -221,6 +221,13 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_fire_right" local_offset="0,-0.05,0.05" local_rotation="90,0,0" parent_transform="Head"/>
 			</effect_group>
 		</buff>
+		
+		<buff name="animalGiantDirePlasmaWolfDeco" hidden="true">
+			<effect_group>		
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" local_offset="0,-0.05,0.05" local_rotation="90,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" local_offset="0,-0.05,0.05" local_rotation="90,0,0" parent_transform="Head"/>
+			</effect_group>
+		</buff>
 	
 		<buff name="zombieSpiderFeralBomberPREPPERDeco" hidden="true">
 			<effect_group>
@@ -448,6 +455,17 @@
 		
 		<buff name="zombieBogeymanPlasmaPREPPERDeco" hidden="true">
 			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftFoot"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightFoot"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieBogeymanMegaPlasmaPREPPERDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Electrical/smallGeneratorPrefab.prefab" local_offset="-0.04,0.52,-0.42" local_rotation="-90,0,0" local_scale=".5,.5,.5" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftFoot"/>

@@ -522,6 +522,7 @@
 		zombieSpiderBomberClaretPREPPER, .025
 		zombieSkateboarderUndertakerClaret, .02
 		zombieBogeymanPlasmaPREPPER, .01
+		zombieBogeymanMegaPlasmaPREPPER, .01
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_ALL_WASTELAND_GROUP -->
@@ -1468,6 +1469,7 @@
 		animalDireWolf
 		animalDireFireWolf, .2
 		animalGiantDireFireWolf, .1
+		animalGiantDirePlasmaWolf, .1
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS50">
@@ -1475,6 +1477,7 @@
 		animalDireWolf
 		animalDireFireWolf, .3
 		animalGiantDireFireWolf, .15
+		animalGiantDirePlasmaWolf, .15
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS100">
@@ -1482,6 +1485,7 @@
 		animalDireWolf
 		animalDireFireWolf, .5
 		animalGiantDireFireWolf, .2
+		animalGiantDirePlasmaWolf, .2
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS200">
@@ -1489,13 +1493,15 @@
 		animalDireWolf
 		animalDireFireWolf, .75
 		animalGiantDireFireWolf, .35
+		animalGiantDirePlasmaWolf, .35
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS400">
 		animalMiniDireWolf
 		animalDireWolf
 		animalDireFireWolf
-		animalGiantDireFireWolf, .5	
+		animalGiantDireFireWolf, .5
+		animalGiantDirePlasmaWolf, .5
 	</entitygroup>
 	
 	<entitygroup name="PrepperMixedDireWolfEntitiesGroupGS800">
@@ -1503,6 +1509,7 @@
 		animalDireWolf
 		animalDireFireWolf
 		animalGiantDireFireWolf, .75
+		animalGiantDirePlasmaWolf, .75
 	</entitygroup>
 	
 	<!-- *** MINI_SPECIAL_INFECTED_ZOMBIES_FOR_GS -->
@@ -1701,6 +1708,7 @@
 		animalZombieMiniDogPrepper, 4
 		animalZombieEagle, 4
 		animalGiantDireFireWolf, 3
+		animalGiantDirePlasmaWolf, 2
 	</csv>
 	
 	<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->	
@@ -1713,6 +1721,7 @@
 		animalZombieMiniDogPrepper, 2
 		animalZombieEagle, 2
 		animalGiantDireFireWolf, 2
+		animalGiantDirePlasmaWolf, 1
 	</csv>
 	
 <!-- ***WANDERING_HORDE_AND_LEVEL_DESIGN_SLEEPER_BLOCKS -->
