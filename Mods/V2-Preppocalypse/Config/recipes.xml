@@ -953,6 +953,144 @@
 			<ingredient name="resourceSpring" count="10"/>
 		</recipe>
 		
+<!-- Addition of Undergarments Crafting -->
+<!-- *** CLOTHING_ITEMS -->
+	
+<!-- *** T1_CLOTHING -->
+<recipe name="clothingHeadT1" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceYuccaFibers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingOutfitT1" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceYuccaFibers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingHandsT1" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceYuccaFibers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingFeetT1" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceYuccaFibers"/>
+	</effect_group>
+</recipe>
+
+<!-- *** T2 Clothing -->	
+<recipe name="clothingHeadT2" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="medicalBandage"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingOutfitT2" count="1"  craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="medicalBandage"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingHandsT2" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="medicalBandage"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingFeetT2" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="medicalBandage" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="medicalBandage"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<!-- *** T3 Clothing -->
+<recipe name="clothingHeadT3" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceCropCottonPlant" count="5"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers,resourceCropCottonPlant"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="resourceLeather"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingOutfitT3" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceCropCottonPlant" count="5"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers,resourceCropCottonPlant"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="resourceLeather"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingHandsT3" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceCropCottonPlant" count="5"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers,resourceCropCottonPlant"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="resourceLeather"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="clothingFeetT3" count="1" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceCropCottonPlant" count="5"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="5,10,15,20,25" tags="resourceCloth,resourceScrapPolymers,resourceCropCottonPlant"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="resourceLeather"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+		
 	<!-- Dye -->
 
 	<!-- Default -->

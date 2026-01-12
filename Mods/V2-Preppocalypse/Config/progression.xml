@@ -284,6 +284,33 @@
 	</crafting_skill>
 	</insertAfter>
 	
+		<!-- *** INSULATED_UNDERGARMENT_CLOTHING_SKILLS -->
+	
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']">
+	<crafting_skill name="craftingClothing" max_level="50" parent="attCrafting" name_key="craftingClothingName" desc_key="craftingClothingDesc" long_desc_key="craftingClothingLongDesc" icon="ui_game_symbol_coldhot">
+
+		<display_entry icon="clothingHeadT1" name_key="clothingT1" has_quality="true" unlock_level="1,4,8,11,14,17">
+			<unlock_entry item="clothingHeadT1,clothingOutfitT1,clothingHandsT1,clothingFeetT1" unlock_tier="1" recipes="clothingMaster,clothingHeadT1,clothingOutfitT1,clothingHandsT1,clothingFeetT1"/>
+		</display_entry>
+		<display_entry icon="clothingHeadT2" name_key="clothingT2" has_quality="true" unlock_level="18,22,25,28,31,34">
+			<unlock_entry item="clothingHeadT2,clothingOutfitT2,clothingHandsT2,clothingFeetT2" unlock_tier="1" recipes="clothingHeadT2,clothingOutfitT2,clothingHandsT2,clothingFeetT2"/>
+		</display_entry>
+		<display_entry icon="clothingHeadT3" name_key="clothingT3" has_quality="true" unlock_level="35,38,41,44,47,50">
+			<unlock_entry item="clothingHeadT3,clothingOutfitT3,clothingHandsT3,clothingFeetT3" unlock_tier="1" recipes="clothingHeadT3,clothingOutfitT3,clothingHandsT3,clothingFeetT3"/>
+		</display_entry>
+
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,50" value="1" tags="clothingMaster,clothingHeadT1,clothingOutfitT1,clothingHandsT1,clothingFeetT1"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,50" value="1" tags="clothingHeadT2,clothingOutfitT2,clothingHandsT2,clothingFeetT2"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,50" value="1" tags="clothingHeadT3,clothingOutfitT3,clothingHandsT3,clothingFeetT3"/>
+			
+			<passive_effect name="CraftingTier" operation="base_add" level="4,8,11,14,17,50" value="1,2,3,4,5,5" tags="clothingMaster,clothingHeadT1,clothingOutfitT1,clothingHandsT1,clothingFeetT1"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="22,25,28,31,34,50" value="1,2,3,4,5,5" tags="clothingHeadT2,clothingOutfitT2,clothingHandsT2,clothingFeetT2"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="38,41,44,47,50" value="1,2,3,4,5" tags="clothingHeadT3,clothingOutfitT3,clothingHandsT3,clothingFeetT3"/>
+		</effect_group>
+	</crafting_skill>
+	</insertAfter>
+	
 	<!-- Adding Preppocalyptic Car and Vehicle Mods to Vehicle Adventures Crafting Skill -->
 	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicleMinibikePlaceable']/unlock_entry/@item">,modVehicleFuelSaver,modVehicleOffRoadHeadlights,modVehicleStorage</append>
 	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">

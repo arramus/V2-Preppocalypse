@@ -262,6 +262,11 @@
 	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">250</set><!-- 50 default -->
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">25</set><!-- 5 default -->
 
+	<!-- Adding Undergarments to Progression -->
+	<append xpath="/items/item[@name='clothingMaster']">
+	<property name="UnlockedBy" value="craftingClothing"/>
+	</append>
+
 	<!-- Adding Solar Cell to Progression and Chemistry Table Group -->
 	<append xpath="/items/item[@name='solarCell']">
 	<property name="UnlockedBy" value="craftingElectrician"/>
@@ -3584,6 +3589,37 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
+		
+<!-- *** Insulated_Undergarment_Clothing_Magazine -->
+<item name="clothingSkillMagazine">
+	<property name="Extends" value="masterSkillMagazine"/>
+	<property name="Tags" value="clothingCSM,csm"/>
+	<property name="CustomIcon" value="bookClothingOn"/>
+	<property name="DescriptionKey" value="clothingSkillMagazineDesc"/>
+	<property name="Unlocks" value="craftingClothing"/>
+
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClothing" level="1"/> <!-- level="-1" sets a perk to max level -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<requirement_group op="or">
+			<requirement name="ProgressionLevel" progression_name="perkIntellectMastery" operation="GTE" value="3"/>
+			<requirement name="HasBuff" buff="buffNerdOutfit"/>
+		</requirement_group>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nerdPointChance" operation="set" value="1"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="CVarCompare" cvar="nerdPointChance" operation="EQ" value="1"/>
+		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClothing" level="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="nerd_outfit_perk" play_in_head="true"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveCVar" cvar="nerdPointChance"/>
+			<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message="Extra Point!"/> -->
+	</effect_group>
+</item>
 
 <!-- CUSTOM WEAPONS -->
 <!-- Oakraven Can Can Bat -->
