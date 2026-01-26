@@ -1783,7 +1783,7 @@
 			<property name="Delay" value="1.3"/>
 			<property name="Upgrade_action_sound" value="ImpactSurface/metalhitearth"/>
 			<property name="Allowed_upgrade_items" value="resourceFishBait"/>
-			<requirement name="HasBuff" buff="FishTrapEmptyWater"/>			
+			<requirement name="HasBuff" buff="buffFishTrapEmptyWater"/>		
 		</property>
 		<effect_group name="Base Effects" tiered="false">
 			<passive_effect name="MaxRange" operation="base_set" value="3"/>

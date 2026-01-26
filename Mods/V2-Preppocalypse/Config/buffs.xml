@@ -98,23 +98,23 @@
 	<!-- Oakraven Fish Traps - Thank you to MeanCloud Fishing, which in turn credits ACP Fishing, for inspiration -->
 
 	<append xpath="/buffs/buff[@name='buffStatusCheck01']">
-		<effect_group name="FishTrapWater">
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FishTrapEmptyWater">
+		<effect_group name="buffFishTrapWater">
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffFishTrapEmptyWater">
 				<requirement name="CVarCompare" cvar="_underwater" operation="Equals" value="1"/>
 			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FishTrapEmptyWater">
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffFishTrapEmptyWater">
 				<requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1"/>
 			</triggered_effect>
 		</effect_group>
 	</append>
 	
 	<append xpath="/buffs">
-		<buff name="FishTrapEmptyWater" duration="2" name_key="FishTrapEmptyWater" description_key="FishTrapEmptyWaterDesc" icon="ui_game_symbol_water_trap">
+		<buff name="buffFishTrapEmptyWater" duration="2" name_key="buffFishTrapEmptyWaterName" description_key="buffFishTrapEmptyWaterDesc" icon="ui_game_symbol_water_trap">
 			<display_value_key value="Bait Fish Trap"/> <display_value value="xxx"/>
 			<update_rate value="0.5"/>
 			<stack_type value="replace"/>
 		<effect_group>
-			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="FishTrapEmptyWater"/>
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffFishTrapEmptyWater"/>
 		</effect_group>
 		</buff>		
 	</append>

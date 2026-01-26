@@ -677,7 +677,7 @@
 	<property name="HeatMapTime" value="2500"/>
 	<property name="HeatMapFrequency" value="500"/>
 	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
-	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+	<property name="ActiveRadiusEffects" value="buffCampfireAOE,3"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output,fuel,input"/>
 		<property name="CraftingAreaRecipes" value="campfire"/>
