@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="QuestTags" value="clear, fetch, infested" />
+  <property name="Tags" value="wilderness" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="90, 64, 90" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-30" />
+  <property name="Zoning" value="none" />
+  <property name="SleeperVolumeSize" value="15, 4, 10#21, 15, 21#17, 19, 2#21, 4, 20#21, 10, 26#46, 10, 25#11, 10, 39#18, 8, 16#19, 11, 48#23, 11, 54#25, 10, 35#56, 29, 12#31, 8, 6#21, 11, 23#12, 7, 29" />
+  <property name="SleeperVolumeStart" value="57, 31, 43#50, 35, 23#52, 31, 21#50, 31, 23#43, 2, 40#3, 2, 8#67, 2, 8#49, 2, 18#1, 1, 41#20, 1, 33#64, 2, 54#15, 30, 9#12, 2, 2#43, 1, 66#78, 2, 25" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="animalZombieBear,2,3,Prepper_Flyer_Entities,12,16,Prepper_Mixed_Entities,7,8,Prepper_Mixed_Soldier_Entities,12,16,Prepper_Mixed_Boss_Entities,5,6,Prepper_Mixed_Boss_Entities,3,4,Prepper_Mixed_Boss_Entities,3,4,Prepper_Mixed_Boss_Entities,3,4,Prepper_Mixed_Boss_Entities,7,9,Prepper_Mixed_Entities,12,16,Prepper_Mixed_Entities,11,13,Prepper_Comm_Tower_Entities,5,6,GroupMiniSpecialInfected,6,7,Prepper_Mixed_Dire_Wolf_Entities,4,5,GroupMiniSpecialInfected,3,4" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,2,2,2,0,0,0,2,0,0,2" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # " />
+  <property class="IndexedBlockOffsets">
+    <property class="quest_wood_trees">
+      <property name="0" value="82, 30, 84" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="64, 30, 80" />
+      <property name="1" value="63, 30, 85" />
+      <property name="2" value="70, 30, 87" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="58, 2, 77" />
+    </property>
+    <property class="challenge_elec_parts">
+      <property name="0" value="24, 40, 14" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="23, 30, 76" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="67, 31, 17" />
+      <property name="1" value="68, 31, 17" />
+      <property name="2" value="68, 32, 17" />
+      <property name="3" value="69, 31, 17" />
+      <property name="4" value="67, 31, 18" />
+      <property name="5" value="68, 31, 18" />
+      <property name="6" value="68, 32, 18" />
+      <property name="7" value="69, 31, 18" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="84, 5, 42" />
+    </property>
+    <property class="QuestRestorePower">
+      <property name="0" value="61, 31, 31" />
+      <property name="1" value="71, 38, 38" />
+    </property>
+    <property class="quest_stone">
+      <property name="0" value="78, 30, 33" />
+      <property name="1" value="84, 31, 37" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="68, 30, 79" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="85, 30, 63" />
+    </property>
+    <property class="challenge_gore">
+      <property name="0" value="83, 5, 48" />
+    </property>
+    <property class="challenge_pallet">
+      <property name="0" value="51, 30, 3" />
+      <property name="1" value="59, 30, 12" />
+      <property name="2" value="60, 30, 12" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="58, 31, 3" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="57, 31, 15" />
+      <property name="1" value="58, 31, 15" />
+      <property name="2" value="59, 31, 15" />
+    </property>
+    <property class="quest_feather">
+      <property name="0" value="69, 45, 30" />
+      <property name="1" value="70, 38, 31" />
+      <property name="2" value="68, 38, 42" />
+    </property>
+    <property class="challenge_steel">
+      <property name="0" value="62, 31, 46" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="LightsVolume" value="20606.41" />
+    <property name="TotalVertices" value="1196392" />
+    <property name="TotalTriangles" value="685442" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1028333" />
+      <property name="Triangles" value="522654" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="7875" />
+      <property name="Triangles" value="4952" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="70720" />
+      <property name="Triangles" value="35360" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="22144" />
+      <property name="Triangles" value="11072" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="67320" />
+      <property name="Triangles" value="111404" />
+    </property>
+  </property>
+</prefab>

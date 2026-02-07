@@ -112,10 +112,16 @@
  	<append xpath="/blocks/block[@name='flagPoleWhiteRiver']">
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="10"/>
+		</property>
 	</append>
  	<append xpath="/blocks/block[@name='flagPoleAmerican']">
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="10"/>
+		</property>
 	</append>
  	<append xpath="/blocks/block[@name='crushedCars01White']">
 	<property class="RepairItems">

@@ -1153,6 +1153,81 @@
 		zombieBogeymanPlasmaPREPPER, .5
 	</entitygroup>
 	
+	<!-- Prepper Mixed Boss Entities for GS -->
+
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS01">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER, .5
+		zombieBogeymanMegaPlasmaPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS50">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER, .5
+		zombieBogeymanMegaPlasmaPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS100">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER, .75
+		zombieBogeymanMegaPlasmaPREPPER, .5
+	</entitygroup>
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS200">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER
+		zombieBogeymanMegaPlasmaPREPPER, .75
+	</entitygroup>
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS400">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER
+		zombieBogeymanMegaPlasmaPREPPER
+	</entitygroup>
+	<entitygroup name="PrepperMixedBossEntitiesGroupGS800">
+		zombieSpiderBomberClaretPREPPER
+		zombieSpiderGliderClaretPREPPER
+		zombieChainsawMoeClaretPREPPER
+		zombieBatonFatCopClaretPREPPER
+		zombieBogeymanClaretPREPPER
+		zombieScreamerClaret
+		zombieBurntSirenClaret
+		zombieSkateboarderUndertakerClaret
+		zombieBogeymanPlasmaPREPPER, 1.5
+		zombieBogeymanMegaPlasmaPREPPER, 1.25
+	</entitygroup>
+	
 	<!-- Prepper Flyer Entities for GS -->
 	
 	<entitygroup name="PrepperFlyerEntitiesGroupGS01">

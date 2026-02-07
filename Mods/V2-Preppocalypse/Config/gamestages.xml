@@ -169,7 +169,9 @@
 	<append xpath="/gamestages">
 	
 	<!-- Prepper Mixed Entities -->
-	<group name="Prepper_Mixed_Entities" spawner="PrepperMixedEntities"/>	
+	<group name="Prepper_Mixed_Entities" spawner="PrepperMixedEntities"/>
+	<!-- Prepper Mixed Boss Entities -->
+	<group name="Prepper_Mixed_Boss_Entities" spawner="PrepperMixedBossEntities"/>
 	<!-- Prepper Flyer Entities -->
 	<group name="Prepper_Flyer_Entities" spawner="PrepperFlyerEntities"/>
 	<!-- Prepper Mixed Soldier Entities -->
@@ -202,6 +204,28 @@
 		</gamestage>
 		<gamestage stage="800">
 			<spawn group="PrepperMixedEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Mixed Boss Entities for GS -->
+	<spawner name="PrepperMixedBossEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedBossEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedBossEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedBossEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedBossEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedBossEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedBossEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
 		</gamestage>
 	</spawner>
 	
