@@ -5259,7 +5259,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>		
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="5500"/>
+				<passive_effect name="HealthMax" operation="base_set" value="6500"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBogeymanPlasmaPREPPERDeco"/>		
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="85"/>
@@ -5310,7 +5310,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>		
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="8500"/>
+				<passive_effect name="HealthMax" operation="base_set" value="9500"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBogeymanMegaPlasmaPREPPERDeco"/>		
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="95"/>
