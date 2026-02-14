@@ -19,6 +19,10 @@
   <set xpath="/windows/window[@name='newContinueGame']/rect[@name='rightPanel']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsBasic']/grid/gameoption[@name='BloodMoonEnemyCount']/@values">2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 24, 32, 64, 96, 100, 125, 150</set>
   <set xpath="/windows/window[@name='serverBrowser']/panel[@name='serverfilters']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsBasic']/grid/browsergameoptioncombined[@name='BloodMoonEnemyCount']/@values">2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 24, 32, 64, 96, 100, 125, 150</set>
 
+  <!-- V2 Storm Frequency default values: 0, 50, 100, 150, 200, 300, 400, 500 -->
+  <set xpath="/windows/window[@name='newContinueGame']/rect[@name='rightPanel']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsBasic']/grid/gameoption[@name='StormFreq']/@values">0, 50, 100, 150, 200, 300, 400, 500, 1000, 2500, 5000</set>
+  <set xpath="/windows/window[@name='serverBrowser']/panel[@name='serverfilters']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsBasic']/grid/browsergameoptioncombined[@name='StormFreq']/@values">0, 50, 100, 150, 200, 300, 400, 500, 1000, 2500, 5000</set>
+
   <!-- V2 Block Damage AI default values: 25, 33, 50, 67, 75, 100, 125, 150, 175, 200, 300 -->
   <set xpath="/windows/window[@name='newContinueGame']/rect[@name='rightPanel']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamageAI']/@values">0, 5, 13, 25, 33, 50, 67, 75, 100, 125, 150, 175, 200, 300, 400, 500</set>
   <set xpath="/windows/window[@name='serverBrowser']/panel[@name='serverfilters']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsAdvanced']/grid/browsergameoptioncombined[@name='BlockDamageAI']/@values">0, 5, 13, 25, 33, 50, 67, 75, 100, 125, 150, 175, 200, 300, 400, 500</set>

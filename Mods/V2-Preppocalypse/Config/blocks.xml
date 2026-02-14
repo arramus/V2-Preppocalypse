@@ -233,7 +233,7 @@
 <!-- Decorative Pictures -->
  	<append xpath="/blocks/block[@name='pictureVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,pictureFrameCarrier,pictureFrameTank,pictureFrameGunSchematic,pictureFrameJetGirls,calendar2034,posterCalendarWorkingStiff,posterBlueprintPistol,posterBlueprintRifle,pictureFramedMedalsLrg,pictureFramedMedalsMed,pictureFramedMedalsSml,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,signBulletinBoard01,signBulletinBoard02,signBookSaleAd,signBread01,signBread02,signCigaretteAd,signDinersMenu,signDinersMenu2m,signDinersMenu2mCentered,signLaborDaySaleAd,signMegaCrushAd,signNotice01,signNotice02,signNotice03,signNotice04,signSafetyWorkProtection,signSale01,signSale02,signShamwaySale,signSnackPosterAtom,signSnackPosterBretzels,signSnackPosterEyeCandy,signSnackPosterFortBites,signSnackPosterGoblinO,signSnackPosterHackers,signSnackPosterHealth,signSnackPosterJailBreakers,signSnackPosterJerky,signSnackPosterNachos,signSnackPosterNachosRanch,signSnackPosterNerd,signSnackPosterOopsClassic,signSnackPosterOops,signSnackPosterPrime,signSnackPosterRamen,signSnackPosterSkullCrusher,signPosterMovie2159,signPosterMovieLoneWolf,signPosterMovieMammasJustice,signPosterMovieSexualTension,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension</append>
 <!-- Decorative Wood Furniture -->
- 	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,diningTable01,tableCommunion,decoPoolTable,decoPoolTableBlue</append>
+ 	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,diningTable01,tableCommunion,decoPoolTable,decoPoolTableBlue,piano</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -658,6 +658,19 @@
 	<property name="SelectAlternates" value="true"/>
 	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	<property name="PlaceAltBlockValue" value="decoCarTireSmallFlat,decoCarTireFlat,decoCarTirePile,decoCarTireStack,decoCarWheelFlat,decoCarTireSmallFlat02,decoCarTireFlat02,decoCarTirePile02,decoCarTireStack02,decoCarWheelFlat02"/>
+</block>
+
+<!-- Wine Bottles -->
+
+<block name="decoWineBottleVariantHelper">
+	<property name="Extends" value="decoWineBottle"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="decoWineBottle"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="PlaceAltBlockValue" value="decoWineBottle,decoWineBottleCorner,decoWineBottleShelfRow,decoWineBottlePile01,decoWineBottlePile02"/>
 </block>
 	
 	<!-- Wood Burning Player Stove -->

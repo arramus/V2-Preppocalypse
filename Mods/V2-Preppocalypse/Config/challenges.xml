@@ -10,7 +10,7 @@
 	<append xpath="/challenges/challenge[@name='killMountainLion']/objective[@type='Kill']/@entity_names">,animalMiniMountainLion</append>
 	
 	<!-- *** ZOMBIE_SLAYER_CHALLENGES -->
-	<append xpath="/challenges/challenge[@name='killVultures']/objective[@type='Kill']/@entity_names">,animalZombieLargePlasmaVulturePREPPER,animalZombieMiniVulturePrepper</append>
+	<append xpath="/challenges/challenge[@name='killVultures']/objective[@type='Kill']/@entity_names">,animalZombieLargePlasmaVulturePREPPER,animalZombieMiniPlasmaVulturePREPPER,animalZombieMiniVulturePrepper</append>
 	<append xpath="/challenges/challenge[@name='killLumberjack']/objective[@type='Kill']/@entity_names">,zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER</append>
 	<append xpath="/challenges/challenge[@name='killSpider']/objective[@type='Kill']/@entity_names">,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieMiniSpider,zombieMiniSpiderFeral,zombieMiniSpiderRadiated</append>
 	<append xpath="/challenges/challenge[@name='killBigMama']/objective[@type='Kill']/@entity_names">,zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER</append>
@@ -25,6 +25,6 @@
 	<!-- *** DESERT_CHALLENGES -->	
 	<append xpath="/challenges/challenge[@name='desertSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieMiniRancher,zombieMiniRancherFeral,zombieMiniRancherRadiated,zombieMiniRancherCharged,zombieMiniRancherInfernal</append>
 	<!-- *** WASTELAND_CHALLENGES -->
-	<append xpath="/challenges/challenge[@name='wastelandSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBogeymanPREPPER,zombieBogeymanClaretPREPPER,zombieMiniMutated,zombieMiniMutatedFeral,zombieMiniMutatedRadiated</append>
+	<append xpath="/challenges/challenge[@name='wastelandSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBogeymanPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanPlasmaPREPPER,zombieMiniBogeymanPlasmaSpitterPREPPER,zombieBogeymanMegaPlasmaPREPPER,zombieMiniMutated,zombieMiniMutatedFeral,zombieMiniMutatedRadiated</append>
 	
 </Preppocalypse>
