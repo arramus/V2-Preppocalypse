@@ -1,16 +1,16 @@
 <Preppocalypse>
 
-	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">5, .025</set> <!-- Bicycle 4, .05 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">5.5, .025</set> <!-- Bicycle 4, .05 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">7.5, 5, 10, 5</set> <!-- Bicycle Default 6, 4, 8.5, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .2 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hornSound']/@value">preppo_bicycle_horn</set>
-	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hopForce']/@value">5, .025</set> <!-- Minibike 1.5, .2 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hopForce']/@value">5.5, .025</set> <!-- Minibike 1.5, .2 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">9, 5, 11.2, 5</set> <!-- Minibike 7, 4, 9.2, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.5, .9, .15 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hornSound']/@value">preppo_minibike_horn</set>
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='steerCenteringRate']/@value">210</set> <!-- Motorcycle 90 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='steerCenteringRate']/@value">270</set> <!-- Motorcycle 90 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltAngleMax']/@value">5</set> <!-- Motorcycle 20 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">9.25, .01</set> <!-- Motorcycle 1, .8 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">10.25, .01</set> <!-- Motorcycle 1, .8 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">13.3, 7, 19, 8</set> <!-- Motorcycle 9.8, 6, 14, 8 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .1 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hornSound']/@value">preppo_motorbike_horn</set>
@@ -252,7 +252,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="6.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
