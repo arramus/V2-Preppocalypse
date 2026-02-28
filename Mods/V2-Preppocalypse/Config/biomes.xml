@@ -3,6 +3,10 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum/@name">desert</set> <!-- Default is wasteland -->	
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/CloudThickness/@range">50,100</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog/@range">3,6</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='cold']/CloudThickness/@range">50,100</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='cold']/Fog/@range">3,6</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='hot']/CloudThickness/@range">50,100</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='hot']/Fog/@range">3,6</set>
 
 	<!-- *** Pine Forest: Sub Biome: Clustered Flowers and Boulders -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@noise='.0095, 0, .21']/decorations">

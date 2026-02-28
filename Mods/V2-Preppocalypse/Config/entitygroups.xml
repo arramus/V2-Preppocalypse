@@ -445,6 +445,7 @@
 		zombieSteelPanMarlenePREPPER, .05
 		zombieMagnumJanitorBubPREPPER, .05
 		zombieAutoShotgunDarlenePREPPER, .05
+		animalZombiePlasmaSnakePREPPER, .0175
 		animalZombieLargePlasmaVulturePREPPER, .0175
 		zombieSpiderFeralBomberPREPPER, .0175
 		zombieSpiderFeralGliderPREPPER, .0175
@@ -492,6 +493,7 @@
 		zombieSteelPanMarlenePREPPER, .05
 		zombieMagnumJanitorBubPREPPER, .05
 		zombieAutoShotgunDarlenePREPPER, .05
+		animalZombiePlasmaSnakePREPPER, .0175
 		animalZombieLargePlasmaVulturePREPPER, .0175
 		zombieSpiderFeralBomberPREPPER, .0175
 		zombieSpiderFeralGliderPREPPER, .0175
@@ -550,6 +552,7 @@
 		zombieBurntRadiatedSteelSpear, .75
 		animalZombieBunnyPREPPER, .75
 		animalZombieSnakePREPPER, .75
+		animalZombiePlasmaSnakePREPPER, .75		
 		animalZombieChickenPREPPER, .75
 		zombieSMGArlenePREPPER, .75
 		zombieSMGArleneRadiatedPREPPER, .75
@@ -636,6 +639,7 @@
 		zombieBigNightJetRocketRadiatedPREPPER, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
+		animalZombiePlasmaSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
 		zombieSMGArlenePREPPER, 1.25
 		zombieSMGArleneRadiatedPREPPER, 1.25
@@ -732,6 +736,7 @@
 		zombieAutoShotgunDarlenePREPPER, .04
 		zombieAutoShotgunDarleneRadiatedPREPPER, .04
 		zombieToolsUtilityWorkerRadiatedPREPPER, .04
+		animalZombiePlasmaSnakePREPPER, .0125
 		animalZombieLargePlasmaVulturePREPPER, .0125
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
@@ -821,6 +826,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		animalZombiePlasmaSnakePREPPER, .25
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -888,6 +894,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		animalZombiePlasmaSnakePREPPER, .25
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -955,6 +962,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		animalZombiePlasmaSnakePREPPER, .25
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -1022,6 +1030,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .25
 		zombieToolsUtilityWorkerRadiatedPREPPER, .25
 		zombieRocketRadiatedPREPPER, .25
+		animalZombiePlasmaSnakePREPPER, .25
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -1089,6 +1098,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .5
 		zombieToolsUtilityWorkerRadiatedPREPPER, .5
 		zombieRocketRadiatedPREPPER, .5
+		animalZombiePlasmaSnakePREPPER, .5
 		zombieBogeymanPlasmaPREPPER, .25
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .25
 	</entitygroup>
@@ -1156,6 +1166,7 @@
 		zombieAutoShotgunDarleneRadiatedPREPPER, .75
 		zombieToolsUtilityWorkerRadiatedPREPPER, .75
 		zombieRocketRadiatedPREPPER, .75
+		animalZombiePlasmaSnakePREPPER, .75		
 		zombieBogeymanPlasmaPREPPER, .5
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .5
 	</entitygroup>
@@ -1447,6 +1458,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER, .015
 		animalBossZombieGracePREPPER, .15
 		animalPaindeerPREPPER, .15
 	</entitygroup>
@@ -1458,6 +1470,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER, .25
 		animalBossZombieGracePREPPER, .25
 		animalPaindeerPREPPER, .25
 	</entitygroup>
@@ -1469,6 +1482,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER, .35
 		animalBossZombieGracePREPPER, .35
 		animalPaindeerPREPPER, .35
 	</entitygroup>
@@ -1480,6 +1494,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER, .5
 		animalBossZombieGracePREPPER, .5
 		animalPaindeerPREPPER, .5
 	</entitygroup>
@@ -1491,6 +1506,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER, .75
 		animalBossZombieGracePREPPER, .75
 		animalPaindeerPREPPER, .75	
 	</entitygroup>
@@ -1502,6 +1518,7 @@
 		animalZombieChickenPREPPER
 		animalZombieMiniDogPrepper
 		animalZombieBigDogPrepper
+		animalZombiePlasmaSnakePREPPER
 		animalBossZombieGracePREPPER
 		animalPaindeerPREPPER
 	</entitygroup>
@@ -2500,6 +2517,7 @@
 		zombieMachetePartyGirlInfernalPREPPER, .15
 		zombieChainsawMoeChargedPREPPER, .15
 		zombieChainsawMoeInfernalPREPPER, .15
+		animalZombiePlasmaSnakePREPPER, .15	
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

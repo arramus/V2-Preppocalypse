@@ -609,6 +609,7 @@ plantedPricklyCactus3HarvestDesc,blocks,Farming,,,Prickly Cactus Plant,,Stacheli
 animalZombieBunnyPREPPER,entityclasses,Entity,,,Bad Bunny,,,,,,,,,,,,,
 animalZombieBunnyBomberPREPPER,entityclasses,Entity,,,Bad Bomber Bunny,,,,,,,,,,,,,
 animalZombieSnakePREPPER,entityclasses,Entity,,,Slithery Mutant Snake,,,,,,,,,,,,,
+animalZombiePlasmaSnakePREPPER,entityclasses,Entity,,,Slithery Mutant Plasma Snake,,,,,,,,,,,,,
 animalZombieChickenPREPPER,entityclasses,Entity,,,Battle Chicken,,,,,,,,,,,,,
 animalBossZombieGracePREPPER,entityclasses,Entity,,,G.I. Grace,,,,,,,,,,,,,
 animalZombieLargePlasmaVulturePREPPER,entityclasses,Entity,,,Large Plasma Zombie Vulture,,,,,,,,,,,,,
