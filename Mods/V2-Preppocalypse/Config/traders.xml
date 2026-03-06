@@ -2,22 +2,49 @@
 
 	<!-- TRADERS -->
 
-	<setattribute xpath="//trader_info[@id='1']" name="open_time">4:04</setattribute>	<!-- Joel -->
-	<setattribute xpath="//trader_info[@id='2']" name="open_time">4:04</setattribute>	<!-- Jen -->
-	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:04</setattribute>	<!-- Bob -->
-	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:04</setattribute>	<!-- Hugh -->
-	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:04</setattribute>	<!-- Rekt -->
+	<setattribute xpath="//trader_info[@id='1']" name="open_time">4:00</setattribute>	<!-- Joel -->
+	<setattribute xpath="//trader_info[@id='2']" name="open_time">4:00</setattribute>	<!-- Jen -->
+	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:00</setattribute>	<!-- Bob -->
+	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:00</setattribute>	<!-- Hugh -->
+	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:00</setattribute>	<!-- Rekt -->
 
 	<!-- Preppo Special Items -->
 	<insertAfter xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier3']">
-		<traderstage_template name="baseTierPreppoSpecial"> <!-- Preppo Special Items -->
+		<traderstage_template name="baseTierPreppoSpecialTier0"> <!-- Preppo Special Items -->
 			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
 			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
-			<entry min="1" max="20" quality="2"/>
-			<entry min="15" max="30" quality="3"/>
-			<entry min="25" max="40" quality="4"/>
-			<entry min="35" max="999999" quality="5"/>
-			<entry min="45" max="999999" quality="6"/>
+			<entry min="999999" max="999999" quality="2"/> <!-- Don't show Q2 items -->
+			<entry min="5" max="15" quality="3"/>
+			<entry min="10" max="20" quality="4"/>
+			<entry min="15" max="20" quality="5"/>
+			<entry min="20" max="999999" quality="6"/>
+		</traderstage_template>
+		<traderstage_template name="baseTierPreppoSpecialTier1"> <!-- Preppo Special Items -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="999999" max="999999" quality="2"/> <!-- Don't show Q2 items -->
+			<entry min="999999" max="999999" quality="3"/> <!-- Don't show Q3 items -->
+			<entry min="50" max="70" quality="4"/>
+			<entry min="60" max="70" quality="5"/>
+			<entry min="70" max="999999" quality="6"/>
+		</traderstage_template>
+		<traderstage_template name="baseTierPreppoSpecialTier2"> <!-- Preppo Special Items -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="999999" max="999999" quality="2"/> <!-- Don't show Q2 items -->
+			<entry min="999999" max="999999" quality="3"/> <!-- Don't show Q3 items -->
+			<entry min="999999" max="999999" quality="4"/> <!-- Don't show Q4 items -->
+			<entry min="50" max="999999" quality="5"/>
+			<entry min="60" max="999999" quality="6"/>
+		</traderstage_template>
+		<traderstage_template name="baseTierPreppoSpecialTier3"> <!-- Preppo Special Items -->
+			<entry min="1" max="999999" quality="0"/> <!-- Fallback for items without quality -->
+			<entry min="999999" max="999999" quality="1"/> <!-- Don't show Q1 items -->
+			<entry min="999999" max="999999" quality="2"/> <!-- Don't show Q2 items -->
+			<entry min="999999" max="999999" quality="3"/> <!-- Don't show Q3 items -->
+			<entry min="999999" max="999999" quality="4"/> <!-- Don't show Q4 items -->
+			<entry min="100" max="999999" quality="5"/>
+			<entry min="110" max="999999" quality="6"/>
 		</traderstage_template>
 	</insertAfter>
 	
@@ -99,21 +126,21 @@
 	
 	<!-- *** Melee_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeAll']">
-		<item name="meleeWpnClubT1CanCanBat" quality="4,6"/>
-		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles" quality="4,6"/>	
-		<item name="meleeWpnClubT1Pot" quality="4,6"/>
-		<item name="meleeWpnClubT3Pan" quality="4,6"/>			
+		<item name="meleeWpnClubT1CanCanBat" prob="0.6" quality="4,6"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles" prob="0.6" quality="5,6"/>	
+		<item name="meleeWpnClubT1Pot" prob="0.6" quality="4,6"/>
+		<item name="meleeWpnClubT3Pan" prob="0.6" quality="5,6"/>			
 	</append>
 	
 	<!-- *** Ranged_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
-		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="4,6"/>
-		<item name="gun22HandgunT0Pistol" quality="4,6"/>		
+		<item name="gunRifleT2LeverActionRifleSwissVetterli" prob="0.6" quality="5,6"/>
+		<item name="gun22HandgunT0Pistol" prob="0.6" quality="3,6"/>		
 	</append>
 	
 	<!-- *** GENERAL_RESOURCES -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
-		<item name="meleeToolRepairT0TazasStoneAxe" prob="0.6" quality="2,6"/>		
+		<item name="meleeToolRepairT0TazasStoneAxe" prob="0.6" quality="3,6"/>		
 	</append>
 	
 	<!-- *** Vehicles -->
@@ -126,7 +153,7 @@
 	
 <!-- *** BOOKS -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']">
-		<item name="clothingSkillMagazine" count="2,3"/>		
+		<item name="clothingSkillMagazine" count="3,5"/>		
 	</append>
 
 </Preppocalypse>

@@ -10,7 +10,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="SleeperVolumeSize" value="17, 8, 25#29, 8, 41#41, 8, 41#41, 8, 41#30, 8, 10#41, 4, 41#9, 8, 10#32, 8, 15#32, 8, 17#32, 8, 14#15, 8, 15#9, 8, 30#25, 6, 12#12, 6, 12#20, 6, 25#23, 5, 26#12, 8, 41#28, 4, 15#5, 4, 15#13, 4, 26#5, 4, 25#13, 4, 14#20, 4, 22" />
   <property name="SleeperVolumeStart" value="31, 6, 18#21, 15, 16#9, 23, 16#9, 31, 16#20, 39, 16#9, 47, 16#41, 31, 36#9, 31, 42#9, 39, 26#9, 39, 43#9, 23, 42#41, 23, 27#23, 8, 43#11, 8, 43#11, 8, 18#25, 51, 29#9, 15, 16#15, 1, 40#10, 1, 40#30, 1, 0#43, 1, 18#30, 1, 26#10, 1, 18" />
-  <property name="SleeperVolumeGroup" value="Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Soldier_Entities,9,10,Prepper_Mixed_Soldier_Entities,15,18,Prepper_Mixed_Entities,15,18,Prepper_Mixed_Soldier_Entities,8,9,Prepper_Mixed_Entities,10,11,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Entities,8,9,Prepper_Mixed_Entities,9,10,Prepper_Mixed_Soldier_Entities,13,15,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Soldier_Entities,7,8,GroupNightClub,5,6,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,5,6,Prepper_Flyer_Entities,5,6,Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Entities,7,8,Prepper_Mixed_Animal_Entities,2,3,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,4,5,Prepper_Mixed_Entities,3,4,Prepper_Mixed_Soldier_Entities,9,10" />
+  <property name="SleeperVolumeGroup" value="Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Soldier_Entities,9,10,Prepper_Mixed_Soldier_Entities,15,18,Prepper_Mixed_Entities,15,18,Prepper_Mixed_Soldier_Entities,8,9,Prepper_Mixed_Entities,10,11,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Entities,8,9,Prepper_Mixed_Entities,9,10,Prepper_Mixed_Soldier_Entities,13,15,Prepper_Mixed_Soldier_Entities,5,6,Prepper_Mixed_Soldier_Entities,7,8,GroupNightClub,5,6,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,5,6,Prepper_Flyer_Entities,5,6,Prepper_Mixed_Soldier_Entities,6,7,Prepper_Mixed_Entities,9,10,Prepper_Mixed_Animal_Entities,2,3,Prepper_Mixed_Soldier_Entities,4,5,Prepper_Mixed_Entities,4,5,Prepper_Mixed_Entities,4,5,Prepper_Mixed_Soldier_Entities,12,13" />
   <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,," />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,True,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
@@ -27,24 +27,24 @@
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # " />
   <property name="PrefabSize" value="60, 71, 60" />
   <property class="Stats">
-    <property name="LightsVolume" value="25703.19" />
-    <property name="TotalVertices" value="2493685" />
-    <property name="TotalTriangles" value="988548" />
+    <property name="LightsVolume" value="25971.27" />
+    <property name="TotalVertices" value="2609579" />
+    <property name="TotalTriangles" value="1029041" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2026098" />
-      <property name="Triangles" value="707061" />
+      <property name="Vertices" value="2141964" />
+      <property name="Triangles" value="747540" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="428055" />
-      <property name="Triangles" value="243737" />
+      <property name="Vertices" value="428091" />
+      <property name="Triangles" value="243755" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="24300" />
-      <property name="Triangles" value="12142" />
+      <property name="Vertices" value="24292" />
+      <property name="Triangles" value="12138" />
     </property>
     <property class="ChunkMeshes3">
       <property name="Vertices" value="0" />
@@ -64,8 +64,12 @@
       <property name="0" value="44, 48, 51" />
     </property>
     <property class="challenge_polymers">
-      <property name="0" value="47, 32, 22" />
-      <property name="1" value="46, 24, 28" />
+      <property name="0" value="46, 48, 22" />
+      <property name="1" value="47, 32, 22" />
+      <property name="2" value="46, 24, 28" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="53, 6, 41" />
     </property>
     <property class="challenge_sinks">
       <property name="0" value="47, 32, 38" />
@@ -79,12 +83,7 @@
       <property name="0" value="56, 6, 52" />
     </property>
     <property class="POILight">
-      <property name="0" value="46, 17, 33" />
-      <property name="1" value="46, 40, 37" />
-      <property name="2" value="47, 35, 39" />
-      <property name="3" value="47, 3, 40" />
-      <property name="4" value="47, 35, 42" />
-      <property name="5" value="47, 24, 43" />
+      <property name="0" value="53, 7, 49" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="46, 31, 33" />
@@ -115,9 +114,6 @@
     </property>
     <property class="challenge_elec_parts">
       <property name="0" value="14, 48, 52" />
-    </property>
-    <property class="challenge_cars">
-      <property name="0" value="53, 6, 24" />
     </property>
     <property class="QuestRestorePower">
       <property name="0" value="45, 48, 53" />

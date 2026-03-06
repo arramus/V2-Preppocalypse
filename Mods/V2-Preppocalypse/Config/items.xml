@@ -43,7 +43,7 @@
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">10</set><!-- 6 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">28</set><!-- 22 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
-	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/property[@name='TraderStageTemplate']/@value">baseTierPreppoSpecial</set><!-- baseTier0 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/property[@name='TraderStageTemplate']/@value">baseTierPreppoSpecialTier0</set><!-- baseTier0 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/property[@name='CustomIcon']/@value">meleeToolRepairT0TazasStoneAxe</set><!-- meleeToolRepairT0StoneAxe Default -->
 	<remove xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/property[@name='CustomIconTint']"/>
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
@@ -848,7 +848,7 @@
 		<property name="CraftingIngredientTime" value=".2"/>
 	</item>
 	
-<!-- Swiss Vertteli Silver Magnum -->
+<!-- Swiss Vetterli Silver Magnum -->
 
 <item name="ammo44MagnumBulletSilver">
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
@@ -3636,7 +3636,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="EconomicValue" value="550"/> <!-- Default 500 -->
-	<property name="TraderStageTemplate" value="baseTier1"/>
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier1"/> <!-- baseTier1 revision -->
 	<!--property name="UnlockedBy" value="craftingClubs"/--><!-- perkPummelPete,meleeWpnClubT1BaseballBatSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -3719,7 +3719,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/knucklesLeftRightBlade.unity3d?KnuckleBladesRight"/>
 	<property name="HoldType" value="61"/>
 	<property name="ScrapTimeOverride" value="10.0"/>
-	<property name="TraderStageTemplate" value="baseTier1"/>
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier3"/> <!-- baseTier3 revision -->
 	<property name="EconomicValue" value="1210"/>	
 	<!--property name="UnlockedBy" value="craftingKnuckles"/--><!-- meleeWpnKnucklesT3SteelKnucklesSchematic, -->
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -3806,7 +3806,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="2500"/>
-	<property name="TraderStageTemplate" value="baseTier2"/>
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier2"/> <!-- baseTier2 revision -->
 	<property name="UnlockedBy" value="craftingRifles"/><!-- gunRifleT2LeverActionRifleSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -3916,7 +3916,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="250"/> <!-- Default 500 -->
-	<property name="TraderStageTemplate" value="baseTier0"/><!-- before gunHandgunT1Pistol -->
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier0"/><!-- baseTier0 revision -->
 	<!-- property name="UnlockedBy" value="craftingHandguns"/ --><!-- Toilet Pistol and Trader Only -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -4001,7 +4001,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="EconomicValue" value="550"/> <!-- Default 500 -->
-	<property name="TraderStageTemplate" value="baseTier1"/>
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier1"/> <!-- baseTier1 revision -->
 	<property name="UnlockedBy" value="craftingClubs"/><!-- perkPummelPete,meleeWpnClubT1BaseballBatSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -4089,7 +4089,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="EconomicValue" value="1210"/> <!-- Default 1100 -->
-	<property name="TraderStageTemplate" value="baseTier2"/>
+	<property name="TraderStageTemplate" value="baseTierPreppoSpecialTier3"/> <!-- baseTier3 revision -->
 	<property name="UnlockedBy" value="craftingClubs"/><!-- perkBatterUpBaseballBats, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
