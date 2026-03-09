@@ -1218,7 +1218,7 @@
 	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="CustomIcon" value="eggquiche"/>
+	<property name="CustomIcon" value="foodEggQuiche"/>
 	<property name="DescriptionKey" value="foodEggQuicheDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -1249,7 +1249,7 @@
 	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="CustomIcon" value="eggsandwich"/>
+	<property name="CustomIcon" value="foodEggSandwich"/>
 	<property name="DescriptionKey" value="foodEggSandwichDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -1299,7 +1299,7 @@
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
 	<effect_group tiered="false" name="Food Tier 2">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="25">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
@@ -1478,7 +1478,7 @@
 	<property name="Tags" value="food,medical,medicalSkill,fitness,farmerFoodBonus"/>
 	<property name="DescriptionKey" value="foodHoneyCombDesc"/>	
 	<property name="HoldType" value="31"/>
-	<property name="CustomIcon" value="honeycomb"/>
+	<property name="CustomIcon" value="foodHoneyComb"/>
 	<property name="DisplayType" value="foodCureInfectionAndFood"/>
 	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -1541,7 +1541,7 @@
 	<property name="Tags" value="food,medical,medicalSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodCureInfectionAndFood"/>
-	<property name="CustomIcon" value="bread2"/>
+	<property name="CustomIcon" value="foodHoneyBread"/>
 	<property name="DescriptionKey" value="foodHoneyBreadDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -1578,7 +1578,7 @@
 	<property name="Tags" value="food,medical,medicalSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodCureInfectionAndFood"/>
-	<property name="CustomIcon" value="oakpie"/>
+	<property name="CustomIcon" value="foodHoneyPumpkinPie"/>
 	<property name="DescriptionKey" value="foodHoneyPumpkinPieDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -1594,7 +1594,7 @@
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 2">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="25">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
@@ -1663,7 +1663,7 @@
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
 	<effect_group tiered="false" name="Food Tier 1">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="32"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="25">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
@@ -1688,7 +1688,7 @@
 	<property name="EconomicValue" value="140"/>
 	<!--property name="UnlockedBy" value="craftingFood"/--><!-- perkMasterChef,drinkJarBeerSchematic, -->
 	<property name="DisplayType" value="waterHoneyBeer"/>
-	<property name="CustomIcon" value="honeybeer"/>
+	<property name="CustomIcon" value="drinkHoneyBeer"/>
 	<property name="DescriptionKey" value="drinkHoneyBeerDesc"/>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
 	<property class="Action0">
@@ -3784,7 +3784,7 @@
 	
 <!-- Swiss Vetterli Rifle -->
 <item name="gunRifleT2LeverActionRifleSwissVetterli">
-	<property name="Tags" value="swissvetterlimagazine,SwissVetterli,weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
+	<property name="Tags" value="swissvetterlimagazine,SwissVetterli,weapon,revolver,44enforcer,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="85"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Vetterli.unity3d?Vetterli"/>
@@ -7126,6 +7126,16 @@
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_prepperstockpile26"/>
+			</property>
+		</item>
+		
+		<item name="quest_prepperstockpile07">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile07Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile31"/>
 			</property>
 		</item>
 		
