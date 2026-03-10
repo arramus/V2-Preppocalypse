@@ -1972,6 +1972,7 @@
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="thrownTimedCharge" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -2268,7 +2269,7 @@
 
 	<property name="HandItem" value="meleeHandBossGrace"/>
 
-	<property name="ExperienceGain" value="2200"/><!-- XP strong -->
+	<property name="ExperienceGain" value="2500"/><!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value="1"/> <!-- Grace -->
 	
@@ -2287,8 +2288,9 @@
 
 	<effect_group name="Base Effects">
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalBossZombieGracePREPPERDeco"/>
-		<passive_effect name="HealthMax" operation="base_set" value="3500"/>
+		<passive_effect name="HealthMax" operation="base_set" value="3750"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".5"/> <!-- Feral damage -->
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
 	</effect_group>
 
 </entity_class>
@@ -2336,6 +2338,7 @@
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
+	<drop event="Harvest" name="meleeToolAllSteelParts" tag="butcherHarvest" count="1,2"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -2657,7 +2660,7 @@
 	<property name="Mass" value="15"/>
 	<property name="Prefab" value="@:Entities/Animals/Vulture/animalBirdVulturePrefab.prefab"/>
 	<property name="PrefabCombined" value="true"/>
-	<property name="SizeScale" value=".2"/>
+	<property name="SizeScale" value=".3"/>
 
 	<property name="AITask-1" value=""/>
 	<property name="AITarget-1" value=""/>
@@ -2752,7 +2755,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="100"/>
+		<passive_effect name="HealthMax" operation="base_set" value="85"/>
 		<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
 	</effect_group>
 </entity_class>
@@ -2786,7 +2789,7 @@
 	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
-	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
+	SetNearestEntityAsTarget class=EntityPlayer,28,20,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
 	"/>
 
 	<property name="SoundAlert" value="wolfdirealert"/>
@@ -2803,7 +2806,7 @@
 	<property name="HandItem" value="meleeHandAnimalDireFireWolf"/>
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 	<property name="PainResistPerHit" value=".95"/>
-	<property name="DeadBodyHitPoints" value="500"/>
+	<property name="DeadBodyHitPoints" value="400"/>
 
 	<property name="ExperienceGain" value="2500"/><!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
@@ -2856,7 +2859,7 @@
 	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
-	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
+	SetNearestEntityAsTarget class=EntityPlayer,28,20,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
 	"/>
 
 	<property name="SoundAlert" value="wolfdirealert"/>
@@ -2873,7 +2876,7 @@
 	<property name="HandItem" value="meleeHandAnimalMiniDireWolf"/>
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 	<property name="PainResistPerHit" value=".95"/>
-	<property name="DeadBodyHitPoints" value="500"/>
+	<property name="DeadBodyHitPoints" value="400"/>
 
 	<property name="ExperienceGain" value="1500"/><!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
@@ -2923,7 +2926,7 @@
 	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
-	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
+	SetNearestEntityAsTarget class=EntityPlayer,28,20,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
 	"/>
 
 	<property name="SoundAlert" value="wolfdirealert"/>
@@ -2940,7 +2943,7 @@
 	<property name="HandItem" value="meleeHandAnimalDireFireWolf"/>
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 	<property name="PainResistPerHit" value=".95"/>
-	<property name="DeadBodyHitPoints" value="500"/>
+	<property name="DeadBodyHitPoints" value="400"/>
 
 	<property name="ExperienceGain" value="3500"/><!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
@@ -2994,7 +2997,7 @@
 	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal,EntityNPC|
 	BlockingTargetTask|
 	SetNearestCorpseAsTarget flags=edible|
-	SetNearestEntityAsTarget class=EntityPlayer,16,10,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
+	SetNearestEntityAsTarget class=EntityPlayer,28,20,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityNPC,0,0|
 	"/>
 
 	<property name="SoundAlert" value="wolfdirealert"/>
@@ -3011,7 +3014,7 @@
 	<property name="HandItem" value="meleeHandAnimalGiantDirePlasmaWolf"/>
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 	<property name="PainResistPerHit" value=".95"/>
-	<property name="DeadBodyHitPoints" value="500"/>
+	<property name="DeadBodyHitPoints" value="400"/>
 
 	<property name="ExperienceGain" value="3500"/><!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
@@ -3298,6 +3301,7 @@
 	<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
+	<property name="CrouchType" value="0"/>
 
 	<property name="AITask" value="
 	BreakBlock|
@@ -3336,7 +3340,7 @@
 
 	<property name="ExperienceGain" value="825"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
-	<property name="LootDropProb" value=".25"/>
+	<property name="LootDropProb" value=".3"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
@@ -3352,7 +3356,7 @@
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieM60DemolitionPREPPERDeco"/>
 		<passive_effect name="HealthMax" operation="base_set" value="1320"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="65"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 	</effect_group>
 </entity_class>
@@ -5841,7 +5845,7 @@
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- fit, feral -->
 	<property name="HandItem" value="meleeHandZombieShortFeral"/>
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="ExperienceGain" value="300"/>
+	<property name="ExperienceGain" value="575"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
@@ -5874,7 +5878,7 @@
 	<property name="JumpMaxDistance" value="5, 7"/>
 	<property name="HandItem" value="meleeHandZombieShortFeral"/>
 	<property name="TimeStayAfterDeath" value="10"/>	
-	<property name="ExperienceGain" value="330"/>
+	<property name="ExperienceGain" value="975"/>
 	<property name="LootDropProb" value=".03"/> <!-- Feral -->
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
@@ -5888,7 +5892,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="330"/>
+		<passive_effect name="HealthMax" operation="base_set" value="450"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 	</effect_group>
@@ -5906,7 +5910,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="ExperienceGain" value="360"/><!-- XP grunt radiated -->
+	<property name="ExperienceGain" value="1275"/><!-- XP grunt radiated -->
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
@@ -5919,7 +5923,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="360"/>
+		<passive_effect name="HealthMax" operation="base_set" value="850"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="45"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
@@ -5952,7 +5956,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="ExperienceGain" value="450"/>
+	<property name="ExperienceGain" value="1275"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 	<property name="LootDropProb" value=".03"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -5969,7 +5973,7 @@
 
 	<effect_group name="Base Effects">
 			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTARifleSoldierPREPPERDeco"/>
-		<passive_effect name="HealthMax" operation="base_set" value="450"/>
+		<passive_effect name="HealthMax" operation="base_set" value="850"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
@@ -6003,7 +6007,7 @@
 	<property name="SoundTick" value="demolitionz_beep,.125,.9"/><!-- .5,.9 -->
 
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="ExperienceGain" value="500"/>
+	<property name="ExperienceGain" value="800"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<property name="LootDropProb" value=".03"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -6019,7 +6023,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<passive_effect name="HealthMax" operation="base_set" value="850"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
@@ -6050,7 +6054,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="ExperienceGain" value="600"/>
+	<property name="ExperienceGain" value="1375"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<property name="LootDropProb" value=".03"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -6067,7 +6071,7 @@
 
 	<effect_group name="Base Effects">
 			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTARifleSoldierPREPPERDeco"/>
-		<passive_effect name="HealthMax" operation="base_set" value="600"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1200"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
@@ -6107,7 +6111,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigBikersDeco"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="35"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
@@ -6159,7 +6163,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigBikersJetDeco"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="35"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
@@ -6198,7 +6202,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigWightsDeco"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="25"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
@@ -6222,7 +6226,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="MoveSpeedAggro" value=".6, 1.45"/>
-	<property name="ExperienceGain" value="1000"/><!-- XP strong radiated -->
+	<property name="ExperienceGain" value="1250"/><!-- XP strong radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<property name="LootDropProb" value=".3"/>
 	<property name="HandItem" value="meleeHandZombieBigNightScreamerRadiatedPlasma"/>
@@ -6251,7 +6255,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1250"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigScreamersDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.0"/>
@@ -6303,7 +6307,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigScreamersDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
@@ -6395,7 +6399,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigCopsDeco"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
@@ -6461,7 +6465,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightBurntSirenDeco"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffzombieBigNightBurntSiren"/>
 	</effect_group>
@@ -6570,7 +6574,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1750"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigSteveCrawlerDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
@@ -6620,7 +6624,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1750"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigSteveCrawlerPlasmaDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
@@ -6653,7 +6657,7 @@
 	<!-- Gameplay zombieSkateboarderRadiated -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
-	<property name="ExperienceGain" value="1520"/><!-- XP grunt radiated -->
+	<property name="ExperienceGain" value="2000"/><!-- XP grunt radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".3"/>
 	
@@ -6670,7 +6674,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1740"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightSkateboarderClawHammerRadiatedDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
@@ -6705,7 +6709,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="MoveSpeedAggro" value="1.35, 1.55"/>
-	<property name="ExperienceGain" value="1620"/><!-- XP grunt radiated -->
+	<property name="ExperienceGain" value="2000"/><!-- XP grunt radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value=".35"/>
 	
@@ -6722,7 +6726,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="1940"/>
+		<passive_effect name="HealthMax" operation="base_set" value="2500"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigNightSkateboarderUndertakerRadiatedDeco"/>
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
@@ -6824,7 +6828,7 @@
 			<property name="ExplodeHealthThreshold" value="0"/> <!-- Disable Health explosion and bomb is turned off -->		
 			<property name="HandItem" value="meleeHandZombieRocketPREPPER"/>
 
-			<property name="ExperienceGain" value="825"/>
+			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 			<property name="LootDropProb" value=".5"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -6838,7 +6842,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="1320"/>
+				<passive_effect name="HealthMax" operation="base_set" value="1500"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
@@ -6888,7 +6892,7 @@
 			<property name="ExplodeHealthThreshold" value="0"/> <!-- Disable Health explosion and bomb is turned off -->		
 			<property name="HandItem" value="meleeHandZombieRocketRadiatedPREPPER"/>
 
-			<property name="ExperienceGain" value="938"/>
+			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 			<property name="LootDropProb" value="1"/>
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -6902,7 +6906,7 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+				<passive_effect name="HealthMax" operation="base_set" value="1750"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="65"/>
