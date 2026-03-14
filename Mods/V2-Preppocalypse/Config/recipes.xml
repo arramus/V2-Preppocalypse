@@ -429,6 +429,17 @@
 		<ingredient name="drinkJarPureMineralWater" count="1"/>
 	</recipe>
 	
+	<recipe name="foodSuperCornFluffyOmelette" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="foodEgg" count="8"/>
+		<ingredient name="foodCropMushroomsRadiated" count="4"/>
+		<ingredient name="foodCropGraceCorn" count="2"/>
+		<ingredient name="foodHoneyComb" count="1"/>
+		<ingredient name="foodCropYuccaFruit" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodEgg"/>
+		</effect_group>
+	</recipe>
+	
 	<recipe name="foodSpicyWildRiceMeatballs" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
 		<ingredient name="foodCropPotato" count="3"/>
 		<ingredient name="foodWildRice" count="30"/>

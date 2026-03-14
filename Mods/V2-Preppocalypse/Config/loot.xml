@@ -508,14 +508,19 @@
 	
 	<lootgroup name="twitch_preppoammoall" count="1">
 		<item name="ammoRocketFire" count="10,15"/>
-		<item name="ammoBundle44MagnumBulletSilver" count="2,5"/>
-		<item name="ammo762mmBulletBall" count="75,100"/>
-		<item name="ammoShotgunShell" count="30,45"/>
-		<item name="ammo44MagnumBulletBall" count="50,75"/>
+		<item name="ammoBundle44MagnumBulletSilver" count="3,5"/>
+		<item name="ammo762mmBulletAP" count="25,50"/>
+		<item name="ammoShotgunSlug" count="25,50"/>
+		<item name="ammo44MagnumBulletAP" count="25,50"/>
+		<item name="ammoArrowSteelBeeswaxAP" count="25,50"/>
+		<item name="ammoCrossbowBoltSteelBeeswaxAP" count="25,50"/>
+		<item name="resourceSteelNailFlaming" count="10,15"/>
+		<item name="resourceSteelNailExploding" count="10,15"/>
 	</lootgroup>
 	
 	<lootgroup name="twitch_preppoammo" count="all">
 		<item group="twitch_preppoammoall" />	
+		<item group="twitch_preppoammoall" />
 		<item group="twitch_preppoammoall" />
 		<item group="twitch_preppoammoall" />		
 	</lootgroup>
