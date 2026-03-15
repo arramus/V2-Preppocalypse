@@ -383,6 +383,7 @@
 		zombieChainsawMoeClaretPREPPER, .01
 		zombieSpiderGliderClaretPREPPER, .01
 		zombieSpiderBomberClaretPREPPER, .01
+		zombieRocketPREPPER, .01
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
@@ -414,6 +415,7 @@
 		zombieChainsawMoeClaretPREPPER, .02
 		zombieSpiderGliderClaretPREPPER, .02
 		zombieSpiderBomberClaretPREPPER, .02
+		zombieRocketPREPPER, .02
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
@@ -454,7 +456,7 @@
 		zombieWightRadiationShowerPREPPER, .0175
 		zombieBogeymanPREPPER, .0175
 		zombieCrispyPREPPER, .0175
-		zombieScorcherPREPPER, .0175
+		zombieScorcherRadiatedPREPPER, .0175
 		zombieBogeymanClaretPREPPER, .0125
 		zombieBatonFatCopClaretPREPPER, .0125
 		zombieBurntSirenClaret, .0125
@@ -462,7 +464,7 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
-		zombieRocketPREPPER, .0125
+		zombieRocketRadiatedPREPPER, .0125
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP_NIGHT -->
@@ -502,7 +504,7 @@
 		zombieWightRadiationShowerPREPPER, .0175
 		zombieBogeymanPREPPER, .0175
 		zombieCrispyPREPPER, .0175
-		zombieScorcherPREPPER, .0175
+		zombieScorcherRadiatedPREPPER, .0175
 		zombieBogeymanClaretPREPPER, .0125
 		zombieBatonFatCopClaretPREPPER, .0125
 		zombieBurntSirenClaret, .0125
@@ -510,22 +512,24 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
-		zombieRocketPREPPER, .0125
+		zombieRocketRadiatedPREPPER, .0125
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
-		zombieBogeymanClaretPREPPER, .025
-		zombieBatonFatCopClaretPREPPER, .025
-		zombieBurntSirenClaret, .025
-		zombieScreamerClaret, .025
-		zombieChainsawMoeClaretPREPPER, .025
-		zombieSpiderGliderClaretPREPPER, .025
-		zombieSpiderBomberClaretPREPPER, .025
-		zombieSkateboarderUndertakerClaret, .02
-		zombieBogeymanPlasmaPREPPER, .0175
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .0175
-		zombieBogeymanMegaPlasmaPREPPER, .015
+		zombieBogeymanClaretPREPPER, .03
+		zombieBatonFatCopClaretPREPPER, .03
+		zombieBurntSirenClaret, .03
+		zombieScreamerClaret, .03
+		zombieChainsawMoeClaretPREPPER, .03
+		zombieSpiderGliderClaretPREPPER, .03
+		zombieSpiderBomberClaretPREPPER, .03
+		zombieSkateboarderUndertakerClaret, .025
+		zombieRocketWastelandPREPPER, .025
+		zombieScorcherWastelandPREPPER, .025
+		zombieBogeymanPlasmaPREPPER, .025
+		zombieMiniBogeymanPlasmaSpitterPREPPER, .025
+		zombieBogeymanMegaPlasmaPREPPER, .025
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_ALL_WASTELAND_GROUP -->
