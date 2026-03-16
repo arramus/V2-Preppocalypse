@@ -433,7 +433,7 @@
 		<ingredient name="foodEgg" count="8"/>
 		<ingredient name="foodCropMushroomsRadiated" count="4"/>
 		<ingredient name="foodCropGraceCorn" count="2"/>
-		<ingredient name="foodHoneyComb" count="1"/>
+		<ingredient name="foodHoneyComb" count="5"/>
 		<ingredient name="foodCropYuccaFruit" count="1"/>
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodEgg"/>

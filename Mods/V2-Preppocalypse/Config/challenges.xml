@@ -4,7 +4,7 @@
 	<append xpath="/challenges/challenge[@name='killRabbits']/objective[@type='Kill']/@entity_names">,animalZombieBunnyPREPPER,animalZombieBunnyBomberPREPPER</append>
 	<append xpath="/challenges/challenge[@name='killChickens']/objective[@type='Kill']/@entity_names">,animalZombieChickenPREPPER</append>
 	<append xpath="/challenges/challenge[@name='killDeer']/objective[@type='Kill']/@entity_names">,animalPaindeerPREPPER</append>	
-	<append xpath="/challenges/challenge[@name='killSnakes']/objective[@type='Kill']/@entity_names">,animalZombieSnakePREPPER,animalZombiePlasmaSnakePREPPER</append>
+	<append xpath="/challenges/challenge[@name='killSnakes']/objective[@type='Kill']/@entity_names">,animalZombieSnakePREPPER,animalZombiePlasmaSnakePREPPER,animalZombieFireSnakePREPPER</append>
 	<append xpath="/challenges/challenge[@name='killBoars']/objective[@type='Kill']/@entity_names">,animalBossZombieGracePREPPER</append>
 	<append xpath="/challenges/challenge[@name='killWolves']/objective[@type='Kill']/@entity_names">,animalDireFireWolf,animalMiniDireWolf,animalGiantDireFireWolf,animalGiantDirePlasmaWolf</append>
 	<append xpath="/challenges/challenge[@name='killMountainLion']/objective[@type='Kill']/@entity_names">,animalMiniMountainLion</append>
