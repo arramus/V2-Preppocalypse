@@ -1,0 +1,29 @@
+<Preppocalypse>
+
+	<!-- *** HANGING_CORPSE_LOG -->
+	<append xpath="/blockplaceholders">
+		<placeholder name="corpseHangingLogPreppo">
+			<block name="corpseHangingLog1White"/>
+			<block name="corpseHangingLog1Brown"/>
+			<block name="corpseHangingLog1Red"/>
+			<block name="corpseHangingLog1Green"/>
+			<block name="corpseHangingLog1Blue"/>
+			<block name="corpseHangingLog1Grey"/>
+			<block name="corpseHangingLog2White"/>
+			<block name="corpseHangingLog2Brown"/>
+			<block name="corpseHangingLog2Red"/>
+			<block name="corpseHangingLog2Green"/>
+			<block name="corpseHangingLog2Blue"/>
+			<block name="corpseHangingLog2Grey"/>
+			<block name="corpseHangingLog3White"/>
+			<block name="corpseHangingLog3Brown"/>
+			<block name="corpseHangingLog3Red"/>
+			<block name="corpseHangingLog3Green"/>
+			<block name="corpseHangingLog3Blue"/>
+			<block name="corpseHangingLog3Grey"/>
+			<block name="noCorpseHangingLog1"/>
+			<block name="noCorpseHangingLog2"/>
+		</placeholder>
+	</append>
+
+</Preppocalypse>

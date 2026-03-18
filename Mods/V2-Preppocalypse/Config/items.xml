@@ -5724,7 +5724,7 @@
 				<property name="AnimType" value="1"/>
 				<property name="Delay" value=".1"/> <!-- obsolete if rounds per minute exists -->
 				<property name="Range" value="200"/>
-				<property name="SpreadVerticalOffset" value="-50"/>
+				<property name="SpreadVerticalOffset" value="-45"/>
 				<property name="WarningDelay" value=".6"/>
 				<property name="WarningMax" value="1"/>
 				<property name="Infinite_ammo" value="true"/>
@@ -5741,7 +5741,7 @@
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 				<passive_effect name="MaxRange" operation="base_set" value="30"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
-				<passive_effect name="BurstRoundCount" operation="base_set" value="3"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="90"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="30"/>
 				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
@@ -5786,6 +5786,82 @@
 					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
 				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
 				<passive_effect name="BuffProcChance" operation="base_set" value="0.5" tags="buffBurningZombie"/>
+			</effect_group>
+		</item>
+		
+		<item name="meleeHandZombieBogeymanMilitaryPREPPER">
+			<property name="Extends" value="meleeHandzombieMutated"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action0">
+				<property name="Range" value="1.75"/>
+				<property name="DamageEntity" value="45"/>
+				<property name="DamageBlock" value="100"/>
+			</property>
+			<property class="Action1"> <!-- UseAction -->
+				<property name="Class" value="Vomit"/>
+				<property name="Hitmask_override" value="Arrow"/>
+				<property name="AnimType" value="1"/>
+				<property name="Delay" value=".1"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Range" value="200"/>
+				<property name="SpreadVerticalOffset" value="-45"/>
+				<property name="WarningDelay" value=".6"/>
+				<property name="WarningMax" value="1"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="ammoProjectileZombieBogeymanMilitaryPREPPER"/>
+				<property name="Sound_warning" value="hulkvomitwarning"/>
+				<property name="Sound_start" value="hulkvomitattack"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/>
+			</property>
+			<effect_group name="melee" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="30"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="90"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="30"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+					buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+					weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+			</effect_group>
+		</item>
+
+		<item name="ammoProjectileZombieBogeymanMilitaryPREPPER">
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="DamageEntity" value="40"/>
+				<property name="DamageBlock" value="35"/>
+				<property name="Explosion.ParticleIndex" value="5"/>
+				<property name="Explosion.RadiusBlocks" value="5"/>
+				<property name="Explosion.RadiusEntities" value="2"/> <!-- damage radius for entities -->
+				<property name="Gravity" value="-7.5"/>
+				<property name="Velocity" value="4.5"/>
+				<property name="FlyTime" value="0"/>
+				<property name="LifeTime" value="4"/>
+				<property name="CollisionRadius" value=".4"/>
+				<property name="DamageBonus.earth" value="0"/>
+			</property>
+			<effect_group name="ammo" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".01" tags="buffInfectionCatch"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
 			</effect_group>
 		</item>
 		
@@ -7303,6 +7379,65 @@
 			<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="Pistol_Fire"/>		
 		</effect_group>
 	</item>
+	
+<item name="meleeHandZombieChuckMilitaryPREPPER">
+	<property name="Extends" value="meleeHandZombieChuck"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="40"/>
+		<property name="DamageBlock" value="200"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Magazine_items" value="ammoProjectileZombieBoulderMilitaryPREPPER"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="100"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".05,.05,.05,.2,.2,.05,.4"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieBoulderMilitaryPREPPER">
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Boulder/BoulderThrownPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="100"/>
+		<property name="DamageBlock" value="100"/>
+		<property name="Explosion.ParticleIndex" value="5"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.EntityDamage" value="120"/>
+		<property name="Explosion.BlockDamage" value="120"/>
+		<property name="Explosion.DamageBonus.earth" value="0"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+		<property name="FlyTime" value="-5"/><!-- -value calculates ballistic velocity to target over this +duration -->
+		<property name="Velocity" value="50"/><!-- ballistic max distance for duration -->
+		<property name="Gravity" value="-8"/>
+		<property name="LifeTime" value="7"/>
+		<property name="CollisionRadius" value=".22"/>
+		<property name="Buff" value="buffInjuryStunned03"/>
+	</property>
+	<effect_group name="ammoProjectileZombieBoulderMilitaryPREPPER" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+	</effect_group>
+</item>
 
 <!-- QUESTS -->
 

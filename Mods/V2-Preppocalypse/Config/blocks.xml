@@ -1850,6 +1850,25 @@
 	<property name="SortOrder2" value="0004"/>
 </block>
 
+<!-- Block Place Holders -->
+	<!-- *** HANGING_CORPSE_LOG -->
+<!-- White -->
+<block name="corpseHangingLogPreppo">
+	<property name="Extends" value="woodNoUpgradeMaster" param1="RepairItems"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="corpseHangingLog1White"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Model" value="@:Entities/Gore/corpseHangingLog1Prefab.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,4,1"/>
+	<property name="SortOrder1" value="B265"/>
+	<property name="SortOrder2" value="1000"/>
+</block>
+
 </append>
 
 </Preppocalypse>

@@ -81,18 +81,34 @@
 	<!-- Thickening the Wasteland tree density -->
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='treeBurntMaple03']/@prob">.005</set>	
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='treeBurntMaple04']/@prob">.0015</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='carWrecksRandomHelper']/@prob">.001</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='carWrecksRandomHelper']/@prob">.001</set>
+	
+	<!-- *** Wasteland: Sub Biome: Coal -->
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@noise='.03, 0, .21']/decorations">
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".01"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".01"/>
+	</append>
+
+	<!-- *** Wasteland: Sub Biome: Potassium Nitrate -->
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@noise='.031, 0, .22']/decorations">
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".01"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".01"/>
+	</append>
+	
 	<!-- Wasteland: Decorations Main -->	
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
 			<decoration type="block" blockname="emberPileDeco1" onslopes="false" prob=".0005" rotatemax="7"/>
 			<decoration type="block" blockname="emberPileDeco2" onslopes="false" prob=".0005" rotatemax="7"/>			
 			<decoration type="block" blockname="emberPileDeco3" onslopes="false" prob=".0025" rotatemax="7"/>
-			<decoration type="block" blockname="emberPileDeco4" onslopes="false" prob=".0025" rotatemax="7"/>			
+			<decoration type="block" blockname="emberPileDeco4" onslopes="false" prob=".0025" rotatemax="7"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".0075"/>
 	</append>
 
+	<!-- ***** Street Parameters -->
 	<append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">
 		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0025"/>
-		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.0025"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.003"/>
 		<blockontop blockname="decoWildWestWagon" prob="0.00005" rotatemax="7"/>
 		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.005"/>
 		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		
@@ -108,7 +124,7 @@
 	</append>
 	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
 		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.005" rotatemax="7"/>
-		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.005" rotatemax="7"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.0075" rotatemax="7"/>
 		<blockontop blockname="decoWildWestWagon" prob="0.00005" rotatemax="7"/>
 		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.0035"/>
 		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		
@@ -124,7 +140,7 @@
 	</append>
 	<append xpath="/worldgeneration/pois/poi[@name='Road Gravel']">
 		<blockontop blockname="plantedCottonHarvestRandomHelper" prob="0.0075" rotatemax="7"/>
-		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.0075" rotatemax="7"/>
+		<blockontop blockname="plantedtreeGrassSeedRandomHelper" prob="0.01" rotatemax="7"/>
 		<blockontop blockname="decoWildWestWagon" prob="0.0005" rotatemax="7"/>
 		<blockontop blockname="hubcapNoMine" onslopes="false" prob="0.0025"/>
 		<blockontop blockname="cntLuggageMediumRandomLootHelper" prob="0.0001" rotatemax="7"/>		

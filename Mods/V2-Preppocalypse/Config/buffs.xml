@@ -453,6 +453,12 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieBogeymanMilitaryPREPPERDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/LootContainers/weapon_bags_largePrefab.prefab" local_offset="0,-0.12,-0.36" local_rotation="0,0,0" parent_transform="Spine"/>
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieBogeymanPlasmaPREPPERDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
