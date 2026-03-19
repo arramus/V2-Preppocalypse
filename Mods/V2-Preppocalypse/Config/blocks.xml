@@ -1766,7 +1766,7 @@
 	<property name="ModdedConvertToItem" value="terrWaterPOI"/>
 	<property name="ModdedConvertSpeed" value="2"/>
 	<property name="ModdedConvertCount" value="2"/>
-	<property name="ModTransformNames" value="1,2,3"/>
+	<property name="ModTransformEnableNames" value="1,2,3"/>
 	<property name="ModTypes" value="Speed,Count,Type"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>

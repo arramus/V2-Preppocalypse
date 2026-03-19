@@ -3349,7 +3349,7 @@
 			<property name="MatColor" value="claret"/>
 			
 			<!-- Gameplay zombieSpiderRadiated -->
-			<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+			<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value="0"/><property name="DismemberMultiplierLegs" value="0"/><!-- Radiated -->
 			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	
 			<property name="Mass" value="50"/>
@@ -3375,6 +3375,49 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="3000"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSpiderFeralBomberPREPPERDeco"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+		</entity_class>
+		
+		<!-- Spider Drone Rocket Bomber -->
+		
+		<entity_class name="zombieSpiderBomberMilitaryPREPPER" extends="zombieSpiderFeralBomberPREPPER">
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated,hostile,vulture,charged"/>
+			<property name="Class" value="EntityVulture"/>
+			<property name="Mesh" value="@:Entities/Zombies/Spider/ZSpiderRadiated.prefab"/>
+			<property name="MatColor" value="military"/>
+			
+			<!-- Gameplay zombieSpiderRadiated -->
+			<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value="0"/><property name="DismemberMultiplierLegs" value="0"/><!-- Radiated -->
+			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	
+			<property name="Mass" value="50"/>
+			<property name="MoveSpeed" value=".95"/>
+			<property name="MoveSpeedAggro" value="2, 2"/>
+			<property name="MaxTurnSpeed" value="150"/>
+			<property name="HandItem" value="meleeHandzombieSpiderMilitaryBomberPREPPER"/>
+
+			<property name="ExperienceGain" value="5000"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value="0.25"/>
+			
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="ammoRocketFrag" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="5000"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSpiderFeralBomberPREPPERDeco"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
@@ -5450,7 +5493,7 @@
 
 			<!-- Gameplay zombieRadRadiated -->
 			<property name="HandItem" value="meleeHandZombieBogeymanMilitaryPREPPER"/>
-			<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+			<property name="DismemberMultiplierHead" value="0"/><property name="DismemberMultiplierArms" value="0"/><property name="DismemberMultiplierLegs" value="0"/><!-- Radiated -->
 			<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 			<property name="MoveSpeedAggro" value=".8, 1.35"/>
 			<property name="ExperienceGain" value="5000"/>
@@ -5484,7 +5527,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="5500"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBogeymanMilitaryPREPPERDeco"/>		
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
-				<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
 				<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
@@ -7972,7 +8015,7 @@
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="5500"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>

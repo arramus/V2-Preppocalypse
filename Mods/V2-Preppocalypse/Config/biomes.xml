@@ -85,14 +85,16 @@
 	
 	<!-- *** Wasteland: Sub Biome: Coal -->
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@noise='.03, 0, .21']/decorations">
-			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".01"/>
-			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".01"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_03" prob=".0075"/>
 	</append>
 
 	<!-- *** Wasteland: Sub Biome: Potassium Nitrate -->
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@noise='.031, 0, .22']/decorations">
-			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".01"/>
-			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".01"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_03" prob=".0075"/>
 	</append>
 	
 	<!-- Wasteland: Decorations Main -->	
@@ -101,8 +103,9 @@
 			<decoration type="block" blockname="emberPileDeco2" onslopes="false" prob=".0005" rotatemax="7"/>			
 			<decoration type="block" blockname="emberPileDeco3" onslopes="false" prob=".0025" rotatemax="7"/>
 			<decoration type="block" blockname="emberPileDeco4" onslopes="false" prob=".0025" rotatemax="7"/>
-			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".0075"/>
-			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".0075"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_01" prob=".0065"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_02" prob=".0065"/>
+			<decoration type="prefab" name="deco_preppo_rubble_stone_03" prob=".0065"/>
 	</append>
 
 	<!-- ***** Street Parameters -->
