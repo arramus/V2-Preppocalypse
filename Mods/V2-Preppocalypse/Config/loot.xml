@@ -148,6 +148,7 @@
 		<item name="quest_preppocommtower"/>
 		<item name="quest_radiatedpreppers"/>
 		<item name="quest_nightpreppers"/>
+		<item name="clothingSkillMagazine" count="2,5"/>
 		<item name="resourcePaper" count="25,50"/>
 		<item name="resourceOilShale" count="25,50"/>
 		<item name="resourceGlue" count="1,4"/>

@@ -7985,6 +7985,33 @@
 	</effect_group>
 </item>
 
+<item name="vehiclePrepperMinibikePlaceable">
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,vstorage,canHaveCosmetic"/>
+	<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
+	<property name="HoldType" value="7"/>
+	<property name="HoldingItemHidden" value="true"/>
+	<property name="Meshfile" value="@:Entities/Vehicles/VBikeMini/VBikeMiniP.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="9000"/>
+	<property name="TraderStageTemplate" value="vehicleTier2"/><!-- vehicleMinibikePlaceable -->
+	<property name="SellableToTrader" value="true"/>
+	<property name="Group" value="Science,TCScience"/>
+	<property name="SoundPickup" value="minibike_grab"/>
+	<property name="SoundPlace" value="minibike_place"/>
+	<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="vehiclePrepperMinibike"/>
+	</property>
+	<effect_group name="vehicleMinibikePlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="5"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
+	</effect_group>
+</item>
+
 <item name="questRewardPreppocalypticCarPartsBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
