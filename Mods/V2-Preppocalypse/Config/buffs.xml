@@ -408,7 +408,7 @@
 			<duration value="0"/>
 			<update_rate value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" target="selfAOE" range="12" particle="RadiatedParticlesOnMesh" parent_transform="Origin"/>
+				<!--triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" target="selfAOE" range="12" particle="RadiatedParticlesOnMesh" parent_transform="Origin"/-->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="zombieWightRadiationShowerPREPPERAOEEffect">
 					<requirement name="!EntityTagCompare" target="other" tags="vehicle,zombie,turret,drone"/>
 				</triggered_effect>
@@ -439,9 +439,15 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieWightRadiationShowerPREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelRadiatedPrefab.prefab" local_offset="0.09,.15,0.12" local_rotation="0,0,0" local_scale=".55,.55,.55" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieBogeymanPREPPERDeco" hidden="true">
 			<effect_group>				
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelRadiatedPrefab.prefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Industrial/barrelRadiatedPrefab.prefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" local_scale=".75,.75,.75" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
 			</effect_group>
 		</buff>
 		
