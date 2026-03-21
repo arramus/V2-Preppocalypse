@@ -13,15 +13,8 @@
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-5" />
   <property name="QuestTags" value="clear, fetch, infested" />
-  <property name="Tags" value="wilderness, rural" />
-  <property name="POIMarkerSize" value="7, 13, 3#5, 1, 5" />
-  <property name="POIMarkerStart" value="46, 4, -3#47, 4, -3" />
-  <property name="POIMarkerGroup" value="driveway,new" />
-  <property name="POIMarkerTags" value="rural#" />
-  <property name="POIMarkerType" value="PartSpawn,RoadExit" />
-  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_08," />
-  <property name="POIMarkerPartRotations" value="2,2" />
-  <property name="POIMarkerPartSpawnChance" value="1,1" />
+  <property name="Tags" value="wilderness" />
+  <property name="DuplicateRepeatDistance" value="1200" />
   <property name="SleeperVolumeSize" value="3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#3, 3, 4#10, 3, 11#35, 3, 29#12, 3, 18#21, 3, 19#22, 7, 19#23, 3, 21#5, 4, 2#23, 3, 19#5, 3, 3#23, 5, 18#1, 2, 3#2, 4, 2#25, 7, 23#5, 18, 4#5, 18, 4#5, 14, 5#5, 14, 5#5, 17, 5#5, 13, 6#24, 5, 6#11, 3, 3#1, 2, 49#9, 13, 13#11, 3, 33#9, 28, 9" />
   <property name="SleeperVolumeStart" value="56, 2, 47#56, 2, 54#50, 2, 47#50, 2, 54#44, 2, 47#44, 2, 54#34, 2, 47#32, 8, 36#32, 8, 65#45, 8, 65#45, 11, 66#46, 23, 66#53, 29, 66#46, 29, 68#53, 40, 66#46, 38, 69#52, 41, 66#51, 29, 66#43, 48, 63#41, 8, 32#53, 8, 32#65, 8, 31#29, 8, 31#62, 11, 55#65, 11, 49#32, 17, 36#29, 29, 84#31, 15, 36#61, 14, 36#28, 20, 56#69, 5, 12" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />

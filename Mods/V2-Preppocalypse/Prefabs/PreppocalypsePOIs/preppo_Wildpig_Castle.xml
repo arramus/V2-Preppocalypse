@@ -20,7 +20,8 @@
   <property name="POIMarkerPartRotations" value="1" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="YOffset" value="-1" />
-  <property name="Tags" value="wilderness, commercial" />
+  <property name="Tags" value="wilderness" />
+  <property name="DuplicateRepeatDistance" value="1200" />
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="SleeperVolumeSize" value="18, 3, 30#15, 3, 17#16, 3, 16#15, 3, 15#15, 6, 15#25, 5, 26#9, 4, 9#9, 5, 9#9, 4, 9#41, 5, 7#10, 3, 20#23, 5, 8#9, 3, 13#21, 4, 21" />
   <property name="SleeperVolumeStart" value="18, 5, 18#36, 5, 29#36, 5, 13#37, 11, 13#37, 15, 13#32, 30, 8#15, 25, 42#15, 24, 15#47, 25, 42#15, 14, 43#14, 16, 23#14, 14, 15#47, 16, 30#34, 25, 10" />

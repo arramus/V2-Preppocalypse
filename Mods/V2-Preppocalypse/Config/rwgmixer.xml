@@ -123,7 +123,6 @@
 	<prefab_spawn_adjust partial_name="prepper_wildernesscabin01" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_A19_skyscraper_02" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_army_camp_05" min_count="6" max_count="8" bias="4"/>
-	<prefab_spawn_adjust partial_name="preppo_BaronWildpigZombieCastle100" min_count="4" max_count="4" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_cornchildren_01_arramus" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_country_junkyard_02" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_gas_station_09" min_count="6" max_count="8" bias="4"/>	
@@ -135,7 +134,6 @@
 	<prefab_spawn_adjust partial_name="preppo_skyscraper_04" min_count="6" max_count="8" bias="5"/>
 	<prefab_spawn_adjust partial_name="preppo_store_hardware_02" min_count="6" max_count="8" bias="4"/>
 	<prefab_spawn_adjust partial_name="preppo_TheCompound" min_count="6" max_count="8" bias="4"/>
-	<prefab_spawn_adjust partial_name="preppo_Wildpig_Castle" min_count="5" max_count="5" bias="4"/>
 	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="6" max_count="8" bias="5"/>
 	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="6" max_count="8" bias="4"/>
 
