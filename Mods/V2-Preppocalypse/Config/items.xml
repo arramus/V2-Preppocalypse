@@ -68,6 +68,9 @@
 				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
 				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0.01,-0.02,-0.12" localRot="90,0,0"/>
 				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="BrainsawBloodSplatPreppo"/>	
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked">
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5"/>
+				</triggered_effect>
 	</append>	
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">80</set><!-- 55 to 65 Default from previous versions -->
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss'][@operation='base_set']/@value">29.4</set><!-- 10% reduction of 32.7 Default  -->

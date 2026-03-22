@@ -11,7 +11,7 @@
   <property name="Tags" value="countrytown, commercial, industrial, nodiagonal" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="42, 50, 42" />
-  <property name="RotationToFaceNorth" value="3" />
+  <property name="RotationToFaceNorth" value="2" />
   <property name="POIMarkerSize" value="20, 13, 1#20, 13, 2" />
   <property name="POIMarkerStart" value="11, 17, -1#11, 17, -2" />
   <property name="POIMarkerGroup" value="Entry,cntrytown" />
@@ -22,24 +22,25 @@
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-18" />
-  <property name="SleeperVolumeSize" value="3, 3, 4#9, 3, 9#7, 6, 10#10, 5, 9#11, 4, 6#18, 3, 8#16, 3, 3#5, 3, 8#6, 3, 8#17, 3, 3#13, 3, 15#17, 3, 9#6, 3, 8#6, 3, 14#6, 3, 15#15, 4, 15#15, 4, 15#6, 3, 8#6, 3, 6#6, 3, 9#5, 3, 8#16, 3, 3#7, 3, 3#6, 3, 24#11, 3, 20#17, 3, 11#15, 3, 10#15, 4, 14#15, 4, 14#6, 3, 16#14, 3, 14" />
-  <property name="SleeperVolumeStart" value="38, 18, 19#28, 18, 9#29, 15, 23#3, 18, 32#28, 18, 34#23, 18, 1#24, 11, 37#35, 11, 29#23, 11, 29#23, 11, 26#27, 11, 11#23, 11, 2#2, 11, 17#2, 11, 3#2, 11, 25#8, 10, 25#8, 10, 2#2, 6, 17#2, 6, 2#2, 6, 8#8, 11, 17#24, 6, 2#34, 6, 25#23, 6, 5#34, 6, 5#23, 6, 29#8, 6, 16#8, 6, 2#8, 6, 26#2, 6, 25#27, 11, 12" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="GroupGenericZombie,1,2,GroupHospital,2,3,ZomUtilityWorker,2,3,GroupGenericZombie,1,2,ZomUtilityWorker,1,3,ZomLumberJack,2,3,ZomUtilityWorker,2,3,ZomBurnt,1,3,ZomUtilityWorker,2,4,GroupGenericZombie,2,3,GroupGenericZombie,4,8,GroupGenericZombie,6,9,GroupGenericZombie,2,3,GroupZomBadass,3,5,GroupGenericZombie,2,4,GroupGenericZombie,3,4,animalZombieDog,2,3,zombieDemolition,1,1,GroupZomBadassOnly,2,4,ZomFatCops,2,3,GroupNightClub,1,2,animalBossGrace,1,1,animalBossGrace,1,1,Prepper_Mixed_Entities,3,4,Prepper_Mixed_Entities,2,3,Prepper_Mixed_Entities,7,9,GroupHospital,5,8,GroupGenericZombie,3,4,GroupGenericZombie,3,4,GroupGenericZombie,3,4,GroupGenericZombie,5,7" />
-  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # " />
+  <property name="SleeperVolumeSize" value="26, 4, 16#12, 4, 6#7, 3, 6#13, 4, 5#6, 3, 5#10, 3, 17#11, 4, 17#14, 4, 15#14, 4, 15#15, 3, 6#8, 3, 6#15, 3, 6#8, 3, 4#15, 4, 15#14, 4, 15#8, 3, 6#3, 4, 17#8, 3, 5#3, 4, 17#14, 3, 13#9, 3, 16#9, 4, 19#11, 4, 15#9, 4, 18#24, 4, 6#8, 3, 7#9, 6, 8" />
+  <property name="SleeperVolumeStart" value="14, 5, 24#2, 6, 2#27, 6, 2#14, 6, 2#34, 6, 2#16, 6, 7#2, 6, 23#2, 6, 8#26, 6, 8#1, 11, 2#17, 11, 2#25, 11, 2#17, 11, 8#25, 11, 8#2, 11, 8#5, 11, 24#2, 11, 24#5, 11, 35#13, 11, 23#17, 11, 27#31, 11, 24#33, 18, 23#1, 18, 1#0, 18, 24#9, 18, 36#24, 18, 29#9, 15, 29" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="Prepper_Mixed_Soldier_Entities,10,11,GroupMiniSpecialInfected,5,6,zombieFatCopInfernal,2,3,zombieDemolition,2,3,GroupZomBadassOnly,3,4,GroupHospital,7,8,GroupMiniSpecialInfected,9,10,GroupSpecialInfected,7,8,GroupSpecialInfected,7,8,GroupNightClub,4,5,GroupLabWorker,5,6,GroupZomSoldier,7,8,ZomFatCops,2,3,GroupGenericZombie,4,5,ZomUtilityWorker,8,9,ZomUtilityWorker,5,6,ZomUtilityWorker,4,5,ZomBurnt,4,5,GroupHospital,5,6,GroupGenericZombie,9,10,GroupGenericZombie,10,13,ZomLumberJack,4,5,GroupBikerBar,2,3,GroupPrison,2,3,GroupPrison,2,2,GroupZomSoldier,5,6,GroupMiniSpecialInfected,3,4" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2,0,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="1928193" />
-    <property name="TotalTriangles" value="696588" />
+    <property name="LightsVolume" value="69220.74" />
+    <property name="TotalVertices" value="1951897" />
+    <property name="TotalTriangles" value="700917" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1753618" />
-      <property name="Triangles" value="576029" />
+      <property name="Vertices" value="1777050" />
+      <property name="Triangles" value="580206" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="149557" />
-      <property name="Triangles" value="95843" />
+      <property name="Vertices" value="149813" />
+      <property name="Triangles" value="95971" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="12928" />
@@ -58,8 +59,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="11202" />
-      <property name="Triangles" value="17696" />
+      <property name="Vertices" value="11218" />
+      <property name="Triangles" value="17720" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
@@ -108,11 +109,11 @@
     <property class="QuestRestorePower">
       <property name="0" value="13, 18, 35" />
     </property>
-    <property class="challenge_elec_parts">
-      <property name="0" value="26, 13, 12" />
-    </property>
     <property class="challenge_cars">
       <property name="0" value="31, 18, 11" />
+    </property>
+    <property class="challenge_elec_parts">
+      <property name="0" value="26, 13, 12" />
     </property>
     <property class="quest_wood_trees">
       <property name="0" value="31, 19, 16" />
