@@ -7987,6 +7987,115 @@
 	</effect_group>
 </entity_class>
 
+
+		<!-- *** ZOMBIE_BIG_RANCHER_CLARET_PREPPER -->
+<entity_class name="zombieBigRancherClaretPrepper" extends="zombieTemplateMale">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Censor" value="1,2"/>
+	<property name="SizeScale" value="1.5"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,radiated,charged"/>
+	<property name="Mesh" value="@:Entities/Zombies/Rancher/ZRancherRadiated.prefab"/>
+	<property name="MatColor" value="claret"/>
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="160"/>
+	<property name="SoundRandom" value="plagueroam"/>
+	<property name="SoundAlert" value="plaguealert"/>
+	<property name="SoundAttack" value="plagueattack"/>
+	<property name="SoundHurt" value="plaguepain"/>
+	<property name="SoundDeath" value="plaguedeath"/>
+	<property name="SoundSense" value="plaguesense"/>
+	<property name="SoundStepType" value="barestep"/>
+	<property name="ExperienceGain" value="2500"/><!-- zombieRancher -->
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".25"/> <!-- Claret -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong,1,EntityLootContainerPlague,1"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<!-- Dismemberment -->
+	<property name ="DismemberTag_L_HeadGore" value="Rancher/Dismemberment/Blade/Head;Rancher/Dismemberment/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true+asp=head+scale=1,1,1;type=blunt+target=neck+atp=true+asp=head+scale=1,1,1"/>
+	<property name ="DismemberTag_L_LeftLowerArmGore" value="Rancher/Dismemberment/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+sfv=leftforearm"/>
+	<property name ="DismemberTag_L_LeftUpperArmGore" value="Rancher/Dismemberment/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true"/>
+	<property name ="DismemberTag_L_LeftUpperLegGore" value="Rancher/Dismemberment/Blade/LeftUpperLeg" data="type=blade+target=leftupleg+detach=true+mask=true"/>
+	<property name ="DismemberTag_L_RightLowerArmGore" value="Rancher/Dismemberment/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true+msb=rightforearmroll"/>
+	<property name ="DismemberTag_L_RightUpperArmGore" value="Rancher/Dismemberment/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true"/>
+	<property name ="DismemberTag_L_RightUpperLegGore" value="Rancher/Dismemberment/Blade/RightUpperLeg" data="type=blade+target=rightupleg+detach=true+mask=true"/>
+	<property name ="DismemberTag_L_LeftLowerLegGore" value="linked" data="DismemberTag_L_LeftUpperLegGore"/>
+	<property name ="DismemberTag_L_RightLowerLegGore" value="linked" data="DismemberTag_L_RightUpperLegGore"/>
+
+	<property name="AITask" value="
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=6;duration=7;minRange=4;maxRange=27|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander exePer=.1;lookMin=8;lookMax=15|
+	"/>
+
+	<!-- Gameplay zombieRancher -->
+	<property name="MoveSpeed" value=".4"/>
+	<property name="MoveSpeedAggro" value=".4, 1.35"/> <!-- Normal -->
+	<property name="HandItem" value="meleeHandZombieBigRancherClaretPrepper"/>
+	<property name="SightRange" value="27"/>
+	<effect_group>
+		<passive_effect name="HealthMax" operation="base_set" value="3000"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_RANCHER_CLARET_PREPPER -->
+<entity_class name="zombieMiniRancherClaretPrepper" extends="zombieMiniRancherRadiated">
+	<property name="MatColor" value="claret"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,infernal"/>
+	<property name="ExperienceGain" value="1250"/><!-- 1600 XP Normal Infernal -->
+	<property name="HandItem" value="meleeHandZombieMiniRancherClaretPrepper"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Infernal -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong,1,EntityLootContainerPlague,1"/>
+	<property name="JumpMaxDistance" value="7, 9"/>
+	
+	<property name="AITask" value="
+	Leap|
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityNPC,0,EntityEnemyAnimal,0|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
+	</effect_group>
+</entity_class>
+
 		<!-- *** ZOMBIE_CHUCK_MILITARY_PREPPER -->
 <entity_class name="zombieChuckMilitaryPREPPER" extends="zombieChuckFeral">
 	<property name="UserSpawnType" value="Menu"/>

@@ -295,6 +295,18 @@
 		</effect_group>
 	</item_modifier>
 
+<!-- Baton Crate Cracker Mod -->
+	
+	<item_modifier name="modMeleeCrateCracker" installable_tags="batonJunkie" modifier_tags="damageWood" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modMeleeCrateCrackerSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
+		</effect_group>
+	</item_modifier>
+
 <!-- arramus - Color additions -->
 
 	<item_modifier name="modDyeForestGreen" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".16">

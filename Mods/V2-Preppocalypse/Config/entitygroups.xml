@@ -41,6 +41,7 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
+		zombieBigRancherClaretPrepper, .0125
 		zombieRocketPREPPER, .0125
 	</csv>
 
@@ -96,6 +97,7 @@
 		zombieChainsawMoeClaretPREPPER, .0175
 		zombieSpiderGliderClaretPREPPER, .0175
 		zombieSpiderBomberClaretPREPPER, .0175
+		zombieBigRancherClaretPrepper, .0175
 		zombieRocketPREPPER, .0175
 	</csv>
 	
@@ -139,6 +141,7 @@
 		zombieChainsawMoeClaretPREPPER, .01
 		zombieSpiderGliderClaretPREPPER, .01
 		zombieSpiderBomberClaretPREPPER, .01
+		zombieBigRancherClaretPrepper, .01
 		zombieRocketPREPPER, .01
 	</csv>
 
@@ -182,6 +185,7 @@
 		zombieChainsawMoeClaretPREPPER, .01
 		zombieSpiderGliderClaretPREPPER, .01
 		zombieSpiderBomberClaretPREPPER, .01
+		zombieBigRancherClaretPrepper, .01
 		zombieRocketPREPPER, .01
 	</csv>
 
@@ -237,6 +241,7 @@
 		zombieChainsawMoeClaretPREPPER, .015
 		zombieSpiderGliderClaretPREPPER, .015
 		zombieSpiderBomberClaretPREPPER, .015
+		zombieBigRancherClaretPrepper, .015
 		zombieRocketPREPPER, .015
 	</csv>
 	
@@ -265,6 +270,7 @@
 		zombieChainsawMoeClaretPREPPER, .005
 		zombieSpiderGliderClaretPREPPER, .005
 		zombieSpiderBomberClaretPREPPER, .005
+		zombieBigRancherClaretPrepper, .005
 		zombieWightRadiationShowerPREPPER, .0025
 		zombieBogeymanPREPPER, .0025
 		animalZombieBunnyPREPPER, .0025
@@ -321,6 +327,7 @@
 		zombieChainsawMoeClaretPREPPER, .005
 		zombieSpiderGliderClaretPREPPER, .005
 		zombieSpiderBomberClaretPREPPER, .005
+		zombieBigRancherClaretPrepper, .005
 		zombieWightRadiationShowerPREPPER, .0025
 		zombieBogeymanPREPPER, .0025
 		animalZombieBunnyPREPPER, .0025
@@ -355,6 +362,7 @@
 	
 <!-- *** BIOME_ZOMBIES_DESERT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="add" >
+		zombieBigRancherClaretPrepper, .05
 		zombieMiniSpider, .05
 		zombieMiniSpiderFeral, .05
 		zombieMiniMutated, .05
@@ -388,6 +396,7 @@
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
+		zombieBigRancherClaretPrepper, .075
 		zombieMiniSpider, .075
 		zombieMiniSpiderFeral, .075
 		zombieMiniMutated, .075
@@ -466,6 +475,7 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
+		zombieBigRancherClaretPrepper, .0125
 		zombieRocketRadiatedPREPPER, .0125
 	</csv>
 	
@@ -515,6 +525,7 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
+		zombieBigRancherClaretPrepper, .0125
 		zombieRocketRadiatedPREPPER, .0125
 	</csv>
 
@@ -527,6 +538,7 @@
 		zombieChainsawMoeClaretPREPPER, .03
 		zombieSpiderGliderClaretPREPPER, .03
 		zombieSpiderBomberClaretPREPPER, .03
+		zombieBigRancherClaretPrepper, .03
 		zombieSkateboarderUndertakerClaret, .03
 		zombieRocketWastelandPREPPER, .03
 		zombieScorcherWastelandPREPPER, .03
@@ -547,6 +559,7 @@
 		zombieChainsawMoeClaretPREPPER, 2.5
 		zombieSpiderGliderClaretPREPPER, 2.5
 		zombieSpiderBomberClaretPREPPER, 2.5
+		zombieBigRancherClaretPrepper, 2.5
 		zombieSkateboarderUndertakerClaret, 2
 		zombieScorcherRadiatedPREPPER, 1.5
 		zombieRocketRadiatedPREPPER, 1.5
@@ -623,6 +636,7 @@
 		zombieChainsawMoeClaretPREPPER, 3.5
 		zombieSpiderGliderClaretPREPPER, 3.5
 		zombieSpiderBomberClaretPREPPER, 3.5
+		zombieBigRancherClaretPrepper, 3.5
 		zombieSkateboarderUndertakerClaret, 3
 		zombieScorcherRadiatedPREPPER, 2.5
 		zombieRocketRadiatedPREPPER, 2.5
@@ -766,6 +780,7 @@
 		zombieChainsawMoeClaretPREPPER, .0125
 		zombieSpiderGliderClaretPREPPER, .0125
 		zombieSpiderBomberClaretPREPPER, .0125
+		zombieBigRancherClaretPrepper, .0125
 		zombieSkateboarderUndertakerClaret, .0125
 		zombieScorcherRadiatedPREPPER, .0125
 		zombieRocketRadiatedPREPPER, .005
@@ -812,6 +827,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
@@ -884,6 +900,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
@@ -956,6 +973,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
@@ -1028,6 +1046,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieCrispyPREPPER, .25
 		zombieScorcherRadiatedPREPPER, .25
@@ -1100,6 +1119,7 @@
 		zombieChainsawMoeClaretPREPPER, .5
 		zombieSpiderGliderClaretPREPPER, .5
 		zombieSpiderBomberClaretPREPPER, .5
+		zombieBigRancherClaretPrepper, .5
 		zombieSkateboarderUndertakerClaret, .5
 		zombieCrispyPREPPER, .5
 		zombieScorcherRadiatedPREPPER, .5
@@ -1172,6 +1192,7 @@
 		zombieChainsawMoeClaretPREPPER, .75
 		zombieSpiderGliderClaretPREPPER, .75
 		zombieSpiderBomberClaretPREPPER, .75
+		zombieBigRancherClaretPrepper, .75
 		zombieSkateboarderUndertakerClaret, .75
 		zombieCrispyPREPPER, .75
 		zombieScorcherRadiatedPREPPER, .75
@@ -1218,13 +1239,14 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
-		zombieBogeymanMilitaryPREPPER, .5
-		zombieChuckMilitaryPREPPER, .5
-		zombieSpiderBomberMilitaryPREPPER, .5
-		zombieBogeymanPlasmaPREPPER, .5
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .5
-		zombieBogeymanMegaPlasmaPREPPER, .5
+		zombieBogeymanMilitaryPREPPER, .65
+		zombieChuckMilitaryPREPPER, .65
+		zombieSpiderBomberMilitaryPREPPER, .65
+		zombieBogeymanPlasmaPREPPER, .65
+		zombieMiniBogeymanPlasmaSpitterPREPPER, .65
+		zombieBogeymanMegaPlasmaPREPPER, .65
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS50">
 		zombieSpiderBomberClaretPREPPER
@@ -1234,13 +1256,14 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
-		zombieBogeymanMilitaryPREPPER, .5
-		zombieChuckMilitaryPREPPER, .5
-		zombieSpiderBomberMilitaryPREPPER, .5
-		zombieBogeymanPlasmaPREPPER, .5
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .5
-		zombieBogeymanMegaPlasmaPREPPER, .5
+		zombieBogeymanMilitaryPREPPER, .75
+		zombieChuckMilitaryPREPPER, .75
+		zombieSpiderBomberMilitaryPREPPER, .75
+		zombieBogeymanPlasmaPREPPER, .75
+		zombieMiniBogeymanPlasmaSpitterPREPPER, .75
+		zombieBogeymanMegaPlasmaPREPPER, .75
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS100">
 		zombieSpiderBomberClaretPREPPER
@@ -1250,6 +1273,7 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
 		zombieBogeymanMilitaryPREPPER, .75
 		zombieChuckMilitaryPREPPER, .75
@@ -1266,6 +1290,7 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
 		zombieBogeymanMilitaryPREPPER
 		zombieChuckMilitaryPREPPER
@@ -1282,6 +1307,7 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
 		zombieBogeymanMilitaryPREPPER, 1.25
 		zombieChuckMilitaryPREPPER, 1.25
@@ -1298,6 +1324,7 @@
 		zombieBogeymanClaretPREPPER
 		zombieScreamerClaret
 		zombieBurntSirenClaret
+		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
 		zombieBogeymanMilitaryPREPPER, 1.5
 		zombieChuckMilitaryPREPPER, 1.5
@@ -3365,6 +3392,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanMilitaryPREPPER, .0125
 		zombieChuckMilitaryPREPPER, .0125
@@ -3431,6 +3459,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3475,6 +3504,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3519,6 +3549,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3563,6 +3594,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3627,6 +3659,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3690,6 +3723,7 @@
 		zombieChainsawMoeClaretPREPPER, .025
 		zombieSpiderGliderClaretPREPPER, .025
 		zombieSpiderBomberClaretPREPPER, .025
+		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
@@ -3773,6 +3807,7 @@
 		zombieChainsawMoeClaretPREPPER, .05
 		zombieSpiderGliderClaretPREPPER, .05
 		zombieSpiderBomberClaretPREPPER, .05
+		zombieBigRancherClaretPrepper, .05
 		zombieSkateboarderUndertakerClaret, .05
 		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
@@ -3836,6 +3871,7 @@
 		zombieChainsawMoeClaretPREPPER, .05
 		zombieSpiderGliderClaretPREPPER, .05
 		zombieSpiderBomberClaretPREPPER, .05
+		zombieBigRancherClaretPrepper, .05
 		zombieSkateboarderUndertakerClaret, .05
 		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
@@ -3899,6 +3935,7 @@
 		zombieChainsawMoeClaretPREPPER, .05
 		zombieSpiderGliderClaretPREPPER, .05
 		zombieSpiderBomberClaretPREPPER, .05
+		zombieBigRancherClaretPrepper, .05
 		zombieSkateboarderUndertakerClaret, .05
 		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
@@ -3962,6 +3999,7 @@
 		zombieChainsawMoeClaretPREPPER, .05
 		zombieSpiderGliderClaretPREPPER, .05
 		zombieSpiderBomberClaretPREPPER, .05
+		zombieBigRancherClaretPrepper, .05
 		zombieSkateboarderUndertakerClaret, .05
 		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
@@ -4025,6 +4063,7 @@
 		zombieChainsawMoeClaretPREPPER, .05
 		zombieSpiderGliderClaretPREPPER, .05
 		zombieSpiderBomberClaretPREPPER, .05
+		zombieBigRancherClaretPrepper, .05
 		zombieSkateboarderUndertakerClaret, .05
 		zombieBogeymanPlasmaPREPPER, .025
 	</csv>
@@ -4108,6 +4147,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4171,6 +4211,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4234,6 +4275,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4297,6 +4339,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4360,6 +4403,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4423,6 +4467,7 @@
 		zombieChainsawMoeClaretPREPPER, .075
 		zombieSpiderGliderClaretPREPPER, .075
 		zombieSpiderBomberClaretPREPPER, .075
+		zombieBigRancherClaretPrepper, .075
 		zombieSkateboarderUndertakerClaret, .075
 		zombieBogeymanPlasmaPREPPER, .0375
 	</csv>
@@ -4487,6 +4532,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4550,6 +4596,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4613,6 +4660,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4676,6 +4724,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4739,6 +4788,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4802,6 +4852,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4884,6 +4935,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -4947,6 +4999,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5010,6 +5063,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5073,6 +5127,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5136,6 +5191,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5218,6 +5274,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5281,6 +5338,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5344,6 +5402,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5407,6 +5466,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5470,6 +5530,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5533,6 +5594,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5596,6 +5658,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5659,6 +5722,7 @@
 		zombieChainsawMoeClaretPREPPER, .1
 		zombieSpiderGliderClaretPREPPER, .1
 		zombieSpiderBomberClaretPREPPER, .1
+		zombieBigRancherClaretPrepper, .1
 		zombieSkateboarderUndertakerClaret, .1
 		zombieBogeymanPlasmaPREPPER, .05
 	</csv>
@@ -5742,6 +5806,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -5805,6 +5870,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -5868,6 +5934,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -5931,6 +5998,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -5994,6 +6062,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6057,6 +6126,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6120,6 +6190,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6183,6 +6254,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6246,6 +6318,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6309,6 +6382,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6391,6 +6465,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6454,6 +6529,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6517,6 +6593,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6580,6 +6657,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6643,6 +6721,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6706,6 +6785,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6769,6 +6849,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6832,6 +6913,7 @@
 		zombieChainsawMoeClaretPREPPER, .125
 		zombieSpiderGliderClaretPREPPER, .125
 		zombieSpiderBomberClaretPREPPER, .125
+		zombieBigRancherClaretPrepper, .125
 		zombieSkateboarderUndertakerClaret, .125
 		zombieBogeymanPlasmaPREPPER, .0625
 	</csv>
@@ -6915,6 +6997,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -6978,6 +7061,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7041,6 +7125,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7104,6 +7189,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7167,6 +7253,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7230,6 +7317,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7293,6 +7381,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7356,6 +7445,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7439,6 +7529,7 @@
 		zombieChainsawMoeClaretPREPPER, .15
 		zombieSpiderGliderClaretPREPPER, .15
 		zombieSpiderBomberClaretPREPPER, .15
+		zombieBigRancherClaretPrepper, .15
 		zombieSkateboarderUndertakerClaret, .15
 		zombieBogeymanPlasmaPREPPER, .075
 	</csv>
@@ -7501,6 +7592,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7564,6 +7656,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7627,6 +7720,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7690,6 +7784,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7753,6 +7848,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7816,6 +7912,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7879,6 +7976,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -7942,6 +8040,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8024,6 +8123,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8087,6 +8187,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8150,6 +8251,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8213,6 +8315,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8276,6 +8379,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8339,6 +8443,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8402,6 +8507,7 @@
 		zombieChainsawMoeClaretPREPPER, .175
 		zombieSpiderGliderClaretPREPPER, .175
 		zombieSpiderBomberClaretPREPPER, .175
+		zombieBigRancherClaretPrepper, .175
 		zombieSkateboarderUndertakerClaret, .175
 		zombieBogeymanPlasmaPREPPER, .0875
 	</csv>
@@ -8485,6 +8591,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8548,6 +8655,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8611,6 +8719,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8674,6 +8783,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8737,6 +8847,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8800,6 +8911,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8863,6 +8975,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8926,6 +9039,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -8989,6 +9103,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9052,6 +9167,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9115,6 +9231,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9178,6 +9295,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9241,6 +9359,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9304,6 +9423,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9367,6 +9487,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9430,6 +9551,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9512,6 +9634,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9575,6 +9698,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9638,6 +9762,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9701,6 +9826,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9764,6 +9890,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9827,6 +9954,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9890,6 +10018,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -9953,6 +10082,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10016,6 +10146,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10079,6 +10210,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10142,6 +10274,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10205,6 +10338,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10268,6 +10402,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10331,6 +10466,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10394,6 +10530,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10476,6 +10613,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10539,6 +10677,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10602,6 +10741,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10665,6 +10805,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10728,6 +10869,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10791,6 +10933,7 @@
 		zombieChainsawMoeClaretPREPPER, .2
 		zombieSpiderGliderClaretPREPPER, .2
 		zombieSpiderBomberClaretPREPPER, .2
+		zombieBigRancherClaretPrepper, .2
 		zombieSkateboarderUndertakerClaret, .2
 		zombieBogeymanPlasmaPREPPER, .1
 	</csv>
@@ -10855,6 +10998,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -10918,6 +11062,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -10981,6 +11126,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11044,6 +11190,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11107,6 +11254,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11170,6 +11318,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11233,6 +11382,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11315,6 +11465,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11378,6 +11529,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11441,6 +11593,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11504,6 +11657,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11567,6 +11721,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11630,6 +11785,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11693,6 +11849,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11756,6 +11913,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11819,6 +11977,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11882,6 +12041,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -11945,6 +12105,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12008,6 +12169,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12071,6 +12233,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12134,6 +12297,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12216,6 +12380,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12279,6 +12444,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12342,6 +12508,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12405,6 +12572,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12468,6 +12636,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12531,6 +12700,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12594,6 +12764,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12657,6 +12828,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12720,6 +12892,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12783,6 +12956,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12846,6 +13020,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12909,6 +13084,7 @@
 		zombieChainsawMoeClaretPREPPER, .25
 		zombieSpiderGliderClaretPREPPER, .25
 		zombieSpiderBomberClaretPREPPER, .25
+		zombieBigRancherClaretPrepper, .25
 		zombieSkateboarderUndertakerClaret, .25
 		zombieBogeymanPlasmaPREPPER, .125
 	</csv>
@@ -12992,6 +13168,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13055,6 +13232,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13118,6 +13296,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13181,6 +13360,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13244,6 +13424,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13307,6 +13488,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13370,6 +13552,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13433,6 +13616,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13496,6 +13680,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13559,6 +13744,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13622,6 +13808,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13685,6 +13872,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13748,6 +13936,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13811,6 +14000,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13874,6 +14064,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -13937,6 +14128,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14000,6 +14192,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14063,6 +14256,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14126,6 +14320,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14189,6 +14384,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14252,6 +14448,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14334,6 +14531,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14397,6 +14595,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14460,6 +14659,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14523,6 +14723,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14586,6 +14787,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14649,6 +14851,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14712,6 +14915,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14775,6 +14979,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14838,6 +15043,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14901,6 +15107,7 @@
 		zombieChainsawMoeClaretPREPPER, .275
 		zombieSpiderGliderClaretPREPPER, .275
 		zombieSpiderBomberClaretPREPPER, .275
+		zombieBigRancherClaretPrepper, .275
 		zombieSkateboarderUndertakerClaret, .275
 		zombieBogeymanPlasmaPREPPER, .137
 	</csv>
@@ -14965,6 +15172,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15027,6 +15235,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15090,6 +15299,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15153,6 +15363,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15216,6 +15427,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15279,6 +15491,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15342,6 +15555,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15405,6 +15619,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15468,6 +15683,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15531,6 +15747,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15613,6 +15830,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15676,6 +15894,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15739,6 +15958,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15802,6 +16022,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15865,6 +16086,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15928,6 +16150,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -15991,6 +16214,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16054,6 +16278,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16117,6 +16342,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16180,6 +16406,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16243,6 +16470,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16306,6 +16534,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16369,6 +16598,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16432,6 +16662,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16495,6 +16726,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16558,6 +16790,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16621,6 +16854,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16684,6 +16918,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16747,6 +16982,7 @@
 		zombieChainsawMoeClaretPREPPER, .3
 		zombieSpiderGliderClaretPREPPER, .3
 		zombieSpiderBomberClaretPREPPER, .3
+		zombieBigRancherClaretPrepper, .3
 		zombieSkateboarderUndertakerClaret, .3
 		zombieBogeymanPlasmaPREPPER, .15
 	</csv>
@@ -16830,6 +17066,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -16893,6 +17130,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -16956,6 +17194,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17019,6 +17258,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17082,6 +17322,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17145,6 +17386,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17208,6 +17450,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17271,6 +17514,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17334,6 +17578,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17397,6 +17642,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17460,6 +17706,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17523,6 +17770,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17586,6 +17834,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17649,6 +17898,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17712,6 +17962,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17775,6 +18026,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17838,6 +18090,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17901,6 +18154,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -17964,6 +18218,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18027,6 +18282,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18090,6 +18346,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18172,6 +18429,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18235,6 +18493,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18298,6 +18557,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18361,6 +18621,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18424,6 +18685,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18487,6 +18749,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18550,6 +18813,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18613,6 +18877,7 @@
 		zombieChainsawMoeClaretPREPPER, .325
 		zombieSpiderGliderClaretPREPPER, .325
 		zombieSpiderBomberClaretPREPPER, .325
+		zombieBigRancherClaretPrepper, .325
 		zombieSkateboarderUndertakerClaret, .325
 		zombieBogeymanPlasmaPREPPER, .162
 	</csv>
@@ -18677,6 +18942,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -18740,6 +19006,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -18803,6 +19070,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -18866,6 +19134,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -18929,6 +19198,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -18992,6 +19262,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19055,6 +19326,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19118,6 +19390,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19200,6 +19473,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19263,6 +19537,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19326,6 +19601,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19389,6 +19665,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19452,6 +19729,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19515,6 +19793,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19578,6 +19857,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19641,6 +19921,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19704,6 +19985,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19767,6 +20049,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19830,6 +20113,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19893,6 +20177,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -19956,6 +20241,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20019,6 +20305,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20082,6 +20369,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20145,6 +20433,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20208,6 +20497,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20271,6 +20561,7 @@
 		zombieChainsawMoeClaretPREPPER, .35
 		zombieSpiderGliderClaretPREPPER, .35
 		zombieSpiderBomberClaretPREPPER, .35
+		zombieBigRancherClaretPrepper, .35
 		zombieSkateboarderUndertakerClaret, .35
 		zombieBogeymanPlasmaPREPPER, .175
 	</csv>
@@ -20354,6 +20645,7 @@
 		zombieChainsawMoeClaretPREPPER, .4
 		zombieSpiderGliderClaretPREPPER, .4
 		zombieSpiderBomberClaretPREPPER, .4
+		zombieBigRancherClaretPrepper, .4
 		zombieSkateboarderUndertakerClaret, .4
 		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
@@ -20417,6 +20709,7 @@
 		zombieChainsawMoeClaretPREPPER, .4
 		zombieSpiderGliderClaretPREPPER, .4
 		zombieSpiderBomberClaretPREPPER, .4
+		zombieBigRancherClaretPrepper, .4
 		zombieSkateboarderUndertakerClaret, .4
 		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
@@ -20480,6 +20773,7 @@
 		zombieChainsawMoeClaretPREPPER, .4
 		zombieSpiderGliderClaretPREPPER, .4
 		zombieSpiderBomberClaretPREPPER, .4
+		zombieBigRancherClaretPrepper, .4
 		zombieSkateboarderUndertakerClaret, .4
 		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
@@ -20543,6 +20837,7 @@
 		zombieChainsawMoeClaretPREPPER, .4
 		zombieSpiderGliderClaretPREPPER, .4
 		zombieSpiderBomberClaretPREPPER, .4
+		zombieBigRancherClaretPrepper, .4
 		zombieSkateboarderUndertakerClaret, .4
 		zombieBogeymanPlasmaPREPPER, .2
 	</csv>
@@ -20606,6 +20901,7 @@
 		zombieChainsawMoeClaretPREPPER, .5
 		zombieSpiderGliderClaretPREPPER, .5
 		zombieSpiderBomberClaretPREPPER, .5
+		zombieBigRancherClaretPrepper, .5
 		zombieSkateboarderUndertakerClaret, .5
 		zombieBogeymanPlasmaPREPPER, .5
 		zombieMiniSoldier

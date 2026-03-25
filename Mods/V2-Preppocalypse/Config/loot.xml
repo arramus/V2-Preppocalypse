@@ -320,6 +320,7 @@
 	<!-- *** T1_Melee_Mods -->
 	<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
 		<item name="modMeleeSpartanSledgeStamina"/>
+		<item name="modMeleeCrateCracker"/>
 	</append>
 	
 	<!-- *** T2_Melee_Mods -->
@@ -346,6 +347,7 @@
 		<item name="modWeaponMaintenanceSchematic"/>
 		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
 		<item name="modGunDoubleBarrelSpeedLoaderSchematic"/>
+		<item name="modMeleeCrateCrackerSchematic"/>
 	</append>
 	
 	<!-- *** T2_Schematics -->
