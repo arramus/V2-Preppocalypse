@@ -385,6 +385,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieScorcherPREPPER, .025
 		animalZombieFireSnakePREPPER, .025
+		zombieBigRancherMilitaryPrepper, .015
 		zombieBogeymanClaretPREPPER, .01
 		zombieBatonFatCopClaretPREPPER, .01
 		zombieBurntSirenClaret, .01
@@ -419,6 +420,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieScorcherPREPPER, .05
 		animalZombieFireSnakePREPPER, .05
+		zombieBigRancherMilitaryPrepper, .03
 		zombieBogeymanClaretPREPPER, .02
 		zombieBatonFatCopClaretPREPPER, .02
 		zombieBurntSirenClaret, .02
@@ -438,6 +440,7 @@
 		zombieSteelAxeLumberjackRadiatedPREPPER, .075
 		zombieSteelAxeLumberjackChargedPREPPER, .075
 		zombieSteelAxeLumberjackInfernalPREPPER, .075
+		zombieChuckMilitaryPREPPER, .065
 		animalZombieBunnyPREPPER, .05
 		animalZombieSnakePREPPER, .05
 		animalZombieChickenPREPPER, .05
@@ -545,6 +548,7 @@
 		zombieBogeymanMilitaryPREPPER, .03
 		zombieChuckMilitaryPREPPER, .03
 		zombieSpiderBomberMilitaryPREPPER, .03
+		zombieBigRancherMilitaryPrepper, .03
 		zombieBogeymanPlasmaPREPPER, .03
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .03
 		zombieBogeymanMegaPlasmaPREPPER, .03
@@ -860,6 +864,7 @@
 		zombieBogeymanMilitaryPREPPER, .1		
 		zombieChuckMilitaryPREPPER, .1
 		zombieSpiderBomberMilitaryPREPPER, .1
+		zombieBigRancherMilitaryPrepper, .1
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -933,6 +938,7 @@
 		zombieBogeymanMilitaryPREPPER, .1
 		zombieChuckMilitaryPREPPER, .1
 		zombieSpiderBomberMilitaryPREPPER, .1
+		zombieBigRancherMilitaryPrepper, .1
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -1006,6 +1012,7 @@
 		zombieBogeymanMilitaryPREPPER, .1
 		zombieChuckMilitaryPREPPER, .1
 		zombieSpiderBomberMilitaryPREPPER, .1
+		zombieBigRancherMilitaryPrepper, .1
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -1079,6 +1086,7 @@
 		zombieBogeymanMilitaryPREPPER, .1
 		zombieChuckMilitaryPREPPER, .1
 		zombieSpiderBomberMilitaryPREPPER, .1
+		zombieBigRancherMilitaryPrepper, .1
 		zombieBogeymanPlasmaPREPPER, .1
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .1
 	</entitygroup>
@@ -1152,6 +1160,7 @@
 		zombieBogeymanMilitaryPREPPER, .25
 		zombieChuckMilitaryPREPPER, .25
 		zombieSpiderBomberMilitaryPREPPER, .25
+		zombieBigRancherMilitaryPrepper, .25
 		zombieBogeymanPlasmaPREPPER, .25
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .25
 	</entitygroup>
@@ -1225,6 +1234,7 @@
 		zombieBogeymanMilitaryPREPPER, .5
 		zombieChuckMilitaryPREPPER, .5
 		zombieSpiderBomberMilitaryPREPPER, .5
+		zombieBigRancherMilitaryPrepper, .5
 		zombieBogeymanPlasmaPREPPER, .5
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .5
 	</entitygroup>
@@ -1241,12 +1251,13 @@
 		zombieBurntSirenClaret
 		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
-		zombieBogeymanMilitaryPREPPER, .65
-		zombieChuckMilitaryPREPPER, .65
-		zombieSpiderBomberMilitaryPREPPER, .65
-		zombieBogeymanPlasmaPREPPER, .65
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .65
-		zombieBogeymanMegaPlasmaPREPPER, .65
+		zombieBogeymanMilitaryPREPPER
+		zombieChuckMilitaryPREPPER
+		zombieSpiderBomberMilitaryPREPPER
+		zombieBigRancherMilitaryPrepper
+		zombieBogeymanPlasmaPREPPER
+		zombieMiniBogeymanPlasmaSpitterPREPPER
+		zombieBogeymanMegaPlasmaPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS50">
 		zombieSpiderBomberClaretPREPPER
@@ -1258,12 +1269,13 @@
 		zombieBurntSirenClaret
 		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
-		zombieBogeymanMilitaryPREPPER, .75
-		zombieChuckMilitaryPREPPER, .75
-		zombieSpiderBomberMilitaryPREPPER, .75
-		zombieBogeymanPlasmaPREPPER, .75
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .75
-		zombieBogeymanMegaPlasmaPREPPER, .75
+		zombieBogeymanMilitaryPREPPER
+		zombieChuckMilitaryPREPPER
+		zombieSpiderBomberMilitaryPREPPER
+		zombieBigRancherMilitaryPrepper
+		zombieBogeymanPlasmaPREPPER
+		zombieMiniBogeymanPlasmaSpitterPREPPER
+		zombieBogeymanMegaPlasmaPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS100">
 		zombieSpiderBomberClaretPREPPER
@@ -1275,12 +1287,13 @@
 		zombieBurntSirenClaret
 		zombieBigRancherClaretPrepper
 		zombieSkateboarderUndertakerClaret
-		zombieBogeymanMilitaryPREPPER, .75
-		zombieChuckMilitaryPREPPER, .75
-		zombieSpiderBomberMilitaryPREPPER, .75
-		zombieBogeymanPlasmaPREPPER, .75
-		zombieMiniBogeymanPlasmaSpitterPREPPER, .75
-		zombieBogeymanMegaPlasmaPREPPER, .75
+		zombieBogeymanMilitaryPREPPER
+		zombieChuckMilitaryPREPPER
+		zombieSpiderBomberMilitaryPREPPER
+		zombieBigRancherMilitaryPrepper
+		zombieBogeymanPlasmaPREPPER
+		zombieMiniBogeymanPlasmaSpitterPREPPER
+		zombieBogeymanMegaPlasmaPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS200">
 		zombieSpiderBomberClaretPREPPER
@@ -1295,6 +1308,7 @@
 		zombieBogeymanMilitaryPREPPER
 		zombieChuckMilitaryPREPPER
 		zombieSpiderBomberMilitaryPREPPER
+		zombieBigRancherMilitaryPrepper
 		zombieBogeymanPlasmaPREPPER
 		zombieMiniBogeymanPlasmaSpitterPREPPER
 		zombieBogeymanMegaPlasmaPREPPER
@@ -1312,6 +1326,7 @@
 		zombieBogeymanMilitaryPREPPER, 1.25
 		zombieChuckMilitaryPREPPER, 1.25
 		zombieSpiderBomberMilitaryPREPPER, 1.25
+		zombieBigRancherMilitaryPrepper, 1.25
 		zombieBogeymanPlasmaPREPPER, 1.25
 		zombieMiniBogeymanPlasmaSpitterPREPPER, 1.25
 		zombieBogeymanMegaPlasmaPREPPER, 1.25
@@ -1329,6 +1344,7 @@
 		zombieBogeymanMilitaryPREPPER, 1.5
 		zombieChuckMilitaryPREPPER, 1.5
 		zombieSpiderBomberMilitaryPREPPER, 1.5
+		zombieBigRancherMilitaryPrepper, 1.5
 		zombieBogeymanPlasmaPREPPER, 1.5
 		zombieMiniBogeymanPlasmaSpitterPREPPER, 1.5
 		zombieBogeymanMegaPlasmaPREPPER, 1.5
@@ -1416,6 +1432,7 @@
 		zombieBogeymanMilitaryPREPPER, .0125
 		zombieChuckMilitaryPREPPER, .0125
 		zombieSpiderBomberMilitaryPREPPER, .0125
+		zombieBigRancherMilitaryPrepper, .0125
 		zombieBogeymanPlasmaPREPPER, .0125
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .0125
 	</entitygroup>
@@ -1443,6 +1460,7 @@
 		zombieBogeymanMilitaryPREPPER, .0187
 		zombieChuckMilitaryPREPPER, .0187
 		zombieSpiderBomberMilitaryPREPPER, .0187
+		zombieBigRancherMilitaryPrepper, .0187
 		zombieBogeymanPlasmaPREPPER, .0187
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .0187
 	</entitygroup>
@@ -1470,6 +1488,7 @@
 		zombieBogeymanMilitaryPREPPER, .0312
 		zombieChuckMilitaryPREPPER, .0312
 		zombieSpiderBomberMilitaryPREPPER, .0312
+		zombieBigRancherMilitaryPrepper, .0312
 		zombieBogeymanPlasmaPREPPER, .0312
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .0312
 	</entitygroup>
@@ -1497,6 +1516,7 @@
 		zombieBogeymanMilitaryPREPPER, .0437
 		zombieChuckMilitaryPREPPER, .0437
 		zombieSpiderBomberMilitaryPREPPER, .0437
+		zombieBigRancherMilitaryPrepper, .0437
 		zombieBogeymanPlasmaPREPPER, .0437
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .0437
 	</entitygroup>
@@ -1524,6 +1544,7 @@
 		zombieBogeymanMilitaryPREPPER, .0625
 		zombieChuckMilitaryPREPPER, .0625
 		zombieSpiderBomberMilitaryPREPPER, .0625
+		zombieBigRancherMilitaryPrepper, .0625
 		zombieBogeymanPlasmaPREPPER, .0625
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .0625
 	</entitygroup>
@@ -1551,6 +1572,7 @@
 		zombieBogeymanMilitaryPREPPER, .094
 		zombieChuckMilitaryPREPPER, .094
 		zombieSpiderBomberMilitaryPREPPER, .094
+		zombieBigRancherMilitaryPrepper, .094
 		zombieBogeymanPlasmaPREPPER, .094
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .094
 	</entitygroup>
@@ -2629,8 +2651,12 @@
 		zombieMachetePartyGirlInfernalPREPPER, .15
 		zombieChainsawMoeChargedPREPPER, .15
 		zombieChainsawMoeInfernalPREPPER, .15
-		animalZombiePlasmaSnakePREPPER, .1
-		animalZombieFireSnakePREPPER, .1		
+		animalZombiePlasmaSnakePREPPER, .05
+		animalZombieFireSnakePREPPER, .05
+		zombieBogeymanMilitaryPREPPER, .025
+		zombieChuckMilitaryPREPPER, .025
+		zombieSpiderBomberMilitaryPREPPER, .025
+		zombieBigRancherMilitaryPrepper, .025
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->
@@ -3394,9 +3420,6 @@
 		zombieSpiderBomberClaretPREPPER, .025
 		zombieBigRancherClaretPrepper, .025
 		zombieSkateboarderUndertakerClaret, .025
-		zombieBogeymanMilitaryPREPPER, .0125
-		zombieChuckMilitaryPREPPER, .0125
-		zombieSpiderBomberMilitaryPREPPER, .0125
 		zombieBogeymanPlasmaPREPPER, .0125
 	</csv>
 	

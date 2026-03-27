@@ -23,7 +23,7 @@
 	<!-- *** BURNT_FOREST_CHALLENGES -->
 	<append xpath="/challenges/challenge[@name='burntSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBurntStoneSpear,zombieMiniBurntStoneSpear,zombieBurntFeralIronSpear,zombieMiniBurntFeralIronSpear,zombieBurntRadiatedSteelSpear,zombieMiniBurntRadiatedSteelSpear,zombieBurntToaster,zombieMiniBurntToaster,zombieBigNightBurntSiren,zombieBurntSirenClaret</append>
 	<!-- *** DESERT_CHALLENGES -->	
-	<append xpath="/challenges/challenge[@name='desertSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieMiniRancher,zombieMiniRancherFeral,zombieMiniRancherRadiated,zombieMiniRancherCharged,zombieMiniRancherInfernal</append>
+	<append xpath="/challenges/challenge[@name='desertSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieMiniRancher,zombieMiniRancherFeral,zombieMiniRancherRadiated,zombieMiniRancherCharged,zombieMiniRancherInfernal,zombieBigRancherMilitaryPrepper,zombieMiniRancherMilitaryPrepper</append>
 	<!-- *** SNOW_CHALLENGES -->	
 	<append xpath="/challenges/challenge[@name='snowSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieChuckMilitaryPREPPER</append>
 	<!-- *** WASTELAND_CHALLENGES -->

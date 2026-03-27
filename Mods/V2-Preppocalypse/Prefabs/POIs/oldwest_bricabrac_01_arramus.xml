@@ -23,15 +23,16 @@
   <property name="YOffset" value="-1" />
   <property name="SleeperVolumeTriggeredBy" value=" # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="384847" />
-    <property name="TotalTriangles" value="163302" />
+    <property name="LightsVolume" value="6695.781" />
+    <property name="TotalVertices" value="417103" />
+    <property name="TotalTriangles" value="171847" />
     <property class="BlockEntities">
-      <property name="Vertices" value="338666" />
-      <property name="Triangles" value="136218" />
+      <property name="Vertices" value="370472" />
+      <property name="Triangles" value="145035" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="44365" />
-      <property name="Triangles" value="24408" />
+      <property name="Vertices" value="44791" />
+      <property name="Triangles" value="24124" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -42,8 +43,8 @@
       <property name="Triangles" value="240" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="24" />
+      <property name="Triangles" value="12" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
@@ -56,7 +57,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="9, 2, 2" />
+      <property name="0" value="9, 1, 2" />
     </property>
     <property class="challenge_steel">
       <property name="0" value="7, 1, 6" />
@@ -74,7 +75,8 @@
       <property name="0" value="11, 1, 20" />
     </property>
     <property class="challenge_polymers">
-      <property name="0" value="22, 1, 17" />
+      <property name="0" value="12, 2, 17" />
+      <property name="1" value="22, 1, 17" />
     </property>
     <property class="QuestRestorePower">
       <property name="0" value="6, 6, 14" />
@@ -86,6 +88,9 @@
     <property class="FetchContainer">
       <property name="0" value="17, 2, 14" />
       <property name="1" value="15, 4, 17" />
+    </property>
+    <property class="challenge_stump">
+      <property name="0" value="21, 1, 19" />
     </property>
   </property>
 </prefab>
