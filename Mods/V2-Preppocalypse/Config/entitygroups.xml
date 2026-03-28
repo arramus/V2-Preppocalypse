@@ -552,6 +552,8 @@
 		zombieBogeymanPlasmaPREPPER, .03
 		zombieMiniBogeymanPlasmaSpitterPREPPER, .03
 		zombieBogeymanMegaPlasmaPREPPER, .03
+		zombieBogeymanMegaClaretPREPPER, .03
+		zombieBogeymanMegaMilitaryPREPPER, .03
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_ALL_WASTELAND_GROUP -->
@@ -1258,6 +1260,8 @@
 		zombieBogeymanPlasmaPREPPER
 		zombieMiniBogeymanPlasmaSpitterPREPPER
 		zombieBogeymanMegaPlasmaPREPPER
+		zombieBogeymanMegaClaretPREPPER
+		zombieBogeymanMegaMilitaryPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS50">
 		zombieSpiderBomberClaretPREPPER
@@ -1276,6 +1280,8 @@
 		zombieBogeymanPlasmaPREPPER
 		zombieMiniBogeymanPlasmaSpitterPREPPER
 		zombieBogeymanMegaPlasmaPREPPER
+		zombieBogeymanMegaClaretPREPPER
+		zombieBogeymanMegaMilitaryPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS100">
 		zombieSpiderBomberClaretPREPPER
@@ -1294,6 +1300,8 @@
 		zombieBogeymanPlasmaPREPPER
 		zombieMiniBogeymanPlasmaSpitterPREPPER
 		zombieBogeymanMegaPlasmaPREPPER
+		zombieBogeymanMegaClaretPREPPER
+		zombieBogeymanMegaMilitaryPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS200">
 		zombieSpiderBomberClaretPREPPER
@@ -1312,6 +1320,8 @@
 		zombieBogeymanPlasmaPREPPER
 		zombieMiniBogeymanPlasmaSpitterPREPPER
 		zombieBogeymanMegaPlasmaPREPPER
+		zombieBogeymanMegaClaretPREPPER
+		zombieBogeymanMegaMilitaryPREPPER
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS400">
 		zombieSpiderBomberClaretPREPPER
@@ -1330,6 +1340,8 @@
 		zombieBogeymanPlasmaPREPPER, 1.25
 		zombieMiniBogeymanPlasmaSpitterPREPPER, 1.25
 		zombieBogeymanMegaPlasmaPREPPER, 1.25
+		zombieBogeymanMegaClaretPREPPER, 1.25
+		zombieBogeymanMegaMilitaryPREPPER, 1.25
 	</entitygroup>
 	<entitygroup name="PrepperMixedBossEntitiesGroupGS800">
 		zombieSpiderBomberClaretPREPPER
@@ -1348,6 +1360,8 @@
 		zombieBogeymanPlasmaPREPPER, 1.5
 		zombieMiniBogeymanPlasmaSpitterPREPPER, 1.5
 		zombieBogeymanMegaPlasmaPREPPER, 1.5
+		zombieBogeymanMegaClaretPREPPER, 1.5
+		zombieBogeymanMegaMilitaryPREPPER, 1.5
 	</entitygroup>
 	
 	<!-- Prepper Flyer Entities for GS -->

@@ -27,6 +27,6 @@
 	<!-- *** SNOW_CHALLENGES -->	
 	<append xpath="/challenges/challenge[@name='snowSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieChuckMilitaryPREPPER</append>
 	<!-- *** WASTELAND_CHALLENGES -->
-	<append xpath="/challenges/challenge[@name='wastelandSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBogeymanPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanPlasmaPREPPER,zombieMiniBogeymanPlasmaSpitterPREPPER,zombieBogeymanMegaPlasmaPREPPER,zombieMiniMutated,zombieMiniMutatedFeral,zombieMiniMutatedRadiated</append>
+	<append xpath="/challenges/challenge[@name='wastelandSurvivalKillZombie']/objective[@type='Kill']/@entity_names">,zombieBogeymanPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanMegaClaretPREPPER,zombieBogeymanMilitaryPREPPER,zombieBogeymanMegaMilitaryPREPPER,zombieBogeymanPlasmaPREPPER,zombieMiniBogeymanPlasmaSpitterPREPPER,zombieBogeymanMegaPlasmaPREPPER,zombieMiniMutated,zombieMiniMutatedFeral,zombieMiniMutatedRadiated</append>
 	
 </Preppocalypse>

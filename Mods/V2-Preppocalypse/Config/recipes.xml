@@ -258,6 +258,14 @@
 		<ingredient name="resourceClayLump" count="100"/>
 		<ingredient name="resourceRockSmall" count="100"/>
 	</recipe>
+	
+	<recipe name="trophyPreppo" count="1" craft_area="workbench" craft_time="120" tags="workbenchCrafting">
+		<ingredient name="toolForgeCrucible" count="5"/>
+		<ingredient name="drinkJarPureMineralWater" count="1000"/>
+		<ingredient name="casinoCoin" count="150000"/>
+		<ingredient name="ammoGasCan" count="150000"/>
+		<ingredient name="vehicleGyrocopterPlaceable" count="1"/>
+	</recipe>
 
 	<!-- PREPPER / SURVIVALIST / BUSHCRAFT BITES FOOD ITEMS -->
 	
