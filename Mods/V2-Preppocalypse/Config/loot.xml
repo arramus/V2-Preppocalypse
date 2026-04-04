@@ -114,6 +114,17 @@
 		<item name="qc_2Skill" prob=".075"/>
 	</append>
 	
+	<!-- Adding the Clothing Skill Magazine to the clothing groups at med to medLow template for dimininshing returns but overlap  -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupT1Clothing']">
+	<item name="clothingSkillMagazine" count="1" loot_prob_template="med"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupT2Clothing']">
+	<item name="clothingSkillMagazine" count="1" loot_prob_template="medLow"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupT3Clothing']">
+	<item name="clothingSkillMagazine" count="1" loot_prob_template="medLow"/>
+	</append>
+	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestBicycle']">
 	<lootgroup name="groupQuestMinibike" count="all">
 		<item name="vehicleMinibikePlaceable" loot_prob_template="QuestT2Prob"/>

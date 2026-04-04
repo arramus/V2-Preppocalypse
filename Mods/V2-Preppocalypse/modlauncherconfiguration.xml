@@ -1,9 +1,10 @@
 <Servers>
-  <ServerGroup Name="Preppocalypse (V2)">
-    <Server Name="Preppocalypse (V2)" Logo="https://i.imgur.com/yCvXBl1.jpg">
+  <ServerGroup Name="Preppocalypse">
+    <Server Name="Preppocalypse" Logo="https://i.imgur.com/yCvXBl1.jpg">
       <Description>7D2D from the perspective of a Prepper.
 	  
 Features Include:
+- Updated to current V2 Stable
 - Crafting from Containers and Auto-Sort feature when also using 0-Score Mod (recommended)
 - Upgraded default zombies in the biomes, hordes, and Game Stage linked POIs
 - A greater abundance of Prepper style quest POIs (custom and TFP conversions)
@@ -21,7 +22,7 @@ Brought to you by arramus, with kind support from the community.
 * Compatible with Bdubs Vehicles, Vehicle Madness, and Oakraven Vehicles, all at exactly the same time *
 * Compatibility mod for Izy's Guns on Nexus *
 	  </Description>
-        <Version>V2</Version>
+        <Version>Latest</Version>
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>
