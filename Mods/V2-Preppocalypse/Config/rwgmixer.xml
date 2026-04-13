@@ -139,6 +139,7 @@
 
 	<prefab_spawn_adjust partial_name="preppo_bosscave90_01" biomeTags="wasteland"/>
 	<prefab_spawn_adjust partial_name="preppo_bosscave90_02" biomeTags="wasteland"/>
+	<prefab_spawn_adjust partial_name="preppo_wasteland_filler_01" biomeTags="wasteland"/>
 	<prefab_spawn_adjust partial_name="trader_prepper_bob" biomeTags="desert" bias="21" min_count="1" max_count="2"/>
 	<prefab_spawn_adjust partial_name="trader_preppo_tech_trio" biomeTags="burntforest,snow,wasteland" bias="21" min_count="2" max_count="2"/>
 	</append>
