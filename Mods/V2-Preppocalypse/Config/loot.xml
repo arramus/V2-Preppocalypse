@@ -2,12 +2,46 @@
 
 	<!-- Vanilla Loot Additions -->
 	
-	<!-- Allow QLTemplateT1 QL1 to arrive a little earlier for loot weapons and tools at T0 QL1 appearance to offset early game challenges -->
-	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate[@level='41,52']/@level">0,52</set>
-	<!-- Allow QLTemplateT2 to arrive a little earlier for loot weapons and tools at T1 QL3 appearance -->
-	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate[@level='82,91']/@level">65,91</set>
-	<!-- Allow QLTemplateT3 to arrive a little earlier for loot weapons and tools at T2 QL3 appearance -->
-	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate[@level='121,132']/@level">106,132</set>
+	<!-- Adding QL1 and QL2 custom Preppo templates for early T1 weapons -->
+	<insertAfter xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']">
+		<lootqualitytemplate name="QLPreppoTemplateT0">
+			<qualitytemplate level="0,40" default_quality="1">
+				<loot quality="1" prob="0.75"/>
+				<loot quality="2" prob="0.75"/>				
+			</qualitytemplate>
+			<qualitytemplate level="41,52" default_quality="1">
+				<loot quality="2" prob="1"/>				
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</insertAfter>
+	
+	<!-- *** Perception_Based_Lootgroups -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
+	<lootgroup name="groupWeaponsT0_PreppoDeadEye" count="all" loot_quality_template="QLPreppoTemplateT0">
+		<item name="gunRifleT1HuntingRifle"/>
+	</lootgroup>
+	</insertAfter>
+	
+	<!-- *** Strength_Based_Lootgroups -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
+	<lootgroup name="groupWeaponsT0_PreppoBoomstick" count="all" loot_quality_template="QLPreppoTemplateT0">
+		<item name="gunShotgunT1DoubleBarrel"/>
+	</lootgroup>	
+	</insertAfter>
+	
+	<!-- *** Fortitude_Based_Lootgroups -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">
+	<lootgroup name="groupWeaponsT0_PreppoMachinegunner" count="all" loot_quality_template="QLPreppoTemplateT0">
+		<item name="gunMGT1AK47"/>
+	</lootgroup>
+	</insertAfter>
+	
+	<!-- *** T0_Ranged_Weapons allowing T1 Variants to join at only QL1 and QL2 -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Ranged']">
+		<item group="groupWeaponsT0_PreppoDeadEye"/>
+		<item group="groupWeaponsT0_PreppoBoomstick"/>
+		<item group="groupWeaponsT0_PreppoMachinegunner"/>
+	</append>
 	
     <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
