@@ -2,8 +2,8 @@
 
 	<!-- Vanilla Loot Additions -->
 	
-	<!-- Allow QLTemplateT1 to arrive a little earlier for loot weapons and tools at T0 QL4 appearance -->
-	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate[@level='41,52']/@level">25,52</set>
+	<!-- Allow QLTemplateT1 QL1 to arrive a little earlier for loot weapons and tools at T0 QL1 appearance to offset early game challenges -->
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate[@level='41,52']/@level">0,52</set>
 	<!-- Allow QLTemplateT2 to arrive a little earlier for loot weapons and tools at T1 QL3 appearance -->
 	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate[@level='82,91']/@level">65,91</set>
 	<!-- Allow QLTemplateT3 to arrive a little earlier for loot weapons and tools at T2 QL3 appearance -->
