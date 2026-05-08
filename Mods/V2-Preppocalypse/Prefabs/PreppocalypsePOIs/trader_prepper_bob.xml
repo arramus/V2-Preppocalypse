@@ -21,15 +21,16 @@
   <property name="TeleportVolumeSize" value="39, 3, 40#41, 17, 42" />
   <property name="TeleportVolumeStart" value="1, 1, 1#0, 4, 0" />
   <property class="Stats">
-    <property name="TotalVertices" value="516673" />
-    <property name="TotalTriangles" value="191416" />
+    <property name="LightsVolume" value="1090.656" />
+    <property name="TotalVertices" value="593180" />
+    <property name="TotalTriangles" value="225890" />
     <property class="BlockEntities">
-      <property name="Vertices" value="428395" />
-      <property name="Triangles" value="139411" />
+      <property name="Vertices" value="494990" />
+      <property name="Triangles" value="168482" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="83292" />
-      <property name="Triangles" value="44321" />
+      <property name="Vertices" value="86132" />
+      <property name="Triangles" value="46188" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -40,8 +41,8 @@
       <property name="Triangles" value="220" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="7072" />
+      <property name="Triangles" value="3536" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
@@ -53,11 +54,12 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="challenge_polymers">
+      <property name="0" value="37, 2, 21" />
+      <property name="1" value="38, 1, 23" />
+    </property>
     <property class="POILight">
       <property name="0" value="38, 2, 8" />
-    </property>
-    <property class="challenge_polymers">
-      <property name="0" value="38, 1, 23" />
     </property>
     <property class="challenge_pallet">
       <property name="0" value="38, 1, 18" />
