@@ -3841,7 +3841,7 @@
 	<property name="HoldType" value="85"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Vetterli.unity3d?Vetterli"/>
 	<property name="Material" value="MRifleParts"/>
-	<property name="Weight" value="1"/>
+	<property name="Weight" value="4"/>
 	<property name="ScrapTimeOverride" value="10.0"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -4135,7 +4135,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPan"/>
 	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Weight" value="1"/>
+	<!--property name="Weight" value="1"/-->
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
