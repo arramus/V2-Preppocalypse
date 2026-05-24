@@ -284,6 +284,7 @@ wilderness_crater_60_03_arramus,POI,POIName,,x,Construction Crater,,,,,,,,,,,,,
 wilderness_crater_60_04_arramus,POI,POIName,,x,Farming Crater,,,,,,,,,,,,,
 wilderness_crater_60_05_arramus,POI,POIName,,x,Car Wreck Crater,,,,,,,,,,,,,
 wilderness_crater_60_06_arramus,POI,POIName,,x,Military Craters,,,,,,,,,,,,,
+wilderness_crater_60_07_arramus,POI,POIName,,x,Research Crater,,,,,,,,,,,,,
 
 modMeleeStunBatonRepulsor,item_modifiers,Mod,,,Stun Repulsor Mod,,Stun Repulsor-Mod,,,,,,,,,,,,
 modMeleeStunBatonRepulsorDesc,item_modifiers,Mod,,,"Install this mod into a stun baton or steel spear, and send zombies flying on the charged hit.",,"Installiere diesen Mod in einen Schockstab oder einem Stahlspeer und jage Zombies mit einem aufgeladenen Treffer in die Luft.",,,,,,,,,,,,

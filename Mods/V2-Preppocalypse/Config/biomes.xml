@@ -35,6 +35,11 @@
 			<decoration type="prefab" name="deco_preppocomm_02" onslopes="false" prob=".0004" rotatemax="3"/>
 			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".00003" rotatemax="7"/>
 	</append>
+	
+	<!-- *** Burnt Forest: Sub Biome: Mushrooms, Thick Grass, and Shrubs -->
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@noise='.033, 0, .3']/decorations">
+			<decoration type="block" blockname="plantedCoffee3Harvest" prob=".00125" rotatemax="7"/>
+	</append>
 
 	<!-- *** Desert: Sub Biome: Ring of Smaller Clustered Cactus and Desert Shrub -->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@noise='.02, 0, .45']/decorations">
