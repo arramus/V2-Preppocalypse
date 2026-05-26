@@ -266,6 +266,11 @@
 	<set xpath="/items/item[@name='toolApiarySmoker']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
 	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">250</set><!-- 50 default -->
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">25</set><!-- 5 default -->
+	
+	<!-- Adding Prepper Planning Schematic Perk Book Unlock to Stock -->
+	<append xpath="/items/item[@name='foodCanStock']">
+	<property name="UnlockedBy" value="perkPrepperPlanner2Stock"/>
+	</append>
 
 	<!-- Adding Undergarments to Progression -->
 	<append xpath="/items/item[@name='clothingMaster']">
@@ -697,6 +702,7 @@
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Tags" value="ammo,ranged,attStrength,perkMiner69r"/>
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="UnlockedBy" value="perkPrepperPlanner1Nailgun"/> <!-- SCHEMATIC_ONLY -->
 	<property name="Damage_type" value="Heat"/>
 	<property name="StickyOffset" value=".7"/>
 	<property name="SoundPickup" value="nails_grab"/>
@@ -743,6 +749,7 @@
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Tags" value="ammo,ranged,attStrength,perkMiner69r"/>
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="UnlockedBy" value="perkPrepperPlanner1Nailgun"/> <!-- SCHEMATIC_ONLY -->
 	<property name="UsableUnderwater" value="false"/>
 	<property name="SoundPickup" value="nails_grab"/>
 	<property name="SoundPlace" value="nails_place"/>
@@ -955,7 +962,7 @@
 	<property name="EconomicValue" value="400"/>
 	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
 	<property name="Group" value="Ammo/Weapons,Ammo,RegularAmmo,Ranged Weapons"/>	
-	
+	<property name="UnlockedBy" value="perkPrepperPlanner8Complete"/> <!-- BOOK_PERK -->	
 	<property class="Action0">
 		<property name="Create_item" value="ammo22ShortBulletBall"/>
 		<property name="Create_item_count" value="100"/>
@@ -970,7 +977,7 @@
 	<property name="TraderStageTemplate" value="ammoTier2"/><!-- ammo9mmBulletHP -->
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
 	<property name="DescriptionKey" value="ammo22ShortBulletHPDesc"/>
-	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
+	<property name="UnlockedBy" value="perkPrepperPlanner3HPAmmo"/> <!-- BOOK_PERK -->
 	<property name="SoundPickup" value="bullets_grab"/>
 	<property name="SoundPlace" value="bullets_place"/>
 	<effect_group name="ammo9mmBulletHP" tiered="false">
@@ -990,7 +997,7 @@
 	<property name="EconomicValue" value="700"/>
 	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>	
-	
+	<property name="UnlockedBy" value="perkPrepperPlanner8Complete"/> <!-- BOOK_PERK -->	
 	<property class="Action0">
 		<property name="Create_item" value="ammo22ShortBulletHP"/>
 		<property name="Create_item_count" value="100"/>
@@ -1005,7 +1012,7 @@
 	<property name="TraderStageTemplate" value="ammoTier3"/><!-- ammo9mmBulletAP -->
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
 	<property name="DescriptionKey" value="ammo22ShortBulletAPDesc"/>
-	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/> <!-- BOOK_PERK -->
+	<property name="UnlockedBy" value="perkPrepperPlanner4APAmmo"/> <!-- BOOK_PERK -->
 	<property name="SoundPickup" value="bullets_grab"/>
 	<property name="SoundPlace" value="bullets_place"/>
 	<effect_group name="ammo9mmBulletAP" tiered="false">
@@ -1041,7 +1048,7 @@
 	<property name="EconomicValue" value="700"/>
 	<!--property name="TraderStageTemplate" value="ammoTier1"/-->
 	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>	
-	
+	<property name="UnlockedBy" value="perkPrepperPlanner8Complete"/> <!-- BOOK_PERK -->	
 	<property class="Action0">
 		<property name="Create_item" value="ammo22ShortBulletAP"/>
 		<property name="Create_item_count" value="100"/>
@@ -8394,6 +8401,135 @@
 		<property name="Random_count" value="1"/>
 		<property name="Unique_random_only" value="true"/>
 	</property>
+</item>
+
+	<!-- *** Prepper Planner Vol 1: Nailgun Ammo -->
+<item name="bookPrepperPlanner1Nailgun">
+	<property name="Extends" value="bookFiremansAlmanacHeat"/>
+	<property name="CustomIcon" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner1NailgunLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner1Nailgun"/>
+	<property name="Tags" value="prepperPlannerProb"/>
+	<property name="Group" value="Books,BooksOnly,TCReading"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner1Nailgun" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner1Nailgun" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 2: Can of Stock -->
+<item name="bookPrepperPlanner2Stock">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner2StockLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner2Stock"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner2Stock" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner2Stock" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 3: HP Ammo -->
+<item name="bookPrepperPlanner3HPAmmo">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner3HPAmmoLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner3HPAmmo"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner3HPAmmo" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner3HPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 4: AP Ammo -->
+<item name="bookPrepperPlanner4APAmmo">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner4APAmmoLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner4APAmmo"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner4APAmmo" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner4APAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 5: Fuel Efficient -->
+<item name="bookPrepperPlanner5FuelEfficient">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner5FuelEfficientLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner5FuelEfficient"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner5FuelEfficient" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner5FuelEfficient" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 6: Radiated Mushrooms -->
+<item name="bookPrepperPlanner6RadShroom">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner6RadShroomLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner6RadShroom"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner6RadShroom" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner6RadShroom" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<!-- *** Prepper Planner Vol 7: Quick Fingers -->
+<item name="bookPrepperPlanner7QuickFingers">
+	<property name="Extends" value="bookPrepperPlanner1Nailgun"/>
+	<property name="DescriptionKey" value="perkPrepperPlanner7QuickFingersLongDesc"/>
+	<property name="Unlocks" value="perkPrepperPlanner7QuickFingers"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner7QuickFingers" operation="Equals" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner7QuickFingers" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPrepperPlanner8Complete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillPrepperPlanner" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
 </item>
 
 	<!-- ADMIN TOOLS -->

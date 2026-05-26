@@ -734,6 +734,7 @@
 	<property name="WaterFlow" value="permitted"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="MaxDamage" value="1000"/>
+	<property name="UnlockedBy" value="perkPrepperPlanner8Complete"/> <!-- SCHEMATIC_ONLY -->
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems">
 		<property name="resourceScrapBrass" value="50"/>
@@ -1874,6 +1875,75 @@
 	<drop event="Harvest" name="foodCropCactusFruit" count="1" tag="farmerBonusHarvest"/>
 	<property name="DowngradeBlock" value="plantedPricklyCactus1"/>
 	<property name="SortOrder2" value="0004"/>
+</block>
+
+	<!-- *** SEEDS_RADIATED_MUSHROOM -->	
+<block name="plantedRadiatedMushroom1">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="CustomIcon" value="plantedRadiatedMushroom1"/>
+	<property name="PlantGrowing.Next" value="plantedRadiatedMushroom2"/>
+	<property name="UnlockedBy" value="perkPrepperPlanner6RadShroom"/>
+	<property name="Material" value="Mmushrooms"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/OutdoorDecor/mushroomSproutPrefab.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<drop event="Destroy" name="plantedRadiatedMushroom1" count="1"/>
+	<property name="SortOrder1" value="B951"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Tags" value="seedSkill"/>
+	<property name="SoundPickup" value="seeds_generic2_grab"/>
+	<property name="SoundPlace" value="seeds_generic2_place"/>
+</block>
+
+<block name="plantedRadiatedMushroom2">
+	<property name="Extends" value="plantedRadiatedMushroom1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="PlantGrowing.Next" value="plantedRadiatedMushroom3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedRadiatedMushroom1"/>
+	<property name="Model" value="@:Entities/OutdoorDecor/mushroomGrowthPrefab.prefab"/>
+	<drop event="Destroy" name="plantedRadiatedMushroom1" count="1"/>
+	<property name="SortOrder2" value="0003"/>
+</block>
+
+<!-- POI_Stage_3 -->
+<block name="plantedRadiatedMushroom3Harvest">
+	<property name="Material" value="Mmushrooms"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="CustomIcon" value="mushroom01"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/OutdoorDecor/mushroomRadiated_01Prefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="VehicleHitScale" value=".1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" count="1" tag="farmerBonusHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="SortOrder1" value="B951"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+</block>
+
+<block name="plantedRadiatedMushroom3HarvestPlayer">
+	<property name="Extends" value="plantedRadiatedMushroom3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="mushroom01"/>
+	<property name="DescriptionKey" value="plantedRadiatedMushroom3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" count="1" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushroomsRadiated" count="1" tag="farmerBonusHarvest"/>
+	<property name="DowngradeBlock" value="plantedRadiatedMushroom1"/>
+	<property name="SortOrder2" value="0005"/>
 </block>
 
 <!-- Block Place Holders -->

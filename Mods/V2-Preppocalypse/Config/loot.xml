@@ -68,6 +68,38 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
 	<item name="gun22HandgunT0Pistol" count="1" loot_prob_template="veryLow"/>
 	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooks']">
+	<item name="bookPrepperPlanner1Nailgun"/>
+	<item name="bookPrepperPlanner2Stock"/>
+	<item name="bookPrepperPlanner3HPAmmo"/>
+	<item name="bookPrepperPlanner4APAmmo"/>
+	<item name="bookPrepperPlanner5FuelEfficient"/>
+	<item name="bookPrepperPlanner6RadShroom"/>
+	<item name="bookPrepperPlanner7QuickFingers"/>
+	</append>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupTechJunkieBooks']">
+	<lootgroup name="groupPrepperPlannerBooks">
+	<item name="bookPrepperPlanner1Nailgun"/>
+	<item name="bookPrepperPlanner2Stock"/>
+	<item name="bookPrepperPlanner3HPAmmo"/>
+	<item name="bookPrepperPlanner4APAmmo"/>
+	<item name="bookPrepperPlanner5FuelEfficient"/>
+	<item name="bookPrepperPlanner6RadShroom"/>
+	<item name="bookPrepperPlanner7QuickFingers"/>
+	</lootgroup>
+	</insertAfter>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupSavageCountryBooks']">
+	<item name="bookPrepperPlanner1Nailgun"/>
+	<item name="bookPrepperPlanner2Stock"/>
+	<item name="bookPrepperPlanner3HPAmmo"/>
+	<item name="bookPrepperPlanner4APAmmo"/>
+	<item name="bookPrepperPlanner5FuelEfficient"/>
+	<item name="bookPrepperPlanner6RadShroom"/>
+	<item name="bookPrepperPlanner7QuickFingers"/>
+	</append>
 
 	<!-- This lootgroup is somewhat irregular at present with 2.5 reshuffle and bringing in less scripted luck -->
 	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
@@ -211,7 +243,8 @@
 		<item name="ammoBundle44MagnumBulletSilver" count="1,2"/>
 		<item name="resourceArmorCraftingKit" count="2,4"/>
 		<item group="groupRareToolsTiered"/>
-		<item group="vehicleModSchematics" count="1"/>		
+		<item group="vehicleModSchematics" count="1"/>
+		<item group="groupPrepperPlannerBooks"/>	
 	</lootgroup>
 	</insertBefore>
 	

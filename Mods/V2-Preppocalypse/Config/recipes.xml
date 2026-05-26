@@ -225,7 +225,7 @@
 		<ingredient name="unit_glass" count="1"/>
 	</recipe>
 	
-	<recipe name="resourceSteelNailFlaming" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="resourceSteelNailFlaming" count="1" craft_time="5" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceSteelNail" count="1"/>
 		<ingredient name="resourceScrapPolymers" count="1"/>
 		<ingredient name="resourceGunPowder" count="1"/>
@@ -233,7 +233,7 @@
 		<ingredient name="resourceAnimalFat" count="1"/>
 	</recipe>
 	
-	<recipe name="resourceSteelNailExploding" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="resourceSteelNailExploding" count="1" craft_time="5" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceSteelNail" count="1"/>
 		<ingredient name="resourceScrapPolymers" count="1"/>
 		<ingredient name="resourceGunPowder" count="3"/>
@@ -259,7 +259,7 @@
 		<ingredient name="resourceRockSmall" count="100"/>
 	</recipe>
 	
-	<recipe name="trophyPreppo" count="1" craft_area="workbench" craft_time="120" tags="workbenchCrafting">
+	<recipe name="trophyPreppo" count="1" craft_area="workbench" craft_time="120" tags="learnable,workbenchCrafting">
 		<ingredient name="toolForgeCrucible" count="5"/>
 		<ingredient name="drinkJarPureMineralWater" count="1000"/>
 		<ingredient name="casinoCoin" count="150000"/>
@@ -436,6 +436,11 @@
 		<ingredient name="foodChickSticks" count="1"/>
 		<ingredient name="drinkJarPureMineralWater" count="1"/>
 	</recipe>
+
+	<recipe name="plantedRadiatedMushroom1" count="1" craft_time="2" tags="learnable,packMuleCrafting">
+		<ingredient name="foodCropMushroomsRadiated" count="5"/>
+		<ingredient name="resourceClayLump" count="2"/>
+	</recipe>
 	
 	<recipe name="foodSuperCornFluffyOmelette" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
 		<ingredient name="foodEgg" count="8"/>
@@ -561,7 +566,7 @@
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	
-	<recipe name="foodCanStock" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+	<recipe name="foodCanStock" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 		<ingredient name="drinkJarBoneBroth" count="1"/>
 		<ingredient name="foodCropPotato" count="2"/>
 		<ingredient name="foodCropPumpkin" count="1"/>

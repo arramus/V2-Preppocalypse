@@ -31,17 +31,6 @@
 	<append xpath="//crafting_skill[@name='craftingExplosives']/display_entry[@icon='ammoRocketFrag']/unlock_entry/@item">,ammoRocketFire</append>
 	<append xpath="//crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@level='45,100']/@tags">,ammoRocketFire</append>
 	
-	<!-- Adding .22 Short Ammo HP and AP to Pistol Pete Perk Books -->
-	<append xpath="/progression/perks/book[@name='perkPistolPeteHPAmmo']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletHP"/>
-	</append>
-	<append xpath="/progression/perks/book[@name='perkPistolPeteAPAmmo']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletAP"/>
-	</append>
-	<append xpath="/progression/perks/book[@name='perkPistolPeteComplete']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle22ShortBulletBall,ammoBundle22ShortBulletHP,ammoBundle22ShortBulletAP"/>
-	</append>
-	
 	<remove xpath="/progression/perks/perk[@name='perkTurrets']"/>
 
 	<insertBefore xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']">
@@ -124,6 +113,18 @@
 				<effect_description level="4" desc_key="perkPrepperExperienceRank4Desc" long_desc_key="perkPrepperExperienceRank4LongDesc"/>
 				<effect_description level="5" desc_key="perkPrepperExperienceRank5Desc" long_desc_key="perkPrepperExperienceRank5LongDesc"/>
 			</effect_group>
+			
+		<effect_group>
+			<!-- Increase the chance to find Prepper Planner books until each book is read -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="prepperPlannerProb">
+				<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner8Complete" operation="LT" value="1"/>
+			</passive_effect>
+
+			<!-- When all Prepper Planner books have been read, set the probability bonus of finding them to 0 -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="1,1" tags="prepperPlannerProb">
+				<requirement name="ProgressionLevel" progression_name="perkPrepperPlanner8Complete" operation="Equals" value="1"/>
+			</passive_effect>
+		</effect_group>			
 		</perk>
 	</insertAfter>
 	
@@ -342,5 +343,70 @@
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked'][contains(@tags, 'carBattery')]/@tags">,solarCell</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='CraftingTier'][@level='60,70,80,90,100']/@tags">,solarCell</append>
+
+	<!-- *** PREPPER_PLANNER_MAGAZINE_PEREKS  -->
+	<insertAfter xpath="/progression/skills/book_group[@name='skillWasteTreasures']">
+	<book_group name="skillPrepperPlanner" parent="attBooks" name_key="perkPrepperPlanner0Name" desc_key="perkPrepperPlanner0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_symbol_prepperplanner"><effect_group/></book_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/perks/book[@name='perkSpearHunter8Complete']">
+					<!-- *** -->
+
+	<!-- *** PREPPER_PLANNER_VOLUME_01_NAILGUN AMMO -->
+	<!-- Craft Flaming and Exploding Nailgun Ammo. -->
+	<book name="perkPrepperPlanner1Nailgun" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="bookPrepperPlanner1Nailgun" desc_key="perkPrepperPlanner1NailgunDesc" long_desc_key="perkPrepperPlanner1NailgunLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="resourceSteelNailFlaming,resourceSteelNailExploding"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_02_STOCK -->
+	<!-- Craft Stock. -->
+	<book name="perkPrepperPlanner2Stock" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="bookPrepperPlanner2Stock" desc_key="perkPrepperPlanner2StockDesc" long_desc_key="perkPrepperPlanner2StockLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="foodCanStock"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_03_HPAMMO -->
+	<book name="perkPrepperPlanner3HPAmmo" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="bookPrepperPlanner3HPAmmo" desc_key="perkPrepperPlanner3HPAmmoDesc" long_desc_key="perkPrepperPlanner3HPAmmoLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletHP"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_04_APAMMO -->
+	<book name="perkPrepperPlanner4APAmmo" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="bookPrepperPlanner4APAmmo" desc_key="perkPrepperPlanner4APAmmoDesc" long_desc_key="perkPrepperPlanner4APAmmoLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo22ShortBulletAP"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_05_FUEL_EFFICIENT -->	
+	<book name="perkPrepperPlanner5FuelEfficient" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" desc_key="perkPrepperPlanner5FuelEfficientDesc" long_desc_key="perkPrepperPlanner5FuelEfficientLongDesc">
+		<effect_group>
+			<passive_effect name="WaterLossPerHealthPointGained" operation="perc_add" level="1" value="-.05"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" level="1" value="-.05"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" level="1" value="-.05"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_06_RADIATED_MUSHROOMS -->
+	<book name="perkPrepperPlanner6RadShroom" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="bookPrepperPlanner6RadShroom" desc_key="perkPrepperPlanner6RadShroomDesc" long_desc_key="perkPrepperPlanner6RadShroomLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="plantedRadiatedMushroom1"/>
+		</effect_group>
+	</book>
+	<!-- *** PREPPER_PLANNER_VOLUME_07_QUICK_FINGERS -->
+	<book name="perkPrepperPlanner7QuickFingers" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" desc_key="perkPrepperPlanner7QuickFingersDesc" long_desc_key="perkPrepperPlanner7QuickFingersLongDesc">
+		<effect_group>
+			<passive_effect name="ScavengingTime" operation="perc_subtract" level="1" value=".1"/>
+		</effect_group>
+	</book>
+	<!-- *** 7/7 PREPPER_PLANNER_COMPLETE -->
+	<book name="perkPrepperPlanner8Complete" parent="skillPrepperPlanner" max_level="1" base_skill_point_cost="0" name_key="perkPrepperPlanner8CompleteName" desc_key="perkPrepperPlanner8CompleteDesc" long_desc_key="perkPrepperPlanner8CompleteLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="trophyPreppo"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundle22ShortBulletBall,ammoBundle22ShortBulletHP,ammoBundle22ShortBulletAP"/>
+		</effect_group>
+	</book>
+	</insertAfter>
 	
 </configs>

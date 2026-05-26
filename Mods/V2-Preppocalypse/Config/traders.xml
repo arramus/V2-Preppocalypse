@@ -153,6 +153,16 @@
 	</append>
 	
 <!-- *** BOOKS -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='perkBooks']">
+		<item name="bookPrepperPlanner1Nailgun"/>
+		<item name="bookPrepperPlanner2Stock"/>
+		<item name="bookPrepperPlanner3HPAmmo"/>
+		<item name="bookPrepperPlanner4APAmmo"/>
+		<item name="bookPrepperPlanner5FuelEfficient"/>
+		<item name="bookPrepperPlanner6RadShroom"/>
+		<item name="bookPrepperPlanner7QuickFingers"/>
+	</append>
+	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']">
 		<item name="clothingSkillMagazine" count="3,5"/>		
 	</append>
