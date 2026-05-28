@@ -1089,7 +1089,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieNailgunUtilityWorkerPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieNailgunUtilityWorkerPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeToolRepairT3Nailgun"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1109,7 +1109,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieBatonHazmatPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieBatonHazmatPREPPER,zombieBatonHazmatRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnBatonT2StunBaton"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1129,7 +1129,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSMGArlenePREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSMGArlenePREPPER,zombieSMGArleneRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT3SMG5"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1169,7 +1169,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER,zombieMiniTARifleSoldierPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER,zombieTARifleSoldierRadiatedPREPPER,zombieMiniTARifleSoldierPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunMGT2TacticalAR"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1189,7 +1189,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSteelAxeLumberjackPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSteelAxeLumberjackPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeToolAxeT2SteelAxe"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1209,7 +1209,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieMachetePartyGirlPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieMachetePartyGirlPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieMachetePartyGirlChargedPREPPER,zombieMachetePartyGirlInfernalPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnBladeT3Machete"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1229,7 +1229,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombiePistolBusinessManPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombiePistolBusinessManPREPPER,zombiePistolBusinessManRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT1Pistol"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1249,7 +1249,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSpiderFeralGliderPREPPER,zombieSpiderGliderClaretPREPPER,zombieSpiderFeralBomberPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderBomberMilitaryPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunBowT3CompoundBow"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1269,7 +1269,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSwissVetterliWightPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSwissVetterliWightPREPPER,zombieSwissVetterliWightRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunRifleT2LeverActionRifleSwissVetterli"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1289,7 +1289,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieChainsawMoePREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieChainsawMoePREPPER,zombieChainsawMoeRadiatedPREPPER,zombieChainsawMoeChargedPREPPER,zombieChainsawMoeInfernalPREPPER,zombieChainsawMoeClaretPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeToolAxeT3Chainsaw"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1309,7 +1309,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieDesertVultureTomClarkPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieDesertVultureTomClarkPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT3DesertVulture"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1329,7 +1329,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombiePumpShotgunBikerPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombiePumpShotgunBikerPREPPER,zombiePumpShotgunBikerRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunShotgunT2PumpShotgun"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1349,7 +1349,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieBatonFatCopPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieBatonFatCopPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBatonFatCopClaretPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnBatonT0PipeBaton"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1369,7 +1369,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSteelClubFemaleFatPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSteelClubFemaleFatPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnClubT3SteelClub"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1389,7 +1389,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieBoltNursePREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieBoltNursePREPPER,zombieBoltNurseRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunBowT3CompoundCrossbow"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1409,7 +1409,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSteelSledgehammerFatHawaiianPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnSledgeT3SteelSledgehammer"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1429,7 +1429,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieSteelPanMarlenePREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSteelPanMarlenePREPPER,zombieSteelPanMarleneRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="meleeWpnClubT3Pan"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1449,7 +1449,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieMagnumJanitorBubPREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieMagnumJanitorBubPREPPER,zombieMagnumJanitorBubRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT2Magnum44"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1469,7 +1469,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieAutoShotgunDarlenePREPPER" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieAutoShotgunDarlenePREPPER,zombieAutoShotgunDarleneRadiatedPREPPER" value="10" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunShotgunT3AutoShotgun"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -1489,7 +1489,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieToolsUtilityWorkerPREPPER" value="25" phase="1"/>
+		<objective type="EntityKill" id="zombieToolsUtilityWorkerPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER" value="25" phase="1"/>
 		
 		<reward type="Exp" value="12500"/>
 		<reward type="SkillPoints" value="1" chainreward="false"/>
@@ -1508,7 +1508,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieRadiatedZombies,zombieSMGArleneRadiatedPREPPER,zombieSkateboarderUndertakerClaret,zombieTARifleSoldierRadiatedPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieMachetePartyGirlChargedPREPPER,zombieMachetePartyGirlInfernalPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieChainsawMoeChargedPREPPER,zombieChainsawMoeInfernalPREPPER,zombieChainsawMoeClaretPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBatonFatCopClaretPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieAutoShotgunDarleneRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieSpiderBomberMilitaryPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanMegaClaretPREPPER,zombieBogeymanMilitaryPREPPER,zombieBogeymanMegaMilitaryPREPPER,zombieBogeymanPlasmaPREPPER,zombieMiniBogeymanPlasmaSpitterPREPPER,zombieBogeymanMegaPlasmaPREPPER,zombieScreamerClaret,zombieBurntSirenClaret,zombieChuckMilitaryPREPPER,zombieBigRancherClaretPrepper,zombieMiniRancherClaretPrepper,zombieBigRancherMilitaryPrepper,zombieMiniRancherMilitaryPrepper" value="100" phase="1"/>
+		<objective type="EntityKill" id="zombieRadiatedZombies,zombieSMGArleneRadiatedPREPPER,zombieSkateboarderUndertakerClaret,zombieTARifleSoldierRadiatedPREPPER,zombieMiniTARifleSoldierRadiatedPREPPER,zombieBatonHazmatRadiatedPREPPER,zombieSteelAxeLumberjackRadiatedPREPPER,zombieSteelAxeLumberjackChargedPREPPER,zombieSteelAxeLumberjackInfernalPREPPER,zombieMachetePartyGirlRadiatedPREPPER,zombieMachetePartyGirlChargedPREPPER,zombieMachetePartyGirlInfernalPREPPER,zombiePistolBusinessManRadiatedPREPPER,zombieNailgunUtilityWorkerRadiatedPREPPER,zombieSwissVetterliWightRadiatedPREPPER,zombieChainsawMoeRadiatedPREPPER,zombieChainsawMoeChargedPREPPER,zombieChainsawMoeInfernalPREPPER,zombieChainsawMoeClaretPREPPER,zombieDesertVultureTomClarkRadiatedPREPPER,zombiePumpShotgunBikerRadiatedPREPPER,zombieBatonFatCopRadiatedPREPPER,zombieBatonFatCopClaretPREPPER,zombieSteelClubFemaleFatRadiatedPREPPER,zombieBoltNurseRadiatedPREPPER,zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,zombieSteelPanMarleneRadiatedPREPPER,zombieMagnumJanitorBubRadiatedPREPPER,zombieAutoShotgunDarleneRadiatedPREPPER,zombieToolsUtilityWorkerRadiatedPREPPER,zombieSpiderBomberClaretPREPPER,zombieSpiderGliderClaretPREPPER,zombieSpiderBomberMilitaryPREPPER,zombieBogeymanClaretPREPPER,zombieBogeymanMegaClaretPREPPER,zombieBogeymanMilitaryPREPPER,zombieBogeymanMegaMilitaryPREPPER,zombieBogeymanPlasmaPREPPER,zombieMiniBogeymanPlasmaSpitterPREPPER,zombieBogeymanMegaPlasmaPREPPER,zombieScreamerClaret,zombieBurntSirenClaret,zombieChuckMilitaryPREPPER,zombieBigRancherClaretPrepper,zombieMiniRancherClaretPrepper,zombieBigRancherMilitaryPrepper,zombieMiniRancherMilitaryPrepper,zombieBurntRadiatedSteelSpear,zombieMiniBurntRadiatedSteelSpear" value="100" phase="1"/>
 		
 		<reward type="Exp" value="50000"/>
 		<reward type="SkillPoints" value="2" chainreward="false"/>

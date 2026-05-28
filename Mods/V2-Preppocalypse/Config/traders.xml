@@ -1,12 +1,26 @@
 <Preppocalypse>
 
 	<!-- TRADERS -->
-
-	<setattribute xpath="//trader_info[@id='1']" name="open_time">4:00</setattribute>	<!-- Joel -->
-	<setattribute xpath="//trader_info[@id='2']" name="open_time">4:00</setattribute>	<!-- Jen -->
-	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:00</setattribute>	<!-- Bob -->
-	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:00</setattribute>	<!-- Hugh -->
-	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:00</setattribute>	<!-- Rekt -->
+	<!-- *** TRADER JOEL ID:1 SPECIALTY: CLOTHES AND ARMOR -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="reset_interval">2</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='1']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='1']" name="close_time">0:00</setattribute>
+	<!-- *** TRADER BOB ID:6 SPECIALTY: TOOLS AND VEHICLES -->
+	<setattribute xpath="/traders/trader_info[@id='6']" name="reset_interval">2</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='6']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='6']" name="close_time">0:00</setattribute>
+	<!-- *** TRADER JEN ID:2 SPECIALTY: MEDICAL AND BOOKS -->
+	<setattribute xpath="/traders/trader_info[@id='2']" name="reset_interval">2</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='2']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='2']" name="close_time">0:00</setattribute>
+	<!-- *** TRADER HUGH ID:7 SPECIALTY: GUNS & AMMO -->
+	<setattribute xpath="/traders/trader_info[@id='7']" name="reset_interval">2</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="close_time">0:00</setattribute>
+	<!-- *** TRADER REKT ID:8 SPECIALTY: FOOD & FARMING -->
+	<setattribute xpath="/traders/trader_info[@id='8']" name="reset_interval">2</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="close_time">0:00</setattribute>
 
 	<!-- Preppo Special Items -->
 	<insertAfter xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier3']">
