@@ -1239,6 +1239,13 @@ vehiclesT4,progression,Attribute,,,Tier 4: 4x4 & Preppocalyptic Car,,Stufe 4: 4x
 vehiclePrepperMinibike,entityclasses,Entity,,,Minibike (Prepper),,Mini-Motorrad  (Prepper),,,,,,,,,,,
 vehiclePrepperMinibikePlaceable,vehicles,item,,,Minibike (Prepper),,Mini-Motorrad (Prepper),,,,,,,,,,,,
 
+cntBuriedLootStashChestPrepper,blocks,Quest,,,Prepper Treasure Cache,,Prepper Schatzversteck,,,,,,,,,,,,
+cntBuriedLootStashChestPrepperDesc,blocks,Quest,,,Target for the random Prepper treasure quest.,,Ziel für zufällige Prepper Schatz-Quests.,,,,,,,,,,,,
+cntBuriedLootStashChestPrepperInsecure,blocks,Quest,,,Prepper Treasure Cache,,Prepper Schatzversteck,,,,,,,,,,,,
+qt_prepperdanny,items,Quest - Treasure Map,,,Prepper Danny's Treasure Map,,Prepper Danny's Schatzkarte,,,,,,,,,,,,
+treasure_prepperdanny,Quest,Challenge Info,,,Prepper Danny's Treasure Map,,Prepper Danny's Schatzkarte,,,,,,,,,,,,
+treasure_prepperdanny_offer,Quest,Challenge Info,,,"Fellow Prepper,\n\nI have gone underground, and have enough resources to last for years. Follow this map to my Prepper stash. It is but one of many and will serve you well.\n\nAll the Best,\nDoomsday Danny",,"Lieber Prepper-Kollege,\n\nIch habe mich zurückgezogen und verfüge über genügend Vorräte für Jahre. Folge dieser Karte zu meinem Prepper-Lager. Es ist nur eines von vielen und wird dir gute Dienste leisten.\n\nAlles Gute,\nDoomsday Danny",,,,,,,,,,,,
+
 cntIronPrepperDropBox,blocks,Block,,,Prepper Drop Box,,,,,,,,,,,,,
 cntIronPrepperDropBoxDesc,blocks,Block,,,"A box that will auto-sort items placed inside it to nearby containers with matching items. Transfer starts when you exit the box. Cannot be upgraded. Destroyed if broken.\n\nRepair with Forged Iron.",,,,,,,,,,,,,
 

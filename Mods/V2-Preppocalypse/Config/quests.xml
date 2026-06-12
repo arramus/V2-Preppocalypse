@@ -1560,6 +1560,32 @@
 		<reward type="SkillPoints" value="2" />
 	</quest>
 	
+	<!-- *** PREPPER_TREASURE_MAP_QUEST -->
+	<quest id="treasure_prepperdanny">
+		<property name="name_key" value="treasure_prepperdanny" param1="name"/>
+		<property name="subtitle_key" value="treasure_prepperdanny" param1="name"/>
+		<property name="description_key" value="treasure_prepperdanny_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_prepperdanny_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestPrepper"/>
+			<property name="alt_block" value="cntBuriedLootStashChestPrepperInsecure"/>
+			<property name="distance" value="500-1250"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure"/>
+			<property name="direct_nav_object" value="treasure_direct"/>
+			<property name="blocks_per_reduction" value="10"/>
+				<!-- Perk/item can reduce this by 8. Change perk/item to a % based effect if a blocks_per_reduction less than 10 that is desired. -->
+			<property name="radius_reduction_sound" value="ui_radius_shrink"/>
+			<property name="explosion_event" value="quest_treasure_explosion_horde"/>
+		</objective>
+	</quest>
+	
 	</append>
 
 </Preppocalypse>

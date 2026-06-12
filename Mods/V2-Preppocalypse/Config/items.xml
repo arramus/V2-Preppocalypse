@@ -8531,6 +8531,16 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
+	
+	<!-- *** Treasure Chest Quest -->
+<item name="qt_prepperdanny">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_prepperdanny"/>
+	</property>
+</item>
 
 	<!-- ADMIN TOOLS -->
 	

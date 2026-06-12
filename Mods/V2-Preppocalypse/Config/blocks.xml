@@ -1965,6 +1965,34 @@
 	<property name="SortOrder2" value="1000"/>
 </block>
 
+	<!-- *** PREPPER_TREASURE_MAP_CHESTS -->
+<!-- Locked chest for treasure_prepperdanny etc -->
+<block name="cntBuriedLootStashChestPrepper">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="LootList" value="buriedTreasurePrepper"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="3C4D39"/>
+	<property name="TintColor" value="3C4D39"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashChestPrepperInsecure"/>
+	<property name="SortOrder2" value="0102"/>
+	<property name="Tags" value="buriedTreasure,timecharge"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<!-- Unlocked chest for treasure_prepperdanny etc -->
+<block name="cntBuriedLootStashChestPrepperInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="LootList" value="buriedTreasurePrepper"/>
+	<property name="TintColor" value="3C4D39"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="SortOrder2" value="0103"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
 </append>
 
 </Preppocalypse>

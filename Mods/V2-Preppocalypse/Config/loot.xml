@@ -15,6 +15,11 @@
 		</lootqualitytemplate>
 	</insertAfter>
 	
+	<!-- *** Treasure_Maps -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupTreasureMaps']">
+		<item name="qt_prepperdanny"/>
+	</append>
+	
 	<!-- *** Perception_Based_Lootgroups -->
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
 	<lootgroup name="groupWeaponsT0_PreppoDeadEye" count="all" loot_quality_template="QLPreppoTemplateT0">
@@ -103,7 +108,7 @@
 
 	<!-- This lootgroup is somewhat irregular at present with 2.5 reshuffle and bringing in less scripted luck -->
 	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
-	<item name="toolForgeCrucible" count="1" loot_prob_template="veryLowDelayed"/>
+	<item name="toolForgeCrucible" count="1" loot_prob_template="low"/>
 	</append>
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
@@ -244,21 +249,22 @@
 		<item name="resourceArmorCraftingKit" count="2,4"/>
 		<item group="groupRareToolsTiered"/>
 		<item group="vehicleModSchematics" count="1"/>
-		<item group="groupPrepperPlannerBooks"/>	
+		<item group="groupPrepperPlannerBooks"/>
+		<item name="qt_prepperdanny"/>	
 	</lootgroup>
 	</insertBefore>
 	
 	<!-- Hardened Quest Chest Notes from T1 to T5 -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1']">
-		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2']">
-		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3']">
-		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4']">
@@ -327,7 +333,42 @@
 		<item name="foodSuperMeatStew"/>
 		<item name="foodSpicyWildRiceMeatballs"/>
 	</append>
+	
+	<!-- *** Prepper_Buried_Treasure_Map -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']">
+	<lootgroup name="groupValuablesPrepperTreasure">
+		<item name="drinkJarPureMineralWater" count="10,20" loot_prob_template="med"/>
+		<item name="drinkCanPreppoSoda" count="5,10" loot_prob_template="med"/>
+		<item name="qc_1Skill" count="1" loot_prob_template="med"/>
+		<item name="toolForgeCrucible" count="1" loot_prob_template="low"/>
+		<item name="qc_2Skill" count="1" loot_prob_template="low"/>
+	</lootgroup>	
+	</insertAfter>	
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']">
+	<lootgroup name="groupBuriedTreasurePrepper" count="all">
+	<item group="groupValuablesExtraLarge" count="2,3"/>
+	<item group="groupAmmoPileLarge" count="2,3"/>
+	<item name="oldCash" count="100,200">
+		<requirement class="Progression" name="perkTreasureHunter" operation="GTE" value="4"/>
+	</item>
+	<item name="casinoCoin" count="100,200">
+		<requirement class="Progression" name="perkTreasureHunter" operation="GTE" value="4"/>
+	</item>
+	<item group="groupTreasureHunter5" count="1">
+		<requirement class="Progression" name="perkTreasureHunter" operation="Equals" value="5"/>
+	</item>
+	<item group="groupValuablesPrepperTreasure" count="2,3"/>	
+	</lootgroup>
+	</insertAfter>
 
+	<insertAfter xpath="/lootcontainers/lootcontainer[@name='buriedTreasure']">	
+	<!-- cntBuriedLootStashChestPrepper, treasure_prepperdummy etc -->
+	<lootcontainer name="buriedTreasurePrepper" count="1" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template" destroy_on_close="empty" ignore_loot_abundance="true">
+	<item group="groupBuriedTreasurePrepper"/>
+	</lootcontainer>
+	</insertAfter>
+	
 	<!-- *** Airdrop_Food -->	
 	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
 		<item name="foodNavezganeHDR"/>
