@@ -173,7 +173,7 @@
 	
   <item_modifier name="modArmorStormBreaker" installable_tags="armor" modifier_tags="stormresistance" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
-		<property name="TraderStageTemplate" value="modsTier0"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
 		<property name="EconomicValue" value="50"/>		
 		<property name="CustomIcon" value="modArmorStormBreaker"/>
 		<property name="Group" value="Clothing,Armor,Mods,Tool/Weapon Mods"/>
